@@ -1,0 +1,552 @@
+OrderID,Date,Region,Category,Product,Units,UnitPrice,SalesRep
+ORD-1001,2026-01-27,South,Home,Steel Cookware Set,5,153.59,S. Khan
+ORD-1002,2026-01-07,North,Apparel,Denim Jacket,10,88.1,P. Verma
+ORD-1003,2026-01-05,South,Apparel,Denim Jacket,7,85.91,A. Sharma
+ORD-1004,2026-01-02,South,Apparel,Denim Jacket,7,85.0,R. Iyer
+ORD-1005,2026-01-27,East,Grocery,Cold-Pressed Oil 1L,6,16.7,M. D'Souza
+ORD-1006,2026-01-20,East,Home,LED Desk Lamp,1,50.58,M. D'Souza
+ORD-1007,2026-01-20,West,Apparel,Urban Tee,5,24.86,A. Sharma
+ORD-1008,2026-01-10,West,Apparel,Urban Tee,6,27.36,M. D'Souza
+ORD-1009,2026-01-20,East,Home,LED Desk Lamp,1,42.85,M. D'Souza
+ORD-1010,2026-01-13,West,Home,LED Desk Lamp,6,46.91,S. Khan
+ORD-1011,2026-01-19,East,Home,LED Desk Lamp,7,48.49,S. Khan
+ORD-1012,2026-01-14,East,Electronics,Echo Buds Pro,1,84.12,S. Khan
+ORD-1013,2026-01-05,East,Home,LED Desk Lamp,9,40.64,M. D'Souza
+ORD-1014,2026-01-22,East,Home,Steel Cookware Set,6,149.93,P. Verma
+ORD-1015,2026-01-14,West,Apparel,Runner Shoes,5,126.95,M. D'Souza
+ORD-1016,2026-01-28,West,Apparel,Urban Tee,2,25.36,P. Verma
+ORD-1017,2026-01-22,South,Electronics,Nova X1 Phone,12,271.31,R. Iyer
+ORD-1018,2026-01-05,North,Electronics,Nova X1 Phone,11,273.45,R. Iyer
+ORD-1019,2026-01-10,East,Grocery,Almond Pack 1kg,3,19.53,M. D'Souza
+ORD-1020,2026-01-25,North,Electronics,Volt Laptop 14,1,737.15,M. D'Souza
+ORD-1021,2026-01-04,North,Apparel,Runner Shoes,3,110.6,S. Khan
+ORD-1022,2026-01-24,East,Home,LED Desk Lamp,5,50.45,M. D'Souza
+ORD-1023,2026-01-18,West,Home,Aroma Diffuser,6,42.51,S. Khan
+ORD-1024,2026-01-16,North,Grocery,Almond Pack 1kg,7,16.7,S. Khan
+ORD-1025,2026-01-12,South,Electronics,Nova X1 Phone,11,336.77,P. Verma
+ORD-1026,2026-01-13,North,Apparel,Runner Shoes,3,114.56,R. Iyer
+ORD-1027,2026-01-13,South,Electronics,Volt Laptop 14,7,853.76,A. Sharma
+ORD-1028,2026-01-12,East,Apparel,Urban Tee,12,22.1,A. Sharma
+ORD-1029,2026-01-16,North,Home,LED Desk Lamp,12,49.72,M. D'Souza
+ORD-1030,2026-01-15,East,Home,LED Desk Lamp,9,43.04,S. Khan
+ORD-1031,2026-01-04,North,Home,Aroma Diffuser,3,44.04,S. Khan
+ORD-1032,2026-01-23,North,Grocery,Organic Honey 500g,6,12.27,M. D'Souza
+ORD-1033,2026-01-21,East,Grocery,Almond Pack 1kg,12,20.01,S. Khan
+ORD-1034,2026-01-08,North,Home,Aroma Diffuser,11,38.52,M. D'Souza
+ORD-1035,2026-02-23,North,Apparel,Runner Shoes,3,125.9,A. Sharma
+ORD-1036,2026-02-05,East,Apparel,Urban Tee,8,22.0,S. Khan
+ORD-1037,2026-02-05,East,Home,LED Desk Lamp,6,42.76,R. Iyer
+ORD-1038,2026-02-28,East,Apparel,Urban Tee,12,23.49,M. D'Souza
+ORD-1039,2026-02-06,West,Home,LED Desk Lamp,11,45.54,A. Sharma
+ORD-1040,2026-02-04,North,Home,LED Desk Lamp,9,48.97,S. Khan
+ORD-1041,2026-02-01,West,Apparel,Runner Shoes,7,121.37,S. Khan
+ORD-1042,2026-02-18,East,Home,Aroma Diffuser,5,38.07,A. Sharma
+ORD-1043,2026-02-21,East,Home,Steel Cookware Set,1,164.02,M. D'Souza
+ORD-1044,2026-02-28,East,Apparel,Urban Tee,7,24.38,S. Khan
+ORD-1045,2026-02-17,North,Apparel,Runner Shoes,12,116.73,P. Verma
+ORD-1046,2026-02-23,North,Apparel,Urban Tee,8,23.75,R. Iyer
+ORD-1047,2026-02-05,West,Apparel,Runner Shoes,5,114.85,S. Khan
+ORD-1048,2026-02-28,West,Apparel,Runner Shoes,8,113.63,R. Iyer
+ORD-1049,2026-02-27,South,Electronics,Echo Buds Pro,10,90.54,M. D'Souza
+ORD-1050,2026-02-26,South,Apparel,Urban Tee,5,25.31,A. Sharma
+ORD-1051,2026-02-02,South,Home,Aroma Diffuser,4,43.35,M. D'Souza
+ORD-1052,2026-02-13,West,Home,LED Desk Lamp,11,50.74,R. Iyer
+ORD-1053,2026-02-16,North,Electronics,Nova X1 Phone,6,294.14,A. Sharma
+ORD-1054,2026-02-25,West,Grocery,Almond Pack 1kg,8,18.82,S. Khan
+ORD-1055,2026-02-06,East,Grocery,Cold-Pressed Oil 1L,5,16.68,M. D'Souza
+ORD-1056,2026-02-03,North,Electronics,Echo Buds Pro,12,86.52,A. Sharma
+ORD-1057,2026-02-05,South,Apparel,Denim Jacket,11,101.02,R. Iyer
+ORD-1058,2026-02-12,South,Grocery,Organic Honey 500g,8,12.96,R. Iyer
+ORD-1059,2026-02-21,East,Grocery,Organic Honey 500g,8,13.66,R. Iyer
+ORD-1060,2026-02-16,West,Apparel,Urban Tee,3,22.57,S. Khan
+ORD-1061,2026-02-12,West,Apparel,Runner Shoes,9,111.1,M. D'Souza
+ORD-1062,2026-02-08,West,Electronics,Volt Laptop 14,7,723.67,M. D'Souza
+ORD-1063,2026-02-02,South,Electronics,Echo Buds Pro,4,72.37,P. Verma
+ORD-1064,2026-02-13,South,Electronics,Echo Buds Pro,12,82.76,M. D'Souza
+ORD-1065,2026-02-24,East,Grocery,Cold-Pressed Oil 1L,5,14.67,M. D'Souza
+ORD-1066,2026-02-24,East,Home,Steel Cookware Set,4,139.21,A. Sharma
+ORD-1067,2026-02-17,West,Grocery,Cold-Pressed Oil 1L,4,15.68,A. Sharma
+ORD-1068,2026-02-19,West,Grocery,Almond Pack 1kg,4,18.86,R. Iyer
+ORD-1069,2026-02-25,West,Home,Aroma Diffuser,6,44.49,A. Sharma
+ORD-1070,2026-03-04,East,Home,Steel Cookware Set,11,144.42,M. D'Souza
+ORD-1071,2026-03-04,South,Home,Steel Cookware Set,11,156.48,M. D'Souza
+ORD-1072,2026-03-19,North,Home,LED Desk Lamp,7,45.66,A. Sharma
+ORD-1073,2026-03-19,South,Grocery,Cold-Pressed Oil 1L,2,15.39,S. Khan
+ORD-1074,2026-03-18,South,Apparel,Denim Jacket,11,81.6,S. Khan
+ORD-1075,2026-03-26,North,Home,Aroma Diffuser,8,44.38,R. Iyer
+ORD-1076,2026-03-03,South,Electronics,Echo Buds Pro,2,88.89,A. Sharma
+ORD-1077,2026-03-13,West,Electronics,Nova X1 Phone,10,342.81,R. Iyer
+ORD-1078,2026-03-23,West,Grocery,Organic Honey 500g,4,12.83,R. Iyer
+ORD-1079,2026-03-01,West,Apparel,Runner Shoes,9,128.0,P. Verma
+ORD-1080,2026-03-13,East,Apparel,Runner Shoes,12,132.16,R. Iyer
+ORD-1081,2026-03-01,South,Apparel,Runner Shoes,1,110.47,S. Khan
+ORD-1082,2026-03-05,West,Electronics,Nova X1 Phone,4,284.02,M. D'Souza
+ORD-1083,2026-03-24,East,Grocery,Cold-Pressed Oil 1L,11,15.08,P. Verma
+ORD-1084,2026-03-14,East,Electronics,Echo Buds Pro,11,79.49,S. Khan
+ORD-1085,2026-03-11,South,Apparel,Runner Shoes,8,121.16,R. Iyer
+ORD-1086,2026-03-23,West,Electronics,Volt Laptop 14,7,833.38,M. D'Souza
+ORD-1087,2026-03-18,East,Grocery,Organic Honey 500g,1,12.17,A. Sharma
+ORD-1088,2026-03-07,North,Apparel,Urban Tee,5,26.47,P. Verma
+ORD-1089,2026-03-13,West,Grocery,Almond Pack 1kg,9,19.4,A. Sharma
+ORD-1090,2026-03-12,West,Home,Aroma Diffuser,2,44.36,S. Khan
+ORD-1091,2026-03-24,North,Grocery,Almond Pack 1kg,2,19.64,R. Iyer
+ORD-1092,2026-03-02,North,Grocery,Cold-Pressed Oil 1L,1,14.81,S. Khan
+ORD-1093,2026-03-22,West,Apparel,Urban Tee,6,26.57,M. D'Souza
+ORD-1094,2026-03-25,East,Grocery,Cold-Pressed Oil 1L,9,14.97,M. D'Souza
+ORD-1095,2026-03-17,North,Grocery,Cold-Pressed Oil 1L,7,15.36,A. Sharma
+ORD-1096,2026-03-10,North,Apparel,Denim Jacket,12,86.42,P. Verma
+ORD-1097,2026-03-08,South,Grocery,Cold-Pressed Oil 1L,1,14.7,M. D'Souza
+ORD-1098,2026-03-05,West,Grocery,Organic Honey 500g,10,11.12,A. Sharma
+ORD-1099,2026-03-20,West,Apparel,Denim Jacket,3,93.02,P. Verma
+ORD-1100,2026-03-12,East,Electronics,Volt Laptop 14,9,702.73,P. Verma
+ORD-1101,2026-03-10,East,Electronics,Echo Buds Pro,10,87.97,R. Iyer
+ORD-1102,2026-03-18,West,Home,LED Desk Lamp,1,41.0,P. Verma
+ORD-1103,2026-03-17,East,Apparel,Denim Jacket,3,93.23,A. Sharma
+ORD-1104,2026-03-18,North,Apparel,Denim Jacket,6,91.54,R. Iyer
+ORD-1105,2026-04-28,South,Home,Aroma Diffuser,12,35.98,R. Iyer
+ORD-1106,2026-04-20,South,Home,Aroma Diffuser,3,42.94,P. Verma
+ORD-1107,2026-04-05,East,Electronics,Nova X1 Phone,9,274.07,R. Iyer
+ORD-1108,2026-04-15,South,Apparel,Denim Jacket,11,91.52,M. D'Souza
+ORD-1109,2026-04-13,East,Electronics,Echo Buds Pro,1,77.55,S. Khan
+ORD-1110,2026-04-11,West,Home,LED Desk Lamp,11,41.38,R. Iyer
+ORD-1111,2026-04-14,East,Home,Aroma Diffuser,7,39.56,A. Sharma
+ORD-1112,2026-04-25,East,Apparel,Urban Tee,6,22.77,P. Verma
+ORD-1113,2026-04-05,East,Grocery,Almond Pack 1kg,4,17.51,P. Verma
+ORD-1114,2026-04-25,North,Grocery,Organic Honey 500g,1,11.31,P. Verma
+ORD-1115,2026-04-11,West,Electronics,Echo Buds Pro,8,80.15,M. D'Souza
+ORD-1116,2026-04-25,East,Grocery,Almond Pack 1kg,5,18.81,P. Verma
+ORD-1117,2026-04-03,West,Grocery,Organic Honey 500g,12,13.17,M. D'Souza
+ORD-1118,2026-04-06,West,Electronics,Volt Laptop 14,11,856.85,P. Verma
+ORD-1119,2026-04-21,East,Grocery,Cold-Pressed Oil 1L,2,15.52,A. Sharma
+ORD-1120,2026-04-10,East,Home,Steel Cookware Set,11,141.99,S. Khan
+ORD-1121,2026-04-09,West,Electronics,Nova X1 Phone,8,316.03,M. D'Souza
+ORD-1122,2026-04-15,North,Apparel,Denim Jacket,12,87.11,P. Verma
+ORD-1123,2026-04-24,North,Home,Aroma Diffuser,6,44.03,M. D'Souza
+ORD-1124,2026-04-13,West,Electronics,Volt Laptop 14,10,828.14,A. Sharma
+ORD-1125,2026-04-10,South,Apparel,Denim Jacket,11,83.82,M. D'Souza
+ORD-1126,2026-04-24,East,Grocery,Cold-Pressed Oil 1L,3,17.2,P. Verma
+ORD-1127,2026-04-16,East,Home,Steel Cookware Set,12,153.32,M. D'Souza
+ORD-1128,2026-04-18,South,Home,LED Desk Lamp,8,42.36,A. Sharma
+ORD-1129,2026-04-28,East,Electronics,Nova X1 Phone,1,279.98,M. D'Souza
+ORD-1130,2026-04-26,West,Grocery,Almond Pack 1kg,3,16.22,A. Sharma
+ORD-1131,2026-04-15,South,Electronics,Echo Buds Pro,2,72.49,A. Sharma
+ORD-1132,2026-04-07,South,Electronics,Echo Buds Pro,2,75.94,A. Sharma
+ORD-1133,2026-04-18,North,Grocery,Almond Pack 1kg,2,17.6,S. Khan
+ORD-1134,2026-04-01,South,Home,LED Desk Lamp,3,49.04,S. Khan
+ORD-1135,2026-04-20,East,Electronics,Volt Laptop 14,11,710.97,R. Iyer
+ORD-1136,2026-04-06,North,Grocery,Almond Pack 1kg,6,16.65,P. Verma
+ORD-1137,2026-04-22,East,Electronics,Nova X1 Phone,10,331.28,A. Sharma
+ORD-1138,2026-04-04,West,Apparel,Runner Shoes,6,123.76,R. Iyer
+ORD-1139,2026-04-06,North,Grocery,Cold-Pressed Oil 1L,7,15.17,M. D'Souza
+ORD-1140,2026-04-01,West,Grocery,Cold-Pressed Oil 1L,11,14.14,M. D'Souza
+ORD-1141,2026-04-17,East,Home,LED Desk Lamp,7,44.28,A. Sharma
+ORD-1142,2026-04-08,West,Grocery,Cold-Pressed Oil 1L,9,16.8,S. Khan
+ORD-1143,2026-04-04,West,Electronics,Nova X1 Phone,6,315.46,S. Khan
+ORD-1144,2026-04-18,South,Apparel,Runner Shoes,7,119.05,S. Khan
+ORD-1145,2026-04-24,West,Grocery,Almond Pack 1kg,9,16.84,S. Khan
+ORD-1146,2026-04-02,East,Electronics,Nova X1 Phone,4,294.84,S. Khan
+ORD-1147,2026-04-20,South,Grocery,Cold-Pressed Oil 1L,12,14.36,R. Iyer
+ORD-1148,2026-04-18,North,Home,Aroma Diffuser,10,38.89,A. Sharma
+ORD-1149,2026-04-09,North,Electronics,Nova X1 Phone,4,288.43,P. Verma
+ORD-1150,2026-05-05,East,Home,Steel Cookware Set,9,166.34,R. Iyer
+ORD-1151,2026-05-22,South,Electronics,Volt Laptop 14,1,697.19,A. Sharma
+ORD-1152,2026-05-18,North,Apparel,Urban Tee,5,23.82,M. D'Souza
+ORD-1153,2026-05-17,West,Grocery,Almond Pack 1kg,11,16.87,S. Khan
+ORD-1154,2026-05-08,South,Grocery,Cold-Pressed Oil 1L,7,16.65,P. Verma
+ORD-1155,2026-05-21,North,Home,Aroma Diffuser,6,44.78,S. Khan
+ORD-1156,2026-05-06,South,Electronics,Nova X1 Phone,3,287.89,S. Khan
+ORD-1157,2026-05-28,West,Home,Steel Cookware Set,9,149.98,P. Verma
+ORD-1158,2026-05-21,South,Electronics,Volt Laptop 14,6,730.01,R. Iyer
+ORD-1159,2026-05-22,West,Apparel,Runner Shoes,8,125.77,R. Iyer
+ORD-1160,2026-05-04,East,Electronics,Echo Buds Pro,9,72.69,S. Khan
+ORD-1161,2026-05-19,West,Grocery,Cold-Pressed Oil 1L,4,15.98,S. Khan
+ORD-1162,2026-05-26,East,Electronics,Volt Laptop 14,4,798.82,P. Verma
+ORD-1163,2026-05-20,South,Home,Aroma Diffuser,6,36.57,M. D'Souza
+ORD-1164,2026-05-21,West,Grocery,Almond Pack 1kg,8,16.91,P. Verma
+ORD-1165,2026-05-06,East,Apparel,Denim Jacket,5,101.09,R. Iyer
+ORD-1166,2026-05-17,North,Grocery,Organic Honey 500g,6,13.03,S. Khan
+ORD-1167,2026-05-05,East,Electronics,Volt Laptop 14,8,751.52,R. Iyer
+ORD-1168,2026-05-04,West,Apparel,Denim Jacket,3,80.9,R. Iyer
+ORD-1169,2026-05-24,East,Grocery,Almond Pack 1kg,4,18.92,M. D'Souza
+ORD-1170,2026-05-12,South,Grocery,Cold-Pressed Oil 1L,3,16.76,S. Khan
+ORD-1171,2026-05-11,West,Apparel,Denim Jacket,6,94.0,M. D'Souza
+ORD-1172,2026-05-19,South,Apparel,Denim Jacket,4,98.87,S. Khan
+ORD-1173,2026-05-19,West,Home,LED Desk Lamp,9,47.91,R. Iyer
+ORD-1174,2026-05-14,South,Grocery,Cold-Pressed Oil 1L,4,15.49,R. Iyer
+ORD-1175,2026-05-12,South,Electronics,Volt Laptop 14,8,715.79,M. D'Souza
+ORD-1176,2026-05-14,West,Apparel,Denim Jacket,11,102.25,S. Khan
+ORD-1177,2026-05-27,South,Home,LED Desk Lamp,2,46.45,P. Verma
+ORD-1178,2026-05-11,North,Apparel,Runner Shoes,11,114.67,R. Iyer
+ORD-1179,2026-05-14,East,Home,LED Desk Lamp,11,41.37,S. Khan
+ORD-1180,2026-05-24,South,Apparel,Denim Jacket,7,96.77,P. Verma
+ORD-1181,2026-05-27,North,Electronics,Echo Buds Pro,11,73.35,P. Verma
+ORD-1182,2026-05-07,North,Apparel,Runner Shoes,2,123.49,A. Sharma
+ORD-1183,2026-05-17,North,Apparel,Urban Tee,2,26.53,S. Khan
+ORD-1184,2026-05-13,West,Home,Aroma Diffuser,3,44.54,S. Khan
+ORD-1185,2026-05-26,West,Electronics,Nova X1 Phone,6,280.5,P. Verma
+ORD-1186,2026-05-08,South,Home,Steel Cookware Set,4,137.61,P. Verma
+ORD-1187,2026-05-08,North,Grocery,Cold-Pressed Oil 1L,2,16.03,S. Khan
+ORD-1188,2026-05-05,South,Grocery,Organic Honey 500g,11,13.12,M. D'Souza
+ORD-1189,2026-06-04,South,Apparel,Runner Shoes,6,115.64,M. D'Souza
+ORD-1190,2026-06-12,West,Grocery,Almond Pack 1kg,1,16.95,A. Sharma
+ORD-1191,2026-06-28,North,Home,Aroma Diffuser,6,35.98,M. D'Souza
+ORD-1192,2026-06-06,West,Apparel,Denim Jacket,2,100.19,A. Sharma
+ORD-1193,2026-06-27,South,Home,Aroma Diffuser,9,38.32,M. D'Souza
+ORD-1194,2026-06-01,East,Home,Steel Cookware Set,8,168.84,S. Khan
+ORD-1195,2026-06-18,East,Home,LED Desk Lamp,11,49.29,M. D'Souza
+ORD-1196,2026-06-12,West,Apparel,Denim Jacket,6,91.47,P. Verma
+ORD-1197,2026-06-03,North,Apparel,Denim Jacket,12,93.75,A. Sharma
+ORD-1198,2026-06-04,East,Home,Aroma Diffuser,8,37.89,M. D'Souza
+ORD-1199,2026-06-09,South,Grocery,Organic Honey 500g,2,10.94,A. Sharma
+ORD-1200,2026-06-05,West,Grocery,Almond Pack 1kg,7,17.99,S. Khan
+ORD-1201,2026-06-16,West,Home,Steel Cookware Set,12,137.61,R. Iyer
+ORD-1202,2026-06-05,East,Grocery,Organic Honey 500g,5,12.59,A. Sharma
+ORD-1203,2026-06-21,West,Home,Aroma Diffuser,11,37.35,A. Sharma
+ORD-1204,2026-06-16,South,Home,Steel Cookware Set,6,142.88,P. Verma
+ORD-1205,2026-06-19,North,Electronics,Nova X1 Phone,3,302.35,M. D'Souza
+ORD-1206,2026-06-03,East,Grocery,Organic Honey 500g,8,13.36,A. Sharma
+ORD-1207,2026-06-28,East,Home,Aroma Diffuser,5,37.33,A. Sharma
+ORD-1208,2026-06-25,West,Apparel,Runner Shoes,6,132.7,M. D'Souza
+ORD-1209,2026-06-20,North,Electronics,Volt Laptop 14,6,775.65,S. Khan
+ORD-1210,2026-06-01,North,Home,LED Desk Lamp,11,42.37,M. D'Souza
+ORD-1211,2026-06-03,East,Home,Steel Cookware Set,8,156.54,P. Verma
+ORD-1212,2026-06-04,East,Electronics,Echo Buds Pro,2,89.41,A. Sharma
+ORD-1213,2026-06-21,East,Electronics,Nova X1 Phone,3,313.6,M. D'Souza
+ORD-1214,2026-06-24,South,Electronics,Volt Laptop 14,11,751.18,M. D'Souza
+ORD-1215,2026-06-26,East,Home,Aroma Diffuser,11,43.65,M. D'Souza
+ORD-1216,2026-06-15,North,Home,Aroma Diffuser,5,36.78,P. Verma
+ORD-1217,2026-06-03,West,Electronics,Echo Buds Pro,5,83.26,A. Sharma
+ORD-1218,2026-06-04,North,Electronics,Volt Laptop 14,1,783.87,R. Iyer
+ORD-1219,2026-06-05,North,Apparel,Urban Tee,2,27.38,S. Khan
+ORD-1220,2026-06-12,West,Electronics,Volt Laptop 14,8,756.29,M. D'Souza
+ORD-1221,2026-06-12,South,Grocery,Cold-Pressed Oil 1L,11,16.2,P. Verma
+ORD-1222,2026-06-06,West,Apparel,Urban Tee,12,25.65,M. D'Souza
+ORD-1223,2026-06-27,East,Apparel,Urban Tee,9,26.98,R. Iyer
+ORD-1224,2026-06-10,South,Home,Steel Cookware Set,4,145.72,M. D'Souza
+ORD-1225,2026-06-08,South,Grocery,Organic Honey 500g,1,13.7,S. Khan
+ORD-1226,2026-07-05,South,Apparel,Runner Shoes,10,131.72,R. Iyer
+ORD-1227,2026-07-24,North,Apparel,Runner Shoes,12,112.79,M. D'Souza
+ORD-1228,2026-07-08,North,Apparel,Denim Jacket,7,87.46,A. Sharma
+ORD-1229,2026-07-13,East,Electronics,Volt Laptop 14,10,681.63,A. Sharma
+ORD-1230,2026-07-07,North,Home,LED Desk Lamp,8,42.09,A. Sharma
+ORD-1231,2026-07-14,East,Home,Aroma Diffuser,10,41.29,S. Khan
+ORD-1232,2026-07-14,West,Apparel,Urban Tee,4,26.56,R. Iyer
+ORD-1233,2026-07-12,West,Apparel,Denim Jacket,6,90.24,M. D'Souza
+ORD-1234,2026-07-05,South,Home,Aroma Diffuser,6,36.04,S. Khan
+ORD-1235,2026-07-16,East,Grocery,Cold-Pressed Oil 1L,7,15.4,R. Iyer
+ORD-1236,2026-07-23,North,Grocery,Almond Pack 1kg,12,19.05,P. Verma
+ORD-1237,2026-07-05,East,Grocery,Cold-Pressed Oil 1L,8,14.73,M. D'Souza
+ORD-1238,2026-07-20,East,Home,Steel Cookware Set,5,167.36,M. D'Souza
+ORD-1239,2026-07-11,North,Electronics,Echo Buds Pro,1,79.45,S. Khan
+ORD-1240,2026-07-26,North,Electronics,Echo Buds Pro,9,71.54,A. Sharma
+ORD-1241,2026-07-26,West,Apparel,Urban Tee,12,26.15,R. Iyer
+ORD-1242,2026-07-14,South,Apparel,Urban Tee,5,27.34,M. D'Souza
+ORD-1243,2026-07-19,West,Grocery,Organic Honey 500g,1,12.8,A. Sharma
+ORD-1244,2026-07-09,North,Electronics,Volt Laptop 14,10,713.57,R. Iyer
+ORD-1245,2026-07-11,South,Electronics,Nova X1 Phone,12,309.65,M. D'Souza
+ORD-1246,2026-07-12,South,Grocery,Almond Pack 1kg,2,19.58,P. Verma
+ORD-1247,2026-07-18,West,Electronics,Nova X1 Phone,8,274.52,S. Khan
+ORD-1248,2026-07-26,West,Electronics,Echo Buds Pro,2,78.07,P. Verma
+ORD-1249,2026-07-04,East,Grocery,Cold-Pressed Oil 1L,1,15.34,A. Sharma
+ORD-1250,2026-07-08,West,Grocery,Organic Honey 500g,7,13.61,R. Iyer
+ORD-1251,2026-07-13,West,Home,LED Desk Lamp,11,46.38,A. Sharma
+ORD-1252,2026-07-13,South,Apparel,Runner Shoes,11,134.23,P. Verma
+ORD-1253,2026-07-07,South,Apparel,Urban Tee,11,26.84,A. Sharma
+ORD-1254,2026-07-10,North,Electronics,Echo Buds Pro,1,89.23,R. Iyer
+ORD-1255,2026-07-25,South,Home,Steel Cookware Set,12,150.96,R. Iyer
+ORD-1256,2026-07-26,East,Electronics,Echo Buds Pro,9,74.85,S. Khan
+ORD-1257,2026-07-20,East,Apparel,Denim Jacket,6,85.35,S. Khan
+ORD-1258,2026-07-23,West,Apparel,Urban Tee,2,25.96,P. Verma
+ORD-1259,2026-07-28,West,Apparel,Urban Tee,2,21.75,M. D'Souza
+ORD-1260,2026-07-09,West,Grocery,Organic Honey 500g,10,12.05,S. Khan
+ORD-1261,2026-07-17,North,Electronics,Echo Buds Pro,3,80.81,P. Verma
+ORD-1262,2026-07-11,South,Home,Steel Cookware Set,2,140.84,M. D'Souza
+ORD-1263,2026-07-07,West,Grocery,Almond Pack 1kg,9,18.91,M. D'Souza
+ORD-1264,2026-07-07,West,Home,LED Desk Lamp,3,42.35,P. Verma
+ORD-1265,2026-07-14,East,Apparel,Denim Jacket,6,93.07,A. Sharma
+ORD-1266,2026-07-10,South,Electronics,Nova X1 Phone,5,341.19,M. D'Souza
+ORD-1267,2026-07-06,West,Apparel,Runner Shoes,12,131.09,P. Verma
+ORD-1268,2026-07-13,East,Electronics,Nova X1 Phone,2,278.0,S. Khan
+ORD-1269,2026-08-08,East,Grocery,Almond Pack 1kg,7,16.6,M. D'Souza
+ORD-1270,2026-08-02,North,Home,Aroma Diffuser,6,39.38,R. Iyer
+ORD-1271,2026-08-20,North,Apparel,Urban Tee,6,22.76,R. Iyer
+ORD-1272,2026-08-24,West,Grocery,Almond Pack 1kg,1,17.51,R. Iyer
+ORD-1273,2026-08-14,North,Home,Aroma Diffuser,4,37.49,M. D'Souza
+ORD-1274,2026-08-14,West,Home,LED Desk Lamp,1,43.39,R. Iyer
+ORD-1275,2026-08-16,North,Electronics,Nova X1 Phone,2,292.22,R. Iyer
+ORD-1276,2026-08-24,West,Apparel,Denim Jacket,9,96.52,R. Iyer
+ORD-1277,2026-08-27,North,Grocery,Almond Pack 1kg,7,16.54,S. Khan
+ORD-1278,2026-08-05,South,Apparel,Urban Tee,2,25.5,R. Iyer
+ORD-1279,2026-08-09,South,Electronics,Echo Buds Pro,8,84.88,A. Sharma
+ORD-1280,2026-08-06,South,Home,Aroma Diffuser,4,42.14,S. Khan
+ORD-1281,2026-08-20,North,Apparel,Runner Shoes,5,109.34,R. Iyer
+ORD-1282,2026-08-26,West,Apparel,Denim Jacket,1,96.43,M. D'Souza
+ORD-1283,2026-08-02,South,Home,Steel Cookware Set,11,160.73,M. D'Souza
+ORD-1284,2026-08-13,South,Home,LED Desk Lamp,9,49.22,P. Verma
+ORD-1285,2026-08-01,West,Grocery,Almond Pack 1kg,7,16.94,R. Iyer
+ORD-1286,2026-08-22,South,Grocery,Organic Honey 500g,4,11.14,M. D'Souza
+ORD-1287,2026-08-22,South,Grocery,Organic Honey 500g,6,13.07,S. Khan
+ORD-1288,2026-08-25,North,Home,Aroma Diffuser,9,44.55,M. D'Souza
+ORD-1289,2026-08-15,South,Home,Aroma Diffuser,3,42.27,P. Verma
+ORD-1290,2026-08-18,West,Home,LED Desk Lamp,8,41.93,S. Khan
+ORD-1291,2026-08-27,East,Electronics,Volt Laptop 14,1,674.26,R. Iyer
+ORD-1292,2026-08-15,South,Electronics,Nova X1 Phone,12,339.89,M. D'Souza
+ORD-1293,2026-08-09,West,Home,Steel Cookware Set,6,171.33,P. Verma
+ORD-1294,2026-08-23,West,Electronics,Echo Buds Pro,11,79.39,R. Iyer
+ORD-1295,2026-08-14,East,Electronics,Volt Laptop 14,1,800.2,M. D'Souza
+ORD-1296,2026-08-10,East,Grocery,Cold-Pressed Oil 1L,2,14.32,R. Iyer
+ORD-1297,2026-08-02,West,Home,Steel Cookware Set,10,138.44,R. Iyer
+ORD-1298,2026-08-28,East,Home,LED Desk Lamp,6,49.81,M. D'Souza
+ORD-1299,2026-08-07,South,Home,Steel Cookware Set,11,136.2,S. Khan
+ORD-1300,2026-08-26,West,Grocery,Organic Honey 500g,9,13.17,S. Khan
+ORD-1301,2026-08-23,North,Home,Aroma Diffuser,10,41.03,A. Sharma
+ORD-1302,2026-08-20,North,Grocery,Organic Honey 500g,3,13.7,P. Verma
+ORD-1303,2026-08-01,East,Grocery,Organic Honey 500g,1,12.68,S. Khan
+ORD-1304,2026-08-24,South,Home,Steel Cookware Set,11,139.25,R. Iyer
+ORD-1305,2026-08-08,South,Electronics,Nova X1 Phone,7,271.72,S. Khan
+ORD-1306,2026-08-07,East,Electronics,Echo Buds Pro,7,77.4,M. D'Souza
+ORD-1307,2026-08-21,North,Home,LED Desk Lamp,11,50.69,R. Iyer
+ORD-1308,2026-08-13,North,Grocery,Organic Honey 500g,2,12.09,P. Verma
+ORD-1309,2026-08-09,West,Grocery,Cold-Pressed Oil 1L,8,14.31,P. Verma
+ORD-1310,2026-09-22,South,Home,Steel Cookware Set,6,158.73,P. Verma
+ORD-1311,2026-09-24,South,Apparel,Denim Jacket,12,85.54,R. Iyer
+ORD-1312,2026-09-20,South,Electronics,Echo Buds Pro,1,77.0,M. D'Souza
+ORD-1313,2026-09-06,North,Home,Steel Cookware Set,1,138.42,A. Sharma
+ORD-1314,2026-09-10,North,Apparel,Runner Shoes,8,133.12,S. Khan
+ORD-1315,2026-09-05,East,Grocery,Almond Pack 1kg,6,19.5,M. D'Souza
+ORD-1316,2026-09-26,South,Grocery,Organic Honey 500g,6,11.57,A. Sharma
+ORD-1317,2026-09-07,North,Apparel,Runner Shoes,7,128.95,A. Sharma
+ORD-1318,2026-09-15,South,Apparel,Runner Shoes,3,126.14,R. Iyer
+ORD-1319,2026-09-02,East,Home,Steel Cookware Set,9,138.28,M. D'Souza
+ORD-1320,2026-09-15,North,Electronics,Nova X1 Phone,4,293.79,P. Verma
+ORD-1321,2026-09-02,North,Home,Steel Cookware Set,8,154.94,S. Khan
+ORD-1322,2026-09-25,West,Apparel,Runner Shoes,4,109.12,S. Khan
+ORD-1323,2026-09-28,South,Home,Aroma Diffuser,8,36.39,R. Iyer
+ORD-1324,2026-09-06,South,Grocery,Organic Honey 500g,9,11.52,M. D'Souza
+ORD-1325,2026-09-01,North,Apparel,Urban Tee,4,22.97,A. Sharma
+ORD-1326,2026-09-20,North,Grocery,Organic Honey 500g,8,12.92,P. Verma
+ORD-1327,2026-09-02,South,Home,Steel Cookware Set,10,149.97,R. Iyer
+ORD-1328,2026-09-13,West,Grocery,Organic Honey 500g,3,12.73,P. Verma
+ORD-1329,2026-09-06,North,Home,Aroma Diffuser,1,41.03,S. Khan
+ORD-1330,2026-09-06,North,Apparel,Denim Jacket,11,86.03,R. Iyer
+ORD-1331,2026-09-18,North,Apparel,Urban Tee,8,24.74,A. Sharma
+ORD-1332,2026-09-16,East,Grocery,Organic Honey 500g,11,13.29,R. Iyer
+ORD-1333,2026-09-03,North,Apparel,Runner Shoes,3,114.6,A. Sharma
+ORD-1334,2026-09-28,South,Apparel,Runner Shoes,9,133.69,R. Iyer
+ORD-1335,2026-09-13,West,Electronics,Echo Buds Pro,7,86.78,M. D'Souza
+ORD-1336,2026-09-07,East,Electronics,Echo Buds Pro,4,80.63,R. Iyer
+ORD-1337,2026-09-25,North,Apparel,Runner Shoes,4,108.97,R. Iyer
+ORD-1338,2026-09-08,West,Home,Aroma Diffuser,8,40.51,R. Iyer
+ORD-1339,2026-09-07,East,Apparel,Urban Tee,4,21.92,S. Khan
+ORD-1340,2026-09-26,East,Grocery,Cold-Pressed Oil 1L,5,14.99,S. Khan
+ORD-1341,2026-09-26,East,Electronics,Nova X1 Phone,3,309.13,A. Sharma
+ORD-1342,2026-09-21,South,Home,LED Desk Lamp,10,42.02,A. Sharma
+ORD-1343,2026-09-21,South,Electronics,Nova X1 Phone,8,295.58,A. Sharma
+ORD-1344,2026-09-12,North,Apparel,Denim Jacket,7,84.09,A. Sharma
+ORD-1345,2026-09-04,North,Grocery,Cold-Pressed Oil 1L,7,15.53,R. Iyer
+ORD-1346,2026-09-14,North,Apparel,Runner Shoes,10,129.87,P. Verma
+ORD-1347,2026-09-14,West,Electronics,Nova X1 Phone,2,339.59,P. Verma
+ORD-1348,2026-09-28,West,Electronics,Echo Buds Pro,5,77.79,R. Iyer
+ORD-1349,2026-09-23,East,Electronics,Volt Laptop 14,1,803.55,R. Iyer
+ORD-1350,2026-09-18,South,Electronics,Volt Laptop 14,1,784.05,P. Verma
+ORD-1351,2026-09-27,North,Apparel,Denim Jacket,12,81.72,P. Verma
+ORD-1352,2026-09-27,South,Grocery,Cold-Pressed Oil 1L,10,14.42,M. D'Souza
+ORD-1353,2026-09-11,North,Grocery,Almond Pack 1kg,1,20.17,A. Sharma
+ORD-1354,2026-09-01,South,Apparel,Urban Tee,1,22.26,A. Sharma
+ORD-1355,2026-09-14,South,Home,LED Desk Lamp,9,42.6,M. D'Souza
+ORD-1356,2026-09-07,South,Grocery,Almond Pack 1kg,6,16.73,M. D'Souza
+ORD-1357,2026-09-14,East,Grocery,Almond Pack 1kg,10,20.48,M. D'Souza
+ORD-1358,2026-09-16,South,Grocery,Almond Pack 1kg,11,16.23,M. D'Souza
+ORD-1359,2026-09-27,North,Electronics,Volt Laptop 14,4,783.55,P. Verma
+ORD-1360,2026-09-26,East,Home,LED Desk Lamp,4,45.85,P. Verma
+ORD-1361,2026-09-23,East,Home,Aroma Diffuser,11,41.46,S. Khan
+ORD-1362,2026-09-16,South,Home,Steel Cookware Set,1,137.7,M. D'Souza
+ORD-1363,2026-10-25,East,Apparel,Urban Tee,11,22.35,M. D'Souza
+ORD-1364,2026-10-04,West,Electronics,Nova X1 Phone,2,288.0,M. D'Souza
+ORD-1365,2026-10-15,East,Grocery,Cold-Pressed Oil 1L,6,15.1,S. Khan
+ORD-1366,2026-10-15,West,Home,Aroma Diffuser,12,40.91,A. Sharma
+ORD-1367,2026-10-14,North,Apparel,Urban Tee,6,24.09,M. D'Souza
+ORD-1368,2026-10-28,North,Home,LED Desk Lamp,8,51.6,M. D'Souza
+ORD-1369,2026-10-21,East,Electronics,Nova X1 Phone,5,294.5,P. Verma
+ORD-1370,2026-10-01,West,Electronics,Echo Buds Pro,11,71.23,M. D'Souza
+ORD-1371,2026-10-17,West,Apparel,Urban Tee,5,24.07,M. D'Souza
+ORD-1372,2026-10-08,East,Apparel,Runner Shoes,11,113.98,A. Sharma
+ORD-1373,2026-10-24,North,Home,Aroma Diffuser,11,44.78,P. Verma
+ORD-1374,2026-10-06,South,Apparel,Denim Jacket,6,86.73,M. D'Souza
+ORD-1375,2026-10-18,North,Grocery,Cold-Pressed Oil 1L,1,14.44,S. Khan
+ORD-1376,2026-10-07,North,Home,Aroma Diffuser,5,44.33,R. Iyer
+ORD-1377,2026-10-05,East,Electronics,Nova X1 Phone,12,310.01,R. Iyer
+ORD-1378,2026-10-25,East,Electronics,Nova X1 Phone,11,274.44,M. D'Souza
+ORD-1379,2026-10-20,East,Apparel,Runner Shoes,4,108.81,M. D'Souza
+ORD-1380,2026-10-09,South,Home,LED Desk Lamp,11,43.18,P. Verma
+ORD-1381,2026-10-13,North,Grocery,Organic Honey 500g,5,10.83,M. D'Souza
+ORD-1382,2026-10-10,North,Grocery,Almond Pack 1kg,1,16.93,P. Verma
+ORD-1383,2026-10-24,West,Electronics,Echo Buds Pro,3,77.98,P. Verma
+ORD-1384,2026-10-17,North,Home,Steel Cookware Set,11,138.65,R. Iyer
+ORD-1385,2026-10-05,North,Grocery,Almond Pack 1kg,5,19.24,R. Iyer
+ORD-1386,2026-10-22,West,Home,Aroma Diffuser,6,37.05,M. D'Souza
+ORD-1387,2026-10-09,North,Grocery,Organic Honey 500g,12,12.72,S. Khan
+ORD-1388,2026-10-26,North,Grocery,Almond Pack 1kg,9,16.68,P. Verma
+ORD-1389,2026-10-20,North,Electronics,Volt Laptop 14,5,727.09,A. Sharma
+ORD-1390,2026-10-08,West,Apparel,Urban Tee,12,24.89,R. Iyer
+ORD-1391,2026-10-06,North,Electronics,Nova X1 Phone,4,303.22,P. Verma
+ORD-1392,2026-10-25,West,Grocery,Almond Pack 1kg,12,19.8,R. Iyer
+ORD-1393,2026-10-16,West,Electronics,Volt Laptop 14,9,742.45,P. Verma
+ORD-1394,2026-10-04,East,Apparel,Urban Tee,8,23.02,M. D'Souza
+ORD-1395,2026-10-19,South,Electronics,Volt Laptop 14,9,735.14,M. D'Souza
+ORD-1396,2026-10-01,North,Apparel,Urban Tee,8,23.36,M. D'Souza
+ORD-1397,2026-10-17,West,Home,Aroma Diffuser,7,37.97,A. Sharma
+ORD-1398,2026-10-25,West,Grocery,Organic Honey 500g,9,12.47,S. Khan
+ORD-1399,2026-10-06,West,Home,Steel Cookware Set,7,146.52,R. Iyer
+ORD-1400,2026-10-10,South,Apparel,Runner Shoes,6,117.77,S. Khan
+ORD-1401,2026-10-02,North,Grocery,Almond Pack 1kg,5,17.98,M. D'Souza
+ORD-1402,2026-10-18,South,Grocery,Almond Pack 1kg,4,16.53,S. Khan
+ORD-1403,2026-10-28,West,Home,Steel Cookware Set,1,169.44,R. Iyer
+ORD-1404,2026-10-12,West,Home,Steel Cookware Set,12,148.86,A. Sharma
+ORD-1405,2026-10-04,West,Grocery,Organic Honey 500g,1,11.64,S. Khan
+ORD-1406,2026-10-02,East,Apparel,Denim Jacket,11,82.08,P. Verma
+ORD-1407,2026-10-07,East,Home,LED Desk Lamp,5,41.42,P. Verma
+ORD-1408,2026-10-19,South,Apparel,Runner Shoes,2,118.25,A. Sharma
+ORD-1409,2026-10-06,West,Grocery,Almond Pack 1kg,7,17.65,M. D'Souza
+ORD-1410,2026-10-20,East,Grocery,Almond Pack 1kg,3,17.51,M. D'Souza
+ORD-1411,2026-10-02,North,Grocery,Almond Pack 1kg,8,17.31,R. Iyer
+ORD-1412,2026-10-18,South,Apparel,Denim Jacket,7,102.11,S. Khan
+ORD-1413,2026-10-14,East,Electronics,Nova X1 Phone,1,306.49,S. Khan
+ORD-1414,2026-10-10,South,Home,Aroma Diffuser,1,42.29,P. Verma
+ORD-1415,2026-10-27,East,Home,Aroma Diffuser,9,42.8,S. Khan
+ORD-1416,2026-10-06,South,Home,Steel Cookware Set,9,167.56,M. D'Souza
+ORD-1417,2026-10-28,North,Grocery,Almond Pack 1kg,9,17.13,A. Sharma
+ORD-1418,2026-10-16,North,Apparel,Denim Jacket,12,86.21,R. Iyer
+ORD-1419,2026-10-19,West,Grocery,Cold-Pressed Oil 1L,10,15.58,R. Iyer
+ORD-1420,2026-10-19,East,Electronics,Volt Laptop 14,9,846.04,M. D'Souza
+ORD-1421,2026-11-01,South,Home,Steel Cookware Set,5,165.83,A. Sharma
+ORD-1422,2026-11-09,East,Grocery,Cold-Pressed Oil 1L,4,14.77,R. Iyer
+ORD-1423,2026-11-04,South,Apparel,Runner Shoes,1,121.7,M. D'Souza
+ORD-1424,2026-11-05,South,Grocery,Almond Pack 1kg,8,17.11,P. Verma
+ORD-1425,2026-11-03,North,Home,LED Desk Lamp,9,48.36,S. Khan
+ORD-1426,2026-11-28,West,Home,LED Desk Lamp,2,46.84,P. Verma
+ORD-1427,2026-11-27,East,Home,Steel Cookware Set,4,168.16,R. Iyer
+ORD-1428,2026-11-23,West,Home,Steel Cookware Set,4,163.78,A. Sharma
+ORD-1429,2026-11-23,East,Home,Steel Cookware Set,11,136.6,M. D'Souza
+ORD-1430,2026-11-06,East,Grocery,Almond Pack 1kg,9,17.42,R. Iyer
+ORD-1431,2026-11-21,West,Electronics,Echo Buds Pro,9,86.78,M. D'Souza
+ORD-1432,2026-11-02,South,Apparel,Urban Tee,2,24.53,R. Iyer
+ORD-1433,2026-11-12,East,Home,Aroma Diffuser,8,41.94,A. Sharma
+ORD-1434,2026-11-10,West,Apparel,Denim Jacket,6,85.24,S. Khan
+ORD-1435,2026-11-25,West,Apparel,Runner Shoes,9,130.31,A. Sharma
+ORD-1436,2026-11-18,South,Home,Aroma Diffuser,1,41.16,A. Sharma
+ORD-1437,2026-11-01,West,Electronics,Echo Buds Pro,6,89.72,R. Iyer
+ORD-1438,2026-11-14,West,Apparel,Runner Shoes,2,122.65,A. Sharma
+ORD-1439,2026-11-17,West,Electronics,Nova X1 Phone,3,304.42,P. Verma
+ORD-1440,2026-11-18,West,Grocery,Organic Honey 500g,11,11.41,A. Sharma
+ORD-1441,2026-11-13,North,Grocery,Organic Honey 500g,5,12.54,A. Sharma
+ORD-1442,2026-11-28,West,Grocery,Almond Pack 1kg,4,17.82,M. D'Souza
+ORD-1443,2026-11-10,South,Home,Aroma Diffuser,4,38.84,S. Khan
+ORD-1444,2026-11-16,North,Home,Steel Cookware Set,3,134.49,A. Sharma
+ORD-1445,2026-11-19,West,Home,Aroma Diffuser,6,43.53,R. Iyer
+ORD-1446,2026-11-18,West,Apparel,Runner Shoes,9,110.45,R. Iyer
+ORD-1447,2026-11-06,East,Home,Steel Cookware Set,6,159.74,R. Iyer
+ORD-1448,2026-11-07,West,Home,Aroma Diffuser,5,38.36,R. Iyer
+ORD-1449,2026-11-22,South,Grocery,Almond Pack 1kg,2,18.81,P. Verma
+ORD-1450,2026-11-06,West,Home,LED Desk Lamp,7,51.48,R. Iyer
+ORD-1451,2026-11-22,South,Grocery,Organic Honey 500g,10,12.31,R. Iyer
+ORD-1452,2026-11-09,East,Grocery,Almond Pack 1kg,4,19.55,M. D'Souza
+ORD-1453,2026-11-13,East,Apparel,Urban Tee,2,23.52,M. D'Souza
+ORD-1454,2026-11-23,North,Home,LED Desk Lamp,4,50.33,R. Iyer
+ORD-1455,2026-11-15,West,Home,LED Desk Lamp,1,40.85,M. D'Souza
+ORD-1456,2026-11-25,West,Home,LED Desk Lamp,6,47.91,R. Iyer
+ORD-1457,2026-11-14,West,Grocery,Almond Pack 1kg,6,16.36,R. Iyer
+ORD-1458,2026-11-26,East,Grocery,Almond Pack 1kg,10,17.66,R. Iyer
+ORD-1459,2026-11-22,North,Apparel,Urban Tee,8,26.43,A. Sharma
+ORD-1460,2026-11-27,South,Electronics,Echo Buds Pro,7,80.58,S. Khan
+ORD-1461,2026-11-14,East,Grocery,Organic Honey 500g,12,11.86,M. D'Souza
+ORD-1462,2026-11-04,West,Electronics,Echo Buds Pro,1,84.46,P. Verma
+ORD-1463,2026-11-26,South,Electronics,Echo Buds Pro,4,77.13,A. Sharma
+ORD-1464,2026-11-05,West,Home,Steel Cookware Set,3,136.56,P. Verma
+ORD-1465,2026-11-08,East,Grocery,Almond Pack 1kg,4,16.71,A. Sharma
+ORD-1466,2026-11-21,East,Electronics,Volt Laptop 14,2,677.37,M. D'Souza
+ORD-1467,2026-11-12,West,Apparel,Runner Shoes,7,131.78,R. Iyer
+ORD-1468,2026-11-01,South,Home,LED Desk Lamp,3,49.54,S. Khan
+ORD-1469,2026-11-06,East,Home,Steel Cookware Set,5,144.07,R. Iyer
+ORD-1470,2026-11-28,North,Electronics,Volt Laptop 14,8,809.26,S. Khan
+ORD-1471,2026-11-20,North,Apparel,Denim Jacket,1,87.08,A. Sharma
+ORD-1472,2026-11-06,South,Electronics,Volt Laptop 14,7,765.19,R. Iyer
+ORD-1473,2026-11-13,South,Apparel,Denim Jacket,11,85.74,P. Verma
+ORD-1474,2026-11-02,East,Apparel,Denim Jacket,10,89.01,P. Verma
+ORD-1475,2026-11-04,North,Apparel,Urban Tee,9,26.57,M. D'Souza
+ORD-1476,2026-11-04,East,Electronics,Echo Buds Pro,8,83.89,M. D'Souza
+ORD-1477,2026-11-25,West,Home,LED Desk Lamp,1,50.54,R. Iyer
+ORD-1478,2026-11-14,West,Home,Steel Cookware Set,10,149.85,R. Iyer
+ORD-1479,2026-11-20,South,Grocery,Organic Honey 500g,5,12.38,R. Iyer
+ORD-1480,2026-12-03,West,Grocery,Organic Honey 500g,11,13.33,M. D'Souza
+ORD-1481,2026-12-05,South,Electronics,Nova X1 Phone,6,333.35,A. Sharma
+ORD-1482,2026-12-24,East,Grocery,Almond Pack 1kg,12,16.79,R. Iyer
+ORD-1483,2026-12-19,West,Apparel,Urban Tee,10,24.62,A. Sharma
+ORD-1484,2026-12-04,North,Apparel,Runner Shoes,2,122.68,R. Iyer
+ORD-1485,2026-12-18,North,Home,Steel Cookware Set,2,149.32,A. Sharma
+ORD-1486,2026-12-06,East,Home,LED Desk Lamp,8,41.5,P. Verma
+ORD-1487,2026-12-01,East,Electronics,Nova X1 Phone,4,307.01,S. Khan
+ORD-1488,2026-12-11,South,Home,LED Desk Lamp,9,41.63,P. Verma
+ORD-1489,2026-12-15,South,Electronics,Volt Laptop 14,8,852.69,M. D'Souza
+ORD-1490,2026-12-05,East,Apparel,Runner Shoes,4,117.98,A. Sharma
+ORD-1491,2026-12-04,West,Electronics,Echo Buds Pro,5,85.6,M. D'Souza
+ORD-1492,2026-12-01,East,Home,Aroma Diffuser,8,39.72,M. D'Souza
+ORD-1493,2026-12-14,North,Grocery,Almond Pack 1kg,9,17.84,P. Verma
+ORD-1494,2026-12-09,South,Apparel,Denim Jacket,3,81.7,M. D'Souza
+ORD-1495,2026-12-20,North,Grocery,Almond Pack 1kg,6,20.09,R. Iyer
+ORD-1496,2026-12-06,West,Home,Aroma Diffuser,9,39.55,M. D'Souza
+ORD-1497,2026-12-09,North,Electronics,Echo Buds Pro,1,81.89,M. D'Souza
+ORD-1498,2026-12-23,East,Electronics,Echo Buds Pro,5,90.21,M. D'Souza
+ORD-1499,2026-12-01,West,Grocery,Cold-Pressed Oil 1L,3,13.68,A. Sharma
+ORD-1500,2026-12-03,West,Grocery,Almond Pack 1kg,6,20.59,S. Khan
+ORD-1501,2026-12-13,South,Grocery,Cold-Pressed Oil 1L,3,15.16,P. Verma
+ORD-1502,2026-12-20,North,Home,Aroma Diffuser,7,35.49,P. Verma
+ORD-1503,2026-12-11,North,Grocery,Almond Pack 1kg,3,19.25,S. Khan
+ORD-1504,2026-12-10,West,Grocery,Cold-Pressed Oil 1L,7,15.29,S. Khan
+ORD-1505,2026-12-17,North,Home,LED Desk Lamp,5,49.68,R. Iyer
+ORD-1506,2026-12-04,North,Apparel,Urban Tee,8,22.97,P. Verma
+ORD-1507,2026-12-01,South,Home,Aroma Diffuser,9,40.16,S. Khan
+ORD-1508,2026-12-17,West,Apparel,Runner Shoes,8,121.43,M. D'Souza
+ORD-1509,2026-12-07,West,Grocery,Almond Pack 1kg,3,19.18,S. Khan
+ORD-1510,2026-12-02,West,Home,Aroma Diffuser,11,44.54,A. Sharma
+ORD-1511,2026-12-19,East,Electronics,Volt Laptop 14,10,831.73,R. Iyer
+ORD-1512,2026-12-20,South,Home,LED Desk Lamp,3,43.01,A. Sharma
+ORD-1513,2026-12-28,East,Apparel,Denim Jacket,12,101.12,M. D'Souza
+ORD-1514,2026-12-19,East,Home,Aroma Diffuser,10,41.99,A. Sharma
+ORD-1515,2026-12-16,West,Home,LED Desk Lamp,8,42.94,R. Iyer
+ORD-1516,2026-12-18,West,Apparel,Denim Jacket,9,99.2,M. D'Souza
+ORD-1517,2026-12-24,East,Grocery,Almond Pack 1kg,8,19.71,R. Iyer
+ORD-1518,2026-12-19,East,Apparel,Denim Jacket,6,101.3,P. Verma
+ORD-1519,2026-12-17,West,Home,LED Desk Lamp,3,45.78,M. D'Souza
+ORD-1520,2026-12-17,East,Grocery,Almond Pack 1kg,3,20.09,A. Sharma
+ORD-1521,2026-12-24,South,Electronics,Echo Buds Pro,3,87.04,M. D'Souza
+ORD-1522,2026-12-05,East,Home,Aroma Diffuser,1,36.56,P. Verma
+ORD-1523,2026-12-19,East,Grocery,Cold-Pressed Oil 1L,11,15.92,S. Khan
+ORD-1524,2026-12-17,West,Apparel,Denim Jacket,2,87.1,P. Verma
+ORD-1525,2026-12-14,West,Grocery,Cold-Pressed Oil 1L,1,14.92,P. Verma
+ORD-1526,2026-12-13,South,Electronics,Nova X1 Phone,3,320.36,S. Khan
+ORD-1527,2026-12-22,North,Grocery,Almond Pack 1kg,8,20.55,M. D'Souza
+ORD-1528,2026-12-03,South,Home,Steel Cookware Set,1,156.59,S. Khan
+ORD-1529,2026-12-12,West,Apparel,Urban Tee,12,27.01,M. D'Souza
+ORD-1530,2026-12-24,South,Electronics,Volt Laptop 14,1,706.52,S. Khan
+ORD-1531,2026-12-25,North,Electronics,Nova X1 Phone,4,336.46,S. Khan
+ORD-1532,2026-12-07,South,Grocery,Cold-Pressed Oil 1L,4,14.58,M. D'Souza
+ORD-1533,2026-12-13,South,Home,Aroma Diffuser,10,36.82,A. Sharma
+ORD-1534,2026-12-07,South,Apparel,Urban Tee,12,22.88,R. Iyer
+ORD-1535,2026-12-23,East,Grocery,Almond Pack 1kg,4,16.23,S. Khan
+ORD-1536,2026-12-07,South,Electronics,Echo Buds Pro,6,74.7,A. Sharma
+ORD-1537,2026-12-19,West,Electronics,Nova X1 Phone,7,342.57,S. Khan
+ORD-1538,2026-12-10,East,Electronics,Nova X1 Phone,3,328.32,M. D'Souza
+ORD-1539,2026-12-19,West,Home,Aroma Diffuser,5,35.79,R. Iyer
+ORD-1540,2026-12-28,South,Apparel,Urban Tee,4,25.01,A. Sharma
+ORD-1541,2026-12-12,South,Home,LED Desk Lamp,4,47.56,A. Sharma
+ORD-1542,2026-12-21,East,Electronics,Echo Buds Pro,2,76.64,R. Iyer
+ORD-1543,2026-12-14,South,Electronics,Echo Buds Pro,5,73.88,R. Iyer
+ORD-1544,2026-12-12,South,Grocery,Cold-Pressed Oil 1L,6,15.44,S. Khan
+ORD-1545,2026-12-22,North,Apparel,Urban Tee,1,26.0,P. Verma
+ORD-1546,2026-12-09,North,Apparel,Runner Shoes,9,120.34,R. Iyer
+ORD-1547,2026-12-08,East,Grocery,Organic Honey 500g,7,12.41,R. Iyer
+ORD-1548,2026-12-14,North,Apparel,Runner Shoes,2,125.25,M. D'Souza
+ORD-1549,2026-12-13,West,Home,Aroma Diffuser,11,44.51,P. Verma
+ORD-1550,2026-12-24,South,Grocery,Almond Pack 1kg,2,20.08,A. Sharma
+ORD-1551,2026-12-11,North,Home,Aroma Diffuser,5,37.62,M. D'Souza
