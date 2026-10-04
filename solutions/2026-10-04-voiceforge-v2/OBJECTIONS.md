@@ -34,9 +34,32 @@ misbehaves on a live call, I tune it the same day. One tuning round in
 week 2 is included in the pilot; after that, support terms are in the
 agreement."
 
+## 6. "Why not just use Vapi or Retell directly?"
+
+"Fair question — they're good at generic voice minutes, and I'd be
+dishonest if I pretended the underlying tech was magic. Here's what
+you're actually buying from me instead of a per-minute meter:
+
+1. **The vision step nobody productizes.** Mid-call, it asks your caller
+   to text a photo, looks at the broken part, and keeps talking with
+   what it saw. Vapi and Retell don't ship that on live phone calls.
+2. **A booking loop that doesn't embarrass you.** It reads the date back
+   and confirms before committing — wrong-day bookings are the classic
+   churn event, and it's engineered out.
+3. **Warm transfer with context.** When a caller needs a human, it calls
+   your phone and briefs you on the conversation first — not a cold dump.
+4. **Fixed price, written guarantee.** 14 days, one price, and if it
+   doesn't answer and log every call, your deposit comes back in writing.
+   No per-minute meter running while you sleep.
+
+It also runs on your own number, under your business name — not a demo
+line on someone else's platform."
+
 ---
 
 **Never say:** "It's AI, it learns on its own" (it doesn't — you tune it),
 "it works 100% of the time" (nothing does — that's what the guarantee is
-for), or anything about the underlying tech (Twilio, Vapi, webhooks).
-Talk about answered calls and booked appointments, not infrastructure.
+for). Talk about answered calls and booked appointments, not
+infrastructure — but if a buyer asks about the underlying tech directly
+(Twilio, Vapi, webhooks), answer honestly; the answer above is the
+script. Evasion kills more trust than a straight answer.
