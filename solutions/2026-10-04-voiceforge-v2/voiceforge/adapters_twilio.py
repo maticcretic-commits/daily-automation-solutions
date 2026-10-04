@@ -30,7 +30,8 @@ class TwilioAdapter:
 
     def __init__(self, auth_token: str = "",
                  gather_action_url: str = "/gather",
-                 config: "VoiceForgeConfig | None" = None):
+                 config: "VoiceForgeConfig | None" = None,
+                 account_sid: str = ""):
         if not auth_token:
             auth_token = os.environ.get("TWILIO_AUTH_TOKEN", "")
         if not auth_token:
@@ -38,6 +39,12 @@ class TwilioAdapter:
                 "TwilioAdapter requires an auth token (arg or "
                 "TWILIO_AUTH_TOKEN); refusing to run unverified.")
         self.auth_token = auth_token
+        # B1: Twilio media URLs require HTTP Basic Auth (Account SID as the
+        # username). Optional here — webhook verification needs only the
+        # token — but media download fails closed without it.
+        if not account_sid:
+            account_sid = os.environ.get("TWILIO_ACCOUNT_SID", "")
+        self.account_sid = account_sid
         self.gather_action_url = gather_action_url
         self.config = config
 
