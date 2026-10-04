@@ -10,6 +10,7 @@ from .providers import (HttpLLMClient, HttpVisionClient, LLMClient,
                         TTSClient, VisionClient)
 from .adapters_twilio import TwilioAdapter
 from .adapters_vapi import VapiAdapter
+from .server import Handler, VoiceForgeApp, build_llm, main as serve
 from .session import CallSession, MediaItem, Turn
 from .util import normalize_phone, redact_pii, valid_phone
 
@@ -19,6 +20,7 @@ __all__ = [
     "LLMClient", "MockLLMClient", "HttpLLMClient",
     "TTSClient", "MockTTSClient", "VisionClient", "MockVisionClient",
     "HttpVisionClient", "TwilioAdapter", "VapiAdapter",
+    "VoiceForgeApp", "Handler", "build_llm", "serve",
     "CallSession", "MediaItem", "Turn",
     "normalize_phone", "redact_pii", "valid_phone",
 ]
