@@ -1,0 +1,209 @@
+"""VoiceAgent: the full call-lifecycle engine (voice + vision).
+
+P0 fixes vs v1:
+  * caller_said is idempotent: unknown SIDs are logged (no KeyError),
+    retried webhooks on ended calls get the last reply (no ValueError,
+    no Twilio retry storm).
+  * every turn starts with flush_pending() (vision results surface at turn
+    boundaries, never mid-utterance) and check_deadlines() (90 s budget).
+  * escalation triggers a real warm transfer with context handoff and a
+    clean fallback when the human does not answer.
+"""
+
+from __future__ import annotations
+
+import time
+from typing import Callable, Dict, List, Optional
+
+from .adapters_twilio import TwilioAdapter
+from .brain import ConversationBrain
+from .campaign import CampaignRunner
+from .config import VoiceForgeConfig
+from .logging import CallLogger
+from .providers import TTSClient, MockTTSClient
+from .session import CallSession
+from .vision.context_inject import ContextInjector
+
+# transfer_reachable(number) -> bool; deployer hook (carrier check, hours)
+TransferCheck = Callable[[str], bool]
+
+
+class VoiceAgent:
+    """Ties telephony, brain, vision, TTS and logging into call flows."""
+
+    def __init__(self, brain: ConversationBrain,
+                 tts: Optional[TTSClient] = None,
+                 logger: Optional[CallLogger] = None,
+                 voice: str = "alloy",
+                 config: Optional[VoiceForgeConfig] = None,
+                 transfer_check: Optional[TransferCheck] = None,
+                 vision_flow: Optional[object] = None):
+        self.brain = brain
+        self.tts = tts or MockTTSClient()
+        self.logger = logger or CallLogger()
+        self.voice = voice
+        self.config = config or VoiceForgeConfig(business=brain.business)
+        self.transfer_check = transfer_check
+        self.vision_flow = vision_flow  # VisionFlow, set by the deployer
+        self.calls: Dict[str, CallSession] = {}
+        self._injector = ContextInjector(self.logger)
+
+    # -- inbound ----------------------------------------------------------
+    def inbound_call(self, call_sid: str, from_phone: str,
+                     twilio: Optional[TwilioAdapter] = None) -> str:
+        session = CallSession(call_sid=call_sid, phone=from_phone,
+                              direction="inbound", state="active")
+        self.calls[call_sid] = session
+        # late-arriving MMS may already be parked: try to attach it
+        if self.vision_flow is not None:
+            self.vision_flow.mms_watch.reap_orphans(self)
+        greeting = self.brain.greet(session)
+        audio = self.tts.speak(greeting, self.voice)
+        self.logger.log("call_started", call_sid=call_sid, phone=from_phone,
+                        direction="inbound")
+        if twilio:
+            return twilio.inbound_twiml(greeting)
+        return greeting + f"\n[audio bytes: {len(audio)}]"
+
+    def caller_said(self, call_sid: str, transcript: str,
+                    twilio: Optional[TwilioAdapter] = None) -> str:
+        """
+        Idempotent per-turn handler. Unknown SIDs log and return a benign
+        reply; ended sessions return the last agent reply (Twilio retries
+        webhooks — this is what stops the retry storm).
+        """
+        started = time.time()
+        session = self.calls.get(call_sid)
+        if session is None:
+            self.logger.log("turn_unknown_session", call_sid=call_sid)
+            benign = "Sorry, I couldn't find that call. Goodbye."
+            return twilio.continue_twiml(benign, end_call=True) \
+                if twilio else benign
+        if session.state != "active":
+            last = session.last_agent_text()
+            self.logger.log("turn_ended_session", call_sid=call_sid)
+            return twilio.continue_twiml(last, end_call=True) \
+                if twilio else last
+
+        # vision: surface pending results at the turn boundary, then enforce
+        # the 90 s budget before the brain runs
+        vision_speech = self._injector.flush_pending(session)
+        if self.vision_flow is not None:
+            self.vision_flow.check_deadlines(self)
+            # a deadline may have just parked the fallback line
+            if vision_speech is None:
+                vision_speech = self._injector.flush_pending(session)
+
+        if vision_speech is not None:
+            # clarification question or the single voice-only fallback line
+            session.say("agent", vision_speech)
+            audio = self.tts.speak(vision_speech, self.voice)
+            self.logger.log("turn", call_sid=call_sid, caller=transcript,
+                            reply=vision_speech, ended=False,
+                            vision_spoken=True, audio_bytes=len(audio),
+                            latency_s=round(time.time() - started, 2))
+            return twilio.continue_twiml(vision_speech) \
+                if twilio else vision_speech
+
+        reply = self.brain.handle(session, transcript)
+        audio = self.tts.speak(reply, self.voice)
+        ended = session.state == "ended"
+        self.logger.log("turn", call_sid=call_sid, caller=transcript,
+                        reply=reply, ended=ended,
+                        escalated=session.escalated,
+                        audio_bytes=len(audio),
+                        latency_s=round(time.time() - started, 2))
+
+        # warm transfer on escalation (P0-3)
+        if session.transfer_requested and not session.transfer_done \
+                and not ended:
+            return self._warm_transfer(session, reply, twilio)
+        if twilio:
+            return twilio.continue_twiml(reply, end_call=ended)
+        return reply
+
+    # -- warm transfer ------------------------------------------------------
+    def build_handoff_context(self, session: CallSession) -> str:
+        """One-paragraph brief for the human agent receiving the transfer."""
+        with session.lock:
+            spoken = [t.text for t in session.turns
+                      if t.role in ("caller", "agent")][-6:]
+            slots = dict(session.slots)
+            vision_bits = [
+                t.text for t in session.turns
+                if t.role == "system" and t.text.startswith("[vision:")]
+        brief = " ".join(spoken[-4:]) if spoken else "no details yet"
+        parts = [f"Incoming transfer from {self.brain.business}.",
+                 f"Caller said: {brief}."]
+        if slots.get("name"):
+            parts.append(f"Name on file: {slots['name']}.")
+        if vision_bits:
+            parts.append(f"Photo analysis: {vision_bits[-1]}")
+        return " ".join(parts)
+
+    def _warm_transfer(self, session: CallSession, announcement: str,
+                       twilio: Optional[TwilioAdapter]) -> str:
+        session.transfer_done = True
+        target = self.config.transfer_number
+        reachable = (self.transfer_check(target) if self.transfer_check
+                     else bool(target))
+        if twilio and target and reachable:
+            context = self.build_handoff_context(session)
+            self.logger.log("transfer_started", call_sid=session.call_sid,
+                            target=target)
+            return twilio.transfer_twiml(
+                announcement, target,
+                whisper_url="/whisper?sid=" + session.call_sid,
+                fallback_action_url="/transfer_fallback?sid="
+                + session.call_sid,
+                timeout_s=self.config.transfer_timeout_s)
+        # fallback: no target configured or unreachable — take a message
+        self.logger.log("transfer_fallback", call_sid=session.call_sid,
+                        reason="no_target" if not target else "unreachable")
+        fallback = ("I'm sorry, all of our teammates are busy right now. "
+                    "Please tell me your name and number after the tone, "
+                    "and we'll call you back within the hour.")
+        session.say("agent", fallback)
+        if twilio:
+            return twilio.continue_twiml(fallback)
+        return fallback
+
+    # -- outbound campaign (backwards-compatible facade) --------------------
+    def outbound_campaign(self, numbers_csv: str, opener: str,
+                          throttle_per_min: int = 20,
+                          dnc: Optional[List[str]] = None,
+                          on_transcript=None,
+                          sleep=time.sleep) -> List[Dict[str, str]]:
+        runner = CampaignRunner(self.brain, tts=self.tts,
+                                logger=self.logger)
+        report = runner.run(numbers_csv, opener, throttle_per_min, dnc,
+                            on_transcript, sleep)
+        self.calls.update(runner.sessions)
+        return report
+
+    # -- vision entry points --------------------------------------------------
+    def request_photo(self, call_sid: str, what: str) -> str:
+        """Ask the caller to text a photo; returns the spoken ask."""
+        if self.vision_flow is None:
+            return ""
+        session = self.calls.get(call_sid)
+        if session is None or session.state != "active":
+            return ""
+        ask = self.vision_flow.request_photo(session, what)
+        if ask:
+            session.say("agent", ask)
+        return ask
+
+    # -- reporting ----------------------------------------------------------
+    def summary(self) -> Dict[str, object]:
+        calls = list(self.calls.values())
+        return {
+            "total_calls": len(calls),
+            "inbound": sum(1 for c in calls if c.direction == "inbound"),
+            "outbound": sum(1 for c in calls if c.direction == "outbound"),
+            "escalated": sum(1 for c in calls if c.escalated),
+            "transferred": sum(1 for c in calls if c.transfer_done),
+            "ended": sum(1 for c in calls if c.state == "ended"),
+            "total_turns": sum(len(c.turns) for c in calls),
+            "log_events": len(self.logger.events),
+        }
