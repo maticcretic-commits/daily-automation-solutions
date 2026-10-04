@@ -1,5 +1,14 @@
 # VoiceForge v2 — hardened AI voice agent with live-call vision
 
+> **For business owners (clinics, home services):** this is the engine
+> behind an AI receptionist that answers every call your front desk
+> misses, books the appointment, and can even look at a photo a caller
+> texts mid-call. Start with [HANDOUT.md](HANDOUT.md) (one page),
+> [CALL_SCRIPT.md](CALL_SCRIPT.md) (the 10-minute demo), and
+> [PILOT_AGREEMENT.md](PILOT_AGREEMENT.md) (the 14-day pilot template).
+> The money-back metric is buyer-visible via `VoiceAgent.pilot_summary()`.
+> Everything below is the technical documentation.
+
 A dependency-free Python engine for inbound/outbound voice calls (Twilio/Vapi
 compatible) with a **live-call vision step**: mid-call, the agent can ask the
 caller to text a photo, analyzes it, and continues the conversation with what
