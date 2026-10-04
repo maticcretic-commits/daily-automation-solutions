@@ -873,5 +873,378 @@ class TestConfig(unittest.TestCase):
         self.assertEqual(normalize_phone("abc"), "")
 
 
+# ---------------------------------------------------------------------------
+# Review-gate fixes: one adversarial probe per blocker (B1-B7 + nits)
+# ---------------------------------------------------------------------------
+
+from voiceforge.session import VISION_WAITING_MEDIA
+
+
+def _agent_with_vision(**kw):
+    """VoiceAgent with a fully mocked vision stack (no network)."""
+    brain = make_brain()
+    agent = VoiceAgent(brain, logger=CallLogger(), **kw)
+    tw = TwilioAdapter(auth_token="t")
+    watch = MmsWatch(tw, CallLogger(), media_dir=tempfile.mkdtemp(),
+                     downloader=lambda url: (b"IMG", "image/jpeg"))
+    watch._sleep = lambda s: None
+    flow = VisionFlow(watch,
+                      VisionAnalyzer(MockVisionClient(), CallLogger()),
+                      ContextInjector(CallLogger()), CallLogger())
+    agent.vision_flow = flow
+    return agent
+
+
+def _signed_mms_form(secret, sid="SMW", from_phone="+1555"):
+    form = {"MessageSid": sid, "From": from_phone, "NumMedia": "1",
+            "MediaUrl0": "http://x/1.jpg",
+            "MediaContentType0": "image/jpeg"}
+    url = "http://x/hook"
+    payload = url + "".join(k + form[k] for k in sorted(form))
+    sig = base64.b64encode(
+        hmac.new(secret.encode(), payload.encode(),
+                 hashlib.sha1).digest()).decode()
+    return url, form, sig
+
+
+class _AuthRecorder:
+    """Tiny localhost HTTP server that records the Authorization header."""
+
+    def __init__(self):
+        import http.server
+
+        seen = {}
+        outer = self
+
+        class H(http.server.BaseHTTPRequestHandler):
+            def do_GET(self):
+                seen["auth"] = self.headers.get("Authorization")
+                body = b"IMGDATA"
+                self.send_response(200)
+                self.send_header("Content-Type", "image/jpeg")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+
+            def log_message(self, *a):
+                pass
+
+        self.seen = seen
+        self.srv = http.server.HTTPServer(("127.0.0.1", 0), H)
+        self.thread = threading.Thread(target=self.srv.serve_forever,
+                                       daemon=True)
+        self.thread.start()
+
+    @property
+    def url(self):
+        return f"http://127.0.0.1:{self.srv.server_port}/x.jpg"
+
+    def close(self):
+        self.srv.shutdown()
+        self.srv.server_close()
+
+
+class TestB1MediaBasicAuth(unittest.TestCase):
+    """B1: Twilio media download must carry HTTP Basic Auth."""
+
+    def test_default_downloader_sends_basic_auth(self):
+        from voiceforge.vision.mms_watch import default_downloader
+        rec = _AuthRecorder()
+        try:
+            data, ctype = default_downloader(rec.url, auth=("AC123", "tok456"))
+            self.assertEqual(data, b"IMGDATA")
+            self.assertEqual(ctype, "image/jpeg")
+            expect = "Basic " + base64.b64encode(b"AC123:tok456").decode()
+            self.assertEqual(rec.seen.get("auth"), expect)
+        finally:
+            rec.close()
+
+    def test_mms_watch_default_downloader_uses_adapter_creds(self):
+        from voiceforge.vision.mms_watch import MmsWatch
+        rec = _AuthRecorder()
+        try:
+            tw = TwilioAdapter(auth_token="tok456", account_sid="AC123")
+            watch = MmsWatch(tw, CallLogger(),
+                             media_dir=tempfile.mkdtemp())
+            data, _ = watch.downloader(rec.url)
+            self.assertEqual(data, b"IMGDATA")
+            expect = "Basic " + base64.b64encode(b"AC123:tok456").decode()
+            self.assertEqual(rec.seen.get("auth"), expect)
+        finally:
+            rec.close()
+
+    def test_no_retry_on_401(self):
+        # N9: a 401 will never succeed on retry — fail fast.
+        calls = []
+
+        def boom(url):
+            calls.append(url)
+            raise urllib.error.HTTPError(url, 401, "Unauthorized", {}, None)
+
+        tw = TwilioAdapter(auth_token="x")
+        watch = MmsWatch(tw, CallLogger(), media_dir=tempfile.mkdtemp(),
+                         downloader=boom)
+        watch._sleep = lambda s: None
+        with self.assertRaises(urllib.error.HTTPError):
+            watch._download("http://x/y.jpg")
+        self.assertEqual(len(calls), 1)
+
+
+class TestB7PhotoWiring(unittest.TestCase):
+    """B7: vision must be reachable from a real conversation."""
+
+    def test_photo_offer_triggers_vision_step(self):
+        agent = _agent_with_vision()
+        agent.inbound_call("CA1", "+15550001111")
+        reply = agent.caller_said(
+            "CA1", "Can I send you a photo of the cracked windshield?")
+        s = agent.calls["CA1"]
+        self.assertEqual(s.vision_state, VISION_WAITING_MEDIA)
+        self.assertIn("photo", reply.lower())
+
+    def test_photo_offer_without_vision_flow_degrades(self):
+        brain = make_brain()
+        s = new_session()
+        reply = brain.handle(s, "I'll text you a photo of the leak")
+        self.assertIn("describe", reply.lower())
+
+    def test_photo_subject_extraction(self):
+        self.assertEqual(
+            ConversationBrain._photo_subject(
+                "let me send you a photo of the cracked windshield"),
+            "cracked windshield")
+        self.assertEqual(ConversationBrain._photo_subject("sending pic"),
+                         "the issue")
+
+
+class TestB2UtteranceKeptOnFlush(unittest.TestCase):
+    """B2: the caller utterance must survive vision-flush turns."""
+
+    def test_caller_turn_recorded_when_flush_speaks(self):
+        agent = _agent_with_vision()
+        agent.inbound_call("CA1", "+15550001111")
+        agent.request_photo("CA1", "the screen")
+        s = agent.calls["CA1"]
+        low = VisionResult(ok=True, description="Blurry.",
+                           findings=["Maybe a crack."], confidence=0.4,
+                           gate_passed=False,
+                           clarification_question="Is that a crack?")
+        agent._injector.inject(s, low, "k-low", agent_speaking=True)
+        reply = agent.caller_said("CA1", "Did you get the photo?")
+        self.assertIn("crack", reply.lower())
+        caller_texts = [t.text for t in s.turns if t.role == "caller"]
+        self.assertIn("Did you get the photo?", caller_texts)
+
+
+class TestB3NoDictRaces(unittest.TestCase):
+    """B3: concurrent webhook threads must never 500 on dict mutation."""
+
+    def test_concurrent_mutate_and_iterate(self):
+        agent = _agent_with_vision()
+        watch = agent.vision_flow.mms_watch
+        errors = []
+        stop = threading.Event()
+
+        def churn():
+            i = 0
+            while not stop.is_set():
+                try:
+                    agent.inbound_call(f"CAX{i}", f"+1555000{i:04d}")
+                except RuntimeError as exc:
+                    errors.append(exc)
+                i += 1
+
+        def iterate():
+            while not stop.is_set():
+                try:
+                    agent.vision_flow.check_deadlines(agent)
+                    agent.summary()
+                    watch.reap_orphans(agent)
+                except RuntimeError as exc:
+                    errors.append(exc)
+
+        threads = [threading.Thread(target=churn),
+                   threading.Thread(target=iterate)]
+        for t in threads:
+            t.start()
+        time.sleep(0.5)
+        stop.set()
+        for t in threads:
+            t.join()
+        self.assertEqual(errors, [])
+
+
+class TestB4DayCorrection(unittest.TestCase):
+    """B4: 'yes, friday instead' must re-resolve, never mis-commit."""
+
+    def test_yes_friday_instead_reconfirms(self):
+        # TODAY (test fixture) is Sunday 2026-10-04; tomorrow = Mon 2026-10-05
+        brain = make_brain()
+        s = new_session()
+        for u in ("book please", "Ravi", "oil change", "tomorrow"):
+            brain.handle(s, u)
+        self.assertEqual(s.slots["_booking_step"], "confirm")
+        r = brain.handle(s, "yes, friday instead")
+        self.assertIn("friday", r.lower())
+        self.assertIn("correct", r.lower())
+        self.assertEqual(s.slots["_booking_step"], "confirm")
+        self.assertEqual(s.slots["day_iso"], "2026-10-09")
+        r2 = brain.handle(s, "yes")
+        self.assertIn("2026-10-09", r2)
+
+    def test_plain_yes_still_commits(self):
+        brain = make_brain()
+        s = new_session()
+        for u in ("book please", "Ravi", "oil change", "tomorrow"):
+            brain.handle(s, u)
+        r = brain.handle(s, "yes")
+        self.assertIn("booked", r.lower())
+        self.assertEqual(s.slots["day"], "2026-10-05")
+
+
+class TestB5TransferCheckGuarded(unittest.TestCase):
+    """B5: a flaky carrier check must fall back, never 500."""
+
+    def test_raising_transfer_check_takes_message(self):
+        def boom(number):
+            raise RuntimeError("carrier exploded")
+
+        brain = make_brain()
+        config = VoiceForgeConfig(transfer_number="+1999")
+        agent = VoiceAgent(brain, logger=CallLogger(), config=config,
+                           transfer_check=boom)
+        agent.inbound_call("CA1", "+1555")
+        out = agent.caller_said("CA1", "get me a human agent")
+        self.assertIn("call you back", out.lower())
+
+
+class TestB6WriteFailureGraceful(unittest.TestCase):
+    """B6: disk failure on media write must degrade, never 500."""
+
+    def test_oserror_on_write_returns_none(self):
+        tw = TwilioAdapter(auth_token="t")
+        watch = MmsWatch(tw, CallLogger(), media_dir=tempfile.mkdtemp(),
+                         downloader=lambda url: (b"IMG", "image/jpeg"))
+        url, form, sig = _signed_mms_form("t")
+        with mock.patch("builtins.open", side_effect=OSError("disk full")):
+            event = watch.handle_webhook(url, form, sig)
+        self.assertIsNone(event)  # graceful degradation, no raise
+
+
+class TestN2True45sCap(unittest.TestCase):
+    """N2: the 45 s vision budget is end-to-end, retry included."""
+
+    def test_attempt_budget_sums_to_cap(self):
+        seen_timeouts = []
+
+        class Flaky(MockVisionClient):
+            def describe(self, image_bytes, content_type, prompt,
+                         timeout_s):
+                seen_timeouts.append(timeout_s)
+                if len(seen_timeouts) == 1:
+                    raise TimeoutError("slow")
+                return {"description": "OK.", "findings": ["Fine."],
+                        "confidence": 0.9}
+
+        az = VisionAnalyzer(Flaky(), CallLogger(), timeout_s=45.0)
+        ctx = VisionContext(business="T", recent_turns=[],
+                            photo_request="x")
+        res = az.analyze(b"img", "image/jpeg", ctx)
+        self.assertTrue(res.ok)
+        self.assertEqual(len(seen_timeouts), 2)
+        self.assertLessEqual(2 * seen_timeouts[0] + 1.0, 45.0)
+
+
+class TestN3OrphanPurge(unittest.TestCase):
+    """N3: RETENTION.md's deletion promises are actually implemented."""
+
+    def test_expired_orphan_files_deleted(self):
+        from voiceforge.session import MediaItem
+        from voiceforge.vision.mms_watch import MmsEvent
+
+        d = tempfile.mkdtemp()
+        tw = TwilioAdapter(auth_token="t")
+        watch = MmsWatch(tw, CallLogger(), media_dir=d)
+        watch._sleep = lambda s: None
+        p = os.path.join(d, "SMX_0.jpg")
+        with open(p, "wb") as fh:
+            fh.write(b"IMG")
+        item = MediaItem(media_sid="SMX_0", message_sid="SMX",
+                         content_type="image/jpeg", size=3, local_path=p)
+        event = MmsEvent(message_sid="SMX", from_phone="+1999", media=[item])
+        watch.orphans["SMX"] = (event, time.time() - 1)  # already expired
+        agent = VoiceAgent(make_brain(), logger=CallLogger())
+        watch.reap_orphans(agent)
+        self.assertNotIn("SMX", watch.orphans)
+        self.assertFalse(os.path.exists(p))
+
+    def test_purge_media_files_by_age(self):
+        d = tempfile.mkdtemp()
+        tw = TwilioAdapter(auth_token="t")
+        watch = MmsWatch(tw, CallLogger(), media_dir=d)
+        old = os.path.join(d, "old.jpg")
+        new = os.path.join(d, "new.jpg")
+        for p in (old, new):
+            with open(p, "wb") as fh:
+                fh.write(b"x")
+        ancient = time.time() - 10_000
+        os.utime(old, (ancient, ancient))
+        removed = watch.purge_media_files(max_age_s=3600)
+        self.assertEqual(removed, 1)
+        self.assertFalse(os.path.exists(old))
+        self.assertTrue(os.path.exists(new))
+
+
+class TestN4GateEnforcedInInject(unittest.TestCase):
+    """N4: inject() itself enforces the 0.6 gate — never by convention."""
+
+    def test_direct_inject_below_gate_never_asserts(self):
+        inj = ContextInjector(CallLogger())
+        s = new_session()
+        low = VisionResult(ok=True, description="Blurry.",
+                           findings=["Maybe a crack."], confidence=0.4,
+                           gate_passed=False,
+                           clarification_question="Is that a crack?")
+        out = inj.inject(s, low, "k-direct")
+        self.assertEqual(out.status, "deferred")
+        self.assertFalse(any(t.text.startswith("[vision:")
+                             for t in s.turns))
+        spoken = inj.flush_pending(s)
+        self.assertEqual(spoken, "Is that a crack?")
+
+
+class TestDemoBookingRegression(unittest.TestCase):
+    """SELL lane: the demo's booking flow visibly failed at runtime."""
+
+    def test_tow_booked_starts_booking(self):
+        brain = make_brain()
+        s = new_session()
+        r = brain.handle(s, "I need a tow booked please")
+        self.assertIn("full name", r.lower())
+        self.assertEqual(s.slots["_booking_step"], "name")
+
+    def test_scheduled_triggers_booking(self):
+        brain = make_brain()
+        s = new_session()
+        brain.handle(s, "I want to get my tires scheduled")
+        self.assertEqual(s.slots["_booking_step"], "name")
+
+
+class TestPilotSummary(unittest.TestCase):
+    """Buyer-visible money-back metric: every call answered and logged."""
+
+    def test_metric_counts(self):
+        agent = VoiceAgent(make_brain(), logger=CallLogger())
+        agent.inbound_call("CA1", "+1555")
+        agent.caller_said("CA1", "what are your hours?")
+        s = agent.pilot_summary()
+        self.assertEqual(s["calls_received"], 1)
+        self.assertEqual(s["calls_answered"], 1)
+        self.assertTrue(s["guarantee_met"])
+        text = agent.format_pilot_report()
+        self.assertIn("100%", text)
+        self.assertIn("Money-back metric", text)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)
