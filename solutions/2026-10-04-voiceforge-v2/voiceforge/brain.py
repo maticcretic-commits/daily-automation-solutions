@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import datetime as dt
 import re
+import threading
 from typing import Dict, List, Optional, Pattern, Tuple
 
 from .config import VoiceForgeConfig
@@ -185,9 +186,16 @@ class BookingStore:
     def __init__(self, daily_cap: int = 20):
         self.daily_cap = daily_cap
         self._bookings: Dict[str, List[Dict[str, str]]] = {}
+        # concurrent webhooks must not interleave check-then-append
+        self._lock = threading.Lock()
 
     def add(self, day_iso: str, name: str,
             service: str) -> Tuple[bool, str]:
+        with self._lock:
+            return self._add_locked(day_iso, name, service)
+
+    def _add_locked(self, day_iso: str, name: str,
+                    service: str) -> Tuple[bool, str]:
         day = self._bookings.setdefault(day_iso, [])
         if len(day) >= self.daily_cap:
             return False, (f"I'm sorry, {day_iso} is fully booked. "
@@ -228,6 +236,12 @@ class ConversationBrain:
         # B7: set by VoiceAgent per call — what -> spoken ask (or "" when
         # the vision step is unavailable). None = standalone brain, no vision.
         self.request_photo_fn = None
+        # SMS promise honesty: the deployer sets this True only when a real
+        # SMS sender is wired (TwilioAdapter.sms_configured). The spoken
+        # booking confirmation promises SMS only then — otherwise the caller
+        # gets a booking reference instead. Default False: never promise
+        # what nothing sends.
+        self.sms_enabled = False
 
     # -- public API ------------------------------------------------------
     def greet(self, session: CallSession) -> str:
@@ -342,8 +356,18 @@ class ConversationBrain:
                 slots["day"] = day_iso  # normalized date kept for records
                 slots.pop("_booking_active", None)
                 slots.pop("_booking_step", None)
+                # signal the commit for the agent layer (SMS hook, logging)
+                ref = f"{name[:3].upper().strip()}-{day_iso}"
+                slots["_booking_committed"] = {
+                    "name": name, "day_iso": day_iso,
+                    "service": service, "reference": ref}
+                if self.sms_enabled:
+                    tail = "A confirmation will be sent by SMS."
+                else:
+                    # honest fallback: promise only what exists
+                    tail = f"Your booking reference is {ref}."
                 return (f"You're booked, {name}: {service} on {day_iso}. "
-                        f"A confirmation will be sent by SMS.")
+                        f"{tail}")
             # unclear answer -> ask again, do NOT loop forever silently
             return ("Sorry, I didn't catch that — is the booking correct? "
                     "Please say yes or no.")
