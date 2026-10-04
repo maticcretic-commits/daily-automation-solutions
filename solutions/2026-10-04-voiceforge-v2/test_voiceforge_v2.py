@@ -1131,6 +1131,25 @@ class TestB6WriteFailureGraceful(unittest.TestCase):
         self.assertIsNone(event)  # graceful degradation, no raise
 
 
+class TestC1NoneTranscript(unittest.TestCase):
+    """C1: a missing/empty transcript must never 500 the voice webhook."""
+
+    def test_caller_said_none_returns_reply(self):
+        brain, agent = make_brain(), VoiceAgent(make_brain(),
+                                                logger=CallLogger())
+        agent.inbound_call("CA900", "+1999")
+        reply = agent.caller_said("CA900", None)  # must not raise
+        self.assertIsInstance(reply, str)
+        self.assertTrue(len(reply) > 0)
+
+    def test_brain_handle_none_returns_reply(self):
+        brain = make_brain()
+        s = CallSession(call_sid="CA901", phone="+1000",
+                        direction="inbound", state="active")
+        reply = brain.handle(s, None)  # must not raise
+        self.assertIsInstance(reply, str)
+
+
 class TestN2True45sCap(unittest.TestCase):
     """N2: the 45 s vision budget is end-to-end, retry included."""
 
