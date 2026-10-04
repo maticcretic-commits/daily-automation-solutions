@@ -83,6 +83,9 @@ class VoiceAgent:
         webhooks — this is what stops the retry storm).
         """
         started = time.time()
+        # C1: Twilio may deliver an empty/missing transcript — never let a
+        # None reach .lower() (500 on the voice webhook -> retry storm).
+        transcript = transcript or ""
         session = self.calls.get(call_sid)
         if session is None:
             self.logger.log("turn_unknown_session", call_sid=call_sid)
