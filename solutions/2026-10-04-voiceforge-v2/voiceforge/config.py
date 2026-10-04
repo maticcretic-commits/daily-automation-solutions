@@ -41,6 +41,13 @@ class VoiceForgeConfig:
 
     # -- compliance ----------------------------------------------------------
     ai_disclosure: bool = True      # disclose AI identity in greeting (P0-5)
+    record_calls: bool = True       # <Record> in inbound TwiML (pilot default)
+
+    # -- webhook serving -----------------------------------------------------
+    # Public base URL Twilio calls, e.g. https://abc123.ngrok.io.
+    # All callback URLs (whisper, fallback, gather) are built absolute from
+    # this — Twilio rejects relative URLs. Required in server mode.
+    public_base_url: str = ""
 
     @classmethod
     def from_env(cls, business: str = "Acme Services") -> "VoiceForgeConfig":
@@ -49,4 +56,6 @@ class VoiceForgeConfig:
             business=business,
             transfer_number=os.environ.get("VOICEFORGE_TRANSFER_NUMBER", ""),
             ai_disclosure=os.environ.get("VOICEFORGE_AI_DISCLOSURE", "1") != "0",
+            record_calls=os.environ.get("VOICEFORGE_RECORD_CALLS", "1") != "0",
+            public_base_url=os.environ.get("PUBLIC_BASE_URL", "").rstrip("/"),
         )
