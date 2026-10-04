@@ -29,6 +29,8 @@ class VoiceForgeConfig:
     allowed_media_types: Tuple[str, ...] = (
         "image/jpeg", "image/png", "image/webp")
     orphan_media_ttl_s: float = 600.0  # 10 min park for early-arriving MMS
+    media_retention_s: float = 2_592_000.0  # 30 days: MMS photo retention
+    # (RETENTION.md); MmsWatch.purge_media_files enforces it on every reap
 
     # -- booking ------------------------------------------------------------
     booking_daily_cap: int = 20
