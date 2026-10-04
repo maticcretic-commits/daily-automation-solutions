@@ -7,8 +7,10 @@ early-arriving photos, landline detection that skips the visual flow.
 
 from __future__ import annotations
 
+import base64
 import os
 import time
+import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
 from typing import Callable, Dict, List, Optional, Tuple
@@ -39,9 +41,21 @@ Downloader = Callable[[str], Tuple[bytes, str]]
 
 
 def default_downloader(url: str, timeout_s: float = 10.0,
-                       max_bytes: int = 5_000_000) -> Tuple[bytes, str]:
-    """Stream a download with a hard byte cap; aborts over the limit."""
+                       max_bytes: int = 5_000_000,
+                       auth: Optional[Tuple[str, str]] = None
+                       ) -> Tuple[bytes, str]:
+    """
+    Stream a download with a hard byte cap; aborts over the limit.
+
+    B1: Twilio media URLs require HTTP Basic Auth (Account SID as username,
+    Auth Token as password) — without it every fetch 401s and the vision
+    step silently ignores every photo. `auth` is (username, password).
+    """
     req = urllib.request.Request(url)
+    if auth and auth[0] and auth[1]:
+        token = base64.b64encode(
+            f"{auth[0]}:{auth[1]}".encode()).decode()
+        req.add_header("Authorization", f"Basic {token}")
     with urllib.request.urlopen(req, timeout=timeout_s) as resp:
         ctype = resp.headers.get("Content-Type", "").split(";")[0].strip()
         chunks: List[bytes] = []
@@ -74,8 +88,17 @@ class MmsWatch:
         # lookup failure -> assume NOT landline (fail open; the 90 s timer
         # is the backstop)
         self.line_lookup: LineLookup = line_lookup or (lambda p: "unknown")
-        self.downloader = downloader or (lambda url: default_downloader(
-            url, max_bytes=self.config.max_media_bytes))
+        # B1: the default downloader authenticates with the adapter's
+        # credentials — Twilio media URLs 401 without HTTP Basic Auth.
+        tw = twilio
+
+        def _authed_download(url: str) -> Tuple[bytes, str]:
+            sid = getattr(tw, "account_sid", "") or ""
+            auth = (sid, tw.auth_token) if sid and tw.auth_token else None
+            return default_downloader(
+                url, max_bytes=self.config.max_media_bytes, auth=auth)
+
+        self.downloader = downloader or _authed_download
         self.seen_sids: set = set()          # MessageSid idempotency
         self.orphans: Dict[str, Tuple[MmsEvent, float]] = {}
         self._line_cache: Dict[str, Tuple[str, float]] = {}
@@ -116,17 +139,28 @@ class MmsWatch:
                                 reason="content_type",
                                 content_type=content_type)
                 continue
+            local_path: Optional[str] = None
             try:
                 data, seen_type = self._download(media_url)
+                ext = EXT_BY_TYPE.get(content_type, ".bin")
+                local_path: Optional[str] = os.path.join(
+                    self.media_dir, f"{sid}_{i}{ext}")
+                # B6: the file write lives INSIDE the try — a disk-full or
+                # permissions failure degrades to "media rejected", never a
+                # 500 that Twilio retries forever.
+                with open(local_path, "wb") as fh:
+                    fh.write(data)
             except Exception as exc:  # noqa: BLE001 - per-item containment
-                self.logger.log("mms_media_rejected", reason="download_failed",
+                reason = ("write_failed" if isinstance(exc, OSError)
+                          else "download_failed")
+                self.logger.log("mms_media_rejected", reason=reason,
                                 error=str(exc))
+                if local_path and os.path.exists(local_path):
+                    try:
+                        os.remove(local_path)  # no partial files left behind
+                    except OSError:
+                        pass
                 continue
-            ext = EXT_BY_TYPE.get(content_type, ".bin")
-            local_path = os.path.join(
-                self.media_dir, f"{sid}_{i}{ext}")
-            with open(local_path, "wb") as fh:
-                fh.write(data)
             items.append(MediaItem(
                 media_sid=f"{sid}_{i}", message_sid=sid,
                 content_type=content_type, size=len(data),
@@ -147,6 +181,14 @@ class MmsWatch:
         for attempt in range(3):
             try:
                 return self.downloader(url)
+            except urllib.error.HTTPError as exc:
+                # N9: non-transient 4xx (bad auth, gone, forbidden) will
+                # never succeed on retry — fail fast instead of burning the
+                # webhook's time budget.
+                if 400 <= exc.code < 500 and exc.code not in (408, 429):
+                    raise
+                last = exc
+                self._sleep(float(1 << attempt))
             except Exception as exc:  # noqa: BLE001
                 last = exc
                 self._sleep(float(1 << attempt))
@@ -163,7 +205,10 @@ class MmsWatch:
         want = normalize_phone(event.from_phone)
         best_sid: Optional[str] = None
         best_ts = -1.0
-        for sid, session in agent.calls.items():
+        # B3: iterate a snapshot — inbound_call() mutates agent.calls from
+        # other webhook threads; iterating the live dict raised
+        # "dictionary changed size during iteration" -> 500 -> retry storm.
+        for sid, session in agent.calls_snapshot():
             if session.state != "active":
                 continue
             if normalize_phone(session.phone) == want \
@@ -174,7 +219,8 @@ class MmsWatch:
                 event, time.time() + self.config.orphan_media_ttl_s)
             self.logger.log("mms_orphaned", message_sid=event.message_sid)
             return None
-        session = agent.calls[best_sid]
+        sessions = dict(agent.calls_snapshot())
+        session = sessions[best_sid]
         with session.lock:
             have = {m.media_sid for m in session.media}
             for item in event.media:
@@ -185,19 +231,59 @@ class MmsWatch:
         return best_sid
 
     def reap_orphans(self, agent: "VoiceAgent") -> int:
-        """Retry orphan attachment; drop expired ones. Returns attached count."""
+        """Retry orphan attachment; drop expired ones. Returns attached count.
+
+        N3: expired orphans have their media files deleted from disk —
+        RETENTION.md promises deletion, so the engine actually does it.
+        """
         now = time.time()
         attached = 0
         for sid in list(self.orphans):
             event, expiry = self.orphans[sid]
             if now > expiry:
-                self.logger.log("mms_orphan_expired", message_sid=sid)
+                self._delete_event_files(event)
+                self.logger.log("mms_orphan_purged", message_sid=sid)
                 del self.orphans[sid]
                 continue
             if self.attach_to_session(agent, event):
                 attached += 1
                 del self.orphans[sid]
+        self.purge_media_files(self.config.media_retention_s)
         return attached
+
+    def _delete_event_files(self, event: MmsEvent) -> int:
+        """Delete an event's media files; returns files removed."""
+        removed = 0
+        for item in event.media:
+            try:
+                if item.local_path and os.path.exists(item.local_path):
+                    os.remove(item.local_path)
+                    removed += 1
+            except OSError:
+                pass
+        return removed
+
+    def purge_media_files(self, max_age_s: float) -> int:
+        """
+        Delete media files older than max_age_s (RETENTION.md: MMS photos
+        are kept 30 days). Returns files removed. Never raises.
+        """
+        now = time.time()
+        removed = 0
+        try:
+            entries = list(os.scandir(self.media_dir))
+        except OSError:
+            return 0
+        for entry in entries:
+            try:
+                if entry.is_file() and now - entry.stat().st_mtime > max_age_s:
+                    os.remove(entry.path)
+                    removed += 1
+            except OSError:
+                continue
+        if removed:
+            self.logger.log("media_purged", files=removed)
+        return removed
 
     # -- landline detection ---------------------------------------------------
     def is_landline(self, phone: str) -> bool:
