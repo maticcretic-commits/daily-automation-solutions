@@ -9,8 +9,9 @@ from __future__ import annotations
 import base64
 import hashlib
 import hmac
+import json
 import os
-from typing import Dict
+from typing import Dict, Optional, Tuple
 
 from .config import VoiceForgeConfig
 
@@ -31,7 +32,8 @@ class TwilioAdapter:
     def __init__(self, auth_token: str = "",
                  gather_action_url: str = "/gather",
                  config: "VoiceForgeConfig | None" = None,
-                 account_sid: str = ""):
+                 account_sid: str = "",
+                 sms_from: str = ""):
         if not auth_token:
             auth_token = os.environ.get("TWILIO_AUTH_TOKEN", "")
         if not auth_token:
@@ -45,8 +47,46 @@ class TwilioAdapter:
         if not account_sid:
             account_sid = os.environ.get("TWILIO_ACCOUNT_SID", "")
         self.account_sid = account_sid
+        # SMS sender number (a Twilio number on the account). SMS is only
+        # promised/offered when both the SID and a sender number exist —
+        # otherwise the booking flow gives a reference number instead.
+        if not sms_from:
+            sms_from = os.environ.get("TWILIO_PHONE_NUMBER", "")
+        self.sms_from = sms_from
         self.gather_action_url = gather_action_url
         self.config = config
+
+    @property
+    def sms_configured(self) -> bool:
+        """True only when real SMS credentials are present."""
+        return bool(self.account_sid and self.sms_from)
+
+    def send_sms(self, to: str, body: str):
+        """
+        Send a real SMS via the Twilio Messages API (stdlib only).
+        Returns (True, message_sid) or (False, error_text). Never raises.
+        """
+        if not self.sms_configured:
+            return False, "sms_not_configured"
+        import urllib.parse
+        import urllib.request
+        url = (f"https://api.twilio.com/2010-04-01/Accounts/"
+               f"{self.account_sid}/Messages.json")
+        data = urllib.parse.urlencode(
+            {"To": to, "From": self.sms_from, "Body": body}).encode()
+        req = urllib.request.Request(url, data=data, method="POST")
+        creds = base64.b64encode(
+            f"{self.account_sid}:{self.auth_token}".encode()).decode()
+        req.add_header("Authorization", f"Basic {creds}")
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                payload = json.loads(resp.read().decode())
+        except Exception as exc:  # noqa: BLE001 - degrade, never crash
+            return False, str(exc)
+        sid = payload.get("sid", "")
+        if not sid:
+            return False, payload.get("message", "unknown_error")
+        return True, sid
 
     def verify_signature(self, url: str, params: Dict[str, str],
                          signature: str) -> bool:
@@ -61,11 +101,17 @@ class TwilioAdapter:
         return (text.replace("&", "&amp;").replace("<", "&lt;")
                     .replace(">", "&gt;"))
 
-    def inbound_twiml(self, greeting: str) -> str:
+    def inbound_twiml(self, greeting: str, record: Optional[bool] = None) -> str:
+        # The greeting discloses that the call may be recorded — so record
+        # it (default ON for pilot, VOICEFORGE_RECORD_CALLS=0 to disable).
+        # `record` overrides the config flag when given (tests).
+        cfg_record = self.config.record_calls if self.config else True
+        do_record = cfg_record if record is None else record
+        rec = "<Record/>" if do_record else ""
         return (f'<?xml version="1.0" encoding="UTF-8"?>'
                 f'<Response><Say voice="alice">'
                 f'{self._xml_escape(greeting)}'
-                f'</Say><Gather input="speech" action="{self.gather_action_url}" '
+                f'</Say>{rec}<Gather input="speech" action="{self.gather_action_url}" '
                 f'method="POST" speechTimeout="auto"/></Response>')
 
     def continue_twiml(self, reply: str, end_call: bool = False) -> str:
