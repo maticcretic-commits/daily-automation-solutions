@@ -93,14 +93,60 @@ flow = VisionFlow(watch,
 agent.vision_flow = flow
 ```
 
+## Running the server (pilot)
+
+The package is a library; `voiceforge/server.py` is the service Twilio
+talks to. It binds every webhook route over stdlib HTTP (no dependencies):
+
+| Method | Route | Purpose |
+|---|---|---|
+| `GET` | `/healthz` | liveness probe (`{"ok": true}`) |
+| `POST` | `/voice`, `/gather` | Twilio voice webhooks (inbound + gather) |
+| `POST` | `/whisper?sid=…` | warm-transfer whisper leg (absolute URL) |
+| `POST` | `/transfer_fallback?sid=…` | no-answer fallback (absolute URL) |
+| `POST` | `/messaging` | Twilio MMS side channel (vision) |
+| `POST` | `/vapi` | Vapi webhook — verified + logged (Twilio-only pilot) |
+
+```bash
+export PUBLIC_BASE_URL="https://<your-host>"  # required — Twilio rejects relative URLs
+export TWILIO_AUTH_TOKEN="<token>"            # required — signature verification
+export TWILIO_ACCOUNT_SID="<sid>"             # media download + real SMS
+export TWILIO_PHONE_NUMBER="+15551234567"     # enables real SMS confirmations
+export VOICEFORGE_BUSINESS="Acme Services"
+export VOICEFORGE_TRANSFER_NUMBER="+15557654321"
+# optional: LLM_API_URL + LLM_API_KEY for a live brain
+# (without them the server serves the mock and says so loudly at startup;
+#  set VOICEFORGE_REQUIRE_LIVE_LLM=1 to fail fast instead)
+
+python3 server_entry.py        # listens on $PORT (default 8080)
+# or: docker build -t voiceforge-v2 . && docker run -p 8080:8080 --env-file .env voiceforge-v2
+```
+
+Then in the Twilio console, point the number's webhooks at:
+- Voice: `{PUBLIC_BASE_URL}/voice` (HTTP POST)
+- Messaging: `{PUBLIC_BASE_URL}/messaging` (HTTP POST)
+
+For the pilot, expose the server with ngrok (`ngrok http 8080`) and use
+the ngrok URL as `PUBLIC_BASE_URL`. The server fails fast at startup when
+`PUBLIC_BASE_URL` is missing or when live mode is requested without
+providers.
+
 ## Environment variables
 
 | Variable | Required | Purpose |
 |---|---|---|
+| `PUBLIC_BASE_URL` | **yes (server)** | absolute callback URLs Twilio accepts |
 | `TWILIO_AUTH_TOKEN` | for Twilio webhooks | HMAC-SHA1 signature verification |
+| `TWILIO_ACCOUNT_SID` | for media/SMS | Basic Auth on media download, SMS sender identity |
+| `TWILIO_PHONE_NUMBER` | for SMS | sender number; SMS promised only when set |
 | `VAPI_WEBHOOK_SECRET` | for Vapi webhooks | `X-Vapi-Secret` verification |
 | `VOICEFORGE_TRANSFER_NUMBER` | for warm transfer | human target, E.164 |
 | `VOICEFORGE_AI_DISCLOSURE` | no (default `1`) | AI identity in greeting |
+| `VOICEFORGE_RECORD_CALLS` | no (default `1`) | `<Record>` in inbound TwiML |
+| `LLM_API_URL` / `LLM_API_KEY` / `LLM_MODEL` | for live brain | OpenAI-compatible chat endpoint |
+| `VOICEFORGE_REQUIRE_LIVE_LLM` | no | `1` = fail fast instead of serving the mock |
+| `VOICEFORGE_MEDIA_DIR` | no (default `./media`) | MMS photo storage |
+| `PORT` | no (default `8080`) | listen port |
 
 Secrets are read at startup and fail fast when missing. They are never
 logged — the audit log stores only a truncated SHA-256 handle per number.
