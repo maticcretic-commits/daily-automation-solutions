@@ -12,8 +12,9 @@ P0 fixes vs v1:
 
 from __future__ import annotations
 
+import threading
 import time
-from typing import Callable, Dict, List, Optional
+from typing import Callable, Dict, List, Optional, Tuple
 
 from .adapters_twilio import TwilioAdapter
 from .brain import ConversationBrain
@@ -46,14 +47,23 @@ class VoiceAgent:
         self.transfer_check = transfer_check
         self.vision_flow = vision_flow  # VisionFlow, set by the deployer
         self.calls: Dict[str, CallSession] = {}
+        # B3: webhook threads mutate + iterate agent.calls concurrently;
+        # every mutation/iteration goes through this lock (or a snapshot).
+        self._calls_lock = threading.RLock()
         self._injector = ContextInjector(self.logger)
+
+    def calls_snapshot(self) -> List[Tuple[str, CallSession]]:
+        """Thread-safe copy of (call_sid, session) for iteration."""
+        with self._calls_lock:
+            return list(self.calls.items())
 
     # -- inbound ----------------------------------------------------------
     def inbound_call(self, call_sid: str, from_phone: str,
                      twilio: Optional[TwilioAdapter] = None) -> str:
         session = CallSession(call_sid=call_sid, phone=from_phone,
                               direction="inbound", state="active")
-        self.calls[call_sid] = session
+        with self._calls_lock:
+            self.calls[call_sid] = session
         # late-arriving MMS may already be parked: try to attach it
         if self.vision_flow is not None:
             self.vision_flow.mms_watch.reap_orphans(self)
@@ -95,6 +105,11 @@ class VoiceAgent:
                 vision_speech = self._injector.flush_pending(session)
 
         if vision_speech is not None:
+            # B2: the caller utterance belongs in history even though
+            # brain.handle() is skipped on vision-flush turns — without it,
+            # LLM context, the handoff brief and the transcript lose what
+            # the caller just said.
+            session.say("caller", transcript)
             # clarification question or the single voice-only fallback line
             session.say("agent", vision_speech)
             audio = self.tts.speak(vision_speech, self.voice)
@@ -105,6 +120,11 @@ class VoiceAgent:
             return twilio.continue_twiml(vision_speech) \
                 if twilio else vision_speech
 
+        # B7: wire the vision step into the conversation loop — the brain
+        # calls this when the caller offers a photo; without it, vision is
+        # reachable only from unit tests, never from a real call.
+        self.brain.request_photo_fn = (
+            lambda what: self.request_photo(call_sid, what))
         reply = self.brain.handle(session, transcript)
         audio = self.tts.speak(reply, self.voice)
         ended = session.state == "ended"
@@ -145,8 +165,15 @@ class VoiceAgent:
                        twilio: Optional[TwilioAdapter]) -> str:
         session.transfer_done = True
         target = self.config.transfer_number
-        reachable = (self.transfer_check(target) if self.transfer_check
-                     else bool(target))
+        # B5: a flaky deployer carrier-check must never 500 an escalation —
+        # the #2 customer want cannot crash precisely when it is needed.
+        try:
+            reachable = (self.transfer_check(target) if self.transfer_check
+                         else bool(target))
+        except Exception as exc:  # noqa: BLE001 - fall back, never crash
+            self.logger.log("transfer_check_failed", error=str(exc),
+                            call_sid=session.call_sid)
+            reachable = False
         if twilio and target and reachable:
             context = self.build_handoff_context(session)
             self.logger.log("transfer_started", call_sid=session.call_sid,
@@ -178,7 +205,8 @@ class VoiceAgent:
                                 logger=self.logger)
         report = runner.run(numbers_csv, opener, throttle_per_min, dnc,
                             on_transcript, sleep)
-        self.calls.update(runner.sessions)
+        with self._calls_lock:
+            self.calls.update(runner.sessions)
         return report
 
     # -- vision entry points --------------------------------------------------
@@ -196,7 +224,8 @@ class VoiceAgent:
 
     # -- reporting ----------------------------------------------------------
     def summary(self) -> Dict[str, object]:
-        calls = list(self.calls.values())
+        with self._calls_lock:
+            calls = list(self.calls.values())
         return {
             "total_calls": len(calls),
             "inbound": sum(1 for c in calls if c.direction == "inbound"),
@@ -207,3 +236,44 @@ class VoiceAgent:
             "total_turns": sum(len(c.turns) for c in calls),
             "log_events": len(self.logger.events),
         }
+
+    def pilot_summary(self) -> Dict[str, object]:
+        """
+        Buyer-visible pilot metric behind the money-back guarantee:
+        "every call answered and logged." Counts are computed from the
+        session record only — no provider data needed.
+        """
+        with self._calls_lock:
+            calls = list(self.calls.values())
+        inbound = [c for c in calls if c.direction == "inbound"]
+        answered = [c for c in inbound
+                    if any(t.role == "agent" for t in c.turns)]
+        booked = sum(1 for c in inbound if c.slots.get("day"))
+        return {
+            "calls_received": len(inbound),
+            "calls_answered": len(answered),
+            "answer_rate": (len(answered) / len(inbound)
+                            if inbound else 1.0),
+            "appointments_booked": booked,
+            "calls_transferred": sum(1 for c in inbound
+                                     if c.transfer_done),
+            "guarantee_metric": "every call answered and logged",
+            "guarantee_met": len(answered) == len(inbound),
+        }
+
+    def format_pilot_report(self) -> str:
+        """Plain-language pilot report a business owner can read."""
+        s = self.pilot_summary()
+        pct = round(s["answer_rate"] * 100)
+        lines = [
+            f"Pilot report — {self.brain.business}",
+            f"Calls received: {s['calls_received']}.",
+            f"Calls answered by the AI receptionist: "
+            f"{s['calls_answered']} ({pct}%).",
+            f"Appointments booked: {s['appointments_booked']}.",
+            f"Calls transferred to you: {s['calls_transferred']}.",
+            ("Money-back metric — every call answered and logged: "
+             f"{'MET' if s['guarantee_met'] else 'NOT MET'} "
+             f"({s['calls_answered']}/{s['calls_received']})."),
+        ]
+        return "\n".join(lines)
