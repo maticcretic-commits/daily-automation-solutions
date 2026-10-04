@@ -109,9 +109,13 @@ class VisionAnalyzer:
         started = time.time()
         try:
             prompt = self._prompt(context)
+            # N2: the 45 s budget is END-TO-END including the one retry:
+            # 45 + backoff(1) + 45 was really ~91 s. Split the budget so
+            # attempt + backoff + attempt can never exceed timeout_s.
+            attempt_timeout = max(5.0, (self.timeout_s - 1.0) / 2.0)
             ok, result = call_with_retry(
                 lambda: self.client.describe(
-                    image_bytes, content_type, prompt, self.timeout_s),
+                    image_bytes, content_type, prompt, attempt_timeout),
                 retries=1, backoff_s=1.0)
             latency = time.time() - started
             if not ok:
