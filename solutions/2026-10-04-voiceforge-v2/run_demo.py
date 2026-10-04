@@ -57,7 +57,7 @@ def main():
     print("Whisper context:", agent.build_handoff_context(
         agent.calls["CA_ESC1"])[:100], "...\n")
 
-    print("=== 3. LIVE-CALL VISION STEP ===")
+    print("=== 3. LIVE-CALL VISION STEP (B7: via conversation) ===")
     watch = MmsWatch(twilio, logger, config, media_dir="/tmp/vf2demo",
                      downloader=lambda url: (b"FAKEIMG", "image/jpeg"))
     watch._sleep = lambda s: None
@@ -67,8 +67,13 @@ def main():
         ContextInjector(logger), logger, config)
     agent.vision_flow = flow
     agent.inbound_call("CA_VIS1", "+15550001111")
-    ask = agent.request_photo("CA_VIS1", "the cracked windshield")
-    print("Agent asks:", ask)
+    # B7: the caller offers a photo in plain speech -> the brain triggers
+    # request_photo() through the wired callback (no hand-wiring).
+    ask = agent.caller_said("CA_VIS1",
+                            "Can I send you a photo of the cracked windshield?")
+    print("Agent asks:", ask[:80], "...")
+    session = agent.calls["CA_VIS1"]
+    print("vision_state:", session.vision_state)
     # simulate the MMS arriving (bypassing HTTP): build the event directly
     import os
     os.makedirs("/tmp/vf2demo", exist_ok=True)
