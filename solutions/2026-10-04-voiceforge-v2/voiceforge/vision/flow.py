@@ -80,7 +80,9 @@ class VisionFlow:
         call_sid = self.mms_watch.attach_to_session(agent, event)
         if call_sid is None:
             return True  # orphaned; reaped when the call starts
-        session = agent.calls[call_sid]
+        session = dict(agent.calls_snapshot()).get(call_sid)
+        if session is None:
+            return True  # call ended between attach and analysis
         self._analyze_attached(agent, session)
         return True
 
@@ -130,17 +132,26 @@ class VisionFlow:
         """
         now = self.clock()
         fell_back: List[str] = []
-        for sid, session in agent.calls.items():
+        # B3: snapshot — check_deadlines runs on webhook threads while
+        # inbound_call() mutates agent.calls.
+        for sid, session in agent.calls_snapshot():
             if session.vision_state not in (VISION_WAITING_MEDIA,
                                             VISION_ANALYZING):
                 continue
             if session.vision_deadline_ts and now >= session.vision_deadline_ts:
                 session.vision_state = VISION_FAILED
                 session.vision_deadline_ts = None
-                # park the fallback so the NEXT turn speaks it exactly once
+                # N6: park the fallback ONLY when nothing is already pending
+                # — a good analysis result must never be overwritten by the
+                # timeout line.
                 with session.lock:
-                    session.pending_vision = VisionResult(
-                        ok=False, error="vision_timeout")
+                    if session.pending_vision is None:
+                        session.pending_vision = VisionResult(
+                            ok=False, error="vision_timeout")
+                    else:
+                        self.logger.log("vision_timeout_superseded",
+                                        call_sid=sid)
+                # park the fallback so the NEXT turn speaks it exactly once
                 self.logger.log("vision_timeout", call_sid=sid)
                 fell_back.append(sid)
         return fell_back
