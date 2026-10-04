@@ -1,0 +1,221 @@
+"""mms_watch — incoming media intake for the live-call vision step.
+
+Owns the Twilio Messaging webhook: signature-verified, content-type and size
+gated BEFORE download, idempotent on MessageSid, orphan-media TTL for
+early-arriving photos, landline detection that skips the visual flow.
+"""
+
+from __future__ import annotations
+
+import os
+import time
+import urllib.request
+from dataclasses import dataclass, field
+from typing import Callable, Dict, List, Optional, Tuple
+
+from ..adapters_twilio import TwilioAdapter
+from ..config import VoiceForgeConfig
+from ..logging import CallLogger
+from ..session import MediaItem, VISION_UNAVAILABLE
+from ..util import normalize_phone
+
+EXT_BY_TYPE = {"image/jpeg": ".jpg", "image/png": ".png",
+               "image/webp": ".webp"}
+
+
+@dataclass
+class MmsEvent:
+    message_sid: str
+    from_phone: str
+    media: List[MediaItem]
+    received_ts: float = field(default_factory=time.time)
+    num_media: int = 0
+
+
+# line_lookup(phone) -> "landline" | "mobile" | "voip" | "unknown"
+LineLookup = Callable[[str], str]
+# downloader(url) -> (bytes, content_type); injectable for tests
+Downloader = Callable[[str], Tuple[bytes, str]]
+
+
+def default_downloader(url: str, timeout_s: float = 10.0,
+                       max_bytes: int = 5_000_000) -> Tuple[bytes, str]:
+    """Stream a download with a hard byte cap; aborts over the limit."""
+    req = urllib.request.Request(url)
+    with urllib.request.urlopen(req, timeout=timeout_s) as resp:
+        ctype = resp.headers.get("Content-Type", "").split(";")[0].strip()
+        chunks: List[bytes] = []
+        total = 0
+        while True:
+            chunk = resp.read(65536)
+            if not chunk:
+                break
+            total += len(chunk)
+            if total > max_bytes:
+                raise ValueError(f"media exceeds {max_bytes} bytes")
+            chunks.append(chunk)
+        return b"".join(chunks), ctype
+
+
+class MmsWatch:
+    """Intake for MMS photos during (or just before) an active call."""
+
+    def __init__(self, twilio: TwilioAdapter,
+                 logger: CallLogger,
+                 config: Optional[VoiceForgeConfig] = None,
+                 media_dir: str = "media",
+                 line_lookup: Optional[LineLookup] = None,
+                 downloader: Optional[Downloader] = None):
+        self.twilio = twilio
+        self.logger = logger
+        self.config = config or VoiceForgeConfig()
+        self.media_dir = media_dir
+        os.makedirs(media_dir, exist_ok=True)
+        # lookup failure -> assume NOT landline (fail open; the 90 s timer
+        # is the backstop)
+        self.line_lookup: LineLookup = line_lookup or (lambda p: "unknown")
+        self.downloader = downloader or (lambda url: default_downloader(
+            url, max_bytes=self.config.max_media_bytes))
+        self.seen_sids: set = set()          # MessageSid idempotency
+        self.orphans: Dict[str, Tuple[MmsEvent, float]] = {}
+        self._line_cache: Dict[str, Tuple[str, float]] = {}
+        self._sleep = time.sleep  # injectable; tests set to a no-op
+
+    # -- webhook entry ----------------------------------------------------
+    def handle_webhook(self, url: str, form: Dict[str, str],
+                       signature: str) -> Optional[MmsEvent]:
+        """
+        Process a Twilio Messaging webhook form. Returns an MmsEvent, or
+        None for: bad signature (caller must answer 403), body-only texts,
+        duplicates, or rejected media.
+        """
+        if not self.twilio.verify_signature(url, form, signature):
+            self.logger.log("mms_rejected", reason="bad_signature")
+            return None
+        sid = form.get("MessageSid", "")
+        if not sid:
+            return None
+        if sid in self.seen_sids:
+            self.logger.log("mms_duplicate", message_sid=sid)
+            return None  # duplicate delivery: no-op
+        try:
+            num_media = int(form.get("NumMedia", "0") or "0")
+        except ValueError:
+            num_media = 0
+        if num_media == 0:
+            return None  # body-only text; not our concern
+
+        from_phone = form.get("From", "")
+        items: List[MediaItem] = []
+        for i in range(num_media):
+            media_url = form.get(f"MediaUrl{i}", "")
+            content_type = form.get(f"MediaContentType{i}", "").split(";")[0]
+            if not media_url or content_type not in \
+                    self.config.allowed_media_types:
+                self.logger.log("mms_media_rejected",
+                                reason="content_type",
+                                content_type=content_type)
+                continue
+            try:
+                data, seen_type = self._download(media_url)
+            except Exception as exc:  # noqa: BLE001 - per-item containment
+                self.logger.log("mms_media_rejected", reason="download_failed",
+                                error=str(exc))
+                continue
+            ext = EXT_BY_TYPE.get(content_type, ".bin")
+            local_path = os.path.join(
+                self.media_dir, f"{sid}_{i}{ext}")
+            with open(local_path, "wb") as fh:
+                fh.write(data)
+            items.append(MediaItem(
+                media_sid=f"{sid}_{i}", message_sid=sid,
+                content_type=content_type, size=len(data),
+                local_path=local_path))
+            _ = seen_type
+        if not items:
+            return None
+        self.seen_sids.add(sid)
+        event = MmsEvent(message_sid=sid, from_phone=from_phone,
+                         media=items, num_media=num_media)
+        self.logger.log("mms_received", message_sid=sid,
+                        from_phone=from_phone, items=len(items))
+        return event
+
+    def _download(self, url: str) -> Tuple[bytes, str]:
+        """3 attempts, exponential backoff (1s, 2s, 4s), 10 s per attempt."""
+        last: Exception = ValueError("download failed")
+        for attempt in range(3):
+            try:
+                return self.downloader(url)
+            except Exception as exc:  # noqa: BLE001
+                last = exc
+                self._sleep(float(1 << attempt))
+        raise last
+
+    # -- session attachment -------------------------------------------------
+    def attach_to_session(self, agent: "VoiceAgent",  # noqa: F821
+                          event: MmsEvent) -> Optional[str]:
+        """
+        Attach media to the most-recent ACTIVE session whose phone matches
+        (normalized E.164). No match -> park in orphans with TTL; returns the
+        call_sid or None.
+        """
+        want = normalize_phone(event.from_phone)
+        best_sid: Optional[str] = None
+        best_ts = -1.0
+        for sid, session in agent.calls.items():
+            if session.state != "active":
+                continue
+            if normalize_phone(session.phone) == want \
+                    and session.started_at > best_ts:
+                best_sid, best_ts = sid, session.started_at
+        if best_sid is None:
+            self.orphans[event.message_sid] = (
+                event, time.time() + self.config.orphan_media_ttl_s)
+            self.logger.log("mms_orphaned", message_sid=event.message_sid)
+            return None
+        session = agent.calls[best_sid]
+        with session.lock:
+            have = {m.media_sid for m in session.media}
+            for item in event.media:
+                if item.media_sid not in have:
+                    session.media.append(item)
+        self.logger.log("mms_attached", message_sid=event.message_sid,
+                        call_sid=best_sid)
+        return best_sid
+
+    def reap_orphans(self, agent: "VoiceAgent") -> int:
+        """Retry orphan attachment; drop expired ones. Returns attached count."""
+        now = time.time()
+        attached = 0
+        for sid in list(self.orphans):
+            event, expiry = self.orphans[sid]
+            if now > expiry:
+                self.logger.log("mms_orphan_expired", message_sid=sid)
+                del self.orphans[sid]
+                continue
+            if self.attach_to_session(agent, event):
+                attached += 1
+                del self.orphans[sid]
+        return attached
+
+    # -- landline detection ---------------------------------------------------
+    def is_landline(self, phone: str) -> bool:
+        """True when the number is a landline -> skip the visual flow."""
+        now = time.time()
+        cached = self._line_cache.get(phone)
+        if cached and now - cached[1] < 86400:
+            return cached[0] == "landline"
+        try:
+            kind = self.line_lookup(phone)
+        except Exception as exc:  # noqa: BLE001 - fail open, log it
+            self.logger.log("line_lookup_failed", error=str(exc))
+            return False
+        self._line_cache[phone] = (kind, now)
+        if kind == "landline":
+            self.logger.log("landline_detected", phone=phone)
+            return True
+        return False
+
+    def mark_unavailable(self, session) -> None:
+        session.vision_state = VISION_UNAVAILABLE
