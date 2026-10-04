@@ -1265,5 +1265,293 @@ class TestPilotSummary(unittest.TestCase):
         self.assertIn("Money-back metric", text)
 
 
+# ---------------------------------------------------------------------------
+# Before-pilot gap fixes: HTTP server, mock footgun, SMS promise, <Record>,
+# absolute URLs, Vapi objection
+# ---------------------------------------------------------------------------
+
+import voiceforge.server as server_mod
+from http.server import ThreadingHTTPServer
+
+
+def _server_env(**overrides):
+    env = {
+        "PUBLIC_BASE_URL": "https://example.com",
+        "TWILIO_AUTH_TOKEN": "test-token",
+        "TWILIO_ACCOUNT_SID": "AC123",
+        "TWILIO_PHONE_NUMBER": "+15550001111",
+        "VOICEFORGE_BUSINESS": "Test Co.",
+        "VOICEFORGE_MEDIA_DIR": tempfile.mkdtemp(),
+    }
+    env.update(overrides)
+    return env
+
+
+class TestServerFailFast(unittest.TestCase):
+    """PUBLIC_BASE_URL and live-LLM requirements fail fast at startup."""
+
+    def test_missing_base_url_exits(self):
+        env = {k: v for k, v in _server_env().items()
+               if k != "PUBLIC_BASE_URL"}
+        with mock.patch.dict(os.environ, env, clear=True):
+            with self.assertRaises(SystemExit):
+                server_mod.VoiceForgeApp()
+
+    def test_require_live_llm_with_mock_exits(self):
+        env = _server_env()
+        env["VOICEFORGE_REQUIRE_LIVE_LLM"] = "1"
+        with mock.patch.dict(os.environ, env, clear=True):
+            with self.assertRaises(SystemExit):
+                server_mod.VoiceForgeApp()
+
+    def test_mock_llm_allowed_with_warning(self):
+        with mock.patch.dict(os.environ, _server_env(), clear=True):
+            app = server_mod.VoiceForgeApp()
+        self.assertIsInstance(app.agent.brain.llm, MockLLMClient)
+        self.assertTrue(app.twilio.sms_configured)  # sid + number present
+
+
+class TestHttpRoutes(unittest.TestCase):
+    """The server binds every webhook route Twilio needs."""
+
+    def _serve(self):
+        with mock.patch.dict(os.environ, _server_env(), clear=True):
+            app = server_mod.VoiceForgeApp()
+        server_mod.APP = app
+        srv = ThreadingHTTPServer(("127.0.0.1", 0), server_mod.Handler)
+        t = threading.Thread(target=srv.serve_forever, daemon=True)
+        t.start()
+        self.addCleanup(srv.shutdown)
+        self.addCleanup(setattr, server_mod, "APP", None)
+        return f"http://127.0.0.1:{srv.server_port}"
+
+    def _post(self, url, form, headers=None):
+        data = urllib.parse.urlencode(form).encode()
+        req = urllib.request.Request(url, data=data,
+                                     headers=headers or {})
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                return resp.status, resp.read().decode()
+        except urllib.error.HTTPError as e:
+            return e.code, e.read().decode()
+
+    def _signed(self, url, form):
+        sig = twilio_sig("test-token", "https://example.com" +
+                         urllib.parse.urlparse(url).path, form)
+        return {"X-Twilio-Signature": sig,
+                "Content-Type": "application/x-www-form-urlencoded"}
+
+    def test_healthz(self):
+        base = self._serve()
+        with urllib.request.urlopen(base + "/healthz",
+                                    timeout=10) as resp:
+            self.assertEqual(resp.status, 200)
+            self.assertTrue(json.loads(resp.read().decode())["ok"])
+
+    def test_voice_bad_signature_403(self):
+        base = self._serve()
+        code, _ = self._post(base + "/voice",
+                             {"CallSid": "CA1", "From": "+1555"},
+                             {"X-Twilio-Signature": "bogus"})
+        self.assertEqual(code, 403)
+
+    def test_voice_new_call_returns_twiml(self):
+        base = self._serve()
+        form = {"CallSid": "CA_NEW", "From": "+15550001"}
+        code, body = self._post(base + "/voice", form,
+                                self._signed(base + "/voice", form))
+        self.assertEqual(code, 200)
+        self.assertIn("<Say", body)
+        self.assertIn("<Record/>", body)  # greeting promises recording
+        self.assertIn("https://example.com/gather", body)  # absolute action
+
+    def test_gather_speech_turn(self):
+        base = self._serve()
+        form = {"CallSid": "CA_G", "From": "+15550002"}
+        self._post(base + "/voice", form, self._signed(base + "/voice", form))
+        form2 = {"CallSid": "CA_G", "SpeechResult": "what are your hours?"}
+        code, body = self._post(base + "/gather", form2,
+                                self._signed(base + "/gather", form2))
+        self.assertEqual(code, 200)
+        self.assertIn("<Gather", body)
+
+    def test_unknown_route_404(self):
+        base = self._serve()
+        code, _ = self._post(base + "/nope", {}, {})
+        self.assertEqual(code, 404)
+
+    def test_vapi_unconfigured_503(self):
+        base = self._serve()
+        code, body = self._post(
+            base + "/vapi", {},
+            {"Content-Type": "application/json"})
+        # urllib with data=b"" sends POST; empty JSON body
+        self.assertEqual(code, 503)
+
+
+class TestSmsPromise(unittest.TestCase):
+    """The spoken booking confirmation promises SMS only when SMS exists."""
+
+    def _book(self, brain):
+        s = new_session("CA_SMS")
+        brain.handle(s, "I want to book an appointment")
+        brain.handle(s, "Neha")
+        brain.handle(s, "oil change")
+        brain.handle(s, "friday")
+        return brain.handle(s, "yes"), s
+
+    def test_no_sms_gives_reference(self):
+        brain = make_brain()  # sms_enabled defaults False
+        reply, _ = self._book(brain)
+        self.assertIn("booking reference", reply)
+        self.assertNotIn("sent by SMS", reply)
+
+    def test_sms_enabled_promises_sms(self):
+        brain = make_brain()
+        brain.sms_enabled = True
+        reply, _ = self._book(brain)
+        self.assertIn("A confirmation will be sent by SMS.", reply)
+
+    def test_agent_skips_sms_when_unconfigured(self):
+        brain = make_brain()
+
+        class StubTwilio:
+            sms_configured = False
+
+            def continue_twiml(self, reply, end_call=False):
+                return "<Response/>"
+
+        logger = CallLogger()
+        agent = VoiceAgent(brain, logger=logger)
+        agent.inbound_call("CA_SK", "+15550003")
+        for text in ("I want to book an appointment", "Neha", "oil change",
+                     "friday", "yes"):
+            agent.caller_said("CA_SK", text, twilio=StubTwilio())
+        kinds = [e["event"] for e in logger.events]
+        self.assertIn("booking_confirmed", kinds)
+        self.assertIn("booking_sms_skipped", kinds)
+        self.assertNotIn("booking_sms_sent", kinds)
+
+    def test_agent_sends_sms_when_configured(self):
+        brain = make_brain()
+        brain.sms_enabled = True
+        sent = []
+
+        class StubTwilio:
+            sms_configured = True
+
+            def continue_twiml(self, reply, end_call=False):
+                return "<Response/>"
+
+            def send_sms(self, to, body):
+                sent.append((to, body))
+                return True, "SM123"
+
+        logger = CallLogger()
+        agent = VoiceAgent(brain, logger=logger)
+        agent.inbound_call("CA_SM", "+15550004")
+        for text in ("I want to book an appointment", "Neha", "oil change",
+                     "friday", "yes"):
+            agent.caller_said("CA_SM", text, twilio=StubTwilio())
+        kinds = [e["event"] for e in logger.events]
+        self.assertIn("booking_sms_sent", kinds)
+        self.assertEqual(sent[0][0], "+15550004")
+        self.assertIn("oil change", sent[0][1])
+
+
+class TestSendSmsUnit(unittest.TestCase):
+    def test_not_configured_fails_closed(self):
+        tw = TwilioAdapter(auth_token="t")
+        ok, info = tw.send_sms("+1555", "hi")
+        self.assertFalse(ok)
+        self.assertEqual(info, "sms_not_configured")
+
+    def test_success_posts_to_twilio_api(self):
+        tw = TwilioAdapter(auth_token="tok", account_sid="AC1",
+                           sms_from="+1999")
+
+        class Resp:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+            def read(self):
+                return b'{"sid": "SM999"}'
+
+        seen = {}
+
+        def fake_urlopen(req, timeout=None):
+            seen["url"] = req.full_url
+            seen["auth"] = req.get_header("Authorization")
+            return Resp()
+
+        with mock.patch("urllib.request.urlopen", fake_urlopen):
+            ok, sid = tw.send_sms("+1555", "hello")
+        self.assertTrue(ok)
+        self.assertEqual(sid, "SM999")
+        self.assertIn("api.twilio.com/2010-04-01/Accounts/AC1/Messages.json",
+                      seen["url"])
+        self.assertTrue(seen["auth"].startswith("Basic "))
+
+
+class TestAbsoluteUrls(unittest.TestCase):
+    def test_warm_transfer_urls_absolute(self):
+        cfg = VoiceForgeConfig(business="T", transfer_number="+1999",
+                               public_base_url="https://example.com")
+        brain = ConversationBrain(business="T", config=cfg)
+        agent = VoiceAgent(brain, logger=CallLogger(), config=cfg,
+                           transfer_check=lambda n: True)
+        tw = TwilioAdapter(auth_token="t")
+        agent.inbound_call("CAW", "+1555")
+        out = agent.caller_said("CAW", "Let me talk to a human agent please",
+                                twilio=tw)
+        self.assertIn("https://example.com/whisper?sid=CAW", out)
+        self.assertIn("https://example.com/transfer_fallback?sid=CAW", out)
+        self.assertNotIn('url="/whisper', out)
+
+
+class TestRecordTwiml(unittest.TestCase):
+    def test_record_on_by_default(self):
+        tw = TwilioAdapter(auth_token="t")
+        self.assertIn("<Record/>", tw.inbound_twiml("hello"))
+
+    def test_record_can_be_disabled(self):
+        tw = TwilioAdapter(auth_token="t")
+        self.assertNotIn("<Record/>", tw.inbound_twiml("hello", record=False))
+
+
+class TestBookingStoreLock(unittest.TestCase):
+    def test_concurrent_add_no_lost_writes(self):
+        store = BookingStore(daily_cap=1000)
+        errors = []
+
+        def add(i):
+            try:
+                store.add("2026-10-09", f"Name{i}", "svc")
+            except Exception as exc:  # noqa: BLE001
+                errors.append(exc)
+
+        threads = [threading.Thread(target=add, args=(i,)) for i in range(50)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        self.assertEqual(errors, [])
+        self.assertEqual(store.count("2026-10-09"), 50)
+
+
+class TestVapiObjectionFile(unittest.TestCase):
+    def test_objection_answers_vapi_retell(self):
+        here = os.path.dirname(os.path.abspath(__file__))
+        with open(os.path.join(here, "OBJECTIONS.md")) as fh:
+            text = fh.read()
+        self.assertIn("Vapi", text)
+        self.assertIn("Retell", text)
+        self.assertIn("why not just use", text.lower())
+        self.assertIn("vision", text.lower())
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)
