@@ -239,6 +239,8 @@ class ConversationBrain:
 
     def handle(self, session: CallSession, caller_text: str) -> str:
         """Process one caller utterance; returns the agent's reply text."""
+        # C1: defensive — a None caller_text must never reach .lower().
+        caller_text = caller_text or ""
         session.say("caller", caller_text)
         lowered = caller_text.lower()
 
