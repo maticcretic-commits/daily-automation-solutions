@@ -38,9 +38,27 @@ _ESCALATION_RE = re.compile(
 _END_RE = re.compile(
     r"\b(" + "|".join(re.escape(p) for p in END_PHRASES) + r")\b", re.I)
 _BOOKING_RE = re.compile(
-    r"\b(" + "|".join(re.escape(p) for p in BOOKING_PHRASES) + r")\b", re.I)
+    # match inflections too: "booked"/"booking", "scheduled"/"scheduling",
+    # "appointments", "reschedule" (bare \bbook\b missed every one of these,
+    # which is why the sales demo's booking flow never started)
+    r"\b(book\w*|appoint\w*|schedul\w*|reschedul\w*|slots?)\b", re.I)
 _AFFIRM_RE = re.compile(r"\b(" + "|".join(AFFIRM) + r")\b", re.I)
 _DENY_RE = re.compile(r"\b(" + "|".join(DENY) + r")\b", re.I)
+
+# B7: explicit photo offers from the caller ("I'll send you a photo of the
+# cracked windshield", "can I text you a picture?"). Deliberately narrow:
+# the caller must name a photo AND a sending verb (or "take a look at"),
+# so ordinary turns never trigger the vision step.
+_PHOTO_OFFER_RE = re.compile(
+    r"\b(send|sending|sent|share|sharing|shared|text|texting|texted|"
+    r"attach|attached|upload|uploaded)\b[\w\s,]{0,40}\b"
+    r"(photo|picture|pic|image|snapshot)\b"
+    r"|\b(photo|picture|pic|image|snapshot)\b[\w\s,]{0,40}\b"
+    r"(send|sending|sent|share|sharing|shared|text|texting|texted)\b"
+    r"|\btake a look at\b", re.I)
+_PHOTO_SUBJECT_RE = re.compile(
+    r"(?:photo|picture|pic|image|snapshot)\s+of\s+"
+    r"(?:the\s+|my\s+|a\s+|an\s+)?([a-z][\w ]{0,40})", re.I)
 
 FAQ_PATTERNS: List[Tuple[Pattern[str], str]] = [
     (re.compile(r"\b(hours?|open(ing)?|close|timing)\b", re.I),
@@ -124,6 +142,43 @@ def parse_day(text: str, today: dt.date) -> Optional[dt.date]:
     return None
 
 
+def find_day_mention(text: str, today: dt.date) -> Optional[dt.date]:
+    """
+    B4: search (not full-match) for a day mention inside free text, so a
+    confirm-step correction like "yes, friday instead" re-resolves instead
+    of committing the previously offered day. Returns None when no day
+    mention is found.
+    """
+    t = text.lower()
+    candidates: List[str] = []
+    m = re.search(r"\bday after tomorrow\b", t)
+    if m:
+        candidates.append(m.group(0))
+    m = re.search(r"\btomorrow\b", t)
+    # "day after tomorrow" already handled above; avoid double-counting
+    if m and "day after tomorrow" not in t:
+        candidates.append("tomorrow")
+    m = re.search(r"\btoday\b", t)
+    if m:
+        candidates.append("today")
+    m = re.search(r"\bnext\s+(monday|tuesday|wednesday|thursday|friday|"
+                  r"saturday|sunday)\b", t)
+    if m:
+        candidates.append(m.group(0))
+    else:
+        m = re.search(r"\b(monday|tuesday|wednesday|thursday|friday|"
+                      r"saturday|sunday)\b", t)
+        if m:
+            candidates.append(m.group(0))
+    m = re.search(r"\b(\d{4})-(\d{2})-(\d{2})\b", t)
+    if m:
+        candidates.append(m.group(0))
+    if not candidates:
+        return None
+    # last mention wins ("no wait, friday" after an earlier "monday")
+    return parse_day(candidates[-1], today)
+
+
 class BookingStore:
     """In-memory booking ledger with per-day caps and double-book guard."""
 
@@ -153,9 +208,10 @@ class ConversationBrain:
     """
     Decides the agent's reply and next action for one caller utterance.
 
-    Intent order: escalation -> goodbye -> booking -> FAQ -> LLM fallback.
-    Booking is a slot-fill (name -> service -> day -> confirm) driven by
-    `slots`, with real date normalization and a commit loop.
+    Intent order: escalation -> goodbye -> photo-offer -> booking -> FAQ
+    -> LLM fallback. Booking is a slot-fill (name -> service -> day ->
+    confirm) driven by `slots`, with real date normalization and a commit
+    loop.
     """
 
     def __init__(self, business: str = "Acme Services",
@@ -169,6 +225,9 @@ class ConversationBrain:
         self.booking_store = booking_store or BookingStore(
             daily_cap=self.config.booking_daily_cap)
         self.today = today or dt.date.today()
+        # B7: set by VoiceAgent per call — what -> spoken ask (or "" when
+        # the vision step is unavailable). None = standalone brain, no vision.
+        self.request_photo_fn = None
 
     # -- public API ------------------------------------------------------
     def greet(self, session: CallSession) -> str:
@@ -195,6 +254,10 @@ class ConversationBrain:
             session.say("agent", text)
             session.hangup(reason="caller goodbye")
             return text
+        elif not self._in_booking(session) and _PHOTO_OFFER_RE.search(lowered):
+            # B7: the caller offered a photo -> the vision step is now
+            # reachable from a real conversation, not just unit tests.
+            text = self._photo_step(session, caller_text)
         elif self._in_booking(session) or _BOOKING_RE.search(lowered):
             text = self._booking_step(session, caller_text)
         elif self._faq(caller_text) is not None:
@@ -254,6 +317,17 @@ class ConversationBrain:
             if denied:
                 slots["_booking_step"] = "day"
                 return "No problem — which day would you prefer instead?"
+            # B4: a day correction ("yes, friday instead") must re-resolve
+            # and re-confirm — NEVER commit on a bare "yes" substring when
+            # the caller named a different day.
+            mention = find_day_mention(caller_text, self.today)
+            if mention is not None and \
+                    mention.isoformat() != slots.get("day_iso"):
+                slots["day_iso"] = mention.isoformat()
+                return (f"Got it — updated to "
+                        f"{mention.strftime('%A, %B %d')}. "
+                        f"{slots['service']} for {slots['name']} — "
+                        f"is that correct?")
             if lowered == "y" or _AFFIRM_RE.search(lowered):
                 ok, msg = self.booking_store.add(
                     slots["day_iso"], slots["name"], slots["service"])
@@ -274,6 +348,31 @@ class ConversationBrain:
         # unknown/corrupt step: reset instead of trapping the caller (P0-1(4))
         slots["_booking_step"] = "name"
         return "Sorry, let's start over — what's your full name?"
+
+    # -- photo offer (B7: vision reachable from a real conversation) ---------
+    def _photo_step(self, session: CallSession, caller_text: str) -> str:
+        """Caller offered a photo -> trigger the vision step via the agent."""
+        what = self._photo_subject(caller_text)
+        ask = ""
+        if self.request_photo_fn is not None:
+            try:
+                ask = self.request_photo_fn(what) or ""
+            except Exception:  # noqa: BLE001 - vision is best-effort
+                ask = ""
+        if ask:
+            return ask
+        return ("I can't receive photos on this line right now — "
+                "could you describe what you see instead?")
+
+    @staticmethod
+    def _photo_subject(caller_text: str) -> str:
+        """Extract what the caller wants to photograph ("photo of X")."""
+        m = _PHOTO_SUBJECT_RE.search(caller_text)
+        if m:
+            subject = m.group(1).strip().rstrip(" .")
+            if subject:
+                return subject
+        return "the issue"
 
     # -- FAQ --------------------------------------------------------------
     @staticmethod
