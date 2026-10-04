@@ -57,6 +57,11 @@ class VoiceAgent:
         with self._calls_lock:
             return list(self.calls.items())
 
+    def has_call(self, call_sid: str) -> bool:
+        """Thread-safe membership check (server webhook routing)."""
+        with self._calls_lock:
+            return call_sid in self.calls
+
     # -- inbound ----------------------------------------------------------
     def inbound_call(self, call_sid: str, from_phone: str,
                      twilio: Optional[TwilioAdapter] = None) -> str:
@@ -129,6 +134,11 @@ class VoiceAgent:
         self.brain.request_photo_fn = (
             lambda what: self.request_photo(call_sid, what))
         reply = self.brain.handle(session, transcript)
+        # booking commit hook: send the real SMS only when SMS is actually
+        # configured; otherwise the caller already got a booking reference.
+        committed = session.slots.pop("_booking_committed", None)
+        if committed is not None:
+            self._notify_booking(session, committed, twilio)
         audio = self.tts.speak(reply, self.voice)
         ended = session.state == "ended"
         self.logger.log("turn", call_sid=call_sid, caller=transcript,
@@ -144,6 +154,25 @@ class VoiceAgent:
         if twilio:
             return twilio.continue_twiml(reply, end_call=ended)
         return reply
+
+    # -- booking SMS --------------------------------------------------------
+    def _notify_booking(self, session: CallSession, booking: dict,
+                        twilio: Optional[TwilioAdapter]) -> None:
+        """Log the commit; send SMS only when genuinely configured."""
+        self.logger.log("booking_confirmed", call_sid=session.call_sid,
+                        day=booking.get("day_iso"),
+                        reference=booking.get("reference"))
+        if twilio is None or not twilio.sms_configured:
+            self.logger.log("booking_sms_skipped", call_sid=session.call_sid,
+                            reason="sms_not_configured")
+            return
+        body = (f"{self.brain.business}: you're booked for "
+                f"{booking.get('service')} on {booking.get('day_iso')}. "
+                f"Reference {booking.get('reference')}.")
+        ok, info = twilio.send_sms(session.phone, body)
+        self.logger.log("booking_sms_sent" if ok else "booking_sms_failed",
+                        call_sid=session.call_sid,
+                        sid_or_error=str(info))
 
     # -- warm transfer ------------------------------------------------------
     def build_handoff_context(self, session: CallSession) -> str:
@@ -181,11 +210,21 @@ class VoiceAgent:
             context = self.build_handoff_context(session)
             self.logger.log("transfer_started", call_sid=session.call_sid,
                             target=target)
+            # Twilio rejects relative callback URLs — build them absolute
+            # from PUBLIC_BASE_URL (server mode fails fast without it).
+            base = (self.config.public_base_url or "").rstrip("/")
+            if base:
+                whisper_url = f"{base}/whisper?sid={session.call_sid}"
+                fallback_url = (f"{base}/transfer_fallback?sid="
+                                f"{session.call_sid}")
+            else:
+                whisper_url = "/whisper?sid=" + session.call_sid
+                fallback_url = ("/transfer_fallback?sid="
+                                + session.call_sid)
             return twilio.transfer_twiml(
                 announcement, target,
-                whisper_url="/whisper?sid=" + session.call_sid,
-                fallback_action_url="/transfer_fallback?sid="
-                + session.call_sid,
+                whisper_url=whisper_url,
+                fallback_action_url=fallback_url,
                 timeout_s=self.config.transfer_timeout_s)
         # fallback: no target configured or unreachable — take a message
         self.logger.log("transfer_fallback", call_sid=session.call_sid,
