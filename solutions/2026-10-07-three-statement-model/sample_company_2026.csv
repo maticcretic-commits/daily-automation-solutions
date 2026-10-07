@@ -1,0 +1,25 @@
+Account,Category,Subcategory,Opening,Closing
+Cash & Bank,Asset,Current,3700000,2783000
+Trade Receivables,Asset,Current,2400000,2950000
+Inventory,Asset,Current,3100000,3420000
+Prepaid Expenses,Asset,Current,180000,220000
+Plant & Machinery - Gross,Asset,Non-current,8500000,9700000
+Accumulated Depreciation,Asset,Non-current,-2550000,-3175000
+Trade Payables,Liability,Current,1900000,2230000
+Short-term Borrowings,Liability,Current,1500000,1200000
+Statutory Dues Payable,Liability,Current,320000,410000
+Term Loan,Liability,Non-current,4000000,3200000
+Share Capital,Equity,Share Capital,5000000,5000000
+Retained Earnings,Equity,Retained,2610000,3858000
+Sales Revenue,Revenue,Sales,0,18500000
+Other Income,Revenue,Other,0,240000
+Raw Material Consumed,Expense,COGS,0,9800000
+Direct Labour,Expense,COGS,0,1650000
+Employee Costs,Expense,Operating,0,2240000
+Rent,Expense,Operating,0,720000
+Utilities & Maintenance,Expense,Operating,0,486000
+Selling & Distribution,Expense,Operating,0,612000
+Depreciation,Expense,Operating,0,625000
+Other Admin Expenses,Expense,Operating,0,398000
+Interest Expense,Expense,Finance,0,512000
+Tax Expense,Expense,Tax,0,449000
