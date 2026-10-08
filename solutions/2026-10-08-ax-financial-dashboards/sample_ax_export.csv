@@ -1,0 +1,313 @@
+FiscalYear,Period,MainAccount,AccountName,AccountCategory,Debit,Credit
+2026,1,401000,Product Sales,Revenue,0.0,142367.1
+2026,1,402000,Service Revenue,Revenue,0.0,34180.66
+2026,1,403000,Other Income,Revenue,0.0,5813.09
+2026,1,501000,Cost of Goods Sold,Expense,76931.2,0.0
+2026,1,502000,Salaries & Benefits,Expense,48848.16,0.0
+2026,1,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,1,504000,Marketing & Advertising,Expense,10411.85,0.0
+2026,1,505000,Travel & Entertainment,Expense,4760.82,0.0
+2026,1,506000,IT & Software,Expense,3937.54,0.0
+2026,1,507000,Utilities,Expense,2264.9,0.0
+2026,1,508000,Depreciation,Expense,7000.0,0.0
+2026,1,509000,Interest Expense,Expense,3000.0,0.0
+2026,1,510000,Tax Provision,Expense,2905.41,0.0
+2026,1,101000,Cash & Bank,Asset,84415.11,0.0
+2026,1,102000,Accounts Receivable,Asset,25878.84,0.0
+2026,1,103000,Inventory,Asset,90558.16,0.0
+2026,1,104000,Prepaid Expenses,Asset,7600,0.0
+2026,1,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,1,106000,Accumulated Depreciation,Asset-Contra,0.0,42000
+2026,1,201000,Accounts Payable,Liability,0.0,28064.52
+2026,1,202000,Accrued Expenses,Liability,0.0,11277.21
+2026,1,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,1,204000,Long-Term Debt,Liability,0.0,198000
+2026,1,205000,Taxes Payable,Liability,0.0,18809.38
+2026,1,301000,Share Capital,Equity,0.0,300000.0
+2026,1,302000,Retained Earnings,Equity,0.0,50000.0
+2026,2,401000,Product Sales,Revenue,0.0,145269.1
+2026,2,402000,Service Revenue,Revenue,0.0,36286.67
+2026,2,403000,Other Income,Revenue,0.0,5008.98
+2026,2,501000,Cost of Goods Sold,Expense,79633.84,0.0
+2026,2,502000,Salaries & Benefits,Expense,49962.61,0.0
+2026,2,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,2,504000,Marketing & Advertising,Expense,9713.3,0.0
+2026,2,505000,Travel & Entertainment,Expense,5520.75,0.0
+2026,2,506000,IT & Software,Expense,3724.38,0.0
+2026,2,507000,Utilities,Expense,2728.61,0.0
+2026,2,508000,Depreciation,Expense,7000.0,0.0
+2026,2,509000,Interest Expense,Expense,3000.0,0.0
+2026,2,510000,Tax Provision,Expense,2921.88,0.0
+2026,2,101000,Cash & Bank,Asset,95721.89,0.0
+2026,2,102000,Accounts Receivable,Asset,26697.79,0.0
+2026,2,103000,Inventory,Asset,86552.78,0.0
+2026,2,104000,Prepaid Expenses,Asset,7200,0.0
+2026,2,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,2,106000,Accumulated Depreciation,Asset-Contra,0.0,49000
+2026,2,201000,Accounts Payable,Liability,0.0,29418.98
+2026,2,202000,Accrued Expenses,Liability,0.0,12833.99
+2026,2,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,2,204000,Long-Term Debt,Liability,0.0,196000
+2026,2,205000,Taxes Payable,Liability,0.0,18560.12
+2026,2,301000,Share Capital,Equity,0.0,300000.0
+2026,2,302000,Retained Earnings,Equity,0.0,50000.0
+2026,3,401000,Product Sales,Revenue,0.0,155381.76
+2026,3,402000,Service Revenue,Revenue,0.0,39554.14
+2026,3,403000,Other Income,Revenue,0.0,5818.39
+2026,3,501000,Cost of Goods Sold,Expense,92736.77,0.0
+2026,3,502000,Salaries & Benefits,Expense,49219.62,0.0
+2026,3,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,3,504000,Marketing & Advertising,Expense,10185.86,0.0
+2026,3,505000,Travel & Entertainment,Expense,6355.56,0.0
+2026,3,506000,IT & Software,Expense,4289.37,0.0
+2026,3,507000,Utilities,Expense,2538.68,0.0
+2026,3,508000,Depreciation,Expense,7000.0,0.0
+2026,3,509000,Interest Expense,Expense,3000.0,0.0
+2026,3,510000,Tax Provision,Expense,2954.26,0.0
+2026,3,101000,Cash & Bank,Asset,94310.38,0.0
+2026,3,102000,Accounts Receivable,Asset,31280.19,0.0
+2026,3,103000,Inventory,Asset,86513.15,0.0
+2026,3,104000,Prepaid Expenses,Asset,6800,0.0
+2026,3,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,3,106000,Accumulated Depreciation,Asset-Contra,0.0,56000
+2026,3,201000,Accounts Payable,Liability,0.0,31204.13
+2026,3,202000,Accrued Expenses,Liability,0.0,11494.53
+2026,3,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,3,204000,Long-Term Debt,Liability,0.0,194000
+2026,3,205000,Taxes Payable,Liability,0.0,15730.88
+2026,3,301000,Share Capital,Equity,0.0,300000.0
+2026,3,302000,Retained Earnings,Equity,0.0,50000.0
+2026,4,401000,Product Sales,Revenue,0.0,139152.36
+2026,4,402000,Service Revenue,Revenue,0.0,34819.86
+2026,4,403000,Other Income,Revenue,0.0,5277.64
+2026,4,501000,Cost of Goods Sold,Expense,76169.84,0.0
+2026,4,502000,Salaries & Benefits,Expense,48812.44,0.0
+2026,4,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,4,504000,Marketing & Advertising,Expense,7954.23,0.0
+2026,4,505000,Travel & Entertainment,Expense,5300.93,0.0
+2026,4,506000,IT & Software,Expense,4349.32,0.0
+2026,4,507000,Utilities,Expense,2574.02,0.0
+2026,4,508000,Depreciation,Expense,7000.0,0.0
+2026,4,509000,Interest Expense,Expense,3000.0,0.0
+2026,4,510000,Tax Provision,Expense,2659.6,0.0
+2026,4,101000,Cash & Bank,Asset,105927.68,0.0
+2026,4,102000,Accounts Receivable,Asset,27831.72,0.0
+2026,4,103000,Inventory,Asset,88369.37,0.0
+2026,4,104000,Prepaid Expenses,Asset,6400,0.0
+2026,4,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,4,106000,Accumulated Depreciation,Asset-Contra,0.0,63000
+2026,4,201000,Accounts Payable,Liability,0.0,35558.06
+2026,4,202000,Accrued Expenses,Liability,0.0,11192.17
+2026,4,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,4,204000,Long-Term Debt,Liability,0.0,192000
+2026,4,205000,Taxes Payable,Liability,0.0,17349.06
+2026,4,301000,Share Capital,Equity,0.0,300000.0
+2026,4,302000,Retained Earnings,Equity,0.0,50000.0
+2026,5,401000,Product Sales,Revenue,0.0,167422.52
+2026,5,402000,Service Revenue,Revenue,0.0,41393.87
+2026,5,403000,Other Income,Revenue,0.0,6857.44
+2026,5,501000,Cost of Goods Sold,Expense,98417.24,0.0
+2026,5,502000,Salaries & Benefits,Expense,51327.58,0.0
+2026,5,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,5,504000,Marketing & Advertising,Expense,8024.57,0.0
+2026,5,505000,Travel & Entertainment,Expense,4596.3,0.0
+2026,5,506000,IT & Software,Expense,3852.36,0.0
+2026,5,507000,Utilities,Expense,2383.87,0.0
+2026,5,508000,Depreciation,Expense,7000.0,0.0
+2026,5,509000,Interest Expense,Expense,3000.0,0.0
+2026,5,510000,Tax Provision,Expense,5515.82,0.0
+2026,5,101000,Cash & Bank,Asset,114307.64,0.0
+2026,5,102000,Accounts Receivable,Asset,29861.31,0.0
+2026,5,103000,Inventory,Asset,97416.3,0.0
+2026,5,104000,Prepaid Expenses,Asset,6000,0.0
+2026,5,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,5,106000,Accumulated Depreciation,Asset-Contra,0.0,70000
+2026,5,201000,Accounts Payable,Liability,0.0,37634.57
+2026,5,202000,Accrued Expenses,Liability,0.0,11555.23
+2026,5,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,5,204000,Long-Term Debt,Liability,0.0,190000
+2026,5,205000,Taxes Payable,Liability,0.0,18839.37
+2026,5,301000,Share Capital,Equity,0.0,300000.0
+2026,5,302000,Retained Earnings,Equity,0.0,50000.0
+2026,6,401000,Product Sales,Revenue,0.0,151402.54
+2026,6,402000,Service Revenue,Revenue,0.0,36102.11
+2026,6,403000,Other Income,Revenue,0.0,5541.77
+2026,6,501000,Cost of Goods Sold,Expense,93371.7,0.0
+2026,6,502000,Salaries & Benefits,Expense,50758.08,0.0
+2026,6,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,6,504000,Marketing & Advertising,Expense,8145.87,0.0
+2026,6,505000,Travel & Entertainment,Expense,6253.76,0.0
+2026,6,506000,IT & Software,Expense,4318.26,0.0
+2026,6,507000,Utilities,Expense,2449.7,0.0
+2026,6,508000,Depreciation,Expense,7000.0,0.0
+2026,6,509000,Interest Expense,Expense,3000.0,0.0
+2026,6,510000,Tax Provision,Expense,1264.79,0.0
+2026,6,101000,Cash & Bank,Asset,100751.2,0.0
+2026,6,102000,Accounts Receivable,Asset,27221.75,0.0
+2026,6,103000,Inventory,Asset,98552.52,0.0
+2026,6,104000,Prepaid Expenses,Asset,5600,0.0
+2026,6,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,6,106000,Accumulated Depreciation,Asset-Contra,0.0,77000
+2026,6,201000,Accounts Payable,Liability,0.0,36068.59
+2026,6,202000,Accrued Expenses,Liability,0.0,11018.18
+2026,6,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,6,204000,Long-Term Debt,Liability,0.0,188000
+2026,6,205000,Taxes Payable,Liability,0.0,15554.43
+2026,6,301000,Share Capital,Equity,0.0,300000.0
+2026,6,302000,Retained Earnings,Equity,0.0,50000.0
+2026,7,401000,Product Sales,Revenue,0.0,148323.85
+2026,7,402000,Service Revenue,Revenue,0.0,35231.51
+2026,7,403000,Other Income,Revenue,0.0,5117.09
+2026,7,501000,Cost of Goods Sold,Expense,85812.53,0.0
+2026,7,502000,Salaries & Benefits,Expense,50349.78,0.0
+2026,7,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,7,504000,Marketing & Advertising,Expense,10786.04,0.0
+2026,7,505000,Travel & Entertainment,Expense,6087.34,0.0
+2026,7,506000,IT & Software,Expense,4376.86,0.0
+2026,7,507000,Utilities,Expense,2680.39,0.0
+2026,7,508000,Depreciation,Expense,7000.0,0.0
+2026,7,509000,Interest Expense,Expense,3000.0,0.0
+2026,7,510000,Tax Provision,Expense,1447.49,0.0
+2026,7,101000,Cash & Bank,Asset,116383.87,0.0
+2026,7,102000,Accounts Receivable,Asset,24745.89,0.0
+2026,7,103000,Inventory,Asset,95976.5,0.0
+2026,7,104000,Prepaid Expenses,Asset,5200,0.0
+2026,7,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,7,106000,Accumulated Depreciation,Asset-Contra,0.0,84000
+2026,7,201000,Accounts Payable,Liability,0.0,38344.66
+2026,7,202000,Accrued Expenses,Liability,0.0,12088.73
+2026,7,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,7,204000,Long-Term Debt,Liability,0.0,186000
+2026,7,205000,Taxes Payable,Liability,0.0,16740.86
+2026,7,301000,Share Capital,Equity,0.0,300000.0
+2026,7,302000,Retained Earnings,Equity,0.0,50000.0
+2026,8,401000,Product Sales,Revenue,0.0,165173.16
+2026,8,402000,Service Revenue,Revenue,0.0,40205.67
+2026,8,403000,Other Income,Revenue,0.0,6956.64
+2026,8,501000,Cost of Goods Sold,Expense,89720.82,0.0
+2026,8,502000,Salaries & Benefits,Expense,53396.73,0.0
+2026,8,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,8,504000,Marketing & Advertising,Expense,8148.2,0.0
+2026,8,505000,Travel & Entertainment,Expense,6001.76,0.0
+2026,8,506000,IT & Software,Expense,3742.92,0.0
+2026,8,507000,Utilities,Expense,2706.31,0.0
+2026,8,508000,Depreciation,Expense,7000.0,0.0
+2026,8,509000,Interest Expense,Expense,3000.0,0.0
+2026,8,510000,Tax Provision,Expense,5856.12,0.0
+2026,8,101000,Cash & Bank,Asset,131954.44,0.0
+2026,8,102000,Accounts Receivable,Asset,34724.59,0.0
+2026,8,103000,Inventory,Asset,91726.46,0.0
+2026,8,104000,Prepaid Expenses,Asset,4800,0.0
+2026,8,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,8,106000,Accumulated Depreciation,Asset-Contra,0.0,91000
+2026,8,201000,Accounts Payable,Liability,0.0,39056.02
+2026,8,202000,Accrued Expenses,Liability,0.0,12261.53
+2026,8,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,8,204000,Long-Term Debt,Liability,0.0,184000
+2026,8,205000,Taxes Payable,Liability,0.0,16125.33
+2026,8,301000,Share Capital,Equity,0.0,300000.0
+2026,8,302000,Retained Earnings,Equity,0.0,50000.0
+2026,9,401000,Product Sales,Revenue,0.0,176032.08
+2026,9,402000,Service Revenue,Revenue,0.0,42302.57
+2026,9,403000,Other Income,Revenue,0.0,5993.99
+2026,9,501000,Cost of Goods Sold,Expense,100516.45,0.0
+2026,9,502000,Salaries & Benefits,Expense,51063.14,0.0
+2026,9,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,9,504000,Marketing & Advertising,Expense,7270.12,0.0
+2026,9,505000,Travel & Entertainment,Expense,7287.3,0.0
+2026,9,506000,IT & Software,Expense,4302.98,0.0
+2026,9,507000,Utilities,Expense,2665.83,0.0
+2026,9,508000,Depreciation,Expense,7000.0,0.0
+2026,9,509000,Interest Expense,Expense,3000.0,0.0
+2026,9,510000,Tax Provision,Expense,6429.02,0.0
+2026,9,101000,Cash & Bank,Asset,147933.06,0.0
+2026,9,102000,Accounts Receivable,Asset,31757.55,0.0
+2026,9,103000,Inventory,Asset,89486.87,0.0
+2026,9,104000,Prepaid Expenses,Asset,4400,0.0
+2026,9,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,9,106000,Accumulated Depreciation,Asset-Contra,0.0,98000
+2026,9,201000,Accounts Payable,Liability,0.0,41948.47
+2026,9,202000,Accrued Expenses,Liability,0.0,13072.68
+2026,9,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,9,204000,Long-Term Debt,Liability,0.0,182000
+2026,9,205000,Taxes Payable,Liability,0.0,15762.53
+2026,9,301000,Share Capital,Equity,0.0,300000.0
+2026,9,302000,Retained Earnings,Equity,0.0,50000.0
+2026,10,401000,Product Sales,Revenue,0.0,169937.11
+2026,10,402000,Service Revenue,Revenue,0.0,41841.12
+2026,10,403000,Other Income,Revenue,0.0,5957.13
+2026,10,501000,Cost of Goods Sold,Expense,89877.75,0.0
+2026,10,502000,Salaries & Benefits,Expense,52367.13,0.0
+2026,10,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,10,504000,Marketing & Advertising,Expense,9179.29,0.0
+2026,10,505000,Travel & Entertainment,Expense,5295.17,0.0
+2026,10,506000,IT & Software,Expense,4297.95,0.0
+2026,10,507000,Utilities,Expense,2461.57,0.0
+2026,10,508000,Depreciation,Expense,7000.0,0.0
+2026,10,509000,Interest Expense,Expense,3000.0,0.0
+2026,10,510000,Tax Provision,Expense,7096.43,0.0
+2026,10,101000,Cash & Bank,Asset,150866.12,0.0
+2026,10,102000,Accounts Receivable,Asset,29951.45,0.0
+2026,10,103000,Inventory,Asset,95447.98,0.0
+2026,10,104000,Prepaid Expenses,Asset,4000,0.0
+2026,10,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,10,106000,Accumulated Depreciation,Asset-Contra,0.0,105000
+2026,10,201000,Accounts Payable,Liability,0.0,41839.45
+2026,10,202000,Accrued Expenses,Liability,0.0,11282.76
+2026,10,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,10,204000,Long-Term Debt,Liability,0.0,180000
+2026,10,205000,Taxes Payable,Liability,0.0,16983.27
+2026,10,301000,Share Capital,Equity,0.0,300000.0
+2026,10,302000,Retained Earnings,Equity,0.0,50000.0
+2026,11,401000,Product Sales,Revenue,0.0,187396.88
+2026,11,402000,Service Revenue,Revenue,0.0,45898.66
+2026,11,403000,Other Income,Revenue,0.0,6686.08
+2026,11,501000,Cost of Goods Sold,Expense,111118.9,0.0
+2026,11,502000,Salaries & Benefits,Expense,51562.16,0.0
+2026,11,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,11,504000,Marketing & Advertising,Expense,8417.11,0.0
+2026,11,505000,Travel & Entertainment,Expense,6264.93,0.0
+2026,11,506000,IT & Software,Expense,3784.09,0.0
+2026,11,507000,Utilities,Expense,2360.11,0.0
+2026,11,508000,Depreciation,Expense,7000.0,0.0
+2026,11,509000,Interest Expense,Expense,3000.0,0.0
+2026,11,510000,Tax Provision,Expense,7584.35,0.0
+2026,11,101000,Cash & Bank,Asset,155532.04,0.0
+2026,11,102000,Accounts Receivable,Asset,32447.85,0.0
+2026,11,103000,Inventory,Asset,97002.44,0.0
+2026,11,104000,Prepaid Expenses,Asset,3600,0.0
+2026,11,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,11,106000,Accumulated Depreciation,Asset-Contra,0.0,112000
+2026,11,201000,Accounts Payable,Liability,0.0,38777.32
+2026,11,202000,Accrued Expenses,Liability,0.0,12973.01
+2026,11,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,11,204000,Long-Term Debt,Liability,0.0,178000
+2026,11,205000,Taxes Payable,Liability,0.0,19942.03
+2026,11,301000,Share Capital,Equity,0.0,300000.0
+2026,11,302000,Retained Earnings,Equity,0.0,50000.0
+2026,12,401000,Product Sales,Revenue,0.0,161204.68
+2026,12,402000,Service Revenue,Revenue,0.0,37762.81
+2026,12,403000,Other Income,Revenue,0.0,5686.58
+2026,12,501000,Cost of Goods Sold,Expense,88209.77,0.0
+2026,12,502000,Salaries & Benefits,Expense,55884.35,0.0
+2026,12,503000,Rent & Facilities,Expense,12000.0,0.0
+2026,12,504000,Marketing & Advertising,Expense,9255.76,0.0
+2026,12,505000,Travel & Entertainment,Expense,5918.01,0.0
+2026,12,506000,IT & Software,Expense,4227.7,0.0
+2026,12,507000,Utilities,Expense,2653.75,0.0
+2026,12,508000,Depreciation,Expense,7000.0,0.0
+2026,12,509000,Interest Expense,Expense,3000.0,0.0
+2026,12,510000,Tax Provision,Expense,3631.04,0.0
+2026,12,101000,Cash & Bank,Asset,155966.97,0.0
+2026,12,102000,Accounts Receivable,Asset,28409.45,0.0
+2026,12,103000,Inventory,Asset,91356.64,0.0
+2026,12,104000,Prepaid Expenses,Asset,3200,0.0
+2026,12,105000,Fixed Assets (Gross),Asset,500000.0,0.0
+2026,12,106000,Accumulated Depreciation,Asset-Contra,0.0,119000
+2026,12,201000,Accounts Payable,Liability,0.0,41420.83
+2026,12,202000,Accrued Expenses,Liability,0.0,11816.59
+2026,12,203000,Short-Term Debt,Liability,0.0,50000.0
+2026,12,204000,Long-Term Debt,Liability,0.0,176000
+2026,12,205000,Taxes Payable,Liability,0.0,17821.93
+2026,12,301000,Share Capital,Equity,0.0,300000.0
+2026,12,302000,Retained Earnings,Equity,0.0,50000.0
