@@ -1,0 +1,20 @@
+account_code,account_name,account_group,normal_balance,cashflow_section
+1000,Cash in Bank,Asset,DR,
+1100,Trade Receivables,Asset,DR,Operating
+1200,Inventory,Asset,DR,Operating
+1500,Equipment (net of purchases),Asset,DR,Investing
+1510,Accumulated Depreciation,Asset,CR,
+2100,Trade Payables,Liability,CR,Operating
+2500,Bank Loan,Liability,CR,Financing
+3000,Owner's Capital,Equity,CR,Financing
+4000,Sales Revenue,Revenue,CR,Operating
+4100,Service Revenue,Revenue,CR,Operating
+5000,Cost of Goods Sold,COGS,DR,Operating
+6000,Salaries & Wages,Opex,DR,Operating
+6100,Office Rent,Opex,DR,Operating
+6200,Utilities,Opex,DR,Operating
+6300,Marketing,Opex,DR,Operating
+6400,Depreciation,Opex,DR,Operating
+6999,Other Operating Expenses,Opex,DR,Operating
+7000,Other Income,Other Income,CR,Operating
+7100,Other Expenses,Other Expense,DR,Operating
