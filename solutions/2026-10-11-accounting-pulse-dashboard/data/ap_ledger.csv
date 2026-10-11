@@ -1,0 +1,40 @@
+bill_id,vendor,date,due_date,amount,paid_date,pay_mode,cleared,category
+BILL-0001,Das Brothers,2026-04-12,2026-05-12,134023,,bank,1,Utilities
+BILL-0002,Verma Agro,2026-04-02,2026-05-02,178568,2026-05-15,bank,1,Services
+BILL-0003,Verma Agro,2026-04-16,2026-05-16,230083,2026-05-06,bank,1,Purchases
+BILL-0004,Singh & Co,2026-04-07,2026-05-07,105277,,bank,1,Services
+BILL-0005,Mehta Enterprises,2026-04-14,2026-05-14,179327,,bank,1,Rent
+BILL-0006,Das Brothers,2026-04-17,2026-05-17,44722,,cheque,0,Purchases
+BILL-0007,Patel Wholesale,2026-04-11,2026-05-11,98450,2026-04-30,bank,1,Utilities
+BILL-0008,Mehta Enterprises,2026-05-04,2026-06-03,144302,2026-05-20,bank,1,Purchases
+BILL-0009,Khan Distributors,2026-05-28,2026-06-27,236901,2026-06-15,bank,1,Utilities
+BILL-0010,Mehta Enterprises,2026-05-24,2026-06-23,104360,,bank,1,Utilities
+BILL-0011,Das Brothers,2026-05-16,2026-06-15,37107,2026-06-01,bank,1,Services
+BILL-0012,Sharma Traders,2026-05-04,2026-06-03,230590,2026-05-21,bank,1,Marketing
+BILL-0013,Das Brothers,2026-05-13,2026-06-12,216515,2026-06-08,bank,1,Purchases
+BILL-0014,Sharma Traders,2026-06-01,2026-07-01,244491,2026-07-08,cheque,1,Rent
+BILL-0015,Das Brothers,2026-06-18,2026-07-18,156734,2026-07-21,cheque,1,Purchases
+BILL-0016,Mehta Enterprises,2026-06-25,2026-07-25,136569,2026-07-28,bank,1,Rent
+BILL-0017,Singh & Co,2026-06-19,2026-07-19,82079,2026-07-13,bank,1,Rent
+BILL-0018,Singh & Co,2026-06-01,2026-07-01,237028,2026-06-07,cheque,1,Purchases
+BILL-0019,Das Brothers,2026-06-11,2026-07-11,209504,2026-07-22,bank,1,Purchases
+BILL-0020,Mehta Enterprises,2026-06-14,2026-07-14,221258,2026-07-28,cheque,0,Purchases
+BILL-0021,Gupta Supplies,2026-07-22,2026-08-21,123224,2026-08-30,bank,1,Purchases
+BILL-0022,Das Brothers,2026-07-16,2026-08-15,243729,2026-08-21,bank,1,Marketing
+BILL-0023,Patel Wholesale,2026-07-11,2026-08-10,92031,2026-08-19,cheque,0,Purchases
+BILL-0024,Verma Agro,2026-07-24,2026-08-23,141570,,bank,1,Services
+BILL-0025,Singh & Co,2026-07-24,2026-08-23,79595,2026-08-09,bank,1,Purchases
+BILL-0026,Mehta Enterprises,2026-07-06,2026-08-05,152411,2026-08-14,bank,1,Purchases
+BILL-0027,Mehta Enterprises,2026-08-03,2026-09-02,238827,,bank,1,Utilities
+BILL-0028,Mehta Enterprises,2026-08-28,2026-09-27,131235,2026-09-20,bank,1,Rent
+BILL-0029,Khan Distributors,2026-08-15,2026-09-14,165923,2026-09-23,bank,1,Services
+BILL-0030,Singh & Co,2026-08-28,2026-09-27,40649,2026-09-28,bank,1,Services
+BILL-0031,Khan Distributors,2026-08-28,2026-09-27,119327,2026-09-18,cheque,0,Services
+BILL-0032,Sharma Traders,2026-08-02,2026-09-01,64946,,cheque,0,Services
+BILL-0033,Sharma Traders,2026-09-18,2026-10-18,80941,2026-09-30,bank,1,Marketing
+BILL-0034,Verma Agro,2026-09-14,2026-10-14,99122,2026-09-20,bank,1,Rent
+BILL-0035,Das Brothers,2026-09-11,2026-10-11,137111,2026-09-30,bank,1,Purchases
+BILL-0036,Sharma Traders,2026-09-16,2026-10-16,23239,,bank,1,Services
+BILL-0037,Mehta Enterprises,2026-09-27,2026-10-27,149022,2026-09-27,bank,1,Rent
+BILL-0038,Singh & Co,2026-09-27,2026-10-27,26970,2026-09-30,bank,1,Purchases
+BILL-0039,Mehta Enterprises,2026-09-05,2026-10-05,134415,2026-09-26,bank,1,Marketing
