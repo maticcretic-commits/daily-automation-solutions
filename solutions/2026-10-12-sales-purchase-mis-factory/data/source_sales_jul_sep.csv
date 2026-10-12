@@ -1,0 +1,731 @@
+Date,Invoice,Customer,Product,Category,Qty,Rate
+2026-07-01,INV-2607-0749,Khan Mart,Potato Chips 150g,Snacks,23,48.9
+2026-07-01,INV-2607-0750,Kumari Kirana,Toned Milk 1L,Dairy,57,64.62
+2026-07-01,INV-2607-0751,Prasad Traders,Dish Soap 500ml,Household,39,98.04
+2026-07-01,INV-2607-0752,Nath Provisions,Toned Milk 1L,Dairy,15,64.32
+2026-07-01,INV-2607-0753,Pandey Stores,Detergent 1kg,Household,20,134.54
+2026-07-01,INV-2607-0754,Mehta Retail,Cola 750ml,Beverages,11,46.54
+2026-07-01,INV-2607-0755,Sahu Traders,Packaged Water 1L,Beverages,11,20.41
+2026-07-01,INV-2607-0756,Sinha Super Mart,Floor Cleaner 1L,Household,38,108.8
+2026-07-01,INV-2607-0757,Ali General Store,Detergent 1kg,Household,72,135.73
+2026-07-02,INV-2607-0758,Verma Retail,Packaged Water 1L,Beverages,28,19.47
+2026-07-02,INV-2607-0759,Singh Super Bazaar,Packaged Water 1L,Beverages,15,20.76
+2026-07-02,INV-2607-0760,Sharma Provision,Potato Chips 150g,Snacks,27,48.79
+2026-07-02,INV-2607-0761,Ali General Store,Floor Cleaner 1L,Household,5,112.76
+2026-07-02,INV-2607-0762,Patel Traders,Potato Chips 150g,Snacks,12,48.58
+2026-07-02,INV-2607-0763,Raza Brothers,Detergent 1kg,Household,53,136.1
+2026-07-02,INV-2607-0764,Sharma Provision,Packaged Water 1L,Beverages,10,19.9
+2026-07-02,INV-2607-0765,Khan Mart,Instant Noodles 280g,Snacks,4,58.25
+2026-07-02,INV-2607-0766,Bhatt General Store,Mango Juice 1L,Beverages,8,122.9
+2026-07-02,INV-2607-0767,Sinha Super Mart,Floor Cleaner 1L,Household,51,108.54
+2026-07-03,INV-2607-0768,Rai Daily Mart,Instant Noodles 280g,Snacks,19,58.39
+2026-07-03,INV-2607-0769,Ali General Store,Potato Chips 150g,Snacks,14,50.15
+2026-07-03,INV-2607-0770,Tiwari General,Detergent 1kg,Household,24,128.36
+2026-07-03,INV-2607-0771,Pandey Stores,Curd Cup 400g,Dairy,17,46.35
+2026-07-03,INV-2607-0772,Gupta General Store,Curd Cup 400g,Dairy,48,44.29
+2026-07-03,INV-2607-0773,Pandey Stores,Packaged Water 1L,Beverages,43,20.02
+2026-07-03,INV-2607-0774,Sinha Super Mart,Toned Milk 1L,Dairy,5,66.33
+2026-07-03,INV-2607-0775,Kumari Kirana,Cola 750ml,Beverages,59,44.78
+2026-07-03,INV-2607-0776,Das & Sons,Potato Chips 150g,Snacks,24,48.91
+2026-07-04,INV-2607-0777,Kumari Kirana,Paneer 200g,Dairy,30,98.76
+2026-07-04,INV-2607-0778,Gupta General Store,Biscuits 400g,Snacks,27,39.32
+2026-07-04,INV-2607-0779,Dubey Kirana,Toned Milk 1L,Dairy,73,65.36
+2026-07-04,INV-2607-0780,Dubey Kirana,Mango Juice 1L,Beverages,31,125.27
+2026-07-04,INV-2607-0781,Sinha Super Mart,Detergent 1kg,Household,28,134.97
+2026-07-04,INV-2607-0782,Kumari Kirana,Biscuits 400g,Snacks,22,41.45
+2026-07-04,INV-2607-0783,Khan Mart,Dish Soap 500ml,Household,60,97.27
+2026-07-04,INV-2607-0784,Singh Super Bazaar,Toned Milk 1L,Dairy,19,65.84
+2026-07-04,INV-2607-0785,Nath Provisions,Dish Soap 500ml,Household,39,96.32
+2026-07-04,INV-2607-0786,Gupta General Store,Packaged Water 1L,Beverages,28,19.82
+2026-07-04,INV-2607-0787,Bhatt General Store,Cola 750ml,Beverages,48,43.66
+2026-07-05,INV-2607-0788,Bhatt General Store,Potato Chips 150g,Snacks,59,52.14
+2026-07-05,INV-2607-0789,Jha Provisions,Floor Cleaner 1L,Household,15,114.43
+2026-07-05,INV-2607-0790,Bhatt General Store,Instant Noodles 280g,Snacks,60,57.33
+2026-07-05,INV-2607-0791,Dubey Kirana,Mango Juice 1L,Beverages,38,119.8
+2026-07-05,INV-2607-0792,Mishra Stores,Floor Cleaner 1L,Household,58,112.27
+2026-07-05,INV-2607-0793,Verma Retail,Packaged Water 1L,Beverages,63,19.56
+2026-07-05,INV-2607-0794,Das & Sons,Dish Soap 500ml,Household,60,97.53
+2026-07-05,INV-2607-0795,Azad Stores,Curd Cup 400g,Dairy,4,44.54
+2026-07-05,INV-2607-0796,Sahu Traders,Instant Noodles 280g,Snacks,44,55.01
+2026-07-06,INV-2607-0797,Rai Daily Mart,Potato Chips 150g,Snacks,39,48.79
+2026-07-06,INV-2607-0798,Mehta Retail,Paneer 200g,Dairy,17,99.08
+2026-07-06,INV-2607-0799,Mishra Stores,Paneer 200g,Dairy,49,94.58
+2026-07-06,INV-2607-0800,Yadav Daily Needs,Toned Milk 1L,Dairy,70,68.03
+2026-07-06,INV-2607-0801,Raza Brothers,Detergent 1kg,Household,36,131.46
+2026-07-06,INV-2607-0802,Sinha Super Mart,Potato Chips 150g,Snacks,10,51.78
+2026-07-06,INV-2607-0803,Mishra Stores,Detergent 1kg,Household,36,133.15
+2026-07-07,INV-2607-0804,Jha Provisions,Mango Juice 1L,Beverages,42,121.84
+2026-07-07,INV-2607-0805,Bhatt General Store,Detergent 1kg,Household,39,132.77
+2026-07-07,INV-2607-0806,Rai Daily Mart,Toned Milk 1L,Dairy,70,66.63
+2026-07-07,INV-2607-0807,Azad Stores,Paneer 200g,Dairy,39,93.58
+2026-07-07,INV-2607-0808,Rai Daily Mart,Floor Cleaner 1L,Household,13,113.05
+2026-07-07,INV-2607-0809,Verma Retail,Cola 750ml,Beverages,44,47.12
+2026-07-07,INV-2607-0810,Dubey Kirana,Biscuits 400g,Snacks,51,41.27
+2026-07-07,INV-2607-0811,Tiwari General,Cola 750ml,Beverages,21,46.32
+2026-07-07,INV-2607-0812,Rai Daily Mart,Cola 750ml,Beverages,29,45.04
+2026-07-07,INV-2607-0813,Mehta Retail,Instant Noodles 280g,Snacks,6,56.38
+2026-07-07,INV-2607-0814,Yadav Daily Needs,Instant Noodles 280g,Snacks,22,55.73
+2026-07-08,INV-2607-0815,Pandey Stores,Detergent 1kg,Household,24,135.64
+2026-07-08,INV-2607-0816,Raza Brothers,Instant Noodles 280g,Snacks,37,55.85
+2026-07-08,INV-2607-0817,Choudhary Mart,Detergent 1kg,Household,7,131.2
+2026-07-08,INV-2607-0818,Kumari Kirana,Toned Milk 1L,Dairy,54,65.08
+2026-07-08,INV-2607-0819,Pandey Stores,Toned Milk 1L,Dairy,11,65.44
+2026-07-08,INV-2607-0820,Yadav Daily Needs,Potato Chips 150g,Snacks,19,52.31
+2026-07-08,INV-2607-0821,Khan Mart,Instant Noodles 280g,Snacks,39,54.93
+2026-07-08,INV-2607-0822,Sinha Super Mart,Cola 750ml,Beverages,64,45.22
+2026-07-08,INV-2607-0823,Sinha Super Mart,Detergent 1kg,Household,63,131.78
+2026-07-08,INV-2607-0824,Ali General Store,Biscuits 400g,Snacks,43,41.48
+2026-07-08,INV-2607-0825,Jha Provisions,Paneer 200g,Dairy,56,97.0
+2026-07-09,INV-2607-0826,Tiwari General,Floor Cleaner 1L,Household,61,112.19
+2026-07-09,INV-2607-0827,Das & Sons,Potato Chips 150g,Snacks,14,49.09
+2026-07-09,INV-2607-0828,Verma Retail,Potato Chips 150g,Snacks,34,49.77
+2026-07-09,INV-2607-0829,Tiwari General,Biscuits 400g,Snacks,12,40.56
+2026-07-09,INV-2607-0830,Sahu Traders,Biscuits 400g,Snacks,55,41.35
+2026-07-09,INV-2607-0831,Patel Traders,Packaged Water 1L,Beverages,19,20.7
+2026-07-09,INV-2607-0832,Das & Sons,Biscuits 400g,Snacks,30,41.11
+2026-07-09,INV-2607-0833,Jha Provisions,Detergent 1kg,Household,26,128.68
+2026-07-09,INV-2607-0834,Yadav Daily Needs,Biscuits 400g,Snacks,11,41.77
+2026-07-10,INV-2607-0835,Patel Traders,Packaged Water 1L,Beverages,41,20.31
+2026-07-10,INV-2607-0836,Bhatt General Store,Packaged Water 1L,Beverages,10,19.74
+2026-07-10,INV-2607-0837,Yadav Daily Needs,Mango Juice 1L,Beverages,23,117.42
+2026-07-10,INV-2607-0838,Sahu Traders,Detergent 1kg,Household,36,130.82
+2026-07-10,INV-2607-0839,Azad Stores,Paneer 200g,Dairy,20,98.91
+2026-07-10,INV-2607-0840,Pandey Stores,Toned Milk 1L,Dairy,31,68.79
+2026-07-10,INV-2607-0841,Khan Mart,Floor Cleaner 1L,Household,43,107.11
+2026-07-10,INV-2607-0842,Singh Super Bazaar,Instant Noodles 280g,Snacks,32,58.78
+2026-07-11,INV-2607-0843,Ali General Store,Mango Juice 1L,Beverages,26,121.11
+2026-07-11,INV-2607-0844,Sinha Super Mart,Biscuits 400g,Snacks,29,39.19
+2026-07-11,INV-2607-0845,Singh Super Bazaar,Detergent 1kg,Household,15,133.25
+2026-07-11,INV-2607-0846,Verma Retail,Detergent 1kg,Household,67,127.45
+2026-07-11,INV-2607-0847,Patel Traders,Floor Cleaner 1L,Household,68,110.82
+2026-07-12,INV-2607-0848,Sinha Super Mart,Instant Noodles 280g,Snacks,52,54.82
+2026-07-12,INV-2607-0849,Prasad Traders,Instant Noodles 280g,Snacks,87,57.54
+2026-07-12,INV-2607-0850,Verma Retail,Packaged Water 1L,Beverages,46,19.57
+2026-07-12,INV-2607-0851,Raza Brothers,Paneer 200g,Dairy,32,95.07
+2026-07-12,INV-2607-0852,Mehta Retail,Potato Chips 150g,Snacks,34,50.01
+2026-07-12,INV-2607-0853,Das & Sons,Dish Soap 500ml,Household,50,100.51
+2026-07-12,INV-2607-0854,Prasad Traders,Dish Soap 500ml,Household,45,99.45
+2026-07-12,INV-2607-0855,Sharma Provision,Mango Juice 1L,Beverages,60,119.37
+2026-07-12,INV-2607-0856,Yadav Daily Needs,Packaged Water 1L,Beverages,34,20.26
+2026-07-12,INV-2607-0857,Rai Daily Mart,Mango Juice 1L,Beverages,55,117.14
+2026-07-12,INV-2607-0858,Singh Super Bazaar,Floor Cleaner 1L,Household,26,109.08
+2026-07-13,INV-2607-0859,Sahu Traders,Dish Soap 500ml,Household,54,99.37
+2026-07-13,INV-2607-0860,Mishra Stores,Mango Juice 1L,Beverages,5,121.81
+2026-07-13,INV-2607-0861,Kumari Kirana,Paneer 200g,Dairy,32,97.67
+2026-07-13,INV-2607-0862,Kumari Kirana,Instant Noodles 280g,Snacks,22,55.16
+2026-07-13,INV-2607-0863,Mishra Stores,Cola 750ml,Beverages,5,44.02
+2026-07-14,INV-2607-0864,Azad Stores,Paneer 200g,Dairy,56,93.16
+2026-07-14,INV-2607-0865,Bhatt General Store,Curd Cup 400g,Dairy,19,44.49
+2026-07-14,INV-2607-0866,Jha Provisions,Toned Milk 1L,Dairy,66,68.04
+2026-07-14,INV-2607-0867,Sahu Traders,Packaged Water 1L,Beverages,32,19.47
+2026-07-14,INV-2607-0868,Bhatt General Store,Paneer 200g,Dairy,5,96.84
+2026-07-14,INV-2607-0869,Sinha Super Mart,Instant Noodles 280g,Snacks,49,58.52
+2026-07-15,INV-2607-0870,Mehta Retail,Instant Noodles 280g,Snacks,18,55.07
+2026-07-15,INV-2607-0871,Singh Super Bazaar,Packaged Water 1L,Beverages,25,19.6
+2026-07-15,INV-2607-0872,Khan Mart,Dish Soap 500ml,Household,41,103.86
+2026-07-15,INV-2607-0873,Mehta Retail,Biscuits 400g,Snacks,42,40.94
+2026-07-15,INV-2607-0874,Raza Brothers,Paneer 200g,Dairy,51,94.32
+2026-07-16,INV-2607-0875,Das & Sons,Floor Cleaner 1L,Household,19,109.07
+2026-07-16,INV-2607-0876,Nath Provisions,Floor Cleaner 1L,Household,59,112.49
+2026-07-16,INV-2607-0877,Khan Mart,Biscuits 400g,Snacks,59,40.08
+2026-07-16,INV-2607-0878,Mishra Stores,Biscuits 400g,Snacks,54,40.8
+2026-07-16,INV-2607-0879,Verma Retail,Cola 750ml,Beverages,41,45.68
+2026-07-16,INV-2607-0880,Azad Stores,Biscuits 400g,Snacks,65,39.99
+2026-07-16,INV-2607-0881,Pandey Stores,Mango Juice 1L,Beverages,41,116.55
+2026-07-16,INV-2607-0882,Azad Stores,Curd Cup 400g,Dairy,24,46.55
+2026-07-16,INV-2607-0883,Verma Retail,Floor Cleaner 1L,Household,67,112.75
+2026-07-17,INV-2607-0884,Patel Traders,Detergent 1kg,Household,45,134.95
+2026-07-17,INV-2607-0885,Choudhary Mart,Curd Cup 400g,Dairy,57,46.26
+2026-07-17,INV-2607-0886,Yadav Daily Needs,Cola 750ml,Beverages,47,46.36
+2026-07-17,INV-2607-0887,Yadav Daily Needs,Curd Cup 400g,Dairy,12,43.88
+2026-07-17,INV-2607-0888,Prasad Traders,Dish Soap 500ml,Household,46,97.13
+2026-07-18,INV-2607-0889,Mishra Stores,Cola 750ml,Beverages,34,45.6
+2026-07-18,INV-2607-0890,Gupta General Store,Toned Milk 1L,Dairy,74,64.03
+2026-07-18,INV-2607-0891,Rai Daily Mart,Instant Noodles 280g,Snacks,31,58.16
+2026-07-18,INV-2607-0892,Verma Retail,Curd Cup 400g,Dairy,45,45.41
+2026-07-18,INV-2607-0893,Prasad Traders,Floor Cleaner 1L,Household,79,109.9
+2026-07-18,INV-2607-0894,Jha Provisions,Floor Cleaner 1L,Household,56,108.68
+2026-07-18,INV-2607-0895,Azad Stores,Curd Cup 400g,Dairy,65,46.27
+2026-07-18,INV-2607-0896,Jha Provisions,Cola 750ml,Beverages,85,46.47
+2026-07-18,INV-2607-0897,Sinha Super Mart,Curd Cup 400g,Dairy,81,44.24
+2026-07-18,INV-2607-0898,Mehta Retail,Floor Cleaner 1L,Household,60,109.04
+2026-07-18,INV-2607-0899,Ali General Store,Detergent 1kg,Household,83,128.32
+2026-07-19,INV-2607-0900,Prasad Traders,Packaged Water 1L,Beverages,4,20.07
+2026-07-19,INV-2607-0901,Singh Super Bazaar,Cola 750ml,Beverages,24,44.61
+2026-07-19,INV-2607-0902,Patel Traders,Floor Cleaner 1L,Household,52,108.92
+2026-07-19,INV-2607-0903,Bhatt General Store,Detergent 1kg,Household,16,132.97
+2026-07-19,INV-2607-0904,Verma Retail,Mango Juice 1L,Beverages,52,122.62
+2026-07-19,INV-2607-0905,Sharma Provision,Mango Juice 1L,Beverages,45,120.23
+2026-07-19,INV-2607-0906,Sahu Traders,Curd Cup 400g,Dairy,38,44.48
+2026-07-19,INV-2607-0907,Singh Super Bazaar,Detergent 1kg,Household,56,126.16
+2026-07-19,INV-2607-0908,Ali General Store,Potato Chips 150g,Snacks,51,49.44
+2026-07-19,INV-2607-0909,Ali General Store,Toned Milk 1L,Dairy,47,65.45
+2026-07-20,INV-2607-0910,Raza Brothers,Instant Noodles 280g,Snacks,69,56.95
+2026-07-20,INV-2607-0911,Azad Stores,Biscuits 400g,Snacks,71,39.71
+2026-07-20,INV-2607-0912,Pandey Stores,Cola 750ml,Beverages,53,44.65
+2026-07-20,INV-2607-0913,Sharma Provision,Dish Soap 500ml,Household,41,98.94
+2026-07-20,INV-2607-0914,Sinha Super Mart,Paneer 200g,Dairy,47,94.18
+2026-07-20,INV-2607-0915,Rai Daily Mart,Packaged Water 1L,Beverages,24,19.95
+2026-07-20,INV-2607-0916,Patel Traders,Paneer 200g,Dairy,62,95.37
+2026-07-20,INV-2607-0917,Mehta Retail,Detergent 1kg,Household,36,134.15
+2026-07-20,INV-2607-0918,Nath Provisions,Dish Soap 500ml,Household,63,102.61
+2026-07-20,INV-2607-0919,Kumari Kirana,Cola 750ml,Beverages,22,44.01
+2026-07-20,INV-2607-0920,Raza Brothers,Packaged Water 1L,Beverages,10,19.43
+2026-07-21,INV-2607-0921,Prasad Traders,Dish Soap 500ml,Household,51,99.01
+2026-07-21,INV-2607-0922,Nath Provisions,Toned Milk 1L,Dairy,70,67.07
+2026-07-21,INV-2607-0923,Prasad Traders,Mango Juice 1L,Beverages,12,116.52
+2026-07-21,INV-2607-0924,Dubey Kirana,Dish Soap 500ml,Household,71,101.45
+2026-07-21,INV-2607-0925,Sahu Traders,Toned Milk 1L,Dairy,59,67.94
+2026-07-21,INV-2607-0926,Sahu Traders,Mango Juice 1L,Beverages,22,122.94
+2026-07-21,INV-2607-0927,Mishra Stores,Potato Chips 150g,Snacks,24,50.98
+2026-07-21,INV-2607-0928,Choudhary Mart,Paneer 200g,Dairy,42,92.46
+2026-07-21,INV-2607-0929,Ali General Store,Instant Noodles 280g,Snacks,19,56.83
+2026-07-22,INV-2607-0930,Sinha Super Mart,Dish Soap 500ml,Household,59,103.68
+2026-07-22,INV-2607-0931,Jha Provisions,Toned Milk 1L,Dairy,35,65.81
+2026-07-22,INV-2607-0932,Mishra Stores,Toned Milk 1L,Dairy,5,65.51
+2026-07-22,INV-2607-0933,Tiwari General,Packaged Water 1L,Beverages,28,20.89
+2026-07-22,INV-2607-0934,Sinha Super Mart,Paneer 200g,Dairy,46,93.39
+2026-07-22,INV-2607-0935,Mehta Retail,Instant Noodles 280g,Snacks,44,56.16
+2026-07-22,INV-2607-0936,Rai Daily Mart,Potato Chips 150g,Snacks,30,50.53
+2026-07-23,INV-2607-0937,Mishra Stores,Instant Noodles 280g,Snacks,56,54.96
+2026-07-23,INV-2607-0938,Khan Mart,Dish Soap 500ml,Household,15,99.33
+2026-07-23,INV-2607-0939,Mehta Retail,Mango Juice 1L,Beverages,8,117.44
+2026-07-23,INV-2607-0940,Patel Traders,Detergent 1kg,Household,20,130.37
+2026-07-23,INV-2607-0941,Sahu Traders,Paneer 200g,Dairy,61,95.14
+2026-07-23,INV-2607-0942,Singh Super Bazaar,Toned Milk 1L,Dairy,15,66.81
+2026-07-24,INV-2607-0943,Das & Sons,Curd Cup 400g,Dairy,24,44.28
+2026-07-24,INV-2607-0944,Ali General Store,Dish Soap 500ml,Household,6,96.09
+2026-07-24,INV-2607-0945,Dubey Kirana,Floor Cleaner 1L,Household,40,111.73
+2026-07-24,INV-2607-0946,Verma Retail,Cola 750ml,Beverages,18,45.93
+2026-07-24,INV-2607-0947,Jha Provisions,Instant Noodles 280g,Snacks,32,55.51
+2026-07-25,INV-2607-0948,Sinha Super Mart,Paneer 200g,Dairy,66,99.64
+2026-07-25,INV-2607-0949,Tiwari General,Biscuits 400g,Snacks,37,39.71
+2026-07-25,INV-2607-0950,Sharma Provision,Cola 750ml,Beverages,15,46.51
+2026-07-25,INV-2607-0951,Verma Retail,Potato Chips 150g,Snacks,31,49.71
+2026-07-25,INV-2607-0952,Yadav Daily Needs,Curd Cup 400g,Dairy,7,46.94
+2026-07-25,INV-2607-0953,Dubey Kirana,Biscuits 400g,Snacks,64,39.1
+2026-07-25,INV-2607-0954,Patel Traders,Toned Milk 1L,Dairy,53,67.78
+2026-07-25,INV-2607-0955,Sharma Provision,Detergent 1kg,Household,94,128.11
+2026-07-25,INV-2607-0956,Prasad Traders,Curd Cup 400g,Dairy,42,44.76
+2026-07-26,INV-2607-0957,Azad Stores,Biscuits 400g,Snacks,64,40.45
+2026-07-26,INV-2607-0958,Azad Stores,Detergent 1kg,Household,59,133.9
+2026-07-26,INV-2607-0959,Patel Traders,Paneer 200g,Dairy,63,96.1
+2026-07-26,INV-2607-0960,Yadav Daily Needs,Instant Noodles 280g,Snacks,30,57.02
+2026-07-26,INV-2607-0961,Gupta General Store,Toned Milk 1L,Dairy,4,68.66
+2026-07-26,INV-2607-0962,Sharma Provision,Packaged Water 1L,Beverages,27,20.15
+2026-07-26,INV-2607-0963,Rai Daily Mart,Detergent 1kg,Household,7,129.8
+2026-07-26,INV-2607-0964,Patel Traders,Mango Juice 1L,Beverages,51,120.93
+2026-07-26,INV-2607-0965,Gupta General Store,Mango Juice 1L,Beverages,12,124.22
+2026-07-27,INV-2607-0966,Khan Mart,Packaged Water 1L,Beverages,14,20.39
+2026-07-27,INV-2607-0967,Khan Mart,Packaged Water 1L,Beverages,9,20.89
+2026-07-27,INV-2607-0968,Raza Brothers,Cola 750ml,Beverages,8,46.92
+2026-07-27,INV-2607-0969,Sinha Super Mart,Detergent 1kg,Household,34,128.14
+2026-07-27,INV-2607-0970,Khan Mart,Dish Soap 500ml,Household,15,97.78
+2026-07-27,INV-2607-0971,Yadav Daily Needs,Toned Milk 1L,Dairy,63,68.99
+2026-07-27,INV-2607-0972,Jha Provisions,Toned Milk 1L,Dairy,28,68.59
+2026-07-27,INV-2607-0973,Sahu Traders,Paneer 200g,Dairy,45,94.11
+2026-07-28,INV-2607-0974,Jha Provisions,Instant Noodles 280g,Snacks,29,56.04
+2026-07-28,INV-2607-0975,Kumari Kirana,Floor Cleaner 1L,Household,41,112.64
+2026-07-28,INV-2607-0976,Dubey Kirana,Biscuits 400g,Snacks,4,40.7
+2026-07-28,INV-2607-0977,Mishra Stores,Curd Cup 400g,Dairy,20,47.16
+2026-07-28,INV-2607-0978,Azad Stores,Floor Cleaner 1L,Household,26,112.02
+2026-07-28,INV-2607-0979,Mehta Retail,Cola 750ml,Beverages,39,45.28
+2026-07-29,INV-2607-0980,Sinha Super Mart,Cola 750ml,Beverages,25,46.06
+2026-07-29,INV-2607-0981,Tiwari General,Packaged Water 1L,Beverages,26,19.62
+2026-07-29,INV-2607-0982,Dubey Kirana,Detergent 1kg,Household,15,134.02
+2026-07-29,INV-2607-0983,Sahu Traders,Floor Cleaner 1L,Household,43,109.17
+2026-07-29,INV-2607-0984,Raza Brothers,Dish Soap 500ml,Household,17,96.6
+2026-07-29,INV-2607-0985,Nath Provisions,Dish Soap 500ml,Household,29,99.48
+2026-07-29,INV-2607-0986,Pandey Stores,Mango Juice 1L,Beverages,76,125.03
+2026-07-29,INV-2607-0987,Mehta Retail,Biscuits 400g,Snacks,6,40.72
+2026-07-29,INV-2607-0988,Khan Mart,Floor Cleaner 1L,Household,48,107.48
+2026-07-29,INV-2607-0989,Choudhary Mart,Floor Cleaner 1L,Household,71,108.76
+2026-07-30,INV-2607-0990,Dubey Kirana,Cola 750ml,Beverages,48,46.46
+2026-07-30,INV-2607-0991,Pandey Stores,Detergent 1kg,Household,38,128.44
+2026-07-30,INV-2607-0992,Raza Brothers,Toned Milk 1L,Dairy,62,68.31
+2026-07-30,INV-2607-0993,Kumari Kirana,Toned Milk 1L,Dairy,23,66.62
+2026-07-30,INV-2607-0994,Rai Daily Mart,Paneer 200g,Dairy,51,92.79
+2026-07-30,INV-2607-0995,Raza Brothers,Dish Soap 500ml,Household,53,100.17
+2026-07-30,INV-2607-0996,Ali General Store,Mango Juice 1L,Beverages,41,122.09
+2026-07-30,INV-2607-0997,Jha Provisions,Packaged Water 1L,Beverages,66,20.5
+2026-07-30,INV-2607-0998,Verma Retail,Mango Juice 1L,Beverages,60,120.54
+2026-07-30,INV-2607-0999,Mishra Stores,Instant Noodles 280g,Snacks,11,55.57
+2026-07-31,INV-2607-1000,Azad Stores,Packaged Water 1L,Beverages,36,20.89
+2026-07-31,INV-2607-1001,Rai Daily Mart,Potato Chips 150g,Snacks,4,50.35
+2026-07-31,INV-2607-1002,Das & Sons,Instant Noodles 280g,Snacks,45,54.86
+2026-07-31,INV-2607-1003,Azad Stores,Packaged Water 1L,Beverages,7,19.61
+2026-07-31,INV-2607-1004,Mishra Stores,Cola 750ml,Beverages,25,45.01
+2026-08-01,INV-2608-1005,Tiwari General,Instant Noodles 280g,Snacks,10,56.03
+2026-08-01,INV-2608-1006,Mehta Retail,Packaged Water 1L,Beverages,49,20.26
+2026-08-01,INV-2608-1007,Azad Stores,Biscuits 400g,Snacks,51,41.63
+2026-08-01,INV-2608-1008,Sahu Traders,Floor Cleaner 1L,Household,52,106.87
+2026-08-01,INV-2608-1009,Yadav Daily Needs,Mango Juice 1L,Beverages,33,116.88
+2026-08-03,INV-2608-1020,Singh Super Bazaar,Mango Juice 1L,Beverages,34,122.49
+2026-08-03,INV-2608-1021,Mehta Retail,Cola 750ml,Beverages,35,46.06
+2026-08-03,INV-2608-1022,Raza Brothers,Curd Cup 400g,Dairy,24,44.23
+2026-08-03,INV-2608-1023,Nath Provisions,Paneer 200g,Dairy,40,98.81
+2026-08-03,INV-2608-1024,Dubey Kirana,Dish Soap 500ml,Household,5,97.98
+2026-08-04,INV-2608-1025,Sharma Provision,Mango Juice 1L,Beverages,29,122.02
+2026-08-04,INV-2608-1026,Yadav Daily Needs,Packaged Water 1L,Beverages,12,20.55
+2026-08-04,INV-2608-1027,Raza Brothers,Floor Cleaner 1L,Household,7,108.27
+2026-08-04,INV-2608-1028,Nath Provisions,Curd Cup 400g,Dairy,60,46.19
+2026-08-04,INV-2608-1029,Dubey Kirana,Toned Milk 1L,Dairy,59,69.1
+2026-08-04,INV-2608-1030,Ali General Store,Dish Soap 500ml,Household,16,98.41
+2026-08-04,INV-2608-1031,Verma Retail,Instant Noodles 280g,Snacks,46,54.73
+2026-08-05,INV-2608-1032,Choudhary Mart,Cola 750ml,Beverages,24,46.72
+2026-08-05,INV-2608-1033,Kumari Kirana,Packaged Water 1L,Beverages,17,19.48
+2026-08-05,INV-2608-1034,Pandey Stores,Floor Cleaner 1L,Household,14,112.05
+2026-08-05,INV-2608-1035,Azad Stores,Detergent 1kg,Household,19,127.23
+2026-08-05,INV-2608-1036,Choudhary Mart,Paneer 200g,Dairy,42,99.65
+2026-08-05,INV-2608-1037,Rai Daily Mart,Cola 750ml,Beverages,63,46.67
+2026-08-05,INV-2608-1038,Prasad Traders,Curd Cup 400g,Dairy,45,44.27
+2026-08-05,INV-2608-1039,Verma Retail,Mango Juice 1L,Beverages,7,125.76
+2026-08-06,INV-2608-1040,Verma Retail,Mango Juice 1L,Beverages,31,125.37
+2026-08-06,INV-2608-1041,Azad Stores,Dish Soap 500ml,Household,14,101.47
+2026-08-06,INV-2608-1042,Mishra Stores,Detergent 1kg,Household,10,129.14
+2026-08-06,INV-2608-1043,Sahu Traders,Paneer 200g,Dairy,17,96.1
+2026-08-06,INV-2608-1044,Gupta General Store,Detergent 1kg,Household,37,134.13
+2026-08-06,INV-2608-1045,Yadav Daily Needs,Dish Soap 500ml,Household,41,96.55
+2026-08-06,INV-2608-1046,Sinha Super Mart,Cola 750ml,Beverages,68,44.9
+2026-08-06,INV-2608-1047,Choudhary Mart,Floor Cleaner 1L,Household,54,111.22
+2026-08-07,INV-2608-1048,Pandey Stores,Instant Noodles 280g,Snacks,3,55.11
+2026-08-07,INV-2608-1049,Kumari Kirana,Paneer 200g,Dairy,62,95.22
+2026-08-07,INV-2608-1050,Raza Brothers,Paneer 200g,Dairy,12,93.45
+2026-08-07,INV-2608-1051,Das & Sons,Packaged Water 1L,Beverages,18,20.23
+2026-08-07,INV-2608-1052,Patel Traders,Mango Juice 1L,Beverages,46,122.98
+2026-08-07,INV-2608-1053,Kumari Kirana,Dish Soap 500ml,Household,27,100.96
+2026-08-08,INV-2608-1054,Singh Super Bazaar,Toned Milk 1L,Dairy,68,68.34
+2026-08-08,INV-2608-1055,Choudhary Mart,Cola 750ml,Beverages,12,44.97
+2026-08-08,INV-2608-1056,Khan Mart,Instant Noodles 280g,Snacks,30,56.75
+2026-08-08,INV-2608-1057,Mishra Stores,Toned Milk 1L,Dairy,60,68.85
+2026-08-08,INV-2608-1058,Sharma Provision,Dish Soap 500ml,Household,8,103.81
+2026-08-09,INV-2608-1059,Nath Provisions,Cola 750ml,Beverages,68,44.39
+2026-08-09,INV-2608-1060,Rai Daily Mart,Detergent 1kg,Household,59,134.01
+2026-08-09,INV-2608-1061,Singh Super Bazaar,Curd Cup 400g,Dairy,52,45.64
+2026-08-09,INV-2608-1062,Dubey Kirana,Mango Juice 1L,Beverages,21,119.48
+2026-08-09,INV-2608-1063,Sahu Traders,Paneer 200g,Dairy,6,98.85
+2026-08-09,INV-2608-1064,Sharma Provision,Cola 750ml,Beverages,59,46.14
+2026-08-09,INV-2608-1065,Sharma Provision,Floor Cleaner 1L,Household,58,109.24
+2026-08-10,INV-2608-1066,Dubey Kirana,Packaged Water 1L,Beverages,23,19.71
+2026-08-10,INV-2608-1067,Tiwari General,Packaged Water 1L,Beverages,45,20.27
+2026-08-10,INV-2608-1068,Gupta General Store,Instant Noodles 280g,Snacks,64,56.87
+2026-08-10,INV-2608-1069,Sinha Super Mart,Floor Cleaner 1L,Household,50,115.21
+2026-08-10,INV-2608-1070,Choudhary Mart,Cola 750ml,Beverages,16,45.96
+2026-08-10,INV-2608-1071,Mehta Retail,Dish Soap 500ml,Household,29,102.98
+2026-08-10,INV-2608-1072,Patel Traders,Dish Soap 500ml,Household,39,99.09
+2026-08-11,INV-2608-1073,Ali General Store,Floor Cleaner 1L,Household,16,108.94
+2026-08-11,INV-2608-1074,Das & Sons,Mango Juice 1L,Beverages,10,123.35
+2026-08-11,INV-2608-1075,Choudhary Mart,Packaged Water 1L,Beverages,15,20.17
+2026-08-11,INV-2608-1076,Das & Sons,Detergent 1kg,Household,39,135.31
+2026-08-11,INV-2608-1077,Yadav Daily Needs,Detergent 1kg,Household,21,135.25
+2026-08-12,INV-2608-1078,Pandey Stores,Biscuits 400g,Snacks,25,39.02
+2026-08-12,INV-2608-1079,Sharma Provision,Curd Cup 400g,Dairy,46,45.17
+2026-08-12,INV-2608-1080,Choudhary Mart,Floor Cleaner 1L,Household,23,110.0
+2026-08-12,INV-2608-1081,Jha Provisions,Paneer 200g,Dairy,21,97.76
+2026-08-12,INV-2608-1082,Mehta Retail,Dish Soap 500ml,Household,31,102.91
+2026-08-12,INV-2608-1083,Prasad Traders,Mango Juice 1L,Beverages,27,119.04
+2026-08-12,INV-2608-1084,Kumari Kirana,Toned Milk 1L,Dairy,29,64.42
+2026-08-12,INV-2608-1085,Das & Sons,Dish Soap 500ml,Household,24,103.78
+2026-08-13,INV-2608-1086,Verma Retail,Potato Chips 150g,Snacks,25,52.28
+2026-08-13,INV-2608-1087,Raza Brothers,Cola 750ml,Beverages,10,45.69
+2026-08-13,INV-2608-1088,Rai Daily Mart,Cola 750ml,Beverages,61,44.04
+2026-08-13,INV-2608-1089,Ali General Store,Biscuits 400g,Snacks,40,41.07
+2026-08-13,INV-2608-1090,Patel Traders,Toned Milk 1L,Dairy,29,66.44
+2026-08-14,INV-2608-1091,Raza Brothers,Biscuits 400g,Snacks,59,40.27
+2026-08-14,INV-2608-1092,Tiwari General,Cola 750ml,Beverages,19,45.54
+2026-08-14,INV-2608-1093,Ali General Store,Potato Chips 150g,Snacks,23,51.15
+2026-08-14,INV-2608-1094,Dubey Kirana,Packaged Water 1L,Beverages,62,20.2
+2026-08-14,INV-2608-1095,Jha Provisions,Instant Noodles 280g,Snacks,38,57.42
+2026-08-14,INV-2608-1096,Patel Traders,Potato Chips 150g,Snacks,9,50.73
+2026-08-15,INV-2608-1097,Verma Retail,Dish Soap 500ml,Household,43,103.68
+2026-08-15,INV-2608-1098,Kumari Kirana,Packaged Water 1L,Beverages,51,20.0
+2026-08-15,INV-2608-1099,Pandey Stores,Detergent 1kg,Household,56,135.99
+2026-08-15,INV-2608-1100,Gupta General Store,Dish Soap 500ml,Household,51,103.25
+2026-08-15,INV-2608-1101,Raza Brothers,Curd Cup 400g,Dairy,27,44.22
+2026-08-15,INV-2608-1102,Sharma Provision,Floor Cleaner 1L,Household,55,110.62
+2026-08-15,INV-2608-1103,Khan Mart,Curd Cup 400g,Dairy,51,45.25
+2026-08-16,INV-2608-1104,Sinha Super Mart,Packaged Water 1L,Beverages,79,20.23
+2026-08-16,INV-2608-1105,Kumari Kirana,Floor Cleaner 1L,Household,28,113.88
+2026-08-16,INV-2608-1106,Mehta Retail,Floor Cleaner 1L,Household,45,114.55
+2026-08-16,INV-2608-1107,Dubey Kirana,Potato Chips 150g,Snacks,20,52.14
+2026-08-16,INV-2608-1108,Mishra Stores,Packaged Water 1L,Beverages,35,20.61
+2026-08-16,INV-2608-1109,Nath Provisions,Toned Milk 1L,Dairy,55,66.09
+2026-08-17,INV-2608-1110,Patel Traders,Instant Noodles 280g,Snacks,18,58.0
+2026-08-17,INV-2608-1111,Nath Provisions,Potato Chips 150g,Snacks,30,49.73
+2026-08-17,INV-2608-1112,Sahu Traders,Instant Noodles 280g,Snacks,41,58.39
+2026-08-17,INV-2608-1113,Jha Provisions,Floor Cleaner 1L,Household,25,110.73
+2026-08-17,INV-2608-1114,Khan Mart,Detergent 1kg,Household,40,127.69
+2026-08-17,INV-2608-1115,Raza Brothers,Instant Noodles 280g,Snacks,15,55.44
+2026-08-17,INV-2608-1116,Jha Provisions,Cola 750ml,Beverages,57,43.88
+2026-08-17,INV-2608-1117,Tiwari General,Potato Chips 150g,Snacks,17,52.14
+2026-08-17,INV-2608-1118,Jha Provisions,Paneer 200g,Dairy,19,95.03
+2026-08-18,INV-2608-1119,Sahu Traders,Instant Noodles 280g,Snacks,12,56.45
+2026-08-18,INV-2608-1120,Sharma Provision,Biscuits 400g,Snacks,2,40.86
+2026-08-18,INV-2608-1121,Gupta General Store,Dish Soap 500ml,Household,44,96.11
+2026-08-18,INV-2608-1122,Sharma Provision,Toned Milk 1L,Dairy,26,66.27
+2026-08-18,INV-2608-1123,Sinha Super Mart,Potato Chips 150g,Snacks,32,52.4
+2026-08-18,INV-2608-1124,Khan Mart,Mango Juice 1L,Beverages,15,117.1
+2026-08-18,INV-2608-1125,Sharma Provision,Packaged Water 1L,Beverages,30,19.66
+2026-08-18,INV-2608-1126,Sahu Traders,Dish Soap 500ml,Household,12,103.03
+2026-08-18,INV-2608-1127,Ali General Store,Detergent 1kg,Household,18,131.29
+2026-08-18,INV-2608-1128,Kumari Kirana,Potato Chips 150g,Snacks,39,50.56
+2026-08-19,INV-2608-1129,Sinha Super Mart,Curd Cup 400g,Dairy,43,44.29
+2026-08-19,INV-2608-1130,Rai Daily Mart,Floor Cleaner 1L,Household,42,111.54
+2026-08-19,INV-2608-1131,Mishra Stores,Toned Milk 1L,Dairy,21,66.13
+2026-08-19,INV-2608-1132,Jha Provisions,Toned Milk 1L,Dairy,36,69.03
+2026-08-19,INV-2608-1133,Tiwari General,Detergent 1kg,Household,15,136.48
+2026-08-19,INV-2608-1134,Jha Provisions,Curd Cup 400g,Dairy,4,44.91
+2026-08-19,INV-2608-1135,Sharma Provision,Mango Juice 1L,Beverages,37,117.62
+2026-08-19,INV-2608-1136,Sinha Super Mart,Detergent 1kg,Household,40,132.99
+2026-08-19,INV-2608-1137,Sinha Super Mart,Mango Juice 1L,Beverages,27,121.47
+2026-08-19,INV-2608-1138,Sharma Provision,Mango Juice 1L,Beverages,48,119.0
+2026-08-19,INV-2608-1139,Yadav Daily Needs,Dish Soap 500ml,Household,52,102.87
+2026-08-20,INV-2608-1140,Sharma Provision,Toned Milk 1L,Dairy,15,68.05
+2026-08-20,INV-2608-1141,Azad Stores,Mango Juice 1L,Beverages,64,119.68
+2026-08-20,INV-2608-1142,Prasad Traders,Packaged Water 1L,Beverages,49,20.1
+2026-08-20,INV-2608-1143,Pandey Stores,Paneer 200g,Dairy,28,97.25
+2026-08-20,INV-2608-1144,Gupta General Store,Curd Cup 400g,Dairy,41,46.8
+2026-08-20,INV-2608-1145,Ali General Store,Floor Cleaner 1L,Household,31,115.34
+2026-08-21,INV-2608-1146,Jha Provisions,Toned Milk 1L,Dairy,45,68.31
+2026-08-21,INV-2608-1147,Raza Brothers,Potato Chips 150g,Snacks,4,49.6
+2026-08-21,INV-2608-1148,Sharma Provision,Floor Cleaner 1L,Household,17,107.6
+2026-08-21,INV-2608-1149,Das & Sons,Mango Juice 1L,Beverages,36,118.89
+2026-08-21,INV-2608-1150,Pandey Stores,Packaged Water 1L,Beverages,35,20.45
+2026-08-21,INV-2608-1151,Sinha Super Mart,Potato Chips 150g,Snacks,4,50.32
+2026-08-21,INV-2608-1152,Tiwari General,Potato Chips 150g,Snacks,34,51.34
+2026-08-21,INV-2608-1153,Gupta General Store,Biscuits 400g,Snacks,22,41.82
+2026-08-22,INV-2608-1154,Azad Stores,Detergent 1kg,Household,4,131.67
+2026-08-22,INV-2608-1155,Gupta General Store,Toned Milk 1L,Dairy,58,68.33
+2026-08-22,INV-2608-1156,Patel Traders,Biscuits 400g,Snacks,61,40.46
+2026-08-22,INV-2608-1157,Verma Retail,Biscuits 400g,Snacks,45,41.83
+2026-08-22,INV-2608-1158,Dubey Kirana,Paneer 200g,Dairy,50,98.8
+2026-08-23,INV-2608-1159,Sharma Provision,Potato Chips 150g,Snacks,6,52.44
+2026-08-23,INV-2608-1160,Gupta General Store,Biscuits 400g,Snacks,26,41.33
+2026-08-23,INV-2608-1161,Patel Traders,Packaged Water 1L,Beverages,87,20.65
+2026-08-23,INV-2608-1162,Prasad Traders,Floor Cleaner 1L,Household,14,107.08
+2026-08-23,INV-2608-1163,Jha Provisions,Instant Noodles 280g,Snacks,38,55.7
+2026-08-23,INV-2608-1164,Gupta General Store,Packaged Water 1L,Beverages,74,19.9
+2026-08-23,INV-2608-1165,Dubey Kirana,Instant Noodles 280g,Snacks,47,58.78
+2026-08-23,INV-2608-1166,Sinha Super Mart,Toned Milk 1L,Dairy,43,65.67
+2026-08-23,INV-2608-1167,Patel Traders,Floor Cleaner 1L,Household,30,107.65
+2026-08-23,INV-2608-1168,Mishra Stores,Cola 750ml,Beverages,70,45.65
+2026-08-23,INV-2608-1169,Das & Sons,Cola 750ml,Beverages,56,45.36
+2026-08-24,INV-2608-1170,Patel Traders,Instant Noodles 280g,Snacks,42,57.01
+2026-08-24,INV-2608-1171,Raza Brothers,Dish Soap 500ml,Household,44,99.93
+2026-08-24,INV-2608-1172,Bhatt General Store,Detergent 1kg,Household,55,129.3
+2026-08-24,INV-2608-1173,Azad Stores,Cola 750ml,Beverages,36,45.85
+2026-08-24,INV-2608-1174,Prasad Traders,Curd Cup 400g,Dairy,46,44.84
+2026-08-24,INV-2608-1175,Pandey Stores,Cola 750ml,Beverages,14,46.96
+2026-08-24,INV-2608-1176,Sahu Traders,Detergent 1kg,Household,8,129.64
+2026-08-24,INV-2608-1177,Choudhary Mart,Cola 750ml,Beverages,43,43.68
+2026-08-24,INV-2608-1178,Prasad Traders,Biscuits 400g,Snacks,56,41.28
+2026-08-25,INV-2608-1179,Sinha Super Mart,Packaged Water 1L,Beverages,39,20.39
+2026-08-25,INV-2608-1180,Bhatt General Store,Paneer 200g,Dairy,42,97.07
+2026-08-25,INV-2608-1181,Nath Provisions,Floor Cleaner 1L,Household,7,107.03
+2026-08-25,INV-2608-1182,Bhatt General Store,Instant Noodles 280g,Snacks,17,56.67
+2026-08-25,INV-2608-1183,Prasad Traders,Cola 750ml,Beverages,36,44.05
+2026-08-25,INV-2608-1184,Nath Provisions,Mango Juice 1L,Beverages,17,122.88
+2026-08-25,INV-2608-1185,Verma Retail,Cola 750ml,Beverages,43,46.07
+2026-08-25,INV-2608-1186,Kumari Kirana,Paneer 200g,Dairy,53,98.64
+2026-08-25,INV-2608-1187,Das & Sons,Toned Milk 1L,Dairy,47,66.47
+2026-08-26,INV-2608-1188,Yadav Daily Needs,Potato Chips 150g,Snacks,8,50.75
+2026-08-26,INV-2608-1189,Sahu Traders,Packaged Water 1L,Beverages,26,20.17
+2026-08-26,INV-2608-1190,Ali General Store,Dish Soap 500ml,Household,17,96.88
+2026-08-26,INV-2608-1191,Pandey Stores,Dish Soap 500ml,Household,43,98.99
+2026-08-26,INV-2608-1192,Pandey Stores,Mango Juice 1L,Beverages,43,117.55
+2026-08-27,INV-2608-1193,Tiwari General,Potato Chips 150g,Snacks,42,51.33
+2026-08-27,INV-2608-1194,Jha Provisions,Dish Soap 500ml,Household,32,100.28
+2026-08-27,INV-2608-1195,Singh Super Bazaar,Cola 750ml,Beverages,37,45.81
+2026-08-27,INV-2608-1196,Prasad Traders,Packaged Water 1L,Beverages,46,19.9
+2026-08-27,INV-2608-1197,Pandey Stores,Paneer 200g,Dairy,7,99.52
+2026-08-27,INV-2608-1198,Nath Provisions,Instant Noodles 280g,Snacks,12,54.99
+2026-08-27,INV-2608-1199,Sinha Super Mart,Potato Chips 150g,Snacks,17,50.63
+2026-08-27,INV-2608-1200,Gupta General Store,Paneer 200g,Dairy,30,93.32
+2026-08-27,INV-2608-1201,Bhatt General Store,Toned Milk 1L,Dairy,14,68.89
+2026-08-27,INV-2608-1202,Pandey Stores,Toned Milk 1L,Dairy,58,65.15
+2026-08-27,INV-2608-1203,Ali General Store,Toned Milk 1L,Dairy,37,64.39
+2026-08-28,INV-2608-1204,Gupta General Store,Mango Juice 1L,Beverages,5,121.77
+2026-08-28,INV-2608-1205,Ali General Store,Curd Cup 400g,Dairy,38,45.22
+2026-08-28,INV-2608-1206,Kumari Kirana,Paneer 200g,Dairy,31,99.25
+2026-08-28,INV-2608-1207,Yadav Daily Needs,Toned Milk 1L,Dairy,51,66.88
+2026-08-28,INV-2608-1208,Singh Super Bazaar,Packaged Water 1L,Beverages,41,19.44
+2026-08-28,INV-2608-1209,Das & Sons,Dish Soap 500ml,Household,55,99.37
+2026-08-28,INV-2608-1210,Ali General Store,Packaged Water 1L,Beverages,45,20.15
+2026-08-29,INV-2608-1211,Jha Provisions,Paneer 200g,Dairy,28,96.97
+2026-08-29,INV-2608-1212,Patel Traders,Packaged Water 1L,Beverages,33,19.67
+2026-08-29,INV-2608-1213,Patel Traders,Toned Milk 1L,Dairy,24,65.91
+2026-08-29,INV-2608-1214,Sahu Traders,Floor Cleaner 1L,Household,27,108.33
+2026-08-29,INV-2608-1215,Kumari Kirana,Packaged Water 1L,Beverages,61,20.42
+2026-08-29,INV-2608-1216,Verma Retail,Paneer 200g,Dairy,6,99.61
+2026-08-30,INV-2608-1217,Raza Brothers,Cola 750ml,Beverages,25,46.89
+2026-08-30,INV-2608-1218,Rai Daily Mart,Biscuits 400g,Snacks,38,41.63
+2026-08-30,INV-2608-1219,Yadav Daily Needs,Dish Soap 500ml,Household,77,96.98
+2026-08-30,INV-2608-1220,Nath Provisions,Floor Cleaner 1L,Household,55,108.19
+2026-08-30,INV-2608-1221,Rai Daily Mart,Toned Milk 1L,Dairy,67,64.16
+2026-08-30,INV-2608-1222,Mishra Stores,Instant Noodles 280g,Snacks,48,58.36
+2026-08-30,INV-2608-1223,Jha Provisions,Toned Milk 1L,Dairy,54,65.66
+2026-08-30,INV-2608-1224,Azad Stores,Instant Noodles 280g,Snacks,33,56.35
+2026-08-30,INV-2608-1225,Bhatt General Store,Dish Soap 500ml,Household,28,102.06
+2026-08-30,INV-2608-1226,Singh Super Bazaar,Paneer 200g,Dairy,38,94.97
+2026-08-30,INV-2608-1227,Bhatt General Store,Cola 750ml,Beverages,49,46.86
+2026-08-31,INV-2608-1228,Jha Provisions,Dish Soap 500ml,Household,28,99.28
+2026-08-31,INV-2608-1229,Mehta Retail,Detergent 1kg,Household,28,134.26
+2026-08-31,INV-2608-1230,Sinha Super Mart,Floor Cleaner 1L,Household,30,113.8
+2026-08-31,INV-2608-1231,Jha Provisions,Packaged Water 1L,Beverages,11,20.98
+2026-08-31,INV-2608-1232,Sahu Traders,Toned Milk 1L,Dairy,16,67.52
+2026-08-31,INV-2608-1233,Khan Mart,Dish Soap 500ml,Household,13,102.49
+2026-08-31,INV-2608-1234,Mishra Stores,Biscuits 400g,Snacks,20,41.11
+2026-08-31,INV-2608-1235,Sinha Super Mart,Detergent 1kg,Household,36,130.65
+2026-08-31,INV-2608-1236,Sinha Super Mart,Paneer 200g,Dairy,30,95.92
+2026-08-31,INV-2608-1237,Das & Sons,Paneer 200g,Dairy,35,95.38
+2026-09-01,INV-2609-1238,Singh Super Bazaar,Curd Cup 400g,Dairy,27,43.77
+2026-09-01,INV-2609-1239,Prasad Traders,Toned Milk 1L,Dairy,31,66.22
+2026-09-01,INV-2609-1240,Raza Brothers,Curd Cup 400g,Dairy,6,43.67
+2026-09-01,INV-2609-1241,Verma Retail,Floor Cleaner 1L,Household,16,113.96
+2026-09-01,INV-2609-1242,Ali General Store,Paneer 200g,Dairy,43,97.51
+2026-09-01,INV-2609-1243,Rai Daily Mart,Instant Noodles 280g,Snacks,10,55.59
+2026-09-01,INV-2609-1244,Rai Daily Mart,Packaged Water 1L,Beverages,69,19.73
+2026-09-01,INV-2609-1245,Gupta General Store,Paneer 200g,Dairy,4,95.25
+2026-09-01,INV-2609-1246,Jha Provisions,Potato Chips 150g,Snacks,27,49.42
+2026-09-01,INV-2609-1247,Jha Provisions,Paneer 200g,Dairy,47,93.08
+2026-09-01,INV-2609-1248,Mehta Retail,Cola 750ml,Beverages,15,44.98
+2026-09-02,INV-2609-1249,Sinha Super Mart,Detergent 1kg,Household,41,135.38
+2026-09-02,INV-2609-1250,Sahu Traders,Potato Chips 150g,Snacks,34,48.69
+2026-09-02,INV-2609-1251,Singh Super Bazaar,Biscuits 400g,Snacks,4,40.8
+2026-09-02,INV-2609-1252,Bhatt General Store,Curd Cup 400g,Dairy,22,45.8
+2026-09-02,INV-2609-1253,Sinha Super Mart,Paneer 200g,Dairy,40,99.25
+2026-09-02,INV-2609-1254,Sahu Traders,Dish Soap 500ml,Household,25,101.54
+2026-09-02,INV-2609-1255,Choudhary Mart,Floor Cleaner 1L,Household,16,114.56
+2026-09-03,INV-2609-1256,Nath Provisions,Potato Chips 150g,Snacks,39,49.7
+2026-09-03,INV-2609-1257,Jha Provisions,Potato Chips 150g,Snacks,27,50.0
+2026-09-03,INV-2609-1258,Pandey Stores,Instant Noodles 280g,Snacks,17,56.54
+2026-09-03,INV-2609-1259,Singh Super Bazaar,Toned Milk 1L,Dairy,38,66.12
+2026-09-03,INV-2609-1260,Rai Daily Mart,Detergent 1kg,Household,47,133.54
+2026-09-03,INV-2609-1261,Sinha Super Mart,Detergent 1kg,Household,31,128.63
+2026-09-03,INV-2609-1262,Gupta General Store,Toned Milk 1L,Dairy,6,67.49
+2026-09-04,INV-2609-1263,Rai Daily Mart,Packaged Water 1L,Beverages,35,19.85
+2026-09-04,INV-2609-1264,Mehta Retail,Instant Noodles 280g,Snacks,59,57.7
+2026-09-04,INV-2609-1265,Das & Sons,Toned Milk 1L,Dairy,25,66.14
+2026-09-04,INV-2609-1266,Mishra Stores,Paneer 200g,Dairy,35,95.87
+2026-09-04,INV-2609-1267,Tiwari General,Curd Cup 400g,Dairy,20,43.67
+2026-09-04,INV-2609-1268,Gupta General Store,Detergent 1kg,Household,46,129.06
+2026-09-04,INV-2609-1269,Kumari Kirana,Paneer 200g,Dairy,27,92.73
+2026-09-04,INV-2609-1270,Rai Daily Mart,Detergent 1kg,Household,12,126.18
+2026-09-05,INV-2609-1271,Das & Sons,Potato Chips 150g,Snacks,17,52.09
+2026-09-05,INV-2609-1272,Choudhary Mart,Dish Soap 500ml,Household,37,98.84
+2026-09-05,INV-2609-1273,Azad Stores,Toned Milk 1L,Dairy,69,64.18
+2026-09-05,INV-2609-1274,Patel Traders,Packaged Water 1L,Beverages,9,20.46
+2026-09-05,INV-2609-1275,Rai Daily Mart,Biscuits 400g,Snacks,46,41.66
+2026-09-05,INV-2609-1276,Yadav Daily Needs,Paneer 200g,Dairy,30,95.0
+2026-09-05,INV-2609-1277,Patel Traders,Cola 750ml,Beverages,95,45.96
+2026-09-05,INV-2609-1278,Nath Provisions,Toned Milk 1L,Dairy,34,69.0
+2026-09-06,INV-2609-1279,Ali General Store,Floor Cleaner 1L,Household,101,109.4
+2026-09-06,INV-2609-1280,Jha Provisions,Cola 750ml,Beverages,84,46.44
+2026-09-06,INV-2609-1281,Gupta General Store,Toned Milk 1L,Dairy,47,64.33
+2026-09-06,INV-2609-1282,Azad Stores,Potato Chips 150g,Snacks,38,48.84
+2026-09-06,INV-2609-1283,Patel Traders,Floor Cleaner 1L,Household,56,110.48
+2026-09-06,INV-2609-1284,Sharma Provision,Instant Noodles 280g,Snacks,39,58.42
+2026-09-06,INV-2609-1285,Verma Retail,Curd Cup 400g,Dairy,51,45.18
+2026-09-06,INV-2609-1286,Sharma Provision,Cola 750ml,Beverages,93,46.74
+2026-09-06,INV-2609-1287,Raza Brothers,Packaged Water 1L,Beverages,72,19.43
+2026-09-06,INV-2609-1288,Bhatt General Store,Potato Chips 150g,Snacks,70,50.89
+2026-09-07,INV-2609-1289,Azad Stores,Packaged Water 1L,Beverages,47,19.72
+2026-09-07,INV-2609-1290,Verma Retail,Packaged Water 1L,Beverages,7,19.94
+2026-09-07,INV-2609-1291,Das & Sons,Paneer 200g,Dairy,65,99.54
+2026-09-07,INV-2609-1292,Nath Provisions,Cola 750ml,Beverages,38,45.4
+2026-09-07,INV-2609-1293,Rai Daily Mart,Cola 750ml,Beverages,74,46.75
+2026-09-07,INV-2609-1294,Yadav Daily Needs,Floor Cleaner 1L,Household,48,112.58
+2026-09-07,INV-2609-1295,Singh Super Bazaar,Detergent 1kg,Household,10,132.57
+2026-09-07,INV-2609-1296,Singh Super Bazaar,Toned Milk 1L,Dairy,21,68.47
+2026-09-07,INV-2609-1297,Sharma Provision,Detergent 1kg,Household,6,135.64
+2026-09-08,INV-2609-1298,Mishra Stores,Potato Chips 150g,Snacks,20,48.71
+2026-09-08,INV-2609-1299,Yadav Daily Needs,Curd Cup 400g,Dairy,41,44.67
+2026-09-08,INV-2609-1300,Raza Brothers,Biscuits 400g,Snacks,19,40.15
+2026-09-08,INV-2609-1301,Singh Super Bazaar,Cola 750ml,Beverages,30,45.68
+2026-09-08,INV-2609-1302,Sinha Super Mart,Curd Cup 400g,Dairy,56,46.65
+2026-09-08,INV-2609-1303,Choudhary Mart,Dish Soap 500ml,Household,8,99.25
+2026-09-08,INV-2609-1304,Nath Provisions,Detergent 1kg,Household,71,126.41
+2026-09-08,INV-2609-1305,Sahu Traders,Potato Chips 150g,Snacks,7,52.5
+2026-09-08,INV-2609-1306,Choudhary Mart,Packaged Water 1L,Beverages,33,20.51
+2026-09-08,INV-2609-1307,Patel Traders,Detergent 1kg,Household,9,136.38
+2026-09-08,INV-2609-1308,Pandey Stores,Curd Cup 400g,Dairy,42,44.88
+2026-09-09,INV-2609-1309,Pandey Stores,Curd Cup 400g,Dairy,38,44.54
+2026-09-09,INV-2609-1310,Yadav Daily Needs,Floor Cleaner 1L,Household,50,111.94
+2026-09-09,INV-2609-1311,Sinha Super Mart,Mango Juice 1L,Beverages,25,116.98
+2026-09-09,INV-2609-1312,Prasad Traders,Biscuits 400g,Snacks,14,41.45
+2026-09-09,INV-2609-1313,Prasad Traders,Curd Cup 400g,Dairy,9,46.81
+2026-09-09,INV-2609-1314,Das & Sons,Paneer 200g,Dairy,62,98.44
+2026-09-09,INV-2609-1315,Prasad Traders,Instant Noodles 280g,Snacks,20,57.12
+2026-09-10,INV-2609-1316,Kumari Kirana,Packaged Water 1L,Beverages,11,19.97
+2026-09-10,INV-2609-1317,Sharma Provision,Instant Noodles 280g,Snacks,31,56.82
+2026-09-10,INV-2609-1318,Bhatt General Store,Floor Cleaner 1L,Household,26,111.25
+2026-09-10,INV-2609-1319,Sharma Provision,Cola 750ml,Beverages,74,45.73
+2026-09-10,INV-2609-1320,Sahu Traders,Floor Cleaner 1L,Household,59,112.91
+2026-09-10,INV-2609-1321,Raza Brothers,Toned Milk 1L,Dairy,11,68.0
+2026-09-10,INV-2609-1322,Yadav Daily Needs,Packaged Water 1L,Beverages,18,20.84
+2026-09-10,INV-2609-1323,Yadav Daily Needs,Mango Juice 1L,Beverages,49,116.83
+2026-09-10,INV-2609-1324,Mehta Retail,Detergent 1kg,Household,25,136.38
+2026-09-10,INV-2609-1325,Jha Provisions,Detergent 1kg,Household,8,131.36
+2026-09-11,INV-2609-1326,Choudhary Mart,Instant Noodles 280g,Snacks,37,55.74
+2026-09-11,INV-2609-1327,Mishra Stores,Curd Cup 400g,Dairy,69,46.26
+2026-09-11,INV-2609-1328,Ali General Store,Toned Milk 1L,Dairy,42,67.42
+2026-09-11,INV-2609-1329,Nath Provisions,Packaged Water 1L,Beverages,24,20.33
+2026-09-11,INV-2609-1330,Ali General Store,Floor Cleaner 1L,Household,44,113.54
+2026-09-11,INV-2609-1331,Yadav Daily Needs,Floor Cleaner 1L,Household,15,108.79
+2026-09-11,INV-2609-1332,Mehta Retail,Instant Noodles 280g,Snacks,18,56.87
+2026-09-11,INV-2609-1333,Kumari Kirana,Detergent 1kg,Household,40,134.28
+2026-09-12,INV-2609-1334,Singh Super Bazaar,Paneer 200g,Dairy,19,99.32
+2026-09-12,INV-2609-1335,Mishra Stores,Dish Soap 500ml,Household,64,100.95
+2026-09-12,INV-2609-1336,Yadav Daily Needs,Toned Milk 1L,Dairy,48,68.99
+2026-09-12,INV-2609-1337,Dubey Kirana,Instant Noodles 280g,Snacks,49,57.11
+2026-09-12,INV-2609-1338,Gupta General Store,Mango Juice 1L,Beverages,9,119.37
+2026-09-12,INV-2609-1339,Kumari Kirana,Floor Cleaner 1L,Household,75,115.28
+2026-09-12,INV-2609-1340,Ali General Store,Curd Cup 400g,Dairy,29,44.88
+2026-09-12,INV-2609-1341,Gupta General Store,Instant Noodles 280g,Snacks,46,55.54
+2026-09-12,INV-2609-1342,Gupta General Store,Packaged Water 1L,Beverages,7,20.07
+2026-09-12,INV-2609-1343,Khan Mart,Floor Cleaner 1L,Household,69,112.64
+2026-09-13,INV-2609-1344,Azad Stores,Packaged Water 1L,Beverages,49,19.88
+2026-09-13,INV-2609-1345,Prasad Traders,Mango Juice 1L,Beverages,8,119.32
+2026-09-13,INV-2609-1346,Choudhary Mart,Instant Noodles 280g,Snacks,45,54.72
+2026-09-13,INV-2609-1347,Nath Provisions,Instant Noodles 280g,Snacks,105,54.36
+2026-09-13,INV-2609-1348,Pandey Stores,Potato Chips 150g,Snacks,42,50.62
+2026-09-14,INV-2609-1349,Dubey Kirana,Toned Milk 1L,Dairy,35,64.86
+2026-09-14,INV-2609-1350,Das & Sons,Cola 750ml,Beverages,14,44.57
+2026-09-14,INV-2609-1351,Dubey Kirana,Potato Chips 150g,Snacks,20,50.2
+2026-09-14,INV-2609-1352,Sahu Traders,Toned Milk 1L,Dairy,57,66.72
+2026-09-14,INV-2609-1353,Prasad Traders,Biscuits 400g,Snacks,53,39.47
+2026-09-14,INV-2609-1354,Verma Retail,Curd Cup 400g,Dairy,41,46.36
+2026-09-14,INV-2609-1355,Jha Provisions,Toned Milk 1L,Dairy,49,68.67
+2026-09-14,INV-2609-1356,Nath Provisions,Instant Noodles 280g,Snacks,46,58.26
+2026-09-14,INV-2609-1357,Kumari Kirana,Detergent 1kg,Household,70,127.12
+2026-09-14,INV-2609-1358,Bhatt General Store,Potato Chips 150g,Snacks,26,52.12
+2026-09-14,INV-2609-1359,Patel Traders,Potato Chips 150g,Snacks,51,50.33
+2026-09-15,INV-2609-1360,Bhatt General Store,Biscuits 400g,Snacks,54,38.98
+2026-09-15,INV-2609-1361,Ali General Store,Biscuits 400g,Snacks,53,39.31
+2026-09-15,INV-2609-1362,Pandey Stores,Dish Soap 500ml,Household,41,97.7
+2026-09-15,INV-2609-1363,Gupta General Store,Paneer 200g,Dairy,38,93.25
+2026-09-15,INV-2609-1364,Ali General Store,Packaged Water 1L,Beverages,51,20.64
+2026-09-15,INV-2609-1365,Gupta General Store,Cola 750ml,Beverages,28,45.82
+2026-09-15,INV-2609-1366,Verma Retail,Instant Noodles 280g,Snacks,22,56.83
+2026-09-15,INV-2609-1367,Prasad Traders,Packaged Water 1L,Beverages,35,20.58
+2026-09-15,INV-2609-1368,Sinha Super Mart,Mango Juice 1L,Beverages,50,117.05
+2026-09-15,INV-2609-1369,Azad Stores,Toned Milk 1L,Dairy,73,67.96
+2026-09-15,INV-2609-1370,Kumari Kirana,Mango Juice 1L,Beverages,6,124.49
+2026-09-16,INV-2609-1371,Ali General Store,Mango Juice 1L,Beverages,15,119.41
+2026-09-16,INV-2609-1372,Bhatt General Store,Instant Noodles 280g,Snacks,51,56.24
+2026-09-16,INV-2609-1373,Khan Mart,Toned Milk 1L,Dairy,20,65.34
+2026-09-16,INV-2609-1374,Raza Brothers,Detergent 1kg,Household,34,128.01
+2026-09-16,INV-2609-1375,Verma Retail,Paneer 200g,Dairy,29,95.3
+2026-09-16,INV-2609-1376,Azad Stores,Biscuits 400g,Snacks,55,39.46
+2026-09-17,INV-2609-1377,Mishra Stores,Paneer 200g,Dairy,5,97.99
+2026-09-17,INV-2609-1378,Gupta General Store,Instant Noodles 280g,Snacks,52,57.41
+2026-09-17,INV-2609-1379,Jha Provisions,Cola 750ml,Beverages,14,44.79
+2026-09-17,INV-2609-1380,Das & Sons,Packaged Water 1L,Beverages,39,20.9
+2026-09-17,INV-2609-1381,Mishra Stores,Cola 750ml,Beverages,32,44.55
+2026-09-17,INV-2609-1382,Sahu Traders,Detergent 1kg,Household,25,133.6
+2026-09-18,INV-2609-1383,Raza Brothers,Paneer 200g,Dairy,35,96.68
+2026-09-18,INV-2609-1384,Patel Traders,Dish Soap 500ml,Household,4,101.53
+2026-09-18,INV-2609-1385,Das & Sons,Instant Noodles 280g,Snacks,14,57.72
+2026-09-18,INV-2609-1386,Jha Provisions,Detergent 1kg,Household,35,126.43
+2026-09-18,INV-2609-1387,Azad Stores,Mango Juice 1L,Beverages,52,123.94
+2026-09-18,INV-2609-1388,Yadav Daily Needs,Paneer 200g,Dairy,65,97.95
+2026-09-18,INV-2609-1389,Choudhary Mart,Detergent 1kg,Household,39,127.91
+2026-09-18,INV-2609-1390,Jha Provisions,Cola 750ml,Beverages,9,44.87
+2026-09-18,INV-2609-1391,Azad Stores,Packaged Water 1L,Beverages,53,19.8
+2026-09-18,INV-2609-1392,Sharma Provision,Dish Soap 500ml,Household,30,97.04
+2026-09-19,INV-2609-1393,Pandey Stores,Floor Cleaner 1L,Household,68,106.85
+2026-09-19,INV-2609-1394,Azad Stores,Detergent 1kg,Household,17,128.58
+2026-09-19,INV-2609-1395,Nath Provisions,Paneer 200g,Dairy,67,93.41
+2026-09-19,INV-2609-1396,Gupta General Store,Curd Cup 400g,Dairy,9,44.17
+2026-09-19,INV-2609-1397,Khan Mart,Curd Cup 400g,Dairy,44,45.39
+2026-09-19,INV-2609-1398,Tiwari General,Cola 750ml,Beverages,14,46.84
+2026-09-19,INV-2609-1399,Prasad Traders,Instant Noodles 280g,Snacks,62,57.41
+2026-09-19,INV-2609-1400,Khan Mart,Floor Cleaner 1L,Household,37,106.96
+2026-09-20,INV-2609-1401,Choudhary Mart,Curd Cup 400g,Dairy,66,45.62
+2026-09-20,INV-2609-1402,Jha Provisions,Packaged Water 1L,Beverages,59,19.95
+2026-09-20,INV-2609-1403,Mehta Retail,Cola 750ml,Beverages,80,43.79
+2026-09-20,INV-2609-1404,Dubey Kirana,Curd Cup 400g,Dairy,65,45.44
+2026-09-20,INV-2609-1405,Azad Stores,Packaged Water 1L,Beverages,16,20.3
+2026-09-20,INV-2609-1406,Prasad Traders,Floor Cleaner 1L,Household,50,112.67
+2026-09-20,INV-2609-1407,Azad Stores,Curd Cup 400g,Dairy,81,44.88
+2026-09-21,INV-2609-1408,Mishra Stores,Floor Cleaner 1L,Household,12,115.34
+2026-09-21,INV-2609-1409,Yadav Daily Needs,Instant Noodles 280g,Snacks,11,56.51
+2026-09-21,INV-2609-1410,Sinha Super Mart,Biscuits 400g,Snacks,44,41.14
+2026-09-21,INV-2609-1411,Das & Sons,Instant Noodles 280g,Snacks,40,58.54
+2026-09-21,INV-2609-1412,Yadav Daily Needs,Floor Cleaner 1L,Household,40,114.31
+2026-09-22,INV-2609-1413,Sahu Traders,Mango Juice 1L,Beverages,25,120.43
+2026-09-22,INV-2609-1414,Sahu Traders,Instant Noodles 280g,Snacks,17,57.48
+2026-09-22,INV-2609-1415,Mehta Retail,Mango Juice 1L,Beverages,12,120.72
+2026-09-22,INV-2609-1416,Patel Traders,Cola 750ml,Beverages,51,44.04
+2026-09-22,INV-2609-1417,Prasad Traders,Mango Juice 1L,Beverages,4,117.76
+2026-09-23,INV-2609-1418,Mehta Retail,Toned Milk 1L,Dairy,45,68.97
+2026-09-23,INV-2609-1419,Mehta Retail,Potato Chips 150g,Snacks,27,50.71
+2026-09-23,INV-2609-1420,Azad Stores,Floor Cleaner 1L,Household,63,111.07
+2026-09-23,INV-2609-1421,Raza Brothers,Biscuits 400g,Snacks,54,41.01
+2026-09-23,INV-2609-1422,Mishra Stores,Paneer 200g,Dairy,45,97.25
+2026-09-23,INV-2609-1423,Mishra Stores,Mango Juice 1L,Beverages,24,119.01
+2026-09-23,INV-2609-1424,Raza Brothers,Mango Juice 1L,Beverages,22,125.9
+2026-09-23,INV-2609-1425,Raza Brothers,Potato Chips 150g,Snacks,64,52.29
+2026-09-24,INV-2609-1426,Mishra Stores,Mango Juice 1L,Beverages,33,117.33
+2026-09-24,INV-2609-1427,Yadav Daily Needs,Cola 750ml,Beverages,6,43.95
+2026-09-24,INV-2609-1428,Mehta Retail,Detergent 1kg,Household,69,126.71
+2026-09-24,INV-2609-1429,Yadav Daily Needs,Floor Cleaner 1L,Household,20,109.88
+2026-09-24,INV-2609-1430,Bhatt General Store,Potato Chips 150g,Snacks,4,51.65
+2026-09-24,INV-2609-1431,Prasad Traders,Cola 750ml,Beverages,33,46.75
+2026-09-24,INV-2609-1432,Mishra Stores,Potato Chips 150g,Snacks,25,49.16
+2026-09-24,INV-2609-1433,Gupta General Store,Packaged Water 1L,Beverages,66,20.35
+2026-09-24,INV-2609-1434,Mehta Retail,Potato Chips 150g,Snacks,24,50.41
+2026-09-24,INV-2609-1435,Kumari Kirana,Paneer 200g,Dairy,30,95.48
+2026-09-25,INV-2609-1436,Verma Retail,Dish Soap 500ml,Household,25,97.18
+2026-09-25,INV-2609-1437,Patel Traders,Curd Cup 400g,Dairy,25,46.78
+2026-09-25,INV-2609-1438,Ali General Store,Toned Milk 1L,Dairy,23,66.04
+2026-09-25,INV-2609-1439,Azad Stores,Packaged Water 1L,Beverages,34,20.92
+2026-09-25,INV-2609-1440,Tiwari General,Packaged Water 1L,Beverages,54,19.51
+2026-09-25,INV-2609-1441,Sahu Traders,Curd Cup 400g,Dairy,52,46.85
+2026-09-25,INV-2609-1442,Patel Traders,Mango Juice 1L,Beverages,49,125.46
+2026-09-26,INV-2609-1443,Prasad Traders,Paneer 200g,Dairy,44,97.94
+2026-09-26,INV-2609-1444,Bhatt General Store,Curd Cup 400g,Dairy,30,44.47
+2026-09-26,INV-2609-1445,Sahu Traders,Potato Chips 150g,Snacks,46,51.08
+2026-09-26,INV-2609-1446,Pandey Stores,Paneer 200g,Dairy,43,96.92
+2026-09-26,INV-2609-1447,Pandey Stores,Floor Cleaner 1L,Household,73,112.49
+2026-09-26,INV-2609-1448,Sharma Provision,Biscuits 400g,Snacks,71,41.02
+2026-09-26,INV-2609-1449,Jha Provisions,Floor Cleaner 1L,Household,33,114.6
+2026-09-26,INV-2609-1450,Jha Provisions,Mango Juice 1L,Beverages,85,124.43
+2026-09-27,INV-2609-1451,Nath Provisions,Cola 750ml,Beverages,62,45.81
+2026-09-27,INV-2609-1452,Khan Mart,Toned Milk 1L,Dairy,28,66.66
+2026-09-27,INV-2609-1453,Pandey Stores,Dish Soap 500ml,Household,40,99.07
+2026-09-27,INV-2609-1454,Ali General Store,Packaged Water 1L,Beverages,83,20.15
+2026-09-27,INV-2609-1455,Mehta Retail,Toned Milk 1L,Dairy,30,67.25
+2026-09-27,INV-2609-1456,Nath Provisions,Cola 750ml,Beverages,7,44.16
+2026-09-27,INV-2609-1457,Patel Traders,Cola 750ml,Beverages,34,46.37
+2026-09-27,INV-2609-1458,Prasad Traders,Mango Juice 1L,Beverages,60,122.79
+2026-09-27,INV-2609-1459,Mishra Stores,Detergent 1kg,Household,45,134.71
+2026-09-27,INV-2609-1460,Sinha Super Mart,Packaged Water 1L,Beverages,55,19.54
+2026-09-27,INV-2609-1461,Yadav Daily Needs,Packaged Water 1L,Beverages,60,19.9
+2026-09-28,INV-2609-1462,Gupta General Store,Mango Juice 1L,Beverages,27,118.0
+2026-09-28,INV-2609-1463,Sharma Provision,Paneer 200g,Dairy,9,98.26
+2026-09-28,INV-2609-1464,Rai Daily Mart,Dish Soap 500ml,Household,58,98.35
+2026-09-28,INV-2609-1465,Sharma Provision,Mango Juice 1L,Beverages,11,117.97
+2026-09-28,INV-2609-1466,Tiwari General,Biscuits 400g,Snacks,33,41.02
+2026-09-28,INV-2609-1467,Nath Provisions,Paneer 200g,Dairy,45,93.04
+2026-09-28,INV-2609-1468,Gupta General Store,Packaged Water 1L,Beverages,38,20.43
+2026-09-28,INV-2609-1469,Rai Daily Mart,Detergent 1kg,Household,50,127.48
+2026-09-28,INV-2609-1470,Ali General Store,Paneer 200g,Dairy,17,94.55
+2026-09-29,INV-2609-1471,Khan Mart,Cola 750ml,Beverages,45,47.15
+2026-09-29,INV-2609-1472,Rai Daily Mart,Curd Cup 400g,Dairy,19,44.31
+2026-09-29,INV-2609-1473,Mehta Retail,Packaged Water 1L,Beverages,24,20.12
+2026-09-29,INV-2609-1474,Gupta General Store,Toned Milk 1L,Dairy,36,65.06
+2026-09-29,INV-2609-1475,Bhatt General Store,Potato Chips 150g,Snacks,32,51.75
+2026-09-29,INV-2609-1476,Mehta Retail,Paneer 200g,Dairy,4,92.54
+2026-09-29,INV-2609-1477,Raza Brothers,Instant Noodles 280g,Snacks,12,57.75
+2026-09-29,INV-2609-1478,Sinha Super Mart,Paneer 200g,Dairy,62,92.55
+2026-09-29,INV-2609-1479,Mehta Retail,Paneer 200g,Dairy,48,96.13
+2026-09-30,INV-2609-1480,Sahu Traders,Paneer 200g,Dairy,31,99.51
+2026-09-30,INV-2609-1481,Jha Provisions,Toned Milk 1L,Dairy,15,66.37
+2026-09-30,INV-2609-1482,Ali General Store,Instant Noodles 280g,Snacks,27,57.26
+2026-09-30,INV-2609-1483,Nath Provisions,Biscuits 400g,Snacks,26,39.01
+2026-09-30,INV-2609-1484,Gupta General Store,Packaged Water 1L,Beverages,6,20.31
+2026-09-30,INV-2609-1485,Khan Mart,Packaged Water 1L,Beverages,42,20.8
+2026-09-30,INV-2609-1486,Khan Mart,Biscuits 400g,Snacks,51,39.49
+2026-09-30,INV-2609-1487,Gupta General Store,Potato Chips 150g,Snacks,68,50.03
+2026-09-30,INV-2609-1488,Azad Stores,Mango Juice 1L,Beverages,19,125.34
