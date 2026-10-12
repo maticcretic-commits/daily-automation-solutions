@@ -1,0 +1,357 @@
+Date,Bill,Supplier,Product,Category,Qty,CostRate
+2026-04-01,BIL-2604-0001,Patliputra Agencies,Biscuits 400g,Snacks,114,30.01
+2026-04-03,BIL-2604-0002,Ganga FMCG Supply,Packaged Water 1L,Beverages,337,14.96
+2026-04-03,BIL-2604-0003,Nalanda Distribution,Potato Chips 150g,Snacks,58,38.34
+2026-04-03,BIL-2604-0004,Patliputra Agencies,Dish Soap 500ml,Household,328,80.47
+2026-04-03,BIL-2604-0005,Vaishali Supply House,Instant Noodles 280g,Snacks,342,42.73
+2026-04-04,BIL-2604-0006,Bihar Foods Distributors,Floor Cleaner 1L,Household,312,88.19
+2026-04-04,BIL-2604-0007,Koshi Enterprises,Instant Noodles 280g,Snacks,325,41.5
+2026-04-04,BIL-2604-0008,Ganga FMCG Supply,Detergent 1kg,Household,114,106.29
+2026-04-05,BIL-2604-0009,Ganga FMCG Supply,Floor Cleaner 1L,Household,308,87.41
+2026-04-05,BIL-2604-0010,Vaishali Supply House,Detergent 1kg,Household,293,103.62
+2026-04-05,BIL-2604-0011,Patliputra Agencies,Toned Milk 1L,Dairy,300,55.05
+2026-04-06,BIL-2604-0012,Magadh Wholesale Co.,Detergent 1kg,Household,292,105.4
+2026-04-06,BIL-2604-0013,Vaishali Supply House,Floor Cleaner 1L,Household,361,86.6
+2026-04-06,BIL-2604-0014,Ganga FMCG Supply,Floor Cleaner 1L,Household,357,89.56
+2026-04-07,BIL-2604-0015,Bihar Foods Distributors,Potato Chips 150g,Snacks,354,39.08
+2026-04-07,BIL-2604-0016,Magadh Wholesale Co.,Cola 750ml,Beverages,152,36.1
+2026-04-07,BIL-2604-0017,Nalanda Distribution,Floor Cleaner 1L,Household,92,86.58
+2026-04-09,BIL-2604-0018,Koshi Enterprises,Mango Juice 1L,Beverages,375,98.74
+2026-04-10,BIL-2604-0019,Ganga FMCG Supply,Curd Cup 400g,Dairy,97,34.75
+2026-04-10,BIL-2604-0020,Nalanda Distribution,Paneer 200g,Dairy,237,79.16
+2026-04-10,BIL-2604-0021,Ganga FMCG Supply,Paneer 200g,Dairy,334,79.13
+2026-04-11,BIL-2604-0022,Nalanda Distribution,Cola 750ml,Beverages,306,35.52
+2026-04-12,BIL-2604-0023,Ganga FMCG Supply,Potato Chips 150g,Snacks,286,37.45
+2026-04-12,BIL-2604-0024,Magadh Wholesale Co.,Mango Juice 1L,Beverages,145,95.84
+2026-04-13,BIL-2604-0025,Ganga FMCG Supply,Cola 750ml,Beverages,72,35.29
+2026-04-13,BIL-2604-0026,Patliputra Agencies,Dish Soap 500ml,Household,158,78.97
+2026-04-13,BIL-2604-0027,Bihar Foods Distributors,Potato Chips 150g,Snacks,80,38.09
+2026-04-14,BIL-2604-0028,Patliputra Agencies,Biscuits 400g,Snacks,210,30.16
+2026-04-14,BIL-2604-0029,Ganga FMCG Supply,Potato Chips 150g,Snacks,129,38.12
+2026-04-14,BIL-2604-0030,Vaishali Supply House,Potato Chips 150g,Snacks,179,37.78
+2026-04-14,BIL-2604-0031,Bihar Foods Distributors,Floor Cleaner 1L,Household,113,90.2
+2026-04-16,BIL-2604-0032,Koshi Enterprises,Paneer 200g,Dairy,346,79.2
+2026-04-16,BIL-2604-0033,Ganga FMCG Supply,Detergent 1kg,Household,195,104.5
+2026-04-17,BIL-2604-0034,Bihar Foods Distributors,Potato Chips 150g,Snacks,316,38.68
+2026-04-18,BIL-2604-0035,Bihar Foods Distributors,Curd Cup 400g,Dairy,128,36.01
+2026-04-18,BIL-2604-0036,Bihar Foods Distributors,Floor Cleaner 1L,Household,239,86.53
+2026-04-20,BIL-2604-0037,Vaishali Supply House,Instant Noodles 280g,Snacks,122,42.93
+2026-04-20,BIL-2604-0038,Magadh Wholesale Co.,Curd Cup 400g,Dairy,395,35.4
+2026-04-21,BIL-2604-0039,Vaishali Supply House,Paneer 200g,Dairy,54,79.16
+2026-04-21,BIL-2604-0040,Sone Valley Traders,Instant Noodles 280g,Snacks,136,42.47
+2026-04-21,BIL-2604-0041,Sone Valley Traders,Detergent 1kg,Household,303,106.34
+2026-04-21,BIL-2604-0042,Vaishali Supply House,Biscuits 400g,Snacks,116,30.63
+2026-04-22,BIL-2604-0043,Magadh Wholesale Co.,Toned Milk 1L,Dairy,188,55.03
+2026-04-22,BIL-2604-0044,Koshi Enterprises,Curd Cup 400g,Dairy,225,35.02
+2026-04-22,BIL-2604-0045,Patliputra Agencies,Paneer 200g,Dairy,400,77.34
+2026-04-22,BIL-2604-0046,Vaishali Supply House,Floor Cleaner 1L,Household,232,89.43
+2026-04-23,BIL-2604-0047,Bihar Foods Distributors,Potato Chips 150g,Snacks,77,38.47
+2026-04-23,BIL-2604-0048,Bihar Foods Distributors,Paneer 200g,Dairy,226,79.62
+2026-04-23,BIL-2604-0049,Koshi Enterprises,Instant Noodles 280g,Snacks,99,41.51
+2026-04-24,BIL-2604-0050,Koshi Enterprises,Dish Soap 500ml,Household,221,78.65
+2026-04-25,BIL-2604-0051,Bihar Foods Distributors,Instant Noodles 280g,Snacks,83,42.47
+2026-04-26,BIL-2604-0052,Ganga FMCG Supply,Mango Juice 1L,Beverages,355,97.42
+2026-04-26,BIL-2604-0053,Patliputra Agencies,Dish Soap 500ml,Household,225,79.19
+2026-04-28,BIL-2604-0054,Magadh Wholesale Co.,Instant Noodles 280g,Snacks,321,41.16
+2026-04-28,BIL-2604-0055,Vaishali Supply House,Potato Chips 150g,Snacks,115,38.44
+2026-04-28,BIL-2604-0056,Koshi Enterprises,Packaged Water 1L,Beverages,274,15.21
+2026-04-29,BIL-2604-0057,Koshi Enterprises,Potato Chips 150g,Snacks,125,38.08
+2026-04-30,BIL-2604-0058,Sone Valley Traders,Toned Milk 1L,Dairy,142,54.18
+2026-04-30,BIL-2604-0059,Nalanda Distribution,Toned Milk 1L,Dairy,205,53.09
+2026-05-01,BIL-2605-0060,Magadh Wholesale Co.,Mango Juice 1L,Beverages,233,96.93
+2026-05-01,BIL-2605-0061,Ganga FMCG Supply,Mango Juice 1L,Beverages,292,95.43
+2026-05-02,BIL-2605-0062,Nalanda Distribution,Floor Cleaner 1L,Household,176,86.28
+2026-05-02,BIL-2605-0063,Bihar Foods Distributors,Detergent 1kg,Household,78,103.16
+2026-05-04,BIL-2605-0064,Vaishali Supply House,Floor Cleaner 1L,Household,85,87.51
+2026-05-04,BIL-2605-0065,Nalanda Distribution,Packaged Water 1L,Beverages,327,15.08
+2026-05-05,BIL-2605-0066,Nalanda Distribution,Instant Noodles 280g,Snacks,343,41.62
+2026-05-05,BIL-2605-0067,Patliputra Agencies,Instant Noodles 280g,Snacks,106,42.62
+2026-05-05,BIL-2605-0068,Magadh Wholesale Co.,Packaged Water 1L,Beverages,124,15.32
+2026-05-06,BIL-2605-0069,Koshi Enterprises,Potato Chips 150g,Snacks,316,38.86
+2026-05-06,BIL-2605-0070,Sone Valley Traders,Detergent 1kg,Household,202,106.41
+2026-05-06,BIL-2605-0071,Sone Valley Traders,Cola 750ml,Beverages,246,36.69
+2026-05-06,BIL-2605-0072,Magadh Wholesale Co.,Curd Cup 400g,Dairy,182,35.55
+2026-05-07,BIL-2605-0073,Vaishali Supply House,Biscuits 400g,Snacks,138,29.48
+2026-05-08,BIL-2605-0074,Sone Valley Traders,Mango Juice 1L,Beverages,199,98.24
+2026-05-08,BIL-2605-0075,Koshi Enterprises,Packaged Water 1L,Beverages,327,15.32
+2026-05-08,BIL-2605-0076,Bihar Foods Distributors,Mango Juice 1L,Beverages,331,95.25
+2026-05-08,BIL-2605-0077,Magadh Wholesale Co.,Packaged Water 1L,Beverages,315,15.24
+2026-05-09,BIL-2605-0078,Koshi Enterprises,Potato Chips 150g,Snacks,388,39.04
+2026-05-09,BIL-2605-0079,Magadh Wholesale Co.,Packaged Water 1L,Beverages,318,15.13
+2026-05-11,BIL-2605-0080,Ganga FMCG Supply,Floor Cleaner 1L,Household,182,88.44
+2026-05-11,BIL-2605-0081,Sone Valley Traders,Detergent 1kg,Household,123,102.44
+2026-05-11,BIL-2605-0082,Vaishali Supply House,Cola 750ml,Beverages,343,35.69
+2026-05-11,BIL-2605-0083,Patliputra Agencies,Paneer 200g,Dairy,153,79.25
+2026-05-12,BIL-2605-0084,Koshi Enterprises,Cola 750ml,Beverages,63,36.47
+2026-05-12,BIL-2605-0085,Magadh Wholesale Co.,Dish Soap 500ml,Household,253,81.29
+2026-05-12,BIL-2605-0086,Vaishali Supply House,Packaged Water 1L,Beverages,82,15.08
+2026-05-12,BIL-2605-0087,Sone Valley Traders,Floor Cleaner 1L,Household,148,89.53
+2026-05-14,BIL-2605-0088,Magadh Wholesale Co.,Mango Juice 1L,Beverages,156,95.69
+2026-05-14,BIL-2605-0089,Koshi Enterprises,Dish Soap 500ml,Household,285,77.95
+2026-05-14,BIL-2605-0090,Koshi Enterprises,Curd Cup 400g,Dairy,202,34.51
+2026-05-15,BIL-2605-0091,Sone Valley Traders,Packaged Water 1L,Beverages,214,15.34
+2026-05-16,BIL-2605-0092,Vaishali Supply House,Toned Milk 1L,Dairy,96,53.41
+2026-05-16,BIL-2605-0093,Ganga FMCG Supply,Paneer 200g,Dairy,344,78.66
+2026-05-16,BIL-2605-0094,Ganga FMCG Supply,Packaged Water 1L,Beverages,71,15.29
+2026-05-16,BIL-2605-0095,Sone Valley Traders,Mango Juice 1L,Beverages,300,96.75
+2026-05-17,BIL-2605-0096,Ganga FMCG Supply,Dish Soap 500ml,Household,262,78.66
+2026-05-17,BIL-2605-0097,Patliputra Agencies,Biscuits 400g,Snacks,161,30.0
+2026-05-17,BIL-2605-0098,Patliputra Agencies,Instant Noodles 280g,Snacks,279,42.92
+2026-05-17,BIL-2605-0099,Ganga FMCG Supply,Potato Chips 150g,Snacks,156,38.38
+2026-05-18,BIL-2605-0100,Vaishali Supply House,Biscuits 400g,Snacks,161,30.76
+2026-05-18,BIL-2605-0101,Nalanda Distribution,Cola 750ml,Beverages,158,35.9
+2026-05-18,BIL-2605-0102,Ganga FMCG Supply,Paneer 200g,Dairy,374,77.89
+2026-05-20,BIL-2605-0103,Ganga FMCG Supply,Cola 750ml,Beverages,325,36.27
+2026-05-20,BIL-2605-0104,Sone Valley Traders,Paneer 200g,Dairy,239,79.83
+2026-05-20,BIL-2605-0105,Patliputra Agencies,Curd Cup 400g,Dairy,264,35.12
+2026-05-21,BIL-2605-0106,Patliputra Agencies,Dish Soap 500ml,Household,211,77.84
+2026-05-21,BIL-2605-0107,Nalanda Distribution,Curd Cup 400g,Dairy,400,35.84
+2026-05-22,BIL-2605-0108,Ganga FMCG Supply,Floor Cleaner 1L,Household,393,88.93
+2026-05-22,BIL-2605-0109,Ganga FMCG Supply,Instant Noodles 280g,Snacks,326,42.92
+2026-05-22,BIL-2605-0110,Vaishali Supply House,Detergent 1kg,Household,141,103.93
+2026-05-22,BIL-2605-0111,Nalanda Distribution,Paneer 200g,Dairy,334,79.54
+2026-05-23,BIL-2605-0112,Koshi Enterprises,Detergent 1kg,Household,149,106.37
+2026-05-25,BIL-2605-0113,Koshi Enterprises,Potato Chips 150g,Snacks,123,37.29
+2026-05-25,BIL-2605-0114,Vaishali Supply House,Paneer 200g,Dairy,189,77.85
+2026-05-25,BIL-2605-0115,Sone Valley Traders,Instant Noodles 280g,Snacks,335,41.38
+2026-05-25,BIL-2605-0116,Ganga FMCG Supply,Curd Cup 400g,Dairy,368,34.35
+2026-05-26,BIL-2605-0117,Ganga FMCG Supply,Potato Chips 150g,Snacks,365,37.42
+2026-05-28,BIL-2605-0118,Vaishali Supply House,Cola 750ml,Beverages,359,36.11
+2026-05-28,BIL-2605-0119,Vaishali Supply House,Dish Soap 500ml,Household,144,78.85
+2026-05-28,BIL-2605-0120,Koshi Enterprises,Toned Milk 1L,Dairy,382,53.09
+2026-05-29,BIL-2605-0121,Sone Valley Traders,Toned Milk 1L,Dairy,142,54.12
+2026-05-30,BIL-2605-0122,Ganga FMCG Supply,Paneer 200g,Dairy,383,78.53
+2026-05-30,BIL-2605-0123,Patliputra Agencies,Detergent 1kg,Household,104,105.21
+2026-05-31,BIL-2605-0124,Sone Valley Traders,Toned Milk 1L,Dairy,122,53.95
+2026-05-31,BIL-2605-0125,Nalanda Distribution,Biscuits 400g,Snacks,330,30.41
+2026-05-31,BIL-2605-0126,Vaishali Supply House,Toned Milk 1L,Dairy,120,54.31
+2026-05-31,BIL-2605-0127,Magadh Wholesale Co.,Curd Cup 400g,Dairy,332,34.71
+2026-06-01,BIL-2606-0128,Magadh Wholesale Co.,Instant Noodles 280g,Snacks,384,42.73
+2026-06-01,BIL-2606-0129,Ganga FMCG Supply,Biscuits 400g,Snacks,209,29.54
+2026-06-05,BIL-2606-0130,Ganga FMCG Supply,Potato Chips 150g,Snacks,385,39.09
+2026-06-05,BIL-2606-0131,Vaishali Supply House,Curd Cup 400g,Dairy,198,35.82
+2026-06-06,BIL-2606-0132,Nalanda Distribution,Toned Milk 1L,Dairy,363,53.51
+2026-06-06,BIL-2606-0133,Magadh Wholesale Co.,Floor Cleaner 1L,Household,307,89.71
+2026-06-06,BIL-2606-0134,Vaishali Supply House,Potato Chips 150g,Snacks,185,37.42
+2026-06-06,BIL-2606-0135,Sone Valley Traders,Curd Cup 400g,Dairy,121,34.65
+2026-06-07,BIL-2606-0136,Nalanda Distribution,Toned Milk 1L,Dairy,262,54.77
+2026-06-07,BIL-2606-0137,Bihar Foods Distributors,Detergent 1kg,Household,321,103.48
+2026-06-08,BIL-2606-0138,Sone Valley Traders,Potato Chips 150g,Snacks,65,37.83
+2026-06-08,BIL-2606-0139,Bihar Foods Distributors,Instant Noodles 280g,Snacks,242,42.91
+2026-06-09,BIL-2606-0140,Vaishali Supply House,Potato Chips 150g,Snacks,252,38.7
+2026-06-09,BIL-2606-0141,Vaishali Supply House,Cola 750ml,Beverages,160,36.57
+2026-06-09,BIL-2606-0142,Nalanda Distribution,Mango Juice 1L,Beverages,308,97.06
+2026-06-11,BIL-2606-0143,Magadh Wholesale Co.,Packaged Water 1L,Beverages,344,15.34
+2026-06-12,BIL-2606-0144,Magadh Wholesale Co.,Potato Chips 150g,Snacks,260,37.35
+2026-06-12,BIL-2606-0145,Magadh Wholesale Co.,Floor Cleaner 1L,Household,213,88.99
+2026-06-12,BIL-2606-0146,Bihar Foods Distributors,Potato Chips 150g,Snacks,180,37.47
+2026-06-12,BIL-2606-0147,Vaishali Supply House,Floor Cleaner 1L,Household,112,86.81
+2026-06-13,BIL-2606-0148,Sone Valley Traders,Cola 750ml,Beverages,171,35.38
+2026-06-13,BIL-2606-0149,Koshi Enterprises,Curd Cup 400g,Dairy,309,36.05
+2026-06-14,BIL-2606-0150,Bihar Foods Distributors,Detergent 1kg,Household,245,102.32
+2026-06-14,BIL-2606-0151,Nalanda Distribution,Packaged Water 1L,Beverages,187,14.98
+2026-06-14,BIL-2606-0152,Sone Valley Traders,Toned Milk 1L,Dairy,158,55.01
+2026-06-14,BIL-2606-0153,Magadh Wholesale Co.,Biscuits 400g,Snacks,250,29.75
+2026-06-15,BIL-2606-0154,Vaishali Supply House,Potato Chips 150g,Snacks,256,38.92
+2026-06-15,BIL-2606-0155,Ganga FMCG Supply,Biscuits 400g,Snacks,243,29.42
+2026-06-17,BIL-2606-0156,Patliputra Agencies,Dish Soap 500ml,Household,305,81.01
+2026-06-17,BIL-2606-0157,Patliputra Agencies,Floor Cleaner 1L,Household,373,89.33
+2026-06-17,BIL-2606-0158,Koshi Enterprises,Floor Cleaner 1L,Household,379,87.44
+2026-06-17,BIL-2606-0159,Bihar Foods Distributors,Mango Juice 1L,Beverages,320,98.23
+2026-06-18,BIL-2606-0160,Bihar Foods Distributors,Cola 750ml,Beverages,235,35.93
+2026-06-18,BIL-2606-0161,Vaishali Supply House,Floor Cleaner 1L,Household,106,90.6
+2026-06-19,BIL-2606-0162,Patliputra Agencies,Detergent 1kg,Household,323,105.71
+2026-06-19,BIL-2606-0163,Vaishali Supply House,Cola 750ml,Beverages,205,35.96
+2026-06-20,BIL-2606-0164,Vaishali Supply House,Toned Milk 1L,Dairy,279,53.25
+2026-06-23,BIL-2606-0165,Magadh Wholesale Co.,Packaged Water 1L,Beverages,149,14.84
+2026-06-23,BIL-2606-0166,Nalanda Distribution,Packaged Water 1L,Beverages,344,14.99
+2026-06-24,BIL-2606-0167,Vaishali Supply House,Dish Soap 500ml,Household,265,80.82
+2026-06-24,BIL-2606-0168,Ganga FMCG Supply,Potato Chips 150g,Snacks,342,37.59
+2026-06-25,BIL-2606-0169,Nalanda Distribution,Potato Chips 150g,Snacks,188,37.45
+2026-06-25,BIL-2606-0170,Nalanda Distribution,Paneer 200g,Dairy,321,79.88
+2026-06-25,BIL-2606-0171,Sone Valley Traders,Paneer 200g,Dairy,154,80.17
+2026-06-26,BIL-2606-0172,Nalanda Distribution,Curd Cup 400g,Dairy,390,35.49
+2026-06-26,BIL-2606-0173,Nalanda Distribution,Floor Cleaner 1L,Household,354,86.57
+2026-06-26,BIL-2606-0174,Sone Valley Traders,Toned Milk 1L,Dairy,102,53.95
+2026-06-26,BIL-2606-0175,Koshi Enterprises,Detergent 1kg,Household,270,106.4
+2026-06-30,BIL-2606-0176,Sone Valley Traders,Instant Noodles 280g,Snacks,297,41.57
+2026-06-30,BIL-2606-0177,Patliputra Agencies,Dish Soap 500ml,Household,228,79.79
+2026-06-30,BIL-2606-0178,Patliputra Agencies,Curd Cup 400g,Dairy,81,34.8
+2026-06-30,BIL-2606-0179,Bihar Foods Distributors,Toned Milk 1L,Dairy,343,55.11
+2026-07-02,BIL-2607-0180,Vaishali Supply House,Floor Cleaner 1L,Household,178,90.34
+2026-07-04,BIL-2607-0181,Koshi Enterprises,Curd Cup 400g,Dairy,186,34.84
+2026-07-04,BIL-2607-0182,Koshi Enterprises,Potato Chips 150g,Snacks,342,38.69
+2026-07-04,BIL-2607-0183,Vaishali Supply House,Mango Juice 1L,Beverages,188,94.09
+2026-07-05,BIL-2607-0184,Patliputra Agencies,Mango Juice 1L,Beverages,231,96.92
+2026-07-05,BIL-2607-0185,Koshi Enterprises,Curd Cup 400g,Dairy,233,35.57
+2026-07-05,BIL-2607-0186,Koshi Enterprises,Dish Soap 500ml,Household,165,80.99
+2026-07-06,BIL-2607-0187,Nalanda Distribution,Toned Milk 1L,Dairy,155,54.71
+2026-07-07,BIL-2607-0188,Bihar Foods Distributors,Potato Chips 150g,Snacks,105,38.82
+2026-07-07,BIL-2607-0189,Bihar Foods Distributors,Biscuits 400g,Snacks,226,30.63
+2026-07-07,BIL-2607-0190,Ganga FMCG Supply,Instant Noodles 280g,Snacks,119,42.22
+2026-07-07,BIL-2607-0191,Nalanda Distribution,Detergent 1kg,Household,113,102.33
+2026-07-09,BIL-2607-0192,Koshi Enterprises,Floor Cleaner 1L,Household,257,88.12
+2026-07-09,BIL-2607-0193,Patliputra Agencies,Dish Soap 500ml,Household,273,78.21
+2026-07-09,BIL-2607-0194,Bihar Foods Distributors,Dish Soap 500ml,Household,384,77.93
+2026-07-09,BIL-2607-0195,Bihar Foods Distributors,Toned Milk 1L,Dairy,256,54.15
+2026-07-11,BIL-2607-0196,Bihar Foods Distributors,Packaged Water 1L,Beverages,281,15.3
+2026-07-11,BIL-2607-0197,Ganga FMCG Supply,Toned Milk 1L,Dairy,160,55.55
+2026-07-11,BIL-2607-0198,Patliputra Agencies,Toned Milk 1L,Dairy,53,53.26
+2026-07-11,BIL-2607-0199,Patliputra Agencies,Detergent 1kg,Household,353,102.33
+2026-07-12,BIL-2607-0200,Nalanda Distribution,Mango Juice 1L,Beverages,132,95.98
+2026-07-12,BIL-2607-0201,Magadh Wholesale Co.,Dish Soap 500ml,Household,58,80.76
+2026-07-12,BIL-2607-0202,Magadh Wholesale Co.,Cola 750ml,Beverages,364,35.36
+2026-07-12,BIL-2607-0203,Patliputra Agencies,Instant Noodles 280g,Snacks,67,41.83
+2026-07-14,BIL-2607-0204,Koshi Enterprises,Paneer 200g,Dairy,149,79.83
+2026-07-14,BIL-2607-0205,Koshi Enterprises,Packaged Water 1L,Beverages,267,14.79
+2026-07-14,BIL-2607-0206,Bihar Foods Distributors,Floor Cleaner 1L,Household,227,90.38
+2026-07-15,BIL-2607-0207,Vaishali Supply House,Biscuits 400g,Snacks,146,29.96
+2026-07-15,BIL-2607-0208,Sone Valley Traders,Dish Soap 500ml,Household,355,78.18
+2026-07-15,BIL-2607-0209,Ganga FMCG Supply,Paneer 200g,Dairy,216,77.17
+2026-07-17,BIL-2607-0210,Ganga FMCG Supply,Curd Cup 400g,Dairy,125,35.46
+2026-07-17,BIL-2607-0211,Magadh Wholesale Co.,Potato Chips 150g,Snacks,255,38.88
+2026-07-19,BIL-2607-0212,Magadh Wholesale Co.,Paneer 200g,Dairy,360,79.95
+2026-07-19,BIL-2607-0213,Vaishali Supply House,Toned Milk 1L,Dairy,64,53.82
+2026-07-20,BIL-2607-0214,Vaishali Supply House,Cola 750ml,Beverages,364,35.86
+2026-07-20,BIL-2607-0215,Koshi Enterprises,Toned Milk 1L,Dairy,301,55.07
+2026-07-20,BIL-2607-0216,Ganga FMCG Supply,Biscuits 400g,Snacks,99,30.35
+2026-07-20,BIL-2607-0217,Nalanda Distribution,Mango Juice 1L,Beverages,254,95.75
+2026-07-21,BIL-2607-0218,Ganga FMCG Supply,Toned Milk 1L,Dairy,218,54.17
+2026-07-21,BIL-2607-0219,Patliputra Agencies,Floor Cleaner 1L,Household,395,89.16
+2026-07-21,BIL-2607-0220,Nalanda Distribution,Paneer 200g,Dairy,314,79.88
+2026-07-22,BIL-2607-0221,Ganga FMCG Supply,Detergent 1kg,Household,361,104.42
+2026-07-23,BIL-2607-0222,Nalanda Distribution,Potato Chips 150g,Snacks,272,37.75
+2026-07-26,BIL-2607-0223,Koshi Enterprises,Paneer 200g,Dairy,223,79.96
+2026-07-26,BIL-2607-0224,Ganga FMCG Supply,Toned Milk 1L,Dairy,238,55.44
+2026-07-26,BIL-2607-0225,Bihar Foods Distributors,Packaged Water 1L,Beverages,101,15.3
+2026-07-26,BIL-2607-0226,Sone Valley Traders,Paneer 200g,Dairy,372,78.87
+2026-07-27,BIL-2607-0227,Nalanda Distribution,Mango Juice 1L,Beverages,315,94.73
+2026-07-27,BIL-2607-0228,Ganga FMCG Supply,Paneer 200g,Dairy,197,79.43
+2026-07-27,BIL-2607-0229,Ganga FMCG Supply,Paneer 200g,Dairy,239,78.42
+2026-07-27,BIL-2607-0230,Koshi Enterprises,Detergent 1kg,Household,337,105.49
+2026-07-28,BIL-2607-0231,Ganga FMCG Supply,Curd Cup 400g,Dairy,192,34.36
+2026-07-28,BIL-2607-0232,Magadh Wholesale Co.,Cola 750ml,Beverages,398,35.45
+2026-07-29,BIL-2607-0233,Patliputra Agencies,Curd Cup 400g,Dairy,331,35.11
+2026-07-29,BIL-2607-0234,Bihar Foods Distributors,Toned Milk 1L,Dairy,247,53.41
+2026-07-29,BIL-2607-0235,Bihar Foods Distributors,Paneer 200g,Dairy,108,77.97
+2026-07-30,BIL-2607-0236,Vaishali Supply House,Paneer 200g,Dairy,196,77.52
+2026-07-31,BIL-2607-0237,Magadh Wholesale Co.,Instant Noodles 280g,Snacks,194,43.1
+2026-07-31,BIL-2607-0238,Patliputra Agencies,Paneer 200g,Dairy,204,77.29
+2026-07-31,BIL-2607-0239,Magadh Wholesale Co.,Potato Chips 150g,Snacks,172,38.02
+2026-07-31,BIL-2607-0240,Patliputra Agencies,Curd Cup 400g,Dairy,66,35.96
+2026-08-01,BIL-2608-0241,Vaishali Supply House,Toned Milk 1L,Dairy,142,53.42
+2026-08-01,BIL-2608-0242,Koshi Enterprises,Detergent 1kg,Household,78,106.27
+2026-08-01,BIL-2608-0243,Magadh Wholesale Co.,Mango Juice 1L,Beverages,312,95.93
+2026-08-02,BIL-2608-0244,Vaishali Supply House,Instant Noodles 280g,Snacks,361,41.85
+2026-08-04,BIL-2608-0245,Magadh Wholesale Co.,Floor Cleaner 1L,Household,334,87.06
+2026-08-04,BIL-2608-0246,Koshi Enterprises,Cola 750ml,Beverages,391,35.48
+2026-08-04,BIL-2608-0247,Magadh Wholesale Co.,Cola 750ml,Beverages,337,36.23
+2026-08-04,BIL-2608-0248,Ganga FMCG Supply,Dish Soap 500ml,Household,290,79.37
+2026-08-05,BIL-2608-0249,Nalanda Distribution,Detergent 1kg,Household,317,103.32
+2026-08-05,BIL-2608-0250,Ganga FMCG Supply,Toned Milk 1L,Dairy,208,54.27
+2026-08-06,BIL-2608-0251,Magadh Wholesale Co.,Paneer 200g,Dairy,171,77.63
+2026-08-06,BIL-2608-0252,Vaishali Supply House,Cola 750ml,Beverages,181,36.92
+2026-08-06,BIL-2608-0253,Vaishali Supply House,Dish Soap 500ml,Household,274,80.33
+2026-08-06,BIL-2608-0254,Vaishali Supply House,Cola 750ml,Beverages,187,36.97
+2026-08-07,BIL-2608-0255,Ganga FMCG Supply,Instant Noodles 280g,Snacks,354,42.81
+2026-08-07,BIL-2608-0256,Patliputra Agencies,Potato Chips 150g,Snacks,198,39.11
+2026-08-07,BIL-2608-0257,Ganga FMCG Supply,Cola 750ml,Beverages,308,36.65
+2026-08-07,BIL-2608-0258,Koshi Enterprises,Dish Soap 500ml,Household,107,77.85
+2026-08-08,BIL-2608-0259,Koshi Enterprises,Curd Cup 400g,Dairy,274,34.78
+2026-08-08,BIL-2608-0260,Magadh Wholesale Co.,Instant Noodles 280g,Snacks,230,42.15
+2026-08-08,BIL-2608-0261,Bihar Foods Distributors,Paneer 200g,Dairy,374,77.84
+2026-08-08,BIL-2608-0262,Vaishali Supply House,Curd Cup 400g,Dairy,61,35.21
+2026-08-10,BIL-2608-0263,Koshi Enterprises,Detergent 1kg,Household,400,105.99
+2026-08-10,BIL-2608-0264,Magadh Wholesale Co.,Instant Noodles 280g,Snacks,64,41.86
+2026-08-10,BIL-2608-0265,Nalanda Distribution,Instant Noodles 280g,Snacks,126,42.35
+2026-08-11,BIL-2608-0266,Koshi Enterprises,Mango Juice 1L,Beverages,136,97.53
+2026-08-11,BIL-2608-0267,Sone Valley Traders,Cola 750ml,Beverages,342,35.33
+2026-08-11,BIL-2608-0268,Ganga FMCG Supply,Dish Soap 500ml,Household,359,78.77
+2026-08-12,BIL-2608-0269,Ganga FMCG Supply,Dish Soap 500ml,Household,296,77.75
+2026-08-12,BIL-2608-0270,Vaishali Supply House,Toned Milk 1L,Dairy,78,55.45
+2026-08-12,BIL-2608-0271,Patliputra Agencies,Dish Soap 500ml,Household,183,80.05
+2026-08-13,BIL-2608-0272,Vaishali Supply House,Toned Milk 1L,Dairy,328,54.57
+2026-08-13,BIL-2608-0273,Vaishali Supply House,Toned Milk 1L,Dairy,399,54.35
+2026-08-14,BIL-2608-0274,Koshi Enterprises,Dish Soap 500ml,Household,54,80.21
+2026-08-15,BIL-2608-0275,Koshi Enterprises,Cola 750ml,Beverages,217,36.4
+2026-08-15,BIL-2608-0276,Patliputra Agencies,Floor Cleaner 1L,Household,299,87.55
+2026-08-15,BIL-2608-0277,Vaishali Supply House,Instant Noodles 280g,Snacks,180,42.43
+2026-08-15,BIL-2608-0278,Magadh Wholesale Co.,Instant Noodles 280g,Snacks,222,41.26
+2026-08-17,BIL-2608-0279,Magadh Wholesale Co.,Detergent 1kg,Household,65,106.57
+2026-08-17,BIL-2608-0280,Patliputra Agencies,Potato Chips 150g,Snacks,232,37.6
+2026-08-19,BIL-2608-0281,Nalanda Distribution,Packaged Water 1L,Beverages,176,14.81
+2026-08-19,BIL-2608-0282,Bihar Foods Distributors,Biscuits 400g,Snacks,87,29.91
+2026-08-19,BIL-2608-0283,Koshi Enterprises,Packaged Water 1L,Beverages,326,14.89
+2026-08-19,BIL-2608-0284,Koshi Enterprises,Floor Cleaner 1L,Household,203,88.16
+2026-08-20,BIL-2608-0285,Vaishali Supply House,Instant Noodles 280g,Snacks,232,42.71
+2026-08-20,BIL-2608-0286,Bihar Foods Distributors,Paneer 200g,Dairy,167,79.25
+2026-08-20,BIL-2608-0287,Bihar Foods Distributors,Paneer 200g,Dairy,184,76.66
+2026-08-21,BIL-2608-0288,Patliputra Agencies,Biscuits 400g,Snacks,267,29.85
+2026-08-21,BIL-2608-0289,Nalanda Distribution,Toned Milk 1L,Dairy,103,53.48
+2026-08-23,BIL-2608-0290,Bihar Foods Distributors,Packaged Water 1L,Beverages,271,15.38
+2026-08-23,BIL-2608-0291,Ganga FMCG Supply,Detergent 1kg,Household,341,105.14
+2026-08-23,BIL-2608-0292,Koshi Enterprises,Cola 750ml,Beverages,124,36.2
+2026-08-23,BIL-2608-0293,Koshi Enterprises,Biscuits 400g,Snacks,266,30.4
+2026-08-26,BIL-2608-0294,Bihar Foods Distributors,Instant Noodles 280g,Snacks,328,42.83
+2026-08-26,BIL-2608-0295,Vaishali Supply House,Toned Milk 1L,Dairy,67,55.32
+2026-08-28,BIL-2608-0296,Magadh Wholesale Co.,Curd Cup 400g,Dairy,143,35.36
+2026-08-30,BIL-2608-0297,Bihar Foods Distributors,Dish Soap 500ml,Household,182,79.44
+2026-08-30,BIL-2608-0298,Nalanda Distribution,Floor Cleaner 1L,Household,257,87.0
+2026-08-30,BIL-2608-0299,Bihar Foods Distributors,Biscuits 400g,Snacks,253,29.41
+2026-08-30,BIL-2608-0300,Sone Valley Traders,Floor Cleaner 1L,Household,324,90.53
+2026-09-01,BIL-2609-0301,Bihar Foods Distributors,Paneer 200g,Dairy,363,78.95
+2026-09-03,BIL-2609-0302,Nalanda Distribution,Detergent 1kg,Household,187,104.84
+2026-09-03,BIL-2609-0303,Patliputra Agencies,Instant Noodles 280g,Snacks,80,42.2
+2026-09-03,BIL-2609-0304,Sone Valley Traders,Dish Soap 500ml,Household,81,79.92
+2026-09-03,BIL-2609-0305,Magadh Wholesale Co.,Detergent 1kg,Household,361,105.2
+2026-09-06,BIL-2609-0306,Nalanda Distribution,Curd Cup 400g,Dairy,273,34.99
+2026-09-06,BIL-2609-0307,Magadh Wholesale Co.,Mango Juice 1L,Beverages,347,97.21
+2026-09-06,BIL-2609-0308,Patliputra Agencies,Detergent 1kg,Household,201,102.93
+2026-09-07,BIL-2609-0309,Sone Valley Traders,Paneer 200g,Dairy,370,76.86
+2026-09-08,BIL-2609-0310,Bihar Foods Distributors,Paneer 200g,Dairy,102,76.78
+2026-09-08,BIL-2609-0311,Patliputra Agencies,Floor Cleaner 1L,Household,393,89.16
+2026-09-08,BIL-2609-0312,Nalanda Distribution,Dish Soap 500ml,Household,322,79.17
+2026-09-08,BIL-2609-0313,Patliputra Agencies,Mango Juice 1L,Beverages,61,95.77
+2026-09-09,BIL-2609-0314,Magadh Wholesale Co.,Packaged Water 1L,Beverages,365,14.97
+2026-09-09,BIL-2609-0315,Vaishali Supply House,Instant Noodles 280g,Snacks,186,42.09
+2026-09-09,BIL-2609-0316,Vaishali Supply House,Cola 750ml,Beverages,68,37.03
+2026-09-11,BIL-2609-0317,Ganga FMCG Supply,Potato Chips 150g,Snacks,178,38.95
+2026-09-11,BIL-2609-0318,Patliputra Agencies,Packaged Water 1L,Beverages,393,15.26
+2026-09-11,BIL-2609-0319,Bihar Foods Distributors,Dish Soap 500ml,Household,55,79.69
+2026-09-11,BIL-2609-0320,Magadh Wholesale Co.,Dish Soap 500ml,Household,110,79.5
+2026-09-13,BIL-2609-0321,Magadh Wholesale Co.,Toned Milk 1L,Dairy,84,53.88
+2026-09-13,BIL-2609-0322,Magadh Wholesale Co.,Biscuits 400g,Snacks,308,30.87
+2026-09-13,BIL-2609-0323,Magadh Wholesale Co.,Cola 750ml,Beverages,339,36.79
+2026-09-14,BIL-2609-0324,Vaishali Supply House,Curd Cup 400g,Dairy,138,35.46
+2026-09-14,BIL-2609-0325,Ganga FMCG Supply,Biscuits 400g,Snacks,373,30.14
+2026-09-14,BIL-2609-0326,Sone Valley Traders,Mango Juice 1L,Beverages,96,95.11
+2026-09-14,BIL-2609-0327,Sone Valley Traders,Potato Chips 150g,Snacks,232,37.86
+2026-09-15,BIL-2609-0328,Bihar Foods Distributors,Toned Milk 1L,Dairy,334,53.79
+2026-09-15,BIL-2609-0329,Vaishali Supply House,Instant Noodles 280g,Snacks,126,41.65
+2026-09-16,BIL-2609-0330,Nalanda Distribution,Mango Juice 1L,Beverages,250,98.1
+2026-09-16,BIL-2609-0331,Patliputra Agencies,Paneer 200g,Dairy,195,79.64
+2026-09-16,BIL-2609-0332,Bihar Foods Distributors,Instant Noodles 280g,Snacks,262,41.84
+2026-09-16,BIL-2609-0333,Ganga FMCG Supply,Curd Cup 400g,Dairy,65,34.38
+2026-09-18,BIL-2609-0334,Koshi Enterprises,Mango Juice 1L,Beverages,168,98.01
+2026-09-21,BIL-2609-0335,Nalanda Distribution,Cola 750ml,Beverages,200,35.63
+2026-09-21,BIL-2609-0336,Vaishali Supply House,Paneer 200g,Dairy,106,77.74
+2026-09-21,BIL-2609-0337,Koshi Enterprises,Toned Milk 1L,Dairy,351,54.32
+2026-09-21,BIL-2609-0338,Ganga FMCG Supply,Floor Cleaner 1L,Household,118,88.7
+2026-09-22,BIL-2609-0339,Koshi Enterprises,Biscuits 400g,Snacks,102,29.8
+2026-09-23,BIL-2609-0340,Patliputra Agencies,Detergent 1kg,Household,71,105.69
+2026-09-23,BIL-2609-0341,Ganga FMCG Supply,Paneer 200g,Dairy,374,77.88
+2026-09-24,BIL-2609-0342,Koshi Enterprises,Paneer 200g,Dairy,376,80.31
+2026-09-25,BIL-2609-0343,Nalanda Distribution,Curd Cup 400g,Dairy,363,35.69
+2026-09-25,BIL-2609-0344,Ganga FMCG Supply,Cola 750ml,Beverages,161,36.43
+2026-09-25,BIL-2609-0345,Koshi Enterprises,Floor Cleaner 1L,Household,309,88.26
+2026-09-25,BIL-2609-0346,Ganga FMCG Supply,Packaged Water 1L,Beverages,196,15.33
+2026-09-26,BIL-2609-0347,Bihar Foods Distributors,Curd Cup 400g,Dairy,117,34.45
+2026-09-26,BIL-2609-0348,Sone Valley Traders,Instant Noodles 280g,Snacks,162,41.66
+2026-09-26,BIL-2609-0349,Sone Valley Traders,Curd Cup 400g,Dairy,286,35.93
+2026-09-26,BIL-2609-0350,Sone Valley Traders,Detergent 1kg,Household,70,106.61
+2026-09-28,BIL-2609-0351,Sone Valley Traders,Toned Milk 1L,Dairy,323,53.33
+2026-09-29,BIL-2609-0352,Bihar Foods Distributors,Packaged Water 1L,Beverages,306,14.81
+2026-09-29,BIL-2609-0353,Sone Valley Traders,Floor Cleaner 1L,Household,86,90.16
+2026-09-29,BIL-2609-0354,Patliputra Agencies,Mango Juice 1L,Beverages,365,95.78
+2026-09-29,BIL-2609-0355,Nalanda Distribution,Floor Cleaner 1L,Household,194,87.34
+2026-09-30,BIL-2609-0356,Vaishali Supply House,Cola 750ml,Beverages,294,35.39
