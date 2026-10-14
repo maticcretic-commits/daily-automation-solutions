@@ -1,0 +1,31 @@
+ticker,company,sector
+HDFCBANK,HDFC Bank Ltd,Banking
+ICICIBANK,ICICI Bank Ltd,Banking
+SBIN,State Bank of India,Banking
+KOTAKBANK,Kotak Mahindra Bank,Banking
+AXISBANK,Axis Bank Ltd,Banking
+INFY,Infosys Ltd,IT
+TCS,Tata Consultancy Services,IT
+HCLTECH,HCL Technologies Ltd,IT
+TECHM,Tech Mahindra Ltd,IT
+WIPRO,Wipro Ltd,IT
+RELIANCE,Reliance Industries Ltd,Energy
+ONGC,Oil & Natural Gas Corp,Energy
+NTPC,NTPC Ltd,Energy
+POWERGRID,Power Grid Corp,Energy
+MARUTI,Maruti Suzuki India Ltd,Auto
+TATAMOTORS,Tata Motors Ltd,Auto
+M&M,Mahindra & Mahindra Ltd,Auto
+HEROMOTOCO,Hero MotoCorp Ltd,Auto
+HINDUNILVR,Hindustan Unilever Ltd,FMCG
+ITC,ITC Ltd,FMCG
+NESTLEIND,Nestle India Ltd,FMCG
+DABUR,Dabur India Ltd,FMCG
+SUNPHARMA,Sun Pharmaceutical Ind,Pharma
+DRREDDY,Dr Reddy's Laboratories,Pharma
+CIPLA,Cipla Ltd,Pharma
+ULTRACEMCO,UltraTech Cement Ltd,Cement & Infra
+LT,Larsen & Toubro Ltd,Cement & Infra
+TATASTEEL,Tata Steel Ltd,Metals
+HINDALCO,Hindalco Industries Ltd,Metals
+TITAN,Titan Company Ltd,Consumer Goods
