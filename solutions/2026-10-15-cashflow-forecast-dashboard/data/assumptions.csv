@@ -1,0 +1,10 @@
+key,value,description
+opening_balance,0,Projected opening bank balance for Week 1 of forecast
+inflow_growth,0.02,Expected weekly inflow growth vs trailing 4-week average
+outflow_growth,0.015,Expected weekly outflow growth vs trailing 4-week average
+cash_floor,500000,Minimum safe cash balance — forecast weeks below this are flagged
+payroll_weekly,120000,Fixed weekly payroll baseline inside supplier mix
+gst_monthly,1,GST week of each 4-week cycle (1..4)
+emi_monthly,78000,Monthly loan EMI charged on gst-week + 1
+avg_weeks_basis,4,Trailing weeks used for the run-rate forecast
+variance_alert_pct,10,Budget-vs-actual variance % that triggers an alert
