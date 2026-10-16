@@ -1,0 +1,22 @@
+acct_no,acct_name,acct_type
+1000,Cash & Bank,Asset
+1100,Accounts Receivable,Asset
+1200,Inventory,Asset
+1300,GST Input Credit,Asset
+1500,Equipment,Asset
+1510,Accumulated Depreciation,Asset
+2000,Accounts Payable,Liability
+2100,GST Payable,Liability
+2200,Term Loan,Liability
+3000,Owner's Capital,Equity
+3100,Retained Earnings,Equity
+4000,Sales Revenue,Income
+5000,Cost of Goods Sold,Expense
+5100,Rent Expense,Expense
+5200,Salaries Expense,Expense
+5300,Utilities Expense,Expense
+5400,Transport & Logistics,Expense
+5500,Marketing Expense,Expense
+5600,Interest Expense,Expense
+5700,Depreciation Expense,Expense
+5800,Miscellaneous Expense,Expense
