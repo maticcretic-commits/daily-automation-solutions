@@ -1,0 +1,37 @@
+sku,name,category,uom,reorder_level,std_cost,bin
+ST-001,Basmati Rice 5kg,Staples,bag,120,485,B1
+ST-002,Wheat Flour 10kg,Staples,bag,150,425,C2
+ST-003,Toor Dal 1kg,Staples,pkt,200,165,B1
+ST-004,Sugar 5kg,Staples,bag,100,230,C4
+ST-005,Mustard Oil 1L,Staples,btl,180,198,A3
+ST-006,Salt 1kg,Staples,pkt,250,32,A4
+ST-007,Poha 500g,Staples,pkt,160,45,A3
+ST-008,Sona Masoori Rice 5kg,Staples,bag,110,340,C3
+BV-001,Masala Chai 250g,Beverages,pkt,140,145,B3
+BV-002,Instant Coffee 100g,Beverages,jar,90,285,C3
+BV-003,Mango Juice 1L,Beverages,btl,200,115,B2
+BV-004,Cola 750ml x12 case,Beverages,case,80,420,A4
+BV-005,Lassi 200ml x24 case,Beverages,case,110,360,A2
+BV-006,Green Tea 100 bags,Beverages,box,70,195,C2
+BV-007,Energy Drink 250ml x24,Beverages,case,60,1080,C2
+BV-008,Cold Coffee 300ml,Beverages,btl,90,95,C1
+SN-001,Potato Chips 150g x20,Snacks,case,90,520,A4
+SN-002,Namkeen Mix 400g,Snacks,pkt,170,95,C4
+SN-003,Biscuits 300g x12,Snacks,case,100,300,B4
+SN-004,Dry Fruit Mix 500g,Snacks,pkt,60,445,B2
+SN-005,Instant Noodles 70g x12,Snacks,case,130,168,C4
+SN-006,Roasted Peanuts 200g,Snacks,pkt,150,75,B4
+SN-007,Chocolate Bar 40g x30,Snacks,case,70,750,B2
+SN-008,Popcorn Kernels 1kg,Snacks,pkt,120,88,A1
+PC-001,Bath Soap 125g x4,Personal Care,pack,160,132,B3
+PC-002,Shampoo 340ml,Personal Care,btl,120,210,B1
+PC-003,Toothpaste 150g,Personal Care,tube,200,105,A1
+PC-004,Detergent Powder 1kg,Personal Care,pkt,180,128,A1
+PC-005,Hair Oil 200ml,Personal Care,btl,100,165,A2
+PC-006,Face Wash 150ml,Personal Care,tube,90,175,A3
+HH-001,Dish Bar 200g x3,Household,pack,170,96,C1
+HH-002,Floor Cleaner 1L,Household,btl,110,145,A2
+HH-003,LED Bulb 9W x10,Household,box,80,690,B4
+HH-004,Garbage Bags 30pc,Household,roll,140,120,B3
+HH-005,Broom + Dustpan set,Household,set,90,185,C3
+HH-006,Storage Container 5L,Household,pc,100,240,C1
