@@ -1,0 +1,18 @@
+date,adj_id,sku,qty,reason
+2026-10-01,ADJ-0001,HH-004,-4,Pilferage
+2026-10-01,ADJ-0002,HH-002,-11,Pilferage
+2026-10-04,ADJ-0003,PC-004,-12,Cycle-count correction
+2026-10-05,ADJ-0004,BV-001,-14,Damaged in handling
+2026-10-08,ADJ-0005,BV-002,-16,Pilferage
+2026-10-09,ADJ-0006,BV-006,-4,Pilferage
+2026-10-09,ADJ-0007,SN-008,-25,Damaged in handling
+2026-10-10,ADJ-0008,PC-002,-18,Damaged in handling
+2026-10-10,ADJ-0009,HH-001,-25,Pilferage
+2026-10-12,ADJ-0010,BV-001,-16,Expired / quality hold
+2026-10-12,ADJ-0011,PC-005,-8,Cycle-count correction
+2026-10-13,ADJ-0012,ST-008,-4,Expired / quality hold
+2026-10-13,ADJ-0013,ST-008,-3,Cycle-count correction
+2026-10-14,ADJ-0014,ST-002,-9,Pilferage
+2026-10-14,ADJ-0015,SN-006,-5,Expired / quality hold
+2026-10-17,ADJ-0016,HH-002,-17,Pilferage
+2026-10-18,ADJ-0017,HH-004,-8,Expired / quality hold
