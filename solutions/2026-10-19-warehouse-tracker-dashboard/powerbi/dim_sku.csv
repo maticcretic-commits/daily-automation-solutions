@@ -1,0 +1,37 @@
+sku,name,category,uom,reorder_level,std_cost,wac,bin,opening_qty
+ST-001,Basmati Rice 5kg,Staples,bag,120,485,482.4124,B1,333
+ST-002,Wheat Flour 10kg,Staples,bag,150,425,427.4032,C2,90
+ST-003,Toor Dal 1kg,Staples,pkt,200,165,164.1365,B1,228
+ST-004,Sugar 5kg,Staples,bag,100,230,229.0755,C4,357
+ST-005,Mustard Oil 1L,Staples,btl,180,198,196.8717,A3,59
+ST-006,Salt 1kg,Staples,pkt,250,32,32.0162,A4,338
+ST-007,Poha 500g,Staples,pkt,160,45,45.0000,A3,239
+ST-008,Sona Masoori Rice 5kg,Staples,bag,110,340,339.8885,C3,40
+BV-001,Masala Chai 250g,Beverages,pkt,140,145,145.0000,B3,407
+BV-002,Instant Coffee 100g,Beverages,jar,90,285,283.5410,C3,221
+BV-003,Mango Juice 1L,Beverages,btl,200,115,116.0426,B2,207
+BV-004,Cola 750ml x12 case,Beverages,case,80,420,420.0000,A4,290
+BV-005,Lassi 200ml x24 case,Beverages,case,110,360,362.3111,A2,336
+BV-006,Green Tea 100 bags,Beverages,box,70,195,194.2780,C2,398
+BV-007,Energy Drink 250ml x24,Beverages,case,60,1080,1065.9530,C2,176
+BV-008,Cold Coffee 300ml,Beverages,btl,90,95,94.5435,C1,318
+SN-001,Potato Chips 150g x20,Snacks,case,90,520,518.3329,A4,195
+SN-002,Namkeen Mix 400g,Snacks,pkt,170,95,94.8843,C4,206
+SN-003,Biscuits 300g x12,Snacks,case,100,300,298.9286,B4,168
+SN-004,Dry Fruit Mix 500g,Snacks,pkt,60,445,440.4554,B2,9
+SN-005,Instant Noodles 70g x12,Snacks,case,130,168,168.9348,C4,376
+SN-006,Roasted Peanuts 200g,Snacks,pkt,150,75,75.4119,B4,398
+SN-007,Chocolate Bar 40g x30,Snacks,case,70,750,758.1090,B2,109
+SN-008,Popcorn Kernels 1kg,Snacks,pkt,120,88,87.9333,A1,293
+PC-001,Bath Soap 125g x4,Personal Care,pack,160,132,132.0000,B3,280
+PC-002,Shampoo 340ml,Personal Care,btl,120,210,215.2742,B1,75
+PC-003,Toothpaste 150g,Personal Care,tube,200,105,105.0820,A1,161
+PC-004,Detergent Powder 1kg,Personal Care,pkt,180,128,128.3502,A1,149
+PC-005,Hair Oil 200ml,Personal Care,btl,100,165,166.0199,A2,232
+PC-006,Face Wash 150ml,Personal Care,tube,90,175,174.2062,A3,13
+HH-001,Dish Bar 200g x3,Household,pack,170,96,96.9624,C1,198
+HH-002,Floor Cleaner 1L,Household,btl,110,145,145.8763,A2,342
+HH-003,LED Bulb 9W x10,Household,box,80,690,688.8049,B4,165
+HH-004,Garbage Bags 30pc,Household,roll,140,120,119.5475,B3,61
+HH-005,Broom + Dustpan set,Household,set,90,185,184.3213,C3,342
+HH-006,Storage Container 5L,Household,pc,100,240,239.6166,C1,404
