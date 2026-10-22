@@ -1,0 +1,128 @@
+Date,Narration,Voucher,Debit,Credit
+2026-10-01,Audit fee advance,PV9334,0.00,5500.00
+2026-10-01,Insurance premium,PV1346,0.00,31500.00
+2026-10-01,NEFT - Chawla Distributors (PO 541),PV3758,0.00,114250.00
+2026-10-01,UPI - retail counter sales 16-Oct,RV5716,1103.00,0.00
+2026-10-02,Electricity bill,PV3353,0.00,10000.00
+2026-10-02,NEFT - Chawla Distributors (PO 550),PV8438,0.00,162000.00
+2026-10-02,NEFT - Dhillon FMCG (PO 616),PV5385,0.00,66250.00
+2026-10-02,NEFT - Mishra Mart (inv 1107),RV2786,31050.00,0.00
+2026-10-02,NEFT - Sharma Retail Store (inv 1074),RV7076,57500.00,0.00
+2026-10-02,RTGS - Kumar & Sons (inv 1143),RV1467,8500.00,0.00
+2026-10-02,RTGS - Mishra Mart (inv 1072),RV3003,33500.00,0.00
+2026-10-02,RTGS - Patel Daily Needs (inv 1157),RV1676,88000.00,0.00
+2026-10-02,RTGS - Verma Traders (inv 1099),RV2581,50500.00,0.00
+2026-10-02,UPI - Sharma Retail Store (inv 1111),RV8443,21500.00,0.00
+2026-10-02,UPI - Verma Traders (inv 1160),RV6928,53057.00,0.00
+2026-10-02,UPI - retail counter sales 1-Oct,RV2961,6744.00,0.00
+2026-10-02,UPI - retail counter sales 16-Oct,RV1002,4594.00,0.00
+2026-10-02,UPI - retail counter sales 3-Oct,RV5547,6011.00,0.00
+2026-10-02,UPI - retail counter sales 3-Oct,RV4499,8292.00,0.00
+2026-10-02,UPI - retail counter sales 6-Oct,RV5057,3000.00,0.00
+2026-10-02,cheque - Patel Daily Needs (inv 1053),RV3926,36050.00,0.00
+2026-10-03,Godown rent - Oct,PV3854,0.00,18000.00
+2026-10-03,NEFT salary - staff batch 4 Oct,PV8843,0.00,136000.00
+2026-10-03,Telephone/internet,PV3206,0.00,16500.00
+2026-10-03,UPI - retail counter sales 16-Oct,RV8859,2772.00,0.00
+2026-10-03,cheque - Jain Super Bazaar (inv 1068),RV8567,74000.00,0.00
+2026-10-03,cheque - Yadav Provision Store (inv 1046),RV4603,32000.00,0.00
+2026-10-04,Godown rent - Oct,PV9498,0.00,44000.00
+2026-10-04,NEFT - Patel Daily Needs (inv 1114),RV9075,80507.00,0.00
+2026-10-04,NEFT salary - staff batch 3 Oct,PV7614,0.00,90000.00
+2026-10-04,RTGS - Khan Departmental (inv 1097),RV9602,42000.00,0.00
+2026-10-05,Audit fee advance,PV3750,0.00,27000.00
+2026-10-05,NEFT - Bansal Agro Products (PO 580),PV5541,0.00,57000.00
+2026-10-05,NEFT - Gupta General Store (inv 1081),RV7947,34050.00,0.00
+2026-10-05,RTGS - Mishra Mart (inv 1110),RV4204,53050.00,0.00
+2026-10-06,Godown rent - Oct,PV3844,0.00,25000.00
+2026-10-06,NEFT - Bansal Agro Products (PO 553),PV5059,0.00,70000.00
+2026-10-06,NEFT - Dhillon FMCG (PO 606),PV5434,0.00,31250.00
+2026-10-06,NEFT - Eagle Beverages (PO 550),PV4329,0.00,89000.00
+2026-10-06,TDS deposit Q2,PV1892,0.00,23780.00
+2026-10-06,UPI - retail counter sales 4-Oct,RV2235,2633.00,0.00
+2026-10-06,cheque - Singh Kirana (inv 1100),RV6531,92500.00,0.00
+2026-10-07,Insurance premium,PV5249,0.00,38000.00
+2026-10-07,NEFT - Agrawal Foods Ltd (PO 592),PV6093,0.00,17000.00
+2026-10-07,NEFT - Bansal Agro Products (PO 512),PV7134,0.00,43250.00
+2026-10-07,NEFT salary - staff batch 2 Oct,PV7313,0.00,111000.00
+2026-10-08,NEFT - Agrawal Foods Ltd (PO 590),PV2349,0.00,72000.00
+2026-10-08,NEFT - Agrawal Foods Ltd (PO 626),PV3754,0.00,76250.00
+2026-10-08,NEFT - Bansal Agro Products (PO 544),PV8822,0.00,130250.00
+2026-10-08,NEFT - Chawla Distributors (PO 538),PV8443,0.00,118000.00
+2026-10-08,NEFT salary - staff batch 1 Oct,PV6869,0.00,121000.00
+2026-10-08,cheque - Gupta General Store (inv 1060),RV4307,85000.00,0.00
+2026-10-08,cheque - Mishra Mart (inv 1033),RV4843,44000.00,0.00
+2026-10-09,Insurance premium,PV3245,0.00,14500.00
+2026-10-09,NEFT - Agrawal Foods Ltd (PO 570),PV8682,0.00,138000.00
+2026-10-09,NEFT - Bansal Agro Products (PO 576),PV5021,0.00,93000.00
+2026-10-09,UPI - retail counter sales 12-Oct,RV3853,3662.00,0.00
+2026-10-10,NEFT - Agrawal Foods Ltd (PO 511),PV2423,0.00,152250.00
+2026-10-10,NEFT - FreshFarms Coop (PO 520),PV2421,0.00,160000.00
+2026-10-10,NEFT - Jain Super Bazaar (inv 1070),RV2746,15000.00,0.00
+2026-10-10,UPI - Jain Super Bazaar (inv 1053),RV6820,38050.00,0.00
+2026-10-10,UPI - retail counter sales 18-Oct,RV7197,7110.00,0.00
+2026-10-11,NEFT - Eagle Beverages (PO 519),PV2021,0.00,174000.00
+2026-10-11,NEFT - Patel Daily Needs (inv 1051),RV5604,45050.00,0.00
+2026-10-11,RTGS - Patel Daily Needs (inv 1122),RV4665,62050.00,0.00
+2026-10-11,UPI - retail counter sales 2-Oct,RV2972,1929.00,0.00
+2026-10-11,UPI - retail counter sales 21-Oct,RV6521,3700.00,0.00
+2026-10-11,UPI - retail counter sales 3-Oct,RV2963,2986.00,0.00
+2026-10-12,NEFT - Kumar & Sons (inv 1036),RV2684,26000.00,0.00
+2026-10-12,NEFT - Sharma Retail Store (inv 1087),RV5040,52000.00,0.00
+2026-10-12,UPI - Verma Traders (inv 1153),RV6048,74500.00,0.00
+2026-10-12,UPI - retail counter sales 11-Oct,RV6544,7073.00,0.00
+2026-10-12,cheque - Verma Traders (inv 1169),RV1898,43500.00,0.00
+2026-10-13,NEFT - Agrawal Foods Ltd (PO 539),PV1972,0.00,163257.00
+2026-10-13,NEFT - Dhillon FMCG (PO 631),PV6541,0.00,49007.00
+2026-10-13,NEFT - FreshFarms Coop (PO 522),PV5335,0.00,65000.00
+2026-10-13,NEFT - Singh Kirana (inv 1112),RV9706,42500.00,0.00
+2026-10-13,UPI - retail counter sales 2-Oct,RV6031,3955.00,0.00
+2026-10-14,NEFT - Agrawal Foods Ltd (PO 599),PV4868,0.00,104250.00
+2026-10-14,NEFT - Eagle Beverages (PO 536),PV5720,0.00,140000.00
+2026-10-14,NEFT - Eagle Beverages (PO 602),PV2717,0.00,163250.00
+2026-10-14,NEFT - Jain Super Bazaar (inv 1092),RV8538,57507.00,0.00
+2026-10-14,NEFT - Jain Super Bazaar (inv 1145),RV3420,23500.00,0.00
+2026-10-14,NEFT - Mishra Mart (inv 1178),RV7983,30050.00,0.00
+2026-10-14,UPI - retail counter sales 2-Oct,RV3263,560.00,0.00
+2026-10-15,NEFT - Bansal Agro Products (PO 619),PV2981,0.00,20250.00
+2026-10-15,NEFT - Mishra Mart (inv 1059),RV5782,27500.00,0.00
+2026-10-15,UPI - retail counter sales 10-Oct,RV9431,4124.00,0.00
+2026-10-15,UPI - retail counter sales 5-Oct,RV7167,7945.00,0.00
+2026-10-15,UPI - retail counter sales 8-Oct,RV1067,524.00,0.00
+2026-10-16,Audit fee advance,PV2921,0.00,20000.00
+2026-10-16,NEFT - Bansal Agro Products (PO 627),PV1572,0.00,49000.00
+2026-10-16,NEFT - FreshFarms Coop (PO 627),PV4959,0.00,21000.00
+2026-10-16,Staff welfare,PV1174,0.00,6500.00
+2026-10-16,UPI - Gupta General Store (inv 1110),RV2009,26500.00,0.00
+2026-10-17,NEFT - Agrawal Foods Ltd (PO 538),PV9758,0.00,39250.00
+2026-10-17,NEFT - Chawla Distributors (PO 639),PV5198,0.00,168250.00
+2026-10-17,NEFT - Dhillon FMCG (PO 601),PV7960,0.00,72250.00
+2026-10-17,UPI - retail counter sales 10-Oct,RV4597,1813.00,0.00
+2026-10-17,UPI - retail counter sales 11-Oct,RV9523,6947.00,0.00
+2026-10-17,UPI - retail counter sales 19-Oct,RV4052,3887.00,0.00
+2026-10-17,UPI - retail counter sales 7-Oct,RV9186,4661.00,0.00
+2026-10-18,Chq 452318 - Verma Enterprises (unpresented),PV7712,0.00,45000.00
+2026-10-18,GST payment - Sep 2026,PV4193,0.00,86450.00
+2026-10-18,NEFT - Bansal Agro Products (PO 515),PV3052,0.00,141250.00
+2026-10-18,NEFT - Mishra Mart (inv 1175),RV9649,48500.00,0.00
+2026-10-18,UPI - Yadav Provision Store (inv 1122),RV6820,48507.00,0.00
+2026-10-18,UPI - retail counter sales 19-Oct,RV4123,4019.00,0.00
+2026-10-18,UPI - retail counter sales 2-Oct,RV9645,8788.00,0.00
+2026-10-18,cheque - Verma Traders (inv 1151),RV2145,36057.00,0.00
+2026-10-18,cheque - Yadav Provision Store (inv 1065),RV7374,79500.00,0.00
+2026-10-19,NEFT - Dhillon FMCG (PO 538),PV5407,0.00,95000.00
+2026-10-19,NEFT - Gupta General Store (inv 1130),RV6047,86000.00,0.00
+2026-10-19,NEFT - Sharma Retail Store (inv 1169),RV1734,11050.00,0.00
+2026-10-19,NEFT - Singh Kirana (inv 1076),RV1083,73000.00,0.00
+2026-10-19,NEFT - Verma Traders (inv 1048),RV9405,66000.00,0.00
+2026-10-19,NEFT - Verma Traders (inv 1138),RV9820,12507.00,0.00
+2026-10-19,UPI - retail counter sales 3-Oct,RV4907,4786.00,0.00
+2026-10-20,Chq 452320 - staff advance (unpresented),PV7740,0.00,15000.00
+2026-10-20,NEFT - Dhillon FMCG (PO 529),PV3644,0.00,110000.00
+2026-10-20,NEFT - FreshFarms Coop (PO 570),PV7631,0.00,83000.00
+2026-10-20,NEFT - Patel Daily Needs (inv 1025),RV9229,80500.00,0.00
+2026-10-20,UPI - retail counter sales 20-Oct,RV4083,4751.00,0.00
+2026-10-21,Cash deposit in transit,RV9901,28000.00,0.00
+2026-10-21,UPI - retail counter sales 12-Oct,RV5545,7167.00,0.00
+2026-10-21,UPI - retail counter sales 21-Oct,RV6176,1392.00,0.00
+2026-10-21,UPI - retail counter sales 21-Oct,RV3249,2464.00,0.00
