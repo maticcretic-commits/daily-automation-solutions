@@ -1,0 +1,136 @@
+{
+  "runs": [
+    {
+      "run_id": "R0001",
+      "timestamp": "2026-10-24T02:37:41",
+      "sources": {
+        "sales": {
+          "file": "sales.csv",
+          "seen": 211,
+          "new": 211,
+          "duplicates": 0,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "65a7f8276cb67ac64617dd59f004729b7ff69087"
+        },
+        "production": {
+          "file": "production.csv",
+          "seen": 95,
+          "new": 95,
+          "duplicates": 0,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "d5f4bad6f631d4ff395df41da99d8c97091d5d17"
+        },
+        "inventory": {
+          "file": "inventory.csv",
+          "seen": 101,
+          "new": 101,
+          "duplicates": 0,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "1efb269f8e1606d2ba28898820d69bd2cad1bdf8"
+        },
+        "issues": {
+          "file": "issues.csv",
+          "seen": 27,
+          "new": 27,
+          "duplicates": 0,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "a79a34c8412053dc680d28e0b4d9a26a063d0e1a"
+        }
+      },
+      "status": "OK",
+      "duration_s": 0.01
+    },
+    {
+      "run_id": "R0002",
+      "timestamp": "2026-10-24T02:38:16",
+      "sources": {
+        "sales": {
+          "file": "sales.csv",
+          "seen": 211,
+          "new": 0,
+          "duplicates": 211,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "65a7f8276cb67ac64617dd59f004729b7ff69087"
+        },
+        "production": {
+          "file": "production.csv",
+          "seen": 95,
+          "new": 0,
+          "duplicates": 95,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "d5f4bad6f631d4ff395df41da99d8c97091d5d17"
+        },
+        "inventory": {
+          "file": "inventory.csv",
+          "seen": 101,
+          "new": 0,
+          "duplicates": 101,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "1efb269f8e1606d2ba28898820d69bd2cad1bdf8"
+        },
+        "issues": {
+          "file": "issues.csv",
+          "seen": 27,
+          "new": 0,
+          "duplicates": 27,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "a79a34c8412053dc680d28e0b4d9a26a063d0e1a"
+        }
+      },
+      "status": "OK",
+      "duration_s": 0.01
+    },
+    {
+      "run_id": "R0003",
+      "timestamp": "2026-10-24T02:38:24",
+      "sources": {
+        "sales": {
+          "file": "sales.csv",
+          "seen": 211,
+          "new": 0,
+          "duplicates": 211,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "65a7f8276cb67ac64617dd59f004729b7ff69087"
+        },
+        "production": {
+          "file": "production.csv",
+          "seen": 95,
+          "new": 0,
+          "duplicates": 95,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "d5f4bad6f631d4ff395df41da99d8c97091d5d17"
+        },
+        "inventory": {
+          "file": "inventory.csv",
+          "seen": 101,
+          "new": 0,
+          "duplicates": 101,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "1efb269f8e1606d2ba28898820d69bd2cad1bdf8"
+        },
+        "issues": {
+          "file": "issues.csv",
+          "seen": 27,
+          "new": 0,
+          "duplicates": 27,
+          "quarantined": 0,
+          "errors": [],
+          "sha1": "a79a34c8412053dc680d28e0b4d9a26a063d0e1a"
+        }
+      },
+      "status": "OK",
+      "duration_s": 0.01
+    }
+  ]
+}
