@@ -1,0 +1,13 @@
+sku,name,category,uom,unit_price,opening_qty
+ATTA-5KG,Whole Wheat Atta 5kg,Staples,bag,235.00,420
+RICE-25KG,Parboiled Rice 25kg,Staples,bag,1150.00,260
+DAL-1KG,Arhar Dal 1kg,Pulses,pkt,148.00,900
+OIL-1L,Mustard Oil 1L,Oils,btl,195.00,700
+SUGAR-1KG,Sugar 1kg,Staples,pkt,46.00,1500
+SALT-1KG,Iodised Salt 1kg,Staples,pkt,28.00,2200
+BESAN-1KG,Besan 1kg,Pulses,pkt,92.00,800
+SUJI-1KG,Suji 1kg,Staples,pkt,54.00,950
+MAIDA-1KG,Maida 1kg,Staples,pkt,48.00,1000
+TEA-250G,CTC Tea 250g,Beverages,pkt,135.00,1100
+BISC-400G,Glucose Biscuits 400g,Snacks,pkt,38.00,1600
+NOODLE-280G,Instant Noodles 280g,Snacks,pkt,56.00,1300
