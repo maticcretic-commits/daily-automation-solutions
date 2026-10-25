@@ -1,0 +1,25 @@
+BillID,Vendor,DueDate,Amount,PaidAmount
+BILL-2001,Victoria Roofing Supply,2026-10-22,8174,3415
+BILL-2002,Pacific Concrete Ltd.,2026-10-04,18953,18953
+BILL-2003,West Coast Electrical,2026-09-03,4374,966
+BILL-2004,Peninsula Scaffolding,2026-11-18,17230,17230
+BILL-2005,West Coast Electrical,2026-10-13,19290,19290
+BILL-2006,Island Lumber Supply,2026-09-24,14431,0
+BILL-2007,West Coast Electrical,2026-09-18,15455,15455
+BILL-2008,Capital Drywall,2026-10-24,20121,20121
+BILL-2009,Harbour Paint & Finishes,2026-11-14,15386,0
+BILL-2010,Victoria Roofing Supply,2026-10-23,9826,9826
+BILL-2011,Harbour Paint & Finishes,2026-11-05,7712,7712
+BILL-2012,Victoria Roofing Supply,2026-11-05,3352,3352
+BILL-2013,Island Lumber Supply,2026-09-27,21295,21295
+BILL-2014,Peninsula Scaffolding,2026-10-27,20991,20991
+BILL-2015,West Coast Electrical,2026-11-25,10320,10320
+BILL-2016,Harbour Paint & Finishes,2026-11-05,11398,10477
+BILL-2017,Capital Drywall,2026-11-10,4984,4984
+BILL-2018,Pacific Concrete Ltd.,2026-09-17,2770,2770
+BILL-2019,Peninsula Scaffolding,2026-11-11,19707,19707
+BILL-2020,Peninsula Scaffolding,2026-09-05,14322,14322
+BILL-2021,Pacific Concrete Ltd.,2026-09-27,16111,0
+BILL-2022,West Coast Electrical,2026-10-16,7542,7542
+BILL-2023,Island Lumber Supply,2026-10-18,3287,3287
+BILL-2024,Capital Drywall,2026-10-08,20786,10338
