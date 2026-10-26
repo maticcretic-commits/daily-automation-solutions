@@ -1,0 +1,173 @@
+date,quarter,enterprise,activity,paddock_herd,cost_centre,amount
+2025-07-15,2025-Q3,Dairy,Milk Sales,Paddock B,CC-200 Feed & Vet,7854.72
+2025-11-21,2025-Q4,Dairy,Calf Sales,Herd 2,CC-100 Operations,330.28
+2026-02-21,2026-Q1,Dairy,Milk Sales,Herd 2,CC-300 Machinery,3304.92
+2026-04-25,2026-Q2,Dairy,Calf Sales,Flock A,CC-300 Machinery,9473.66
+2025-08-13,2025-Q3,Wheat,Grain Sales,Flock A,CC-300 Machinery,739.34
+2025-10-28,2025-Q4,Wheat,Straw Sales,Paddock C,CC-400 Admin,9352.56
+2026-01-27,2026-Q1,Wheat,Grain Sales,Herd 1,CC-200 Feed & Vet,7378.3
+2026-05-23,2026-Q2,Wheat,Straw Sales,Paddock C,CC-200 Feed & Vet,7230.95
+2025-08-20,2025-Q3,Vegetables,Vegetable Sales,Herd 1,CC-300 Machinery,2884.73
+2025-11-13,2025-Q4,Vegetables,Market Stall Sales,Paddock C,CC-200 Feed & Vet,4161.67
+2026-02-09,2026-Q1,Vegetables,Vegetable Sales,Herd 2,CC-400 Admin,8952.12
+2026-05-30,2026-Q2,Vegetables,Market Stall Sales,Paddock C,CC-200 Feed & Vet,8891.37
+2025-07-20,2025-Q3,Poultry,Egg Sales,Herd 2,CC-200 Feed & Vet,5466.42
+2025-10-29,2025-Q4,Poultry,Broiler Sales,Herd 1,CC-200 Feed & Vet,7231.11
+2026-02-24,2026-Q1,Poultry,Egg Sales,Flock A,CC-400 Admin,1286.63
+2026-05-10,2026-Q2,Poultry,Broiler Sales,Flock A,CC-100 Operations,6450.95
+2025-07-29,2025-Q3,Sheep,Wool Sales,Paddock A,CC-400 Admin,6475.55
+2025-11-20,2025-Q4,Sheep,Lamb Sales,Paddock B,CC-100 Operations,2833.31
+2026-02-05,2026-Q1,Sheep,Wool Sales,Herd 2,CC-100 Operations,3539.4
+2026-04-13,2026-Q2,Sheep,Lamb Sales,Herd 2,CC-300 Machinery,2972.71
+2025-09-30,2025-Q3,Dairy,Milk Sales,Herd 1,CC-100 Operations,4077.75
+2025-11-07,2025-Q4,Dairy,Calf Sales,Paddock A,CC-300 Machinery,5112.61
+2026-01-11,2026-Q1,Dairy,Milk Sales,Herd 2,CC-300 Machinery,5568.55
+2026-06-12,2026-Q2,Dairy,Calf Sales,Paddock A,CC-100 Operations,4893.3
+2025-07-08,2025-Q3,Wheat,Grain Sales,Paddock A,CC-300 Machinery,9249.54
+2025-12-23,2025-Q4,Wheat,Straw Sales,Paddock B,CC-400 Admin,3509.99
+2026-03-05,2026-Q1,Wheat,Grain Sales,Paddock A,CC-200 Feed & Vet,1019.37
+2026-05-07,2026-Q2,Wheat,Straw Sales,Herd 2,CC-300 Machinery,7590.32
+2025-09-01,2025-Q3,Vegetables,Vegetable Sales,Herd 1,CC-200 Feed & Vet,3607.95
+2025-11-08,2025-Q4,Vegetables,Market Stall Sales,Herd 1,CC-400 Admin,8459.5
+2026-02-24,2026-Q1,Vegetables,Vegetable Sales,Herd 2,CC-400 Admin,7246.58
+2026-04-18,2026-Q2,Vegetables,Market Stall Sales,Paddock C,CC-300 Machinery,9308.09
+2025-07-10,2025-Q3,Poultry,Egg Sales,Flock A,CC-100 Operations,4674.73
+2025-11-17,2025-Q4,Poultry,Broiler Sales,Flock A,CC-300 Machinery,2029.68
+2026-02-09,2026-Q1,Poultry,Egg Sales,Paddock C,CC-300 Machinery,5023.12
+2026-05-09,2026-Q2,Poultry,Broiler Sales,Paddock B,CC-300 Machinery,6774.65
+2025-09-29,2025-Q3,Sheep,Wool Sales,Flock A,CC-400 Admin,8930.48
+2025-11-22,2025-Q4,Sheep,Lamb Sales,Herd 1,CC-200 Feed & Vet,8510.54
+2026-02-16,2026-Q1,Sheep,Wool Sales,Herd 1,CC-300 Machinery,8130.57
+2026-04-19,2026-Q2,Sheep,Lamb Sales,Flock A,CC-300 Machinery,4481.27
+2025-07-11,2025-Q3,Dairy,Milk Sales,Paddock B,CC-400 Admin,5714.83
+2025-12-08,2025-Q4,Dairy,Calf Sales,Herd 1,CC-200 Feed & Vet,8091.66
+2026-02-28,2026-Q1,Dairy,Milk Sales,Paddock C,CC-400 Admin,3615.78
+2026-06-24,2026-Q2,Dairy,Calf Sales,Flock A,CC-400 Admin,2274.02
+2025-07-21,2025-Q3,Wheat,Grain Sales,Paddock C,CC-300 Machinery,1428.91
+2025-10-17,2025-Q4,Wheat,Straw Sales,Flock A,CC-300 Machinery,4016.76
+2026-03-03,2026-Q1,Wheat,Grain Sales,Flock A,CC-300 Machinery,8473.89
+2026-04-13,2026-Q2,Wheat,Straw Sales,Herd 2,CC-100 Operations,5239.95
+2025-09-14,2025-Q3,Vegetables,Vegetable Sales,Flock A,CC-300 Machinery,1283.12
+2025-12-29,2025-Q4,Vegetables,Market Stall Sales,Herd 1,CC-200 Feed & Vet,1882.55
+2026-03-19,2026-Q1,Vegetables,Vegetable Sales,Flock A,CC-100 Operations,6468.99
+2026-04-15,2026-Q2,Vegetables,Market Stall Sales,Paddock A,CC-200 Feed & Vet,8465.78
+2025-07-29,2025-Q3,Poultry,Egg Sales,Paddock C,CC-100 Operations,7430.94
+2025-11-12,2025-Q4,Poultry,Broiler Sales,Herd 2,CC-300 Machinery,1542.83
+2026-03-28,2026-Q1,Poultry,Egg Sales,Herd 2,CC-100 Operations,7760.83
+2026-06-12,2026-Q2,Poultry,Broiler Sales,Herd 2,CC-200 Feed & Vet,5532.7
+2025-07-28,2025-Q3,Sheep,Wool Sales,Paddock A,CC-100 Operations,3314.42
+2025-12-12,2025-Q4,Sheep,Lamb Sales,Herd 2,CC-400 Admin,1673.26
+2026-01-10,2026-Q1,Sheep,Wool Sales,Paddock A,CC-400 Admin,4117.62
+2026-05-15,2026-Q2,Sheep,Lamb Sales,Herd 1,CC-400 Admin,7847.4
+2025-08-12,2025-Q3,Dairy,Milk Sales,Herd 1,CC-200 Feed & Vet,4737.07
+2025-12-11,2025-Q4,Dairy,Calf Sales,Herd 1,CC-400 Admin,9352.87
+2026-02-27,2026-Q1,Dairy,Milk Sales,Paddock A,CC-200 Feed & Vet,6672.14
+2026-04-01,2026-Q2,Dairy,Calf Sales,Paddock B,CC-100 Operations,6790.49
+2025-07-04,2025-Q3,Wheat,Grain Sales,Herd 2,CC-100 Operations,3235.03
+2025-12-13,2025-Q4,Wheat,Straw Sales,Paddock A,CC-200 Feed & Vet,5598.04
+2026-02-25,2026-Q1,Wheat,Grain Sales,Paddock B,CC-400 Admin,5696.58
+2026-04-20,2026-Q2,Wheat,Straw Sales,Flock A,CC-300 Machinery,5236.94
+2025-09-05,2025-Q3,Vegetables,Vegetable Sales,Herd 1,CC-100 Operations,4380.58
+2025-12-17,2025-Q4,Vegetables,Market Stall Sales,Paddock C,CC-200 Feed & Vet,8311.39
+2026-02-05,2026-Q1,Vegetables,Vegetable Sales,Paddock A,CC-200 Feed & Vet,6682.78
+2026-05-19,2026-Q2,Vegetables,Market Stall Sales,Herd 2,CC-300 Machinery,6239.04
+2025-09-27,2025-Q3,Poultry,Egg Sales,Paddock B,CC-400 Admin,6048.18
+2025-12-01,2025-Q4,Poultry,Broiler Sales,Herd 2,CC-200 Feed & Vet,1917.87
+2026-01-09,2026-Q1,Poultry,Egg Sales,Paddock B,CC-400 Admin,5708.37
+2026-05-01,2026-Q2,Poultry,Broiler Sales,Herd 2,CC-200 Feed & Vet,2689.95
+2025-08-11,2025-Q3,Sheep,Wool Sales,Flock A,CC-400 Admin,8230.04
+2025-12-19,2025-Q4,Sheep,Lamb Sales,Paddock C,CC-300 Machinery,2217.63
+2026-03-09,2026-Q1,Sheep,Wool Sales,Paddock C,CC-200 Feed & Vet,6300.1
+2026-04-05,2026-Q2,Sheep,Lamb Sales,Flock A,CC-300 Machinery,9354.99
+2025-07-03,2025-Q3,Dairy,Milk Sales,Paddock B,CC-400 Admin,4051.77
+2025-12-19,2025-Q4,Dairy,Calf Sales,Herd 1,CC-200 Feed & Vet,2095.59
+2026-03-12,2026-Q1,Dairy,Milk Sales,Herd 2,CC-200 Feed & Vet,9158.4
+2026-05-23,2026-Q2,Dairy,Calf Sales,Herd 2,CC-100 Operations,8033.66
+2025-07-05,2025-Q3,Wheat,Grain Sales,Paddock C,CC-400 Admin,9446.31
+2025-11-28,2025-Q4,Wheat,Straw Sales,Paddock A,CC-100 Operations,3573.47
+2026-01-22,2026-Q1,Wheat,Grain Sales,Herd 1,CC-300 Machinery,7834.95
+2026-04-22,2026-Q2,Wheat,Straw Sales,Flock A,CC-100 Operations,7202.43
+2025-07-14,2025-Q3,Vegetables,Vegetable Sales,Paddock A,CC-400 Admin,3650.25
+2025-11-04,2025-Q4,Vegetables,Market Stall Sales,Flock A,CC-200 Feed & Vet,438.47
+2026-02-20,2026-Q1,Vegetables,Vegetable Sales,Flock A,CC-400 Admin,2123.94
+2026-05-16,2026-Q2,Vegetables,Market Stall Sales,Herd 2,CC-100 Operations,5419.4
+2025-09-24,2025-Q3,Poultry,Egg Sales,Paddock C,CC-300 Machinery,5629.6
+2025-12-12,2025-Q4,Poultry,Broiler Sales,Paddock A,CC-300 Machinery,9156.69
+2026-03-08,2026-Q1,Poultry,Egg Sales,Paddock B,CC-200 Feed & Vet,5687.67
+2026-04-20,2026-Q2,Poultry,Broiler Sales,Herd 2,CC-400 Admin,1422.38
+2025-07-12,2025-Q3,Sheep,Wool Sales,Paddock C,CC-300 Machinery,9264.08
+2025-10-13,2025-Q4,Sheep,Lamb Sales,Paddock A,CC-200 Feed & Vet,2766.64
+2026-03-25,2026-Q1,Sheep,Wool Sales,Paddock B,CC-400 Admin,2365.77
+2026-05-14,2026-Q2,Sheep,Lamb Sales,Paddock A,CC-100 Operations,4177.88
+2025-07-10,2025-Q3,Dairy,Milk Sales,Paddock C,CC-200 Feed & Vet,7596.5
+2025-12-21,2025-Q4,Dairy,Calf Sales,Flock A,CC-400 Admin,1952.25
+2026-03-18,2026-Q1,Dairy,Milk Sales,Paddock A,CC-400 Admin,2973.39
+2026-05-12,2026-Q2,Dairy,Calf Sales,Herd 1,CC-300 Machinery,9081.68
+2025-07-29,2025-Q3,Wheat,Grain Sales,Paddock C,CC-300 Machinery,1882.31
+2025-11-30,2025-Q4,Wheat,Straw Sales,Herd 1,CC-400 Admin,8691.19
+2026-01-10,2026-Q1,Wheat,Grain Sales,Paddock A,CC-100 Operations,3123.79
+2026-06-16,2026-Q2,Wheat,Straw Sales,Paddock B,CC-300 Machinery,3076.12
+2025-07-26,2025-Q3,Vegetables,Vegetable Sales,Paddock C,CC-400 Admin,7470.83
+2025-11-23,2025-Q4,Vegetables,Market Stall Sales,Paddock B,CC-400 Admin,7059.63
+2026-02-17,2026-Q1,Vegetables,Vegetable Sales,Flock A,CC-200 Feed & Vet,1477.96
+2026-06-14,2026-Q2,Vegetables,Market Stall Sales,Herd 1,CC-200 Feed & Vet,4493.54
+2025-08-05,2025-Q3,Poultry,Egg Sales,Paddock A,CC-200 Feed & Vet,6208.16
+2025-10-02,2025-Q4,Poultry,Broiler Sales,Herd 1,CC-200 Feed & Vet,4046.58
+2026-01-01,2026-Q1,Poultry,Egg Sales,Paddock C,CC-300 Machinery,4292.43
+2026-04-29,2026-Q2,Poultry,Broiler Sales,Flock A,CC-100 Operations,5182.91
+2025-07-11,2025-Q3,Sheep,Wool Sales,Paddock A,CC-300 Machinery,7493.04
+2025-12-09,2025-Q4,Sheep,Lamb Sales,Herd 2,CC-400 Admin,3793.99
+2026-01-14,2026-Q1,Sheep,Wool Sales,Paddock C,CC-300 Machinery,7374.99
+2026-04-08,2026-Q2,Sheep,Lamb Sales,Herd 2,CC-100 Operations,5967.94
+2025-07-31,2025-Q3,Dairy,Milk Sales,Paddock C,CC-300 Machinery,1098.54
+2025-12-30,2025-Q4,Dairy,Calf Sales,Flock A,CC-400 Admin,1223.01
+2026-01-21,2026-Q1,Dairy,Milk Sales,Paddock A,CC-300 Machinery,3479.92
+2026-04-21,2026-Q2,Dairy,Calf Sales,Paddock A,CC-400 Admin,3373.94
+2025-08-21,2025-Q3,Wheat,Grain Sales,Paddock A,CC-100 Operations,670.82
+2025-11-05,2025-Q4,Wheat,Straw Sales,Paddock B,CC-400 Admin,2962.74
+2026-03-01,2026-Q1,Wheat,Grain Sales,Herd 1,CC-100 Operations,7315.08
+2026-05-11,2026-Q2,Wheat,Straw Sales,Herd 1,CC-100 Operations,3329.34
+2025-08-10,2025-Q3,Vegetables,Vegetable Sales,Paddock B,CC-400 Admin,3101.71
+2025-10-29,2025-Q4,Vegetables,Market Stall Sales,Flock A,CC-300 Machinery,2001.38
+2026-03-21,2026-Q1,Vegetables,Vegetable Sales,Flock A,CC-200 Feed & Vet,9243.14
+2026-06-23,2026-Q2,Vegetables,Market Stall Sales,Paddock C,CC-400 Admin,1140.83
+2025-08-02,2025-Q3,Poultry,Egg Sales,Paddock C,CC-200 Feed & Vet,8627.1
+2025-11-14,2025-Q4,Poultry,Broiler Sales,Paddock A,CC-300 Machinery,7387.99
+2026-02-12,2026-Q1,Poultry,Egg Sales,Herd 2,CC-400 Admin,6061.37
+2026-04-24,2026-Q2,Poultry,Broiler Sales,Herd 1,CC-300 Machinery,2673.54
+2025-09-06,2025-Q3,Sheep,Wool Sales,Paddock C,CC-400 Admin,4169.83
+2025-10-12,2025-Q4,Sheep,Lamb Sales,Paddock C,CC-300 Machinery,9200.76
+2026-03-17,2026-Q1,Sheep,Wool Sales,Herd 2,CC-200 Feed & Vet,8855.58
+2026-04-15,2026-Q2,Sheep,Lamb Sales,Paddock A,CC-300 Machinery,3300.83
+2025-08-10,2025-Q3,Dairy,Milk Sales,Herd 2,CC-200 Feed & Vet,698.14
+2025-11-19,2025-Q4,Dairy,Calf Sales,Paddock C,CC-200 Feed & Vet,5323.52
+2026-03-14,2026-Q1,Dairy,Milk Sales,Flock A,CC-400 Admin,8060.23
+2026-04-05,2026-Q2,Dairy,Calf Sales,Paddock B,CC-200 Feed & Vet,1047.62
+2025-09-17,2025-Q3,Wheat,Grain Sales,Herd 1,CC-400 Admin,433.93
+2025-12-04,2025-Q4,Wheat,Straw Sales,Paddock B,CC-400 Admin,4028.23
+2026-02-24,2026-Q1,Wheat,Grain Sales,Flock A,CC-200 Feed & Vet,496.24
+2026-06-18,2026-Q2,Wheat,Straw Sales,Paddock B,CC-200 Feed & Vet,8255.35
+2025-09-02,2025-Q3,Vegetables,Vegetable Sales,Herd 2,CC-400 Admin,2311.26
+2025-12-06,2025-Q4,Vegetables,Market Stall Sales,Paddock A,CC-100 Operations,6854.76
+2026-03-14,2026-Q1,Vegetables,Vegetable Sales,Paddock C,CC-200 Feed & Vet,345.41
+2026-04-22,2026-Q2,Vegetables,Market Stall Sales,Flock A,CC-300 Machinery,5500.9
+2025-09-05,2025-Q3,Poultry,Egg Sales,Herd 1,CC-200 Feed & Vet,8177.95
+2025-11-28,2025-Q4,Poultry,Broiler Sales,Paddock B,CC-300 Machinery,353.18
+2026-02-25,2026-Q1,Poultry,Egg Sales,Herd 1,CC-200 Feed & Vet,1627.89
+2026-06-22,2026-Q2,Poultry,Broiler Sales,Herd 1,CC-200 Feed & Vet,3087.57
+2025-08-21,2025-Q3,Sheep,Wool Sales,Paddock A,CC-300 Machinery,8746.61
+2025-11-05,2025-Q4,Sheep,Lamb Sales,Flock A,CC-100 Operations,4071.72
+2026-01-27,2026-Q1,Sheep,Wool Sales,Herd 2,CC-400 Admin,8806.42
+2026-06-15,2026-Q2,Sheep,Lamb Sales,Paddock A,CC-300 Machinery,8679.1
+2025-08-05,2025-Q3,Dairy,Milk Sales,Flock A,CC-200 Feed & Vet,9194.7
+2025-10-23,2025-Q4,Dairy,Calf Sales,Herd 1,CC-400 Admin,1590.22
+2026-03-13,2026-Q1,Dairy,Milk Sales,Herd 1,CC-100 Operations,6911.59
+2026-06-27,2026-Q2,Dairy,Calf Sales,Flock A,CC-300 Machinery,4343.86
+2025-08-05,2025-Q3,Wheat,Grain Sales,Paddock C,CC-100 Operations,3565.45
+2025-11-04,2025-Q4,Wheat,Straw Sales,Paddock C,CC-100 Operations,6085.28
+2026-03-14,2026-Q1,Wheat,Grain Sales,Paddock A,CC-400 Admin,2837.82
+2026-04-16,2026-Q2,Wheat,Straw Sales,Herd 1,CC-400 Admin,1688.44
+2025-07-19,2025-Q3,Vegetables,Vegetable Sales,Flock A,CC-400 Admin,8251.96
+2025-10-31,2025-Q4,Vegetables,Market Stall Sales,Herd 1,CC-300 Machinery,1879.96
+2026-01-17,2026-Q1,Vegetables,Vegetable Sales,Paddock B,CC-200 Feed & Vet,891.66
+2026-04-24,2026-Q2,Vegetables,Market Stall Sales,Herd 2,CC-100 Operations,7208.91
