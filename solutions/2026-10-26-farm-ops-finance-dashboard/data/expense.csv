@@ -1,0 +1,165 @@
+date,quarter,enterprise,category,paddock_herd,cost_centre,amount
+2025-08-08,2025-Q3,Dairy,Feed,Flock A,CC-300 Machinery,1103.64
+2025-11-29,2025-Q4,Dairy,Labour,Paddock C,CC-300 Machinery,2658.34
+2026-01-10,2026-Q1,Dairy,Veterinary,Paddock C,CC-300 Machinery,1429.54
+2026-05-13,2026-Q2,Dairy,Fuel & Machinery,Herd 2,CC-400 Admin,5054.29
+2025-07-07,2025-Q3,Wheat,Fertiliser & Seed,Herd 2,CC-400 Admin,2824.09
+2025-11-10,2025-Q4,Wheat,Transport,Herd 2,CC-100 Operations,3557.67
+2026-02-23,2026-Q1,Wheat,Utilities,Paddock B,CC-400 Admin,4691.44
+2026-04-26,2026-Q2,Wheat,Other,Paddock B,CC-200 Feed & Vet,4629.88
+2025-08-30,2025-Q3,Vegetables,Feed,Paddock C,CC-100 Operations,5457.54
+2025-10-31,2025-Q4,Vegetables,Labour,Paddock A,CC-400 Admin,1007.33
+2026-01-18,2026-Q1,Vegetables,Veterinary,Paddock B,CC-300 Machinery,4045.36
+2026-06-03,2026-Q2,Vegetables,Fuel & Machinery,Paddock C,CC-200 Feed & Vet,4067.78
+2025-07-05,2025-Q3,Poultry,Fertiliser & Seed,Paddock B,CC-100 Operations,1289.59
+2025-11-24,2025-Q4,Poultry,Transport,Flock A,CC-300 Machinery,3971.33
+2026-02-07,2026-Q1,Poultry,Utilities,Flock A,CC-100 Operations,4503.21
+2026-05-15,2026-Q2,Poultry,Other,Paddock B,CC-100 Operations,324.43
+2025-08-25,2025-Q3,Sheep,Feed,Paddock C,CC-100 Operations,1031.79
+2025-12-05,2025-Q4,Sheep,Labour,Flock A,CC-200 Feed & Vet,5537.64
+2026-03-08,2026-Q1,Sheep,Veterinary,Paddock A,CC-400 Admin,419.72
+2026-04-26,2026-Q2,Sheep,Fuel & Machinery,Paddock B,CC-100 Operations,1369.23
+2025-07-30,2025-Q3,Dairy,Fertiliser & Seed,Paddock C,CC-300 Machinery,3080.82
+2025-10-02,2025-Q4,Dairy,Transport,Paddock C,CC-300 Machinery,1642.03
+2026-03-23,2026-Q1,Dairy,Utilities,Paddock A,CC-300 Machinery,372.23
+2026-04-13,2026-Q2,Dairy,Other,Paddock B,CC-300 Machinery,2442.62
+2025-08-22,2025-Q3,Wheat,Feed,Paddock C,CC-100 Operations,5393.8
+2025-11-29,2025-Q4,Wheat,Labour,Paddock A,CC-200 Feed & Vet,1607.38
+2026-01-06,2026-Q1,Wheat,Veterinary,Flock A,CC-200 Feed & Vet,4408.05
+2026-04-06,2026-Q2,Wheat,Fuel & Machinery,Herd 2,CC-300 Machinery,5685.27
+2025-07-14,2025-Q3,Vegetables,Fertiliser & Seed,Paddock B,CC-400 Admin,335.26
+2025-10-16,2025-Q4,Vegetables,Transport,Paddock B,CC-200 Feed & Vet,145.35
+2026-03-24,2026-Q1,Vegetables,Utilities,Paddock B,CC-100 Operations,1536.39
+2026-05-28,2026-Q2,Vegetables,Other,Paddock C,CC-400 Admin,3736.08
+2025-08-21,2025-Q3,Poultry,Feed,Herd 2,CC-300 Machinery,2598.52
+2025-10-03,2025-Q4,Poultry,Labour,Flock A,CC-400 Admin,5165.64
+2026-02-14,2026-Q1,Poultry,Veterinary,Paddock A,CC-400 Admin,5466.78
+2026-05-22,2026-Q2,Poultry,Fuel & Machinery,Paddock A,CC-400 Admin,1965.7
+2025-09-15,2025-Q3,Sheep,Fertiliser & Seed,Flock A,CC-300 Machinery,736.72
+2025-12-11,2025-Q4,Sheep,Transport,Herd 2,CC-100 Operations,4108.82
+2026-01-20,2026-Q1,Sheep,Utilities,Paddock C,CC-400 Admin,1540.38
+2026-05-15,2026-Q2,Sheep,Other,Herd 2,CC-100 Operations,1423.01
+2025-09-03,2025-Q3,Dairy,Feed,Herd 2,CC-300 Machinery,3065.01
+2025-11-07,2025-Q4,Dairy,Labour,Flock A,CC-400 Admin,4965.98
+2026-01-14,2026-Q1,Dairy,Veterinary,Herd 1,CC-100 Operations,3555.03
+2026-06-11,2026-Q2,Dairy,Fuel & Machinery,Paddock C,CC-200 Feed & Vet,1008.97
+2025-09-20,2025-Q3,Wheat,Fertiliser & Seed,Paddock A,CC-400 Admin,5105.78
+2025-10-03,2025-Q4,Wheat,Transport,Paddock A,CC-300 Machinery,3090.02
+2026-03-20,2026-Q1,Wheat,Utilities,Paddock A,CC-300 Machinery,3021.18
+2026-04-25,2026-Q2,Wheat,Other,Flock A,CC-200 Feed & Vet,3984.77
+2025-09-09,2025-Q3,Vegetables,Feed,Herd 1,CC-300 Machinery,1846.0
+2025-10-26,2025-Q4,Vegetables,Labour,Paddock A,CC-300 Machinery,552.95
+2026-03-13,2026-Q1,Vegetables,Veterinary,Flock A,CC-100 Operations,3409.78
+2026-05-17,2026-Q2,Vegetables,Fuel & Machinery,Herd 1,CC-300 Machinery,3538.04
+2025-09-05,2025-Q3,Poultry,Fertiliser & Seed,Herd 1,CC-300 Machinery,4649.03
+2025-11-30,2025-Q4,Poultry,Transport,Flock A,CC-100 Operations,1214.68
+2026-03-29,2026-Q1,Poultry,Utilities,Paddock B,CC-400 Admin,4128.25
+2026-05-26,2026-Q2,Poultry,Other,Paddock B,CC-200 Feed & Vet,3323.4
+2025-08-08,2025-Q3,Sheep,Feed,Paddock B,CC-100 Operations,5938.4
+2025-12-19,2025-Q4,Sheep,Labour,Herd 2,CC-100 Operations,4052.94
+2026-03-19,2026-Q1,Sheep,Veterinary,Flock A,CC-200 Feed & Vet,4972.44
+2026-04-10,2026-Q2,Sheep,Fuel & Machinery,Herd 2,CC-100 Operations,5551.72
+2025-07-31,2025-Q3,Dairy,Fertiliser & Seed,Herd 1,CC-200 Feed & Vet,3685.78
+2025-10-25,2025-Q4,Dairy,Transport,Flock A,CC-400 Admin,4869.12
+2026-01-25,2026-Q1,Dairy,Utilities,Herd 2,CC-100 Operations,1716.68
+2026-04-19,2026-Q2,Dairy,Other,Paddock B,CC-200 Feed & Vet,4397.64
+2025-08-12,2025-Q3,Wheat,Feed,Herd 2,CC-300 Machinery,4279.56
+2025-10-01,2025-Q4,Wheat,Labour,Paddock A,CC-300 Machinery,1910.02
+2026-03-27,2026-Q1,Wheat,Veterinary,Herd 2,CC-200 Feed & Vet,3738.55
+2026-04-12,2026-Q2,Wheat,Fuel & Machinery,Paddock A,CC-400 Admin,6014.08
+2025-09-14,2025-Q3,Vegetables,Fertiliser & Seed,Flock A,CC-100 Operations,6135.08
+2025-11-01,2025-Q4,Vegetables,Transport,Paddock B,CC-200 Feed & Vet,3648.3
+2026-03-31,2026-Q1,Vegetables,Utilities,Paddock A,CC-400 Admin,265.97
+2026-06-08,2026-Q2,Vegetables,Other,Paddock A,CC-100 Operations,5388.94
+2025-08-27,2025-Q3,Poultry,Feed,Paddock A,CC-300 Machinery,5415.66
+2025-10-18,2025-Q4,Poultry,Labour,Herd 2,CC-100 Operations,4286.12
+2026-03-21,2026-Q1,Poultry,Veterinary,Herd 2,CC-300 Machinery,5885.38
+2026-05-26,2026-Q2,Poultry,Fuel & Machinery,Flock A,CC-100 Operations,5899.88
+2025-09-13,2025-Q3,Sheep,Fertiliser & Seed,Paddock B,CC-400 Admin,321.94
+2025-11-06,2025-Q4,Sheep,Transport,Herd 1,CC-200 Feed & Vet,1582.19
+2026-02-08,2026-Q1,Sheep,Utilities,Paddock A,CC-300 Machinery,5521.16
+2026-04-18,2026-Q2,Sheep,Other,Herd 1,CC-200 Feed & Vet,3610.61
+2025-08-21,2025-Q3,Dairy,Feed,Flock A,CC-300 Machinery,1791.68
+2025-10-18,2025-Q4,Dairy,Labour,Paddock C,CC-200 Feed & Vet,5771.09
+2026-01-19,2026-Q1,Dairy,Veterinary,Paddock B,CC-400 Admin,3135.99
+2026-05-04,2026-Q2,Dairy,Fuel & Machinery,Flock A,CC-300 Machinery,2962.05
+2025-08-05,2025-Q3,Wheat,Fertiliser & Seed,Herd 2,CC-200 Feed & Vet,5677.44
+2025-12-17,2025-Q4,Wheat,Transport,Paddock C,CC-400 Admin,2467.37
+2026-03-08,2026-Q1,Wheat,Utilities,Herd 1,CC-300 Machinery,936.07
+2026-06-11,2026-Q2,Wheat,Other,Paddock A,CC-200 Feed & Vet,2240.9
+2025-08-11,2025-Q3,Vegetables,Feed,Herd 2,CC-200 Feed & Vet,4363.3
+2025-12-12,2025-Q4,Vegetables,Labour,Paddock A,CC-400 Admin,6095.69
+2026-02-08,2026-Q1,Vegetables,Veterinary,Paddock A,CC-200 Feed & Vet,6192.26
+2026-05-01,2026-Q2,Vegetables,Fuel & Machinery,Herd 1,CC-100 Operations,1075.25
+2025-07-02,2025-Q3,Poultry,Fertiliser & Seed,Flock A,CC-100 Operations,678.19
+2025-11-17,2025-Q4,Poultry,Transport,Flock A,CC-200 Feed & Vet,1673.78
+2026-02-10,2026-Q1,Poultry,Utilities,Paddock A,CC-400 Admin,3287.44
+2026-06-02,2026-Q2,Poultry,Other,Paddock B,CC-100 Operations,825.23
+2025-07-17,2025-Q3,Sheep,Feed,Paddock B,CC-400 Admin,3359.08
+2025-10-13,2025-Q4,Sheep,Labour,Herd 1,CC-300 Machinery,5437.83
+2026-01-18,2026-Q1,Sheep,Veterinary,Flock A,CC-300 Machinery,4474.41
+2026-05-27,2026-Q2,Sheep,Fuel & Machinery,Herd 1,CC-200 Feed & Vet,2104.32
+2025-09-10,2025-Q3,Dairy,Fertiliser & Seed,Paddock A,CC-200 Feed & Vet,948.24
+2025-12-02,2025-Q4,Dairy,Transport,Flock A,CC-300 Machinery,485.59
+2026-03-25,2026-Q1,Dairy,Utilities,Flock A,CC-200 Feed & Vet,4272.39
+2026-05-05,2026-Q2,Dairy,Other,Paddock C,CC-400 Admin,2659.61
+2025-08-09,2025-Q3,Wheat,Feed,Paddock A,CC-100 Operations,6055.19
+2025-11-13,2025-Q4,Wheat,Labour,Herd 2,CC-300 Machinery,5678.25
+2026-01-02,2026-Q1,Wheat,Veterinary,Herd 2,CC-100 Operations,1228.87
+2026-05-12,2026-Q2,Wheat,Fuel & Machinery,Paddock B,CC-400 Admin,925.86
+2025-09-16,2025-Q3,Vegetables,Fertiliser & Seed,Herd 2,CC-300 Machinery,2720.94
+2025-10-09,2025-Q4,Vegetables,Transport,Paddock C,CC-200 Feed & Vet,282.56
+2026-02-12,2026-Q1,Vegetables,Utilities,Herd 1,CC-300 Machinery,4620.04
+2026-04-02,2026-Q2,Vegetables,Other,Herd 1,CC-300 Machinery,2611.95
+2025-08-06,2025-Q3,Poultry,Feed,Paddock B,CC-300 Machinery,3219.14
+2025-10-30,2025-Q4,Poultry,Labour,Paddock A,CC-300 Machinery,2301.26
+2026-01-10,2026-Q1,Poultry,Veterinary,Herd 2,CC-400 Admin,1474.89
+2026-06-19,2026-Q2,Poultry,Fuel & Machinery,Flock A,CC-100 Operations,3637.53
+2025-09-04,2025-Q3,Sheep,Fertiliser & Seed,Herd 1,CC-100 Operations,1677.88
+2025-11-30,2025-Q4,Sheep,Transport,Paddock C,CC-200 Feed & Vet,4002.37
+2026-03-13,2026-Q1,Sheep,Utilities,Herd 1,CC-100 Operations,6052.74
+2026-06-17,2026-Q2,Sheep,Other,Herd 2,CC-100 Operations,1699.72
+2025-09-18,2025-Q3,Dairy,Feed,Paddock B,CC-400 Admin,5085.68
+2025-10-09,2025-Q4,Dairy,Labour,Herd 1,CC-100 Operations,685.76
+2026-01-17,2026-Q1,Dairy,Veterinary,Herd 2,CC-400 Admin,1804.69
+2026-06-29,2026-Q2,Dairy,Fuel & Machinery,Herd 1,CC-200 Feed & Vet,3741.76
+2025-08-24,2025-Q3,Wheat,Fertiliser & Seed,Herd 1,CC-100 Operations,492.17
+2025-11-16,2025-Q4,Wheat,Transport,Flock A,CC-100 Operations,1948.28
+2026-01-09,2026-Q1,Wheat,Utilities,Herd 1,CC-200 Feed & Vet,4930.94
+2026-05-01,2026-Q2,Wheat,Other,Herd 1,CC-300 Machinery,654.22
+2025-08-20,2025-Q3,Vegetables,Feed,Paddock C,CC-400 Admin,4691.6
+2025-11-18,2025-Q4,Vegetables,Labour,Paddock B,CC-400 Admin,4611.25
+2026-01-25,2026-Q1,Vegetables,Veterinary,Paddock B,CC-400 Admin,3647.57
+2026-04-30,2026-Q2,Vegetables,Fuel & Machinery,Herd 2,CC-200 Feed & Vet,3899.32
+2025-08-07,2025-Q3,Poultry,Fertiliser & Seed,Paddock C,CC-100 Operations,4505.2
+2025-12-20,2025-Q4,Poultry,Transport,Herd 2,CC-400 Admin,1303.64
+2026-01-02,2026-Q1,Poultry,Utilities,Herd 2,CC-300 Machinery,3093.07
+2026-06-08,2026-Q2,Poultry,Other,Flock A,CC-300 Machinery,5040.79
+2025-08-13,2025-Q3,Sheep,Feed,Herd 1,CC-300 Machinery,2860.11
+2025-11-18,2025-Q4,Sheep,Labour,Paddock B,CC-100 Operations,3664.62
+2026-02-26,2026-Q1,Sheep,Veterinary,Paddock B,CC-300 Machinery,4058.07
+2026-04-15,2026-Q2,Sheep,Fuel & Machinery,Paddock A,CC-100 Operations,5940.37
+2025-08-14,2025-Q3,Dairy,Fertiliser & Seed,Herd 2,CC-300 Machinery,5611.2
+2025-11-17,2025-Q4,Dairy,Transport,Paddock B,CC-300 Machinery,1392.38
+2026-01-04,2026-Q1,Dairy,Utilities,Flock A,CC-200 Feed & Vet,1114.88
+2026-05-16,2026-Q2,Dairy,Other,Flock A,CC-400 Admin,1299.3
+2025-07-20,2025-Q3,Wheat,Feed,Paddock A,CC-100 Operations,1134.64
+2025-10-09,2025-Q4,Wheat,Labour,Flock A,CC-300 Machinery,630.76
+2026-03-26,2026-Q1,Wheat,Veterinary,Herd 1,CC-300 Machinery,3089.99
+2026-05-01,2026-Q2,Wheat,Fuel & Machinery,Herd 1,CC-400 Admin,2392.95
+2025-09-18,2025-Q3,Vegetables,Fertiliser & Seed,Flock A,CC-400 Admin,3509.32
+2025-12-11,2025-Q4,Vegetables,Transport,Flock A,CC-400 Admin,3933.99
+2026-01-09,2026-Q1,Vegetables,Utilities,Herd 1,CC-400 Admin,6005.49
+2026-06-02,2026-Q2,Vegetables,Other,Paddock A,CC-200 Feed & Vet,528.24
+2025-09-15,2025-Q3,Poultry,Feed,Paddock C,CC-200 Feed & Vet,5965.53
+2025-11-15,2025-Q4,Poultry,Labour,Paddock C,CC-100 Operations,2203.13
+2026-02-15,2026-Q1,Poultry,Veterinary,Paddock A,CC-400 Admin,2740.97
+2026-06-29,2026-Q2,Poultry,Fuel & Machinery,Flock A,CC-300 Machinery,4558.44
+2025-07-05,2025-Q3,Sheep,Fertiliser & Seed,Paddock C,CC-400 Admin,1303.25
+2025-10-04,2025-Q4,Sheep,Transport,Flock A,CC-200 Feed & Vet,1416.18
+2026-03-04,2026-Q1,Sheep,Utilities,Paddock A,CC-400 Admin,498.88
+2026-05-03,2026-Q2,Sheep,Other,Herd 1,CC-100 Operations,2344.6
+2025-08-18,2025-Q3,Dairy,Feed,Paddock C,CC-100 Operations,3841.69
+2025-11-06,2025-Q4,Dairy,Labour,Flock A,CC-100 Operations,5615.68
+2026-02-03,2026-Q1,Dairy,Veterinary,Herd 1,CC-400 Admin,2741.09
+2026-05-07,2026-Q2,Dairy,Fuel & Machinery,Paddock B,CC-100 Operations,2867.33
