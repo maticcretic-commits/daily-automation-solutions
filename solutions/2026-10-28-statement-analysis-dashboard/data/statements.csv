@@ -1,0 +1,73 @@
+Section,LineItem,Year,Amount
+Profit & loss,Revenue,FY2024,42000000
+Profit & loss,Cost of goods sold,FY2024,26040000
+Profit & loss,Operating expenses,FY2024,9240000
+Profit & loss,Depreciation,FY2024,1800000
+Profit & loss,Interest expense,FY2024,2200000
+Profit & loss,Tax expense,FY2024,680000
+Balance sheet,Cash and bank,FY2024,10331342
+Balance sheet,Trade receivables,FY2024,5523288
+Balance sheet,Inventories,FY2024,2996384
+Balance sheet,Other current assets,FY2024,800000
+Balance sheet,Property plant and equipment (net),FY2024,15200000
+Balance sheet,Other non-current assets,FY2024,1500000
+Balance sheet,Trade payables,FY2024,2711014
+Balance sheet,Short-term borrowings,FY2024,4000000
+Balance sheet,Other current liabilities,FY2024,600000
+Balance sheet,Long-term borrowings,FY2024,12000000
+Balance sheet,Share capital,FY2024,10000000
+Balance sheet,Retained earnings,FY2024,7040000
+Cash flow,Capital expenditure,FY2024,3000000
+Cash flow,Dividends paid,FY2024,1000000
+Profit & loss,Revenue,FY2025,49560000
+Profit & loss,Cost of goods sold,FY2025,29983800
+Profit & loss,Operating expenses,FY2025,10655400
+Profit & loss,Depreciation,FY2025,2100000
+Profit & loss,Interest expense,FY2025,2500000
+Profit & loss,Tax expense,FY2025,1080200
+Balance sheet,Cash and bank,FY2025,11809260
+Balance sheet,Trade receivables,FY2025,7060603
+Balance sheet,Inventories,FY2025,3696633
+Balance sheet,Other current assets,FY2025,900000
+Balance sheet,Property plant and equipment (net),FY2025,16600000
+Balance sheet,Other non-current assets,FY2025,1500000
+Balance sheet,Trade payables,FY2025,3285896
+Balance sheet,Short-term borrowings,FY2025,5000000
+Balance sheet,Other current liabilities,FY2025,700000
+Balance sheet,Long-term borrowings,FY2025,13500000
+Balance sheet,Share capital,FY2025,10000000
+Balance sheet,Retained earnings,FY2025,9080600
+Cash flow,Capital expenditure,FY2025,3500000
+Cash flow,Dividends paid,FY2025,1200000
+Profit & loss,Revenue,FY2026,60463200
+Profit & loss,Cost of goods sold,FY2026,35673288
+Profit & loss,Operating expenses,FY2026,12697272
+Profit & loss,Depreciation,FY2026,2400000
+Profit & loss,Interest expense,FY2026,2300000
+Profit & loss,Tax expense,FY2026,1848160
+Balance sheet,Cash and bank,FY2026,7798938
+Balance sheet,Trade receivables,FY2026,9607851
+Balance sheet,Inventories,FY2026,4886752
+Balance sheet,Other current assets,FY2026,1000000
+Balance sheet,Property plant and equipment (net),FY2026,17000000
+Balance sheet,Other non-current assets,FY2026,1500000
+Balance sheet,Trade payables,FY2026,3518461
+Balance sheet,Short-term borrowings,FY2026,3500000
+Balance sheet,Other current liabilities,FY2026,650000
+Balance sheet,Long-term borrowings,FY2026,11000000
+Balance sheet,Share capital,FY2026,10000000
+Balance sheet,Retained earnings,FY2026,13125080
+Cash flow,Capital expenditure,FY2026,2800000
+Cash flow,Dividends paid,FY2026,1500000
+Balance sheet,Trade receivables,Opening,5000000
+Balance sheet,Inventories,Opening,6000000
+Balance sheet,Other current assets,Opening,700000
+Balance sheet,Property plant and equipment (net),Opening,14000000
+Balance sheet,Other non-current assets,Opening,1500000
+Balance sheet,Trade payables,Opening,4000000
+Balance sheet,Short-term borrowings,Opening,3500000
+Balance sheet,Other current liabilities,Opening,500000
+Balance sheet,Long-term borrowings,Opening,11000000
+Balance sheet,Share capital,Opening,10000000
+Balance sheet,Retained earnings,Opening,6000000
+Balance sheet,Cash and bank,Opening,7800000
