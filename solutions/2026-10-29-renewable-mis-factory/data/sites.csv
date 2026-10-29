@@ -1,0 +1,18 @@
+SiteID,Site,State,Technology,CapacityMW,TariffRsPerKWh
+S01,Jodhpur Solar Park,Rajasthan,Solar,50,2.95
+S02,Kutch Solar Park,Gujarat,Solar,40,2.85
+S03,Solapur Solar Park,Maharashtra,Solar,25,3.1
+S04,Pavagada Solar Park,Karnataka,Solar,30,3.05
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,20,3.2
+S06,Mahbubnagar Solar Park,Telangana,Solar,15,3.0
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,35,2.9
+S08,Rewa Solar Park,Madhya Pradesh,Solar,45,2.8
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,10,3.3
+W01,Kutch Wind Farm,Gujarat,Wind,30,3.6
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,25,3.75
+W03,Satara Wind Farm,Maharashtra,Wind,20,3.85
+W04,Chitradurga Wind Farm,Karnataka,Wind,15,3.7
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,60,3.15
+H02,Kutch Hybrid Park,Gujarat,Hybrid,40,3.1
+R01,Dubai Rooftop Solar,UAE,Rooftop,2,3.4
+R02,Singapore Rooftop Solar,Singapore,Rooftop,1.5,3.5
