@@ -1,0 +1,120 @@
+SiteID,Site,State,Technology,Month,PlannedMWh,PlannedRevenueLakh
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-04,7560,223.02
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-05,8184,241.43
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-06,6840,201.78
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-07,6696,197.53
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-08,7068,208.51
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-09,7560,223.02
+S01,Jodhpur Solar Park,Rajasthan,Solar,2026-10,8184,241.43
+S02,Kutch Solar Park,Gujarat,Solar,2026-04,6048,172.37
+S02,Kutch Solar Park,Gujarat,Solar,2026-05,6547,186.59
+S02,Kutch Solar Park,Gujarat,Solar,2026-06,5472,155.95
+S02,Kutch Solar Park,Gujarat,Solar,2026-07,5357,152.67
+S02,Kutch Solar Park,Gujarat,Solar,2026-08,5654,161.14
+S02,Kutch Solar Park,Gujarat,Solar,2026-09,6048,172.37
+S02,Kutch Solar Park,Gujarat,Solar,2026-10,6547,186.59
+S03,Solapur Solar Park,Maharashtra,Solar,2026-04,3780,117.18
+S03,Solapur Solar Park,Maharashtra,Solar,2026-05,4092,126.85
+S03,Solapur Solar Park,Maharashtra,Solar,2026-06,3420,106.02
+S03,Solapur Solar Park,Maharashtra,Solar,2026-07,3348,103.79
+S03,Solapur Solar Park,Maharashtra,Solar,2026-08,3534,109.55
+S03,Solapur Solar Park,Maharashtra,Solar,2026-09,3780,117.18
+S03,Solapur Solar Park,Maharashtra,Solar,2026-10,4092,126.85
+S04,Pavagada Solar Park,Karnataka,Solar,2026-04,4536,138.35
+S04,Pavagada Solar Park,Karnataka,Solar,2026-05,4910,149.75
+S04,Pavagada Solar Park,Karnataka,Solar,2026-06,4104,125.17
+S04,Pavagada Solar Park,Karnataka,Solar,2026-07,4018,122.55
+S04,Pavagada Solar Park,Karnataka,Solar,2026-08,4241,129.35
+S04,Pavagada Solar Park,Karnataka,Solar,2026-09,4536,138.35
+S04,Pavagada Solar Park,Karnataka,Solar,2026-10,4910,149.75
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-04,3024,96.77
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-05,3274,104.77
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-06,2736,87.55
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-07,2678,85.7
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-08,2827,90.46
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-09,3024,96.77
+S05,Kamuthi Solar Park,Tamil Nadu,Solar,2026-10,3274,104.77
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-04,2268,68.04
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-05,2455,73.65
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-06,2052,61.56
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-07,2009,60.27
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-08,2120,63.6
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-09,2268,68.04
+S06,Mahbubnagar Solar Park,Telangana,Solar,2026-10,2455,73.65
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-04,5292,153.47
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-05,5729,166.14
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-06,4788,138.85
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-07,4687,135.92
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-08,4948,143.49
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-09,5292,153.47
+S07,Anantapur Solar Park,Andhra Pradesh,Solar,2026-10,5729,166.14
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-04,6804,190.51
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-05,7366,206.25
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-06,6156,172.37
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-07,6026,168.73
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-08,6361,178.11
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-09,6804,190.51
+S08,Rewa Solar Park,Madhya Pradesh,Solar,2026-10,7366,206.25
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-04,1512,49.9
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-05,1637,54.02
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-06,1368,45.14
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-07,1339,44.19
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-08,1414,46.66
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-09,1512,49.9
+S09,Jhansi Solar Park,Uttar Pradesh,Solar,2026-10,1637,54.02
+W01,Kutch Wind Farm,Gujarat,Wind,2026-04,6480,233.28
+W01,Kutch Wind Farm,Gujarat,Wind,2026-05,7142,257.11
+W01,Kutch Wind Farm,Gujarat,Wind,2026-06,7776,279.94
+W01,Kutch Wind Farm,Gujarat,Wind,2026-07,8482,305.35
+W01,Kutch Wind Farm,Gujarat,Wind,2026-08,8258,297.29
+W01,Kutch Wind Farm,Gujarat,Wind,2026-09,7128,256.61
+W01,Kutch Wind Farm,Gujarat,Wind,2026-10,6696,241.06
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-04,5400,202.5
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-05,5952,223.2
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-06,6480,243.0
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-07,7068,265.05
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-08,6882,258.07
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-09,5940,222.75
+W02,Tirunelveli Wind Farm,Tamil Nadu,Wind,2026-10,5580,209.25
+W03,Satara Wind Farm,Maharashtra,Wind,2026-04,4320,166.32
+W03,Satara Wind Farm,Maharashtra,Wind,2026-05,4762,183.34
+W03,Satara Wind Farm,Maharashtra,Wind,2026-06,5184,199.58
+W03,Satara Wind Farm,Maharashtra,Wind,2026-07,5654,217.68
+W03,Satara Wind Farm,Maharashtra,Wind,2026-08,5506,211.98
+W03,Satara Wind Farm,Maharashtra,Wind,2026-09,4752,182.95
+W03,Satara Wind Farm,Maharashtra,Wind,2026-10,4464,171.86
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-04,3240,119.88
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-05,3571,132.13
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-06,3888,143.86
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-07,4241,156.92
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-08,4129,152.77
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-09,3564,131.87
+W04,Chitradurga Wind Farm,Karnataka,Wind,2026-10,3348,123.88
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-04,11232,353.81
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-05,12053,379.67
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-06,12096,381.02
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-07,12499,393.72
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-08,12053,379.67
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-09,11664,367.42
+H01,Bikaner Hybrid Park,Rajasthan,Hybrid,2026-10,11606,365.59
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-04,7488,232.13
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-05,8035,249.09
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-06,8064,249.98
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-07,8333,258.32
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-08,8035,249.09
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-09,7776,241.06
+H02,Kutch Hybrid Park,Gujarat,Hybrid,2026-10,7738,239.88
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-04,259,8.81
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-05,268,9.11
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-06,245,8.33
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-07,238,8.09
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-08,253,8.6
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-09,259,8.81
+R01,Dubai Rooftop Solar,UAE,Rooftop,2026-10,268,9.11
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-04,194,6.79
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-05,201,7.04
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-06,184,6.44
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-07,179,6.26
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-08,190,6.65
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-09,194,6.79
+R02,Singapore Rooftop Solar,Singapore,Rooftop,2026-10,201,7.04
