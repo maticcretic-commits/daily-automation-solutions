@@ -1,0 +1,36 @@
+[PASS] before.xlsx opens with 60 data rows — 60 rows
+[PASS] before.xlsx still contains duplicate Asset IDs — duplicated IDs: ['AST-040', 'AST-022', 'AST-015', 'AST-002', 'AST-008']
+[PASS] before.xlsx has quantities stored as text
+[PASS] before.xlsx has blank quantities
+[PASS] before.xlsx has prices stored as text with currency symbols
+[PASS] before.xlsx has dates stored as text
+[PASS] before.xlsx has the invalid status value 'In Usee'
+[PASS] before.xlsx has no Line Total column (8 columns only) — max_column=8
+[PASS] after.xlsx opens with Register + Summary sheets — ['Register', 'Summary']
+[PASS] after.xlsx has 55 data rows — 55 rows
+[PASS] no duplicate Asset IDs remain in after.xlsx
+[PASS] every populated Purchase Date in after.xlsx is a real date — non-date cells: []
+[PASS] every populated Quantity in after.xlsx is a number
+[PASS] every populated Unit Price in after.xlsx is a number
+[PASS] every Line Total cell contains a formula
+[PASS] Line Total formulas multiply Quantity by Unit Price — example: =IF(OR(E4="",F4=""),"",E4*F4)
+[PASS] Line Total formulas return blank when Quantity or Price is blank
+[PASS] Summary category counts are COUNTIF formulas
+[PASS] Summary category totals are SUMIF formulas
+[PASS] Summary Grand Total row uses SUM formulas
+[PASS] Summary flagged-row count is a COUNTIF formula — =COUNTIF(Register!$J$4:$J$58,"?*")
+[PASS] flagged-row count matches build_counts.json — 6 flagged
+[PASS] flagged-row count matches BEFORE_AFTER.md
+[PASS] Register sheet has frozen panes — A4
+[PASS] Register sheet has an auto-filter — A3:K58
+[PASS] Register sheet has print titles — $1:$3
+[PASS] conditional formatting exists for flagged rows
+[PASS] recalc total for IT Equipment matches expected — got 60268, expected 60,268.00
+[PASS] recalc total for Furniture matches expected — got 253936, expected 253,936.00
+[PASS] recalc total for Vehicle matches expected — got 8705928, expected 8,705,928.00
+[PASS] recalc total for Tools matches expected — got 596170, expected 596,170.00
+[PASS] recalc grand total matches expected — got 9616302, expected 9,616,302.00
+[PASS] recalc flagged-row count matches expected — got 6
+[PASS] recalc Line Total computes a number in row 4 — got 5184
+
+RESULT: all checks passed.
