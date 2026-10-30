@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Demo Traders — Dashboard Mockup (visual preview only)</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; margin: 24px; color: #222; background: #f2f2f2; }
+.banner { background: #c00000; color: #fff; padding: 12px 16px; font-weight: bold; }
+.card { background: #fff; border: 1px solid #ccc; padding: 16px; margin: 12px 0; }
+.kpis { display: flex; gap: 12px; flex-wrap: wrap; }
+.kpi { background: #fff; border: 1px solid #ccc; padding: 12px 18px; min-width: 170px; }
+.kpi .v { font-size: 22px; font-weight: bold; color: #1f3864; }
+.kpi .l { font-size: 12px; color: #555; }
+.tabs button { padding: 8px 16px; margin-right: 6px; cursor: pointer; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+td.num, th.num { text-align: right; }
+.note { font-size: 13px; color: #555; }
+</style>
+</head>
+<body>
+<div class="banner">MOCKUP &mdash; VISUAL PREVIEW ONLY, NOT A POWER BI FILE. No .pbix file was produced. Synthetic data only.</div>
+<h1>Demo Traders &mdash; Sales Dashboard (mockup)</h1>
+<p class="note">Fictional business &ldquo;Demo Traders&rdquo;. All data synthetic, generated with seed 42 (see DATA_DICTIONARY.md). This page is a static visual preview of the dashboard described in POWERBI_SPEC.md. It is not Power BI and was not built in Power BI Desktop.</p>
+
+<div class="kpis">
+<div class="kpi"><div class="v">Rs 7,189,354.50</div><div class="l">Total Sales (600 orders, 2025)</div></div>
+<div class="kpi"><div class="v">4,030</div><div class="l">Total Qty</div></div>
+<div class="kpi"><div class="v">5.73%</div><div class="l">Avg Discount %</div></div>
+<div class="kpi"><div class="v">124.84%</div><div class="l">Sales vs Target %</div></div>
+<div class="kpi"><div class="v">Furniture</div><div class="l">Top Category (Rs 3,582,915.00)</div></div>
+</div>
+
+<div class="tabs">
+<button onclick="showPage(1)">Page 1: Sales overview</button>
+<button onclick="showPage(2)">Page 2: Category / region breakdown</button>
+<button onclick="showPage(3)">Page 3: Target tracking</button>
+</div>
+
+<div class="card" id="page1">
+<h2>Page 1 &mdash; Sales overview</h2>
+<svg viewBox="0 0 640 260" width="100%" role="img" aria-label="Sales by month (Rs)" xmlns="http://www.w3.org/2000/svg">
+<text x="56" y="18" font-size="14" font-weight="bold" fill="#1f3864">Sales by month (Rs)</text>
+<rect x="64.9" y="117.3" width="28.9" height="108.7" fill="#2f5597"><title>Jan: 405,031.50</title></rect>
+<text x="79.3" y="112.3" font-size="11" text-anchor="middle" fill="#333">405,031.50</text>
+<text x="79.3" y="248" font-size="11" text-anchor="middle" fill="#333">Jan</text>
+<rect x="111.5" y="81.7" width="28.9" height="144.3" fill="#2f5597"><title>Feb: 537,670.00</title></rect>
+<text x="126.0" y="76.7" font-size="11" text-anchor="middle" fill="#333">537,670.00</text>
+<text x="126.0" y="248" font-size="11" text-anchor="middle" fill="#333">Feb</text>
+<rect x="158.2" y="28.8" width="28.9" height="197.2" fill="#2f5597"><title>Mar: 734,727.50</title></rect>
+<text x="172.7" y="23.8" font-size="11" text-anchor="middle" fill="#333">734,727.50</text>
+<text x="172.7" y="248" font-size="11" text-anchor="middle" fill="#333">Mar</text>
+<rect x="204.9" y="103.8" width="28.9" height="122.2" fill="#2f5597"><title>Apr: 455,318.00</title></rect>
+<text x="219.3" y="98.8" font-size="11" text-anchor="middle" fill="#333">455,318.00</text>
+<text x="219.3" y="248" font-size="11" text-anchor="middle" fill="#333">Apr</text>
+<rect x="251.5" y="81.9" width="28.9" height="144.1" fill="#2f5597"><title>May: 536,928.50</title></rect>
+<text x="266.0" y="76.9" font-size="11" text-anchor="middle" fill="#333">536,928.50</text>
+<text x="266.0" y="248" font-size="11" text-anchor="middle" fill="#333">May</text>
+<rect x="298.2" y="54.9" width="28.9" height="171.1" fill="#2f5597"><title>Jun: 637,226.50</title></rect>
+<text x="312.7" y="49.9" font-size="11" text-anchor="middle" fill="#333">637,226.50</text>
+<text x="312.7" y="248" font-size="11" text-anchor="middle" fill="#333">Jun</text>
+<rect x="344.9" y="62.6" width="28.9" height="163.4" fill="#2f5597"><title>Jul: 608,707.00</title></rect>
+<text x="359.3" y="57.6" font-size="11" text-anchor="middle" fill="#333">608,707.00</text>
+<text x="359.3" y="248" font-size="11" text-anchor="middle" fill="#333">Jul</text>
+<rect x="391.5" y="54.8" width="28.9" height="171.2" fill="#2f5597"><title>Aug: 637,627.50</title></rect>
+<text x="406.0" y="49.8" font-size="11" text-anchor="middle" fill="#333">637,627.50</text>
+<text x="406.0" y="248" font-size="11" text-anchor="middle" fill="#333">Aug</text>
+<rect x="438.2" y="31.8" width="28.9" height="194.2" fill="#2f5597"><title>Sep: 723,445.00</title></rect>
+<text x="452.7" y="26.8" font-size="11" text-anchor="middle" fill="#333">723,445.00</text>
+<text x="452.7" y="248" font-size="11" text-anchor="middle" fill="#333">Sep</text>
+<rect x="484.9" y="79.9" width="28.9" height="146.1" fill="#2f5597"><title>Oct: 544,420.00</title></rect>
+<text x="499.3" y="74.9" font-size="11" text-anchor="middle" fill="#333">544,420.00</text>
+<text x="499.3" y="248" font-size="11" text-anchor="middle" fill="#333">Oct</text>
+<rect x="531.5" y="58.7" width="28.9" height="167.3" fill="#2f5597"><title>Nov: 623,221.00</title></rect>
+<text x="546.0" y="53.7" font-size="11" text-anchor="middle" fill="#333">623,221.00</text>
+<text x="546.0" y="248" font-size="11" text-anchor="middle" fill="#333">Nov</text>
+<rect x="578.2" y="26.0" width="28.9" height="200.0" fill="#2f5597"><title>Dec: 745,032.00</title></rect>
+<text x="592.7" y="21.0" font-size="11" text-anchor="middle" fill="#333">745,032.00</text>
+<text x="592.7" y="248" font-size="11" text-anchor="middle" fill="#333">Dec</text>
+</svg>
+<p class="note">Headline numbers: Total Sales Rs 7,189,354.50; Total Qty 4,030; Avg Discount 5.73%; Sales vs Target 124.84%; Top Category Furniture (Rs 3,582,915.00).</p>
+</div>
+
+<div class="card" id="page2" style="display:none">
+<h2>Page 2 &mdash; Category / region breakdown</h2>
+<svg viewBox="0 0 640 260" width="100%" role="img" aria-label="Sales by category (Rs)" xmlns="http://www.w3.org/2000/svg">
+<text x="56" y="18" font-size="14" font-weight="bold" fill="#1f3864">Sales by category (Rs)</text>
+<rect x="98.0" y="26.0" width="56.0" height="200.0" fill="#548235"><title>Furniture: 3,582,915.00</title></rect>
+<text x="126.0" y="21.0" font-size="11" text-anchor="middle" fill="#333">3,582,915.00</text>
+<text x="126.0" y="248" font-size="11" text-anchor="middle" fill="#333">Furniture</text>
+<rect x="238.0" y="121.5" width="56.0" height="104.5" fill="#548235"><title>Appliances: 1,872,710.00</title></rect>
+<text x="266.0" y="116.5" font-size="11" text-anchor="middle" fill="#333">1,872,710.00</text>
+<text x="266.0" y="248" font-size="11" text-anchor="middle" fill="#333">Appliances</text>
+<rect x="378.0" y="138.5" width="56.0" height="87.5" fill="#548235"><title>Electronics: 1,567,747.50</title></rect>
+<text x="406.0" y="133.5" font-size="11" text-anchor="middle" fill="#333">1,567,747.50</text>
+<text x="406.0" y="248" font-size="11" text-anchor="middle" fill="#333">Electronics</text>
+<rect x="518.0" y="216.7" width="56.0" height="9.3" fill="#548235"><title>Office Supplies: 165,982.00</title></rect>
+<text x="546.0" y="211.7" font-size="11" text-anchor="middle" fill="#333">165,982.00</text>
+<text x="546.0" y="248" font-size="11" text-anchor="middle" fill="#333">Office Supplies</text>
+</svg>
+<svg viewBox="0 0 640 260" width="100%" role="img" aria-label="Sales by region (Rs)" xmlns="http://www.w3.org/2000/svg">
+<text x="56" y="18" font-size="14" font-weight="bold" fill="#1f3864">Sales by region (Rs)</text>
+<rect x="98.0" y="38.0" width="56.0" height="188.0" fill="#bf8f00"><title>North: 2,164,653.00</title></rect>
+<text x="126.0" y="33.0" font-size="11" text-anchor="middle" fill="#333">2,164,653.00</text>
+<text x="126.0" y="248" font-size="11" text-anchor="middle" fill="#333">North</text>
+<rect x="238.0" y="26.0" width="56.0" height="200.0" fill="#bf8f00"><title>South: 2,302,680.00</title></rect>
+<text x="266.0" y="21.0" font-size="11" text-anchor="middle" fill="#333">2,302,680.00</text>
+<text x="266.0" y="248" font-size="11" text-anchor="middle" fill="#333">South</text>
+<rect x="378.0" y="101.2" width="56.0" height="124.8" fill="#bf8f00"><title>East: 1,436,416.50</title></rect>
+<text x="406.0" y="96.2" font-size="11" text-anchor="middle" fill="#333">1,436,416.50</text>
+<text x="406.0" y="248" font-size="11" text-anchor="middle" fill="#333">East</text>
+<rect x="518.0" y="114.3" width="56.0" height="111.7" fill="#bf8f00"><title>West: 1,285,605.00</title></rect>
+<text x="546.0" y="109.3" font-size="11" text-anchor="middle" fill="#333">1,285,605.00</text>
+<text x="546.0" y="248" font-size="11" text-anchor="middle" fill="#333">West</text>
+</svg>
+<h3>Sales by salesperson</h3>
+<table><tr><th>Salesperson (fictional)</th><th class="num">Sales (Rs)</th></tr><tr><td>Vikram Rao</td><td class='num'>Rs 1,446,500.50</td></tr><tr><td>Rohan Desai</td><td class='num'>Rs 1,359,652.50</td></tr><tr><td>Ananya Iyer</td><td class='num'>Rs 1,277,087.00</td></tr><tr><td>Arjun Mehta</td><td class='num'>Rs 1,118,395.50</td></tr><tr><td>Meera Nair</td><td class='num'>Rs 1,053,951.50</td></tr><tr><td>Kavya Reddy</td><td class='num'>Rs 933,767.50</td></tr></table>
+</div>
+
+<div class="card" id="page3" style="display:none">
+<h2>Page 3 &mdash; Target tracking</h2>
+<svg viewBox="0 0 640 260" width="100%" role="img" aria-label="Target achievement by month (%)" xmlns="http://www.w3.org/2000/svg">
+<text x="56" y="18" font-size="14" font-weight="bold" fill="#1f3864">Target achievement by month (%)</text>
+<rect x="64.9" y="117.5" width="28.9" height="108.5" fill="#7030a0"><title>Jan: 86.80</title></rect>
+<text x="79.3" y="112.5" font-size="11" text-anchor="middle" fill="#333">86.80</text>
+<text x="79.3" y="248" font-size="11" text-anchor="middle" fill="#333">Jan</text>
+<rect x="111.5" y="92.2" width="28.9" height="133.8" fill="#7030a0"><title>Feb: 107.00</title></rect>
+<text x="126.0" y="87.2" font-size="11" text-anchor="middle" fill="#333">107.00</text>
+<text x="126.0" y="248" font-size="11" text-anchor="middle" fill="#333">Feb</text>
+<rect x="158.2" y="26.0" width="28.9" height="200.0" fill="#7030a0"><title>Mar: 160.00</title></rect>
+<text x="172.7" y="21.0" font-size="11" text-anchor="middle" fill="#333">160.00</text>
+<text x="172.7" y="248" font-size="11" text-anchor="middle" fill="#333">Mar</text>
+<rect x="204.9" y="111.9" width="28.9" height="114.1" fill="#7030a0"><title>Apr: 91.30</title></rect>
+<text x="219.3" y="106.9" font-size="11" text-anchor="middle" fill="#333">91.30</text>
+<text x="219.3" y="248" font-size="11" text-anchor="middle" fill="#333">Apr</text>
+<rect x="251.5" y="87.6" width="28.9" height="138.4" fill="#7030a0"><title>May: 110.70</title></rect>
+<text x="266.0" y="82.6" font-size="11" text-anchor="middle" fill="#333">110.70</text>
+<text x="266.0" y="248" font-size="11" text-anchor="middle" fill="#333">May</text>
+<rect x="298.2" y="56.2" width="28.9" height="169.8" fill="#7030a0"><title>Jun: 135.80</title></rect>
+<text x="312.7" y="51.2" font-size="11" text-anchor="middle" fill="#333">135.80</text>
+<text x="312.7" y="248" font-size="11" text-anchor="middle" fill="#333">Jun</text>
+<rect x="344.9" y="68.1" width="28.9" height="157.9" fill="#7030a0"><title>Jul: 126.30</title></rect>
+<text x="359.3" y="63.1" font-size="11" text-anchor="middle" fill="#333">126.30</text>
+<text x="359.3" y="248" font-size="11" text-anchor="middle" fill="#333">Jul</text>
+<rect x="391.5" y="62.8" width="28.9" height="163.2" fill="#7030a0"><title>Aug: 130.60</title></rect>
+<text x="406.0" y="57.8" font-size="11" text-anchor="middle" fill="#333">130.60</text>
+<text x="406.0" y="248" font-size="11" text-anchor="middle" fill="#333">Aug</text>
+<rect x="438.2" y="37.6" width="28.9" height="188.4" fill="#7030a0"><title>Sep: 150.70</title></rect>
+<text x="452.7" y="32.6" font-size="11" text-anchor="middle" fill="#333">150.70</text>
+<text x="452.7" y="248" font-size="11" text-anchor="middle" fill="#333">Sep</text>
+<rect x="484.9" y="83.8" width="28.9" height="142.2" fill="#7030a0"><title>Oct: 113.80</title></rect>
+<text x="499.3" y="78.8" font-size="11" text-anchor="middle" fill="#333">113.80</text>
+<text x="499.3" y="248" font-size="11" text-anchor="middle" fill="#333">Oct</text>
+<rect x="531.5" y="61.1" width="28.9" height="164.9" fill="#7030a0"><title>Nov: 131.90</title></rect>
+<text x="546.0" y="56.1" font-size="11" text-anchor="middle" fill="#333">131.90</text>
+<text x="546.0" y="248" font-size="11" text-anchor="middle" fill="#333">Nov</text>
+<rect x="578.2" y="30.5" width="28.9" height="195.5" fill="#7030a0"><title>Dec: 156.40</title></rect>
+<text x="592.7" y="25.5" font-size="11" text-anchor="middle" fill="#333">156.40</text>
+<text x="592.7" y="248" font-size="11" text-anchor="middle" fill="#333">Dec</text>
+</svg>
+<h3>Category vs target (full year 2025)</h3>
+<table><tr><th>Category</th><th class="num">Sales (Rs)</th><th class="num">Target (Rs)</th><th class="num">Achievement</th></tr><tr><td>Furniture</td><td class='num'>Rs 3,582,915.00</td><td class='num'>Rs 1,796,659.35</td><td class='num'>199.4%</td></tr><tr><td>Appliances</td><td class='num'>Rs 1,872,710.00</td><td class='num'>Rs 1,262,105.96</td><td class='num'>148.4%</td></tr><tr><td>Electronics</td><td class='num'>Rs 1,567,747.50</td><td class='num'>Rs 2,144,610.56</td><td class='num'>73.1%</td></tr><tr><td>Office Supplies</td><td class='num'>Rs 165,982.00</td><td class='num'>Rs 555,354.31</td><td class='num'>29.9%</td></tr></table>
+<h3>Monthly sales vs target</h3>
+<table><tr><th>Month</th><th class="num">Sales (Rs)</th><th class="num">Target (Rs)</th><th class="num">Achievement</th></tr><tr><td>Jan 2025</td><td class='num'>Rs 405,031.50</td><td class='num'>Rs 466,359.32</td><td class='num'>86.8%</td></tr><tr><td>Feb 2025</td><td class='num'>Rs 537,670.00</td><td class='num'>Rs 502,589.33</td><td class='num'>107.0%</td></tr><tr><td>Mar 2025</td><td class='num'>Rs 734,727.50</td><td class='num'>Rs 459,093.04</td><td class='num'>160.0%</td></tr><tr><td>Apr 2025</td><td class='num'>Rs 455,318.00</td><td class='num'>Rs 498,801.54</td><td class='num'>91.3%</td></tr><tr><td>May 2025</td><td class='num'>Rs 536,928.50</td><td class='num'>Rs 484,865.08</td><td class='num'>110.7%</td></tr><tr><td>Jun 2025</td><td class='num'>Rs 637,226.50</td><td class='num'>Rs 469,361.07</td><td class='num'>135.8%</td></tr><tr><td>Jul 2025</td><td class='num'>Rs 608,707.00</td><td class='num'>Rs 482,042.42</td><td class='num'>126.3%</td></tr><tr><td>Aug 2025</td><td class='num'>Rs 637,627.50</td><td class='num'>Rs 488,273.20</td><td class='num'>130.6%</td></tr><tr><td>Sep 2025</td><td class='num'>Rs 723,445.00</td><td class='num'>Rs 479,938.98</td><td class='num'>150.7%</td></tr><tr><td>Oct 2025</td><td class='num'>Rs 544,420.00</td><td class='num'>Rs 478,330.01</td><td class='num'>113.8%</td></tr><tr><td>Nov 2025</td><td class='num'>Rs 623,221.00</td><td class='num'>Rs 472,644.45</td><td class='num'>131.9%</td></tr><tr><td>Dec 2025</td><td class='num'>Rs 745,032.00</td><td class='num'>Rs 476,431.74</td><td class='num'>156.4%</td></tr></table>
+<p class="note">Total target Rs 5,758,730.18; overall achievement 124.84%.</p>
+</div>
+
+<script>
+function showPage(n) {
+  document.getElementById('page1').style.display = n === 1 ? 'block' : 'none';
+  document.getElementById('page2').style.display = n === 2 ? 'block' : 'none';
+  document.getElementById('page3').style.display = n === 3 ? 'block' : 'none';
+}
+</script>
+</body>
+</html>
