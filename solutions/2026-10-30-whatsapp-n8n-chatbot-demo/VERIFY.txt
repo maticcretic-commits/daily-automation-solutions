@@ -1,0 +1,72 @@
+VERIFY - WhatsApp + n8n chatbot demo (SIMULATION ONLY)
+Date: 2026-10-30
+n8n on this machine: NOT installed (command -v n8n: no result); workflow JSON verified by parsing only, not import-tested.
+
+=== simulator.py ===
+WhatsApp + n8n chatbot demo — SIMULATION ONLY
+Business: Demo Traders (fictional). No live API is called.
+
+FILE: 01-price.json
+  IN  [demo-customer-001]: Hi, what is the price of your standard pack?
+  INTENT: price (understood: True)
+  OUT [demo-customer-001] [MOCK responder, simulated]: Hello from Demo Traders (demo reply). Our standard pack is listed at Rs 100 in this demo. Reply 'PRICE LIST' for the full demo list, or ask for a human if you need help choosing.
+  SEND: https://mock-endpoint.invalid/demo-whatsapp/send (mock endpoint, no request made)
+FILE: 02-hours.json
+  IN  [demo-customer-002]: What are your opening hours on Saturday?
+  INTENT: hours (understood: True)
+  OUT [demo-customer-002] [MOCK responder, simulated]: Hello from Demo Traders (demo reply). Our demo opening hours are Monday to Saturday, 9am to 7pm. We are closed on Sundays in this demo.
+  SEND: https://mock-endpoint.invalid/demo-whatsapp/send (mock endpoint, no request made)
+FILE: 03-human.json
+  IN  [demo-customer-003]: I want to speak to a human please, this is a complaint.
+  INTENT: human (understood: True)
+  OUT [demo-customer-003] [MOCK responder, simulated]: Thanks for your message. I have marked this for a human at Demo Traders. A person will reply during demo business hours. (Simulated handoff - no human was contacted.)
+  SEND: https://mock-endpoint.invalid/demo-whatsapp/send (mock endpoint, no request made)
+FILE: 04-price-delivery.json
+  IN  [demo-customer-004]: How much does delivery cost?
+  INTENT: price (understood: True)
+  OUT [demo-customer-004] [MOCK responder, simulated]: Hello from Demo Traders (demo reply). Our standard pack is listed at Rs 100 in this demo. Reply 'PRICE LIST' for the full demo list, or ask for a human if you need help choosing.
+  SEND: https://mock-endpoint.invalid/demo-whatsapp/send (mock endpoint, no request made)
+FILE: 05-unknown.json
+  IN  [demo-customer-005]: Do you sell purple elephants?
+  INTENT: human (understood: False)
+  OUT [demo-customer-005] [MOCK responder, simulated]: Sorry, I did not understand that question in this demo. I have marked it for a human at Demo Traders - a person will reply during demo business hours. (Simulated handoff - no human was contacted.)
+  SEND: https://mock-endpoint.invalid/demo-whatsapp/send (mock endpoint, no request made)
+
+5/5 payloads produced a reply (0 rejected safely).
+
+=== test_simulator.py -v ===
+test_all_five_payloads_produce_a_reply (__main__.TestSimulator.test_all_five_payloads_produce_a_reply) ... ok
+test_known_intents_classify_correctly (__main__.TestSimulator.test_known_intents_classify_correctly) ... ok
+test_malformed_payloads_rejected_safely (__main__.TestSimulator.test_malformed_payloads_rejected_safely) ... ok
+test_mock_responder_is_labelled_and_template_only (__main__.TestSimulator.test_mock_responder_is_labelled_and_template_only) ... ok
+test_no_credential_looking_values_in_demo_files (__main__.TestSimulator.test_no_credential_looking_values_in_demo_files) ... ok
+test_send_node_never_targets_real_whatsapp_host (__main__.TestSimulator.test_send_node_never_targets_real_whatsapp_host) ... ok
+test_unknown_intent_falls_back_to_human_handoff (__main__.TestSimulator.test_unknown_intent_falls_back_to_human_handoff) ... ok
+test_workflow_json_parses_and_has_required_nodes (__main__.TestSimulator.test_workflow_json_parses_and_has_required_nodes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.020s
+
+OK
+
+=== JSON checks ===
+workflow.json: valid JSON
+payloads/01-price.json: valid JSON
+payloads/02-hours.json: valid JSON
+payloads/03-human.json: valid JSON
+payloads/04-price-delivery.json: valid JSON
+payloads/05-unknown.json: valid JSON
+diagram.svg: valid SVG/XML
+
+=== files ===
+./README.md
+./VERIFY.txt
+./diagram.svg
+./payloads/01-price.json
+./payloads/02-hours.json
+./payloads/03-human.json
+./payloads/04-price-delivery.json
+./payloads/05-unknown.json
+./simulator.py
+./test_simulator.py
+./workflow.json
