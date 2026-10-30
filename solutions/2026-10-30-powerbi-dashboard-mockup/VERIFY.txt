@@ -1,0 +1,30 @@
+PASS  sales.csv columns — ['order_id', 'date', 'region', 'category', 'product', 'salesperson', 'qty', 'unit_price', 'discount_pct', 'sales_amount']
+PASS  sales.csv row count is 600 — got 600
+PASS  targets.csv columns — ['month', 'category', 'target_amount']
+PASS  targets.csv row count is 48 — got 48
+PASS  no nulls/empties in sales key columns — null cells=0
+PASS  all sales_amount positive
+PASS  all dates in 2025
+PASS  sales_amount equals qty*price*(1-discount)
+PASS  no nulls in targets
+PASS  CHECKS.txt rows_sales matches recomputation — checks=600 recomputed=600
+PASS  CHECKS.txt rows_targets matches recomputation — checks=48 recomputed=48
+PASS  CHECKS.txt total_sales matches recomputation — checks=7189354.50 recomputed=7189354.50
+PASS  CHECKS.txt total_qty matches recomputation — checks=4030 recomputed=4030
+PASS  CHECKS.txt avg_discount_pct matches recomputation — checks=5.73 recomputed=5.73
+PASS  CHECKS.txt total_target matches recomputation — checks=5758730.18 recomputed=5758730.18
+PASS  CHECKS.txt sales_vs_target_pct matches recomputation — checks=124.84 recomputed=124.84
+PASS  CHECKS.txt top_category matches recomputation — checks=Furniture recomputed=Furniture
+PASS  CHECKS.txt top_category_sales matches recomputation — checks=3582915.00 recomputed=3582915.00
+PASS  index.html exists
+PASS  mockup header disclaimer present
+PASS  mockup contains headline number 'Rs 7,189,354.50'
+PASS  mockup contains headline number '4,030'
+PASS  mockup contains headline number '5.73%'
+PASS  mockup contains headline number '124.84%'
+PASS  mockup contains headline number 'Furniture'
+PASS  no .pbix file in folder — []
+PASS  no .pbix / Power BI build existence claim
+PASS  no .pbix mention inside CSV data — []
+
+ALL TESTS PASSED
