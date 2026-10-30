@@ -1,0 +1,20 @@
+{
+  "before_rows": 60,
+  "after_rows": 55,
+  "duplicates_removed": 5,
+  "flagged_rows": 6,
+  "dates_normalised": 52,
+  "dates_unparseable": 1,
+  "quantities_missing": 3,
+  "quantities_text_to_number": 5,
+  "prices_text_to_number": 42,
+  "prices_currency_unclear": 1,
+  "statuses_invalid": 1,
+  "totals_by_category": {
+    "IT Equipment": 60268.0,
+    "Furniture": 253936.0,
+    "Vehicle": 8705928.0,
+    "Tools": 596170.0
+  },
+  "grand_total": 9616302.0
+}
