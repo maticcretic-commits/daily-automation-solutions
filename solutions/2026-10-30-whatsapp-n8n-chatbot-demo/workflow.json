@@ -1,0 +1,406 @@
+{
+  "active": false,
+  "connections": {
+    "Classify Intent (Keyword Rules)": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Intent Router",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "Intent Router": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Reply Composer (Mock Responder)",
+            "type": "main"
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "node": "Reply Composer (Mock Responder)",
+            "type": "main"
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "node": "Reply Composer (Mock Responder)",
+            "type": "main"
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "node": "Reply Composer (Mock Responder)",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "Reply Composer (Mock Responder)": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Send via Mock Endpoint",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "Route Valid Payload": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Classify Intent (Keyword Rules)",
+            "type": "main"
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "node": "Error Response",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "Send via Mock Endpoint": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Success Response",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "Verify and Parse Payload": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Route Valid Payload",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "WhatsApp Webhook (Demo)": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Verify and Parse Payload",
+            "type": "main"
+          }
+        ]
+      ]
+    }
+  },
+  "name": "WhatsApp Chatbot Demo - Simulated (Demo Traders)",
+  "nodes": [
+    {
+      "id": "demo-node-whatsapp-webhook-demo",
+      "name": "WhatsApp Webhook (Demo)",
+      "notes": "SIMULATED. In a live deployment this webhook receives WhatsApp Cloud API callbacks after Meta verification. In this demo it only ever receives the sample JSON files in payloads/.",
+      "parameters": {
+        "httpMethod": "POST",
+        "options": {},
+        "path": "whatsapp-demo",
+        "responseMode": "responseNode"
+      },
+      "position": [
+        0,
+        300
+      ],
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2
+    },
+    {
+      "id": "demo-node-verify-and-parse-payload",
+      "name": "Verify and Parse Payload",
+      "notes": "Rejects malformed payloads safely. The raw payload is never echoed back.",
+      "parameters": {
+        "jsCode": "const body = $input.first().json;\ntry {\n  const msg = body.entry[0].changes[0].value.messages[0];\n  const text = msg.text.body;\n  if (!text || !text.trim()) throw new Error('missing text');\n  return [{ json: { from: msg.from, text: text.trim(), valid: true } }];\n} catch (e) {\n  return [{ json: { valid: false, error: 'malformed payload: missing message fields' } }];\n}"
+      },
+      "position": [
+        220,
+        300
+      ],
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2
+    },
+    {
+      "id": "demo-node-route-valid-payload",
+      "name": "Route Valid Payload",
+      "parameters": {
+        "mode": "rules",
+        "options": {
+          "fallbackOutput": "extra"
+        },
+        "rules": {
+          "rules": [
+            {
+              "conditions": {
+                "combinator": "and",
+                "conditions": [
+                  {
+                    "id": "valid-true",
+                    "leftValue": "={{ $json.valid }}",
+                    "operator": {
+                      "operation": "true",
+                      "singleValue": true,
+                      "type": "boolean"
+                    },
+                    "rightValue": true
+                  }
+                ],
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose"
+                }
+              },
+              "outputKey": "valid",
+              "renameOutput": true
+            }
+          ]
+        }
+      },
+      "position": [
+        440,
+        300
+      ],
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3
+    },
+    {
+      "id": "demo-node-classify-intent-keyword-rules",
+      "name": "Classify Intent (Keyword Rules)",
+      "notes": "Keyword rules mirror simulator.py exactly. This is the MOCK responder logic - no live model is called.",
+      "parameters": {
+        "jsCode": "const text = ($input.first().json.text || '').toLowerCase();\nconst has = function () { const words = Array.prototype.slice.call(arguments); return words.some(function (w) { return text.includes(w); }); };\nlet intent = 'human';\nlet understood = true;\nif (has('human', 'agent', 'person', 'call me', 'speak to', 'complaint', 'representative')) { intent = 'human'; }\nelse if (has('price', 'cost', 'how much', 'rate', 'pricing', 'charge')) { intent = 'price'; }\nelse if (has('hours', 'open', 'opening', 'timing', 'close', 'closed', 'when')) { intent = 'hours'; }\nelse { intent = 'human'; understood = false; }\nreturn [{ json: Object.assign({}, $input.first().json, { intent: intent, understood: understood }) }];"
+      },
+      "position": [
+        660,
+        300
+      ],
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2
+    },
+    {
+      "id": "demo-node-intent-router",
+      "name": "Intent Router",
+      "parameters": {
+        "mode": "rules",
+        "options": {
+          "fallbackOutput": "extra"
+        },
+        "rules": {
+          "rules": [
+            {
+              "conditions": {
+                "combinator": "and",
+                "conditions": [
+                  {
+                    "id": "intent-price",
+                    "leftValue": "={{ $json.intent }}",
+                    "operator": {
+                      "operation": "equals",
+                      "type": "string"
+                    },
+                    "rightValue": "price"
+                  }
+                ],
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose"
+                }
+              },
+              "outputKey": "price",
+              "renameOutput": true
+            },
+            {
+              "conditions": {
+                "combinator": "and",
+                "conditions": [
+                  {
+                    "id": "intent-hours",
+                    "leftValue": "={{ $json.intent }}",
+                    "operator": {
+                      "operation": "equals",
+                      "type": "string"
+                    },
+                    "rightValue": "hours"
+                  }
+                ],
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose"
+                }
+              },
+              "outputKey": "hours",
+              "renameOutput": true
+            },
+            {
+              "conditions": {
+                "combinator": "and",
+                "conditions": [
+                  {
+                    "id": "intent-human",
+                    "leftValue": "={{ $json.intent }}",
+                    "operator": {
+                      "operation": "equals",
+                      "type": "string"
+                    },
+                    "rightValue": "human"
+                  }
+                ],
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose"
+                }
+              },
+              "outputKey": "human",
+              "renameOutput": true
+            }
+          ]
+        }
+      },
+      "position": [
+        880,
+        300
+      ],
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3
+    },
+    {
+      "id": "demo-node-reply-composer-mock-responder",
+      "name": "Reply Composer (Mock Responder)",
+      "notes": "MOCK responder: fixed template replies only. No live model is called anywhere in this workflow.",
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nconst intent = item.intent || 'human';\nconst replies = {\n  price: 'Hello from Demo Traders (demo reply). Our standard pack is listed at Rs 100 in this demo. Reply PRICE LIST for the full demo list, or ask for a human if you need help choosing.',\n  hours: 'Hello from Demo Traders (demo reply). Our demo opening hours are Monday to Saturday, 9am to 7pm. We are closed on Sundays in this demo.',\n  human: 'Thanks for your message. I have marked this for a human at Demo Traders. A person will reply during demo business hours. (Simulated handoff - no human was contacted.)'\n};\nconst understood = item.understood !== false;\nconst body = understood ? replies[intent] : 'Sorry, I did not understand that question in this demo. I have marked it for a human at Demo Traders - a person will reply during demo business hours. (Simulated handoff - no human was contacted.)';\nreturn [{ json: { to: item.from, body: body, intent: intent, simulated: true, responder: 'MOCK' } }];"
+      },
+      "position": [
+        1100,
+        300
+      ],
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2
+    },
+    {
+      "id": "demo-node-send-via-mock-endpoint",
+      "maxTries": 3,
+      "name": "Send via Mock Endpoint",
+      "notes": "SIMULATED SEND. The URL uses the .invalid domain, which can never resolve, so no request can reach a real service. Retry: up to 3 tries, 1s apart. In a live deployment this node is replaced with the WhatsApp Cloud API send call.",
+      "parameters": {
+        "jsonBody": "={ \"messaging_product\": \"whatsapp\", \"to\": \"{{ $json.to }}\", \"text\": { \"body\": \"{{ $json.body }}\" }, \"simulated\": true }",
+        "method": "POST",
+        "options": {
+          "timeout": 10000
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "url": "https://mock-endpoint.invalid/demo-whatsapp/send"
+      },
+      "position": [
+        1320,
+        300
+      ],
+      "retryOnFail": true,
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "waitBetweenTries": 1000
+    },
+    {
+      "id": "demo-node-success-response",
+      "name": "Success Response",
+      "parameters": {
+        "options": {},
+        "respondWith": "text",
+        "responseBody": "Demo reply processed (simulated). No live message was sent."
+      },
+      "position": [
+        1540,
+        300
+      ],
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4
+    },
+    {
+      "id": "demo-node-error-response",
+      "name": "Error Response",
+      "parameters": {
+        "options": {},
+        "respondWith": "text",
+        "responseBody": "Malformed payload rejected (simulated).",
+        "responseCode": 400
+      },
+      "position": [
+        660,
+        520
+      ],
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4
+    },
+    {
+      "id": "demo-node-sticky-note-live-deployment-notes",
+      "name": "Sticky Note - Live Deployment Notes",
+      "parameters": {
+        "color": 5,
+        "content": "## Live deployment notes - NOT part of this demo\n\nThis workflow is SIMULATED. No real WhatsApp message was sent and no live API was called.\n\nA live deployment still needs, all supplied by the client or Nitesh (none present here):\n- A Meta developer app and a WhatsApp Business number, with webhook verification completed in Meta.\n- The WhatsApp Cloud API send endpoint replacing the mock .invalid URL.\n- Environment variables, by name only (no values stored anywhere in this demo): WHATSAPP_VERIFY_TOKEN, WHATSAPP_BUSINESS_NUMBER_ID, WHATSAPP_ACCESS_TOKEN, OPENAI_API_KEY.\n- An OpenAI node (see the DISABLED node below) enabled and connected only after a key is supplied through n8n credentials, never pasted into a workflow file.\n\nDo not present this demo as a delivered client bot or a production deployment.",
+        "height": 380,
+        "width": 420
+      },
+      "position": [
+        0,
+        40
+      ],
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1
+    },
+    {
+      "credentials": {},
+      "disabled": true,
+      "id": "demo-node-openai-reply-disabled-live-variant-only",
+      "name": "OpenAI Reply (DISABLED - live variant only)",
+      "notes": "DISABLED live-variant placeholder. Not connected to any other node. To use it in a live deployment: supply the key through n8n credentials using the environment variable name OPENAI_API_KEY, enable this node, and connect it in place of the mock Reply Composer. No key is stored in this file.",
+      "parameters": {
+        "messages": {
+          "messageValues": [
+            {
+              "message": "={{ $json.text }}"
+            }
+          ]
+        },
+        "model": "gpt-4o-mini",
+        "options": {}
+      },
+      "position": [
+        1100,
+        520
+      ],
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1",
+    "saveExecutionProgress": true
+  },
+  "staticData": null
+}
