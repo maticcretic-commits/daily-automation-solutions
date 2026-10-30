@@ -1,0 +1,9 @@
+rows_sales=600
+rows_targets=48
+total_sales=7189354.50
+total_qty=4030
+avg_discount_pct=5.73
+total_target=5758730.18
+sales_vs_target_pct=124.84
+top_category=Furniture
+top_category_sales=3582915.00
