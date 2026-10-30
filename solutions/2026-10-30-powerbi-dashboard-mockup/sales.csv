@@ -1,0 +1,601 @@
+order_id,date,region,category,product,salesperson,qty,unit_price,discount_pct,sales_amount
+DT-0001,2025-11-24,North,Office Supplies,Printer Paper (ream),Rohan Desai,4,320,0.0,1280.0
+DT-0002,2025-02-22,East,Appliances,Electric Kettle,Ananya Iyer,10,1400,0.05,13300.0
+DT-0003,2025-01-16,North,Electronics,USB Hub,Vikram Rao,1,900,0.1,810.0
+DT-0004,2025-11-29,East,Furniture,Desk Lamp,Ananya Iyer,10,1200,0.05,11400.0
+DT-0005,2025-03-23,East,Furniture,Office Chair,Ananya Iyer,4,5500,0.05,20900.0
+DT-0006,2025-02-17,South,Furniture,Desk Lamp,Ananya Iyer,10,1200,0.05,11400.0
+DT-0007,2025-08-24,South,Appliances,Table Fan,Meera Nair,2,2100,0.1,3780.0
+DT-0008,2025-11-18,East,Appliances,Room Heater,Ananya Iyer,4,2800,0.15,9520.0
+DT-0009,2025-01-24,East,Office Supplies,Printer Paper (ream),Arjun Mehta,4,320,0.0,1280.0
+DT-0010,2025-05-23,South,Appliances,Electric Kettle,Vikram Rao,6,1400,0.05,7980.0
+DT-0011,2025-12-10,North,Appliances,Room Heater,Rohan Desai,2,2800,0.1,5040.0
+DT-0012,2025-03-29,South,Electronics,Wireless Mouse,Rohan Desai,7,650,0.05,4322.5
+DT-0013,2025-12-19,South,Office Supplies,Printer Paper (ream),Meera Nair,4,320,0.0,1280.0
+DT-0014,2025-07-25,North,Electronics,USB Hub,Vikram Rao,12,900,0.05,10260.0
+DT-0015,2025-12-02,South,Appliances,Room Heater,Meera Nair,8,2800,0.0,22400.0
+DT-0016,2025-03-13,North,Furniture,Desk Lamp,Arjun Mehta,12,1200,0.1,12960.0
+DT-0017,2025-10-26,South,Electronics,Laptop Stand,Ananya Iyer,9,2400,0.05,20520.0
+DT-0018,2025-01-25,West,Electronics,Laptop Stand,Kavya Reddy,11,2400,0.05,25080.0
+DT-0019,2025-02-02,South,Office Supplies,Ball Pen (pack),Kavya Reddy,9,180,0.05,1539.0
+DT-0020,2025-01-06,East,Electronics,USB Hub,Meera Nair,5,900,0.15,3825.0
+DT-0021,2025-02-27,North,Electronics,Laptop Stand,Meera Nair,12,2400,0.15,24480.0
+DT-0022,2025-09-14,East,Furniture,Office Chair,Rohan Desai,11,5500,0.05,57475.0
+DT-0023,2025-09-17,East,Electronics,Laptop Stand,Ananya Iyer,9,2400,0.1,19440.0
+DT-0024,2025-11-03,South,Electronics,Wireless Mouse,Ananya Iyer,5,650,0.0,3250.0
+DT-0025,2025-05-04,West,Appliances,Electric Kettle,Ananya Iyer,12,1400,0.05,15960.0
+DT-0026,2025-09-30,East,Electronics,Wireless Mouse,Meera Nair,9,650,0.0,5850.0
+DT-0027,2025-09-28,West,Furniture,Office Chair,Rohan Desai,9,5500,0.15,42075.0
+DT-0028,2025-04-13,East,Furniture,Filing Cabinet,Arjun Mehta,11,3800,0.05,39710.0
+DT-0029,2025-09-22,South,Electronics,Laptop Stand,Kavya Reddy,6,2400,0.0,14400.0
+DT-0030,2025-10-11,North,Electronics,Laptop Stand,Ananya Iyer,12,2400,0.15,24480.0
+DT-0031,2025-04-28,North,Electronics,Wireless Mouse,Vikram Rao,2,650,0.1,1170.0
+DT-0032,2025-05-23,East,Electronics,Laptop Stand,Kavya Reddy,12,2400,0.1,25920.0
+DT-0033,2025-08-31,North,Furniture,Desk Lamp,Ananya Iyer,4,1200,0.0,4800.0
+DT-0034,2025-12-04,South,Furniture,Desk Lamp,Rohan Desai,12,1200,0.0,14400.0
+DT-0035,2025-12-01,West,Electronics,Wireless Mouse,Ananya Iyer,12,650,0.05,7410.0
+DT-0036,2025-05-08,North,Furniture,Office Chair,Meera Nair,7,5500,0.0,38500.0
+DT-0037,2025-08-25,North,Appliances,Table Fan,Ananya Iyer,9,2100,0.0,18900.0
+DT-0038,2025-11-30,West,Appliances,Electric Kettle,Arjun Mehta,4,1400,0.0,5600.0
+DT-0039,2025-09-06,South,Appliances,Electric Kettle,Ananya Iyer,3,1400,0.05,3990.0
+DT-0040,2025-07-19,North,Office Supplies,Ball Pen (pack),Rohan Desai,5,180,0.05,855.0
+DT-0041,2025-10-12,East,Furniture,Office Chair,Ananya Iyer,5,5500,0.0,27500.0
+DT-0042,2025-10-24,East,Electronics,Wireless Mouse,Kavya Reddy,1,650,0.0,650.0
+DT-0043,2025-09-02,South,Appliances,Electric Kettle,Ananya Iyer,1,1400,0.1,1260.0
+DT-0044,2025-04-06,North,Electronics,Laptop Stand,Kavya Reddy,7,2400,0.0,16800.0
+DT-0045,2025-05-07,South,Electronics,Laptop Stand,Kavya Reddy,7,2400,0.15,14280.0
+DT-0046,2025-10-17,South,Appliances,Electric Kettle,Meera Nair,11,1400,0.15,13090.0
+DT-0047,2025-05-03,North,Electronics,USB Hub,Meera Nair,5,900,0.05,4275.0
+DT-0048,2025-02-07,North,Office Supplies,Notebook (A4),Kavya Reddy,2,240,0.0,480.0
+DT-0049,2025-04-20,South,Electronics,Wireless Mouse,Meera Nair,2,650,0.0,1300.0
+DT-0050,2025-05-26,North,Appliances,Room Heater,Rohan Desai,5,2800,0.1,12600.0
+DT-0051,2025-09-28,North,Appliances,Table Fan,Vikram Rao,11,2100,0.0,23100.0
+DT-0052,2025-05-16,North,Electronics,USB Hub,Meera Nair,3,900,0.05,2565.0
+DT-0053,2025-11-06,North,Furniture,Filing Cabinet,Kavya Reddy,11,3800,0.05,39710.0
+DT-0054,2025-09-08,North,Appliances,Electric Kettle,Arjun Mehta,2,1400,0.15,2380.0
+DT-0055,2025-05-22,North,Furniture,Office Chair,Vikram Rao,11,5500,0.05,57475.0
+DT-0056,2025-08-15,South,Furniture,Office Chair,Rohan Desai,2,5500,0.0,11000.0
+DT-0057,2025-03-18,South,Appliances,Room Heater,Arjun Mehta,9,2800,0.0,25200.0
+DT-0058,2025-03-07,North,Furniture,Office Chair,Rohan Desai,6,5500,0.0,33000.0
+DT-0059,2025-05-08,East,Furniture,Filing Cabinet,Rohan Desai,7,3800,0.1,23940.0
+DT-0060,2025-03-21,West,Electronics,Laptop Stand,Ananya Iyer,3,2400,0.05,6840.0
+DT-0061,2025-04-02,East,Furniture,Desk Lamp,Vikram Rao,11,1200,0.15,11220.0
+DT-0062,2025-05-17,North,Office Supplies,Ball Pen (pack),Vikram Rao,1,180,0.05,171.0
+DT-0063,2025-04-13,West,Furniture,Desk Lamp,Ananya Iyer,4,1200,0.0,4800.0
+DT-0064,2025-12-04,North,Furniture,Office Chair,Rohan Desai,5,5500,0.05,26125.0
+DT-0065,2025-09-18,South,Appliances,Room Heater,Ananya Iyer,6,2800,0.0,16800.0
+DT-0066,2025-05-14,North,Appliances,Table Fan,Kavya Reddy,1,2100,0.0,2100.0
+DT-0067,2025-08-11,South,Office Supplies,Ball Pen (pack),Ananya Iyer,10,180,0.1,1620.0
+DT-0068,2025-07-17,West,Electronics,Laptop Stand,Ananya Iyer,12,2400,0.05,27360.0
+DT-0069,2025-09-24,West,Furniture,Filing Cabinet,Rohan Desai,12,3800,0.15,38760.0
+DT-0070,2025-04-11,South,Electronics,USB Hub,Meera Nair,6,900,0.1,4860.0
+DT-0071,2025-12-06,West,Office Supplies,Ball Pen (pack),Rohan Desai,9,180,0.05,1539.0
+DT-0072,2025-07-29,South,Office Supplies,Notebook (A4),Arjun Mehta,3,240,0.0,720.0
+DT-0073,2025-12-07,West,Office Supplies,Printer Paper (ream),Meera Nair,10,320,0.1,2880.0
+DT-0074,2025-07-27,South,Electronics,Wireless Mouse,Kavya Reddy,4,650,0.05,2470.0
+DT-0075,2025-11-07,East,Furniture,Desk Lamp,Kavya Reddy,11,1200,0.0,13200.0
+DT-0076,2025-08-31,East,Appliances,Room Heater,Ananya Iyer,3,2800,0.15,7140.0
+DT-0077,2025-05-26,South,Office Supplies,Ball Pen (pack),Rohan Desai,2,180,0.0,360.0
+DT-0078,2025-06-08,North,Electronics,Laptop Stand,Arjun Mehta,1,2400,0.0,2400.0
+DT-0079,2025-11-09,West,Electronics,Wireless Mouse,Vikram Rao,11,650,0.1,6435.0
+DT-0080,2025-12-23,South,Furniture,Office Chair,Ananya Iyer,11,5500,0.15,51425.0
+DT-0081,2025-02-24,East,Electronics,USB Hub,Ananya Iyer,9,900,0.05,7695.0
+DT-0082,2025-10-13,North,Appliances,Table Fan,Rohan Desai,3,2100,0.05,5985.0
+DT-0083,2025-09-29,West,Office Supplies,Ball Pen (pack),Kavya Reddy,10,180,0.15,1530.0
+DT-0084,2025-08-07,West,Furniture,Office Chair,Arjun Mehta,12,5500,0.05,62700.0
+DT-0085,2025-05-13,East,Appliances,Table Fan,Rohan Desai,9,2100,0.05,17955.0
+DT-0086,2025-05-03,North,Electronics,Wireless Mouse,Meera Nair,4,650,0.05,2470.0
+DT-0087,2025-06-13,West,Electronics,Laptop Stand,Rohan Desai,4,2400,0.05,9120.0
+DT-0088,2025-03-20,East,Electronics,Wireless Mouse,Arjun Mehta,6,650,0.1,3510.0
+DT-0089,2025-08-01,North,Appliances,Table Fan,Ananya Iyer,10,2100,0.15,17850.0
+DT-0090,2025-10-22,South,Electronics,Wireless Mouse,Arjun Mehta,5,650,0.05,3087.5
+DT-0091,2025-10-03,East,Furniture,Filing Cabinet,Vikram Rao,4,3800,0.05,14440.0
+DT-0092,2025-05-20,South,Electronics,Wireless Mouse,Arjun Mehta,11,650,0.15,6077.5
+DT-0093,2025-03-26,West,Appliances,Room Heater,Arjun Mehta,9,2800,0.0,25200.0
+DT-0094,2025-10-31,South,Electronics,USB Hub,Arjun Mehta,7,900,0.0,6300.0
+DT-0095,2025-04-04,North,Furniture,Office Chair,Meera Nair,8,5500,0.05,41800.0
+DT-0096,2025-07-14,North,Appliances,Table Fan,Arjun Mehta,5,2100,0.0,10500.0
+DT-0097,2025-01-10,East,Electronics,Wireless Mouse,Ananya Iyer,4,650,0.15,2210.0
+DT-0098,2025-11-30,North,Electronics,Laptop Stand,Kavya Reddy,4,2400,0.0,9600.0
+DT-0099,2025-03-20,North,Furniture,Office Chair,Arjun Mehta,10,5500,0.0,55000.0
+DT-0100,2025-12-25,North,Furniture,Filing Cabinet,Rohan Desai,10,3800,0.15,32300.0
+DT-0101,2025-02-28,East,Electronics,Wireless Mouse,Ananya Iyer,2,650,0.1,1170.0
+DT-0102,2025-06-09,South,Appliances,Table Fan,Vikram Rao,7,2100,0.15,12495.0
+DT-0103,2025-02-08,East,Appliances,Electric Kettle,Meera Nair,2,1400,0.15,2380.0
+DT-0104,2025-12-17,East,Electronics,USB Hub,Kavya Reddy,1,900,0.05,855.0
+DT-0105,2025-08-08,East,Electronics,USB Hub,Arjun Mehta,6,900,0.0,5400.0
+DT-0106,2025-09-08,North,Appliances,Room Heater,Vikram Rao,8,2800,0.15,19040.0
+DT-0107,2025-08-11,North,Furniture,Filing Cabinet,Kavya Reddy,5,3800,0.1,17100.0
+DT-0108,2025-09-05,South,Appliances,Room Heater,Vikram Rao,5,2800,0.05,13300.0
+DT-0109,2025-02-14,North,Furniture,Desk Lamp,Rohan Desai,10,1200,0.1,10800.0
+DT-0110,2025-07-14,South,Furniture,Desk Lamp,Vikram Rao,3,1200,0.05,3420.0
+DT-0111,2025-07-01,East,Furniture,Filing Cabinet,Kavya Reddy,12,3800,0.05,43320.0
+DT-0112,2025-01-06,South,Electronics,Laptop Stand,Arjun Mehta,12,2400,0.05,27360.0
+DT-0113,2025-10-12,East,Office Supplies,Notebook (A4),Arjun Mehta,12,240,0.05,2736.0
+DT-0114,2025-01-09,North,Electronics,USB Hub,Rohan Desai,4,900,0.05,3420.0
+DT-0115,2025-10-25,South,Furniture,Desk Lamp,Kavya Reddy,7,1200,0.15,7140.0
+DT-0116,2025-06-19,South,Furniture,Desk Lamp,Ananya Iyer,5,1200,0.0,6000.0
+DT-0117,2025-04-09,South,Office Supplies,Notebook (A4),Vikram Rao,3,240,0.0,720.0
+DT-0118,2025-09-05,North,Furniture,Filing Cabinet,Ananya Iyer,10,3800,0.05,36100.0
+DT-0119,2025-04-10,North,Furniture,Desk Lamp,Kavya Reddy,1,1200,0.15,1020.0
+DT-0120,2025-03-06,North,Appliances,Room Heater,Vikram Rao,5,2800,0.15,11900.0
+DT-0121,2025-11-23,West,Furniture,Office Chair,Arjun Mehta,10,5500,0.05,52250.0
+DT-0122,2025-09-03,South,Electronics,Laptop Stand,Ananya Iyer,5,2400,0.05,11400.0
+DT-0123,2025-02-03,South,Electronics,USB Hub,Vikram Rao,11,900,0.0,9900.0
+DT-0124,2025-03-18,West,Appliances,Electric Kettle,Kavya Reddy,4,1400,0.0,5600.0
+DT-0125,2025-08-02,East,Office Supplies,Printer Paper (ream),Arjun Mehta,9,320,0.05,2736.0
+DT-0126,2025-08-15,North,Furniture,Desk Lamp,Kavya Reddy,5,1200,0.1,5400.0
+DT-0127,2025-01-31,East,Office Supplies,Printer Paper (ream),Meera Nair,11,320,0.0,3520.0
+DT-0128,2025-12-05,North,Electronics,USB Hub,Ananya Iyer,2,900,0.0,1800.0
+DT-0129,2025-07-29,South,Office Supplies,Ball Pen (pack),Meera Nair,1,180,0.0,180.0
+DT-0130,2025-12-28,North,Appliances,Electric Kettle,Meera Nair,11,1400,0.0,15400.0
+DT-0131,2025-11-17,East,Appliances,Electric Kettle,Kavya Reddy,7,1400,0.0,9800.0
+DT-0132,2025-04-26,East,Appliances,Electric Kettle,Vikram Rao,2,1400,0.0,2800.0
+DT-0133,2025-06-07,East,Appliances,Table Fan,Arjun Mehta,8,2100,0.0,16800.0
+DT-0134,2025-12-19,South,Furniture,Desk Lamp,Arjun Mehta,9,1200,0.1,9720.0
+DT-0135,2025-08-13,North,Electronics,Wireless Mouse,Kavya Reddy,12,650,0.05,7410.0
+DT-0136,2025-05-09,North,Electronics,USB Hub,Ananya Iyer,10,900,0.1,8100.0
+DT-0137,2025-12-11,West,Furniture,Office Chair,Rohan Desai,8,5500,0.1,39600.0
+DT-0138,2025-08-15,West,Electronics,USB Hub,Arjun Mehta,7,900,0.15,5355.0
+DT-0139,2025-02-16,South,Furniture,Desk Lamp,Vikram Rao,11,1200,0.0,13200.0
+DT-0140,2025-06-18,South,Furniture,Filing Cabinet,Ananya Iyer,7,3800,0.1,23940.0
+DT-0141,2025-08-21,North,Electronics,Laptop Stand,Ananya Iyer,7,2400,0.1,15120.0
+DT-0142,2025-12-03,West,Furniture,Office Chair,Meera Nair,4,5500,0.1,19800.0
+DT-0143,2025-11-15,East,Office Supplies,Printer Paper (ream),Kavya Reddy,4,320,0.05,1216.0
+DT-0144,2025-03-09,West,Furniture,Filing Cabinet,Ananya Iyer,8,3800,0.0,30400.0
+DT-0145,2025-11-19,East,Electronics,Laptop Stand,Ananya Iyer,5,2400,0.1,10800.0
+DT-0146,2025-10-10,South,Electronics,Laptop Stand,Rohan Desai,8,2400,0.0,19200.0
+DT-0147,2025-03-20,South,Office Supplies,Notebook (A4),Arjun Mehta,12,240,0.05,2736.0
+DT-0148,2025-09-05,West,Electronics,USB Hub,Vikram Rao,3,900,0.05,2565.0
+DT-0149,2025-11-03,South,Appliances,Electric Kettle,Meera Nair,5,1400,0.05,6650.0
+DT-0150,2025-09-17,North,Electronics,USB Hub,Kavya Reddy,5,900,0.1,4050.0
+DT-0151,2025-12-04,South,Electronics,USB Hub,Meera Nair,8,900,0.05,6840.0
+DT-0152,2025-10-10,East,Furniture,Desk Lamp,Vikram Rao,4,1200,0.15,4080.0
+DT-0153,2025-10-20,South,Appliances,Table Fan,Rohan Desai,1,2100,0.05,1995.0
+DT-0154,2025-08-31,East,Appliances,Table Fan,Vikram Rao,11,2100,0.15,19635.0
+DT-0155,2025-09-11,West,Electronics,USB Hub,Arjun Mehta,6,900,0.0,5400.0
+DT-0156,2025-02-21,South,Furniture,Filing Cabinet,Rohan Desai,3,3800,0.05,10830.0
+DT-0157,2025-03-21,North,Office Supplies,Ball Pen (pack),Rohan Desai,6,180,0.1,972.0
+DT-0158,2025-07-23,East,Appliances,Room Heater,Meera Nair,9,2800,0.05,23940.0
+DT-0159,2025-11-17,East,Office Supplies,Notebook (A4),Ananya Iyer,1,240,0.1,216.0
+DT-0160,2025-05-01,East,Appliances,Electric Kettle,Arjun Mehta,12,1400,0.0,16800.0
+DT-0161,2025-02-20,East,Office Supplies,Printer Paper (ream),Rohan Desai,8,320,0.0,2560.0
+DT-0162,2025-06-03,West,Electronics,Laptop Stand,Meera Nair,5,2400,0.05,11400.0
+DT-0163,2025-08-09,North,Furniture,Filing Cabinet,Vikram Rao,11,3800,0.0,41800.0
+DT-0164,2025-03-31,North,Appliances,Room Heater,Arjun Mehta,11,2800,0.0,30800.0
+DT-0165,2025-10-26,North,Furniture,Desk Lamp,Rohan Desai,8,1200,0.05,9120.0
+DT-0166,2025-01-05,West,Furniture,Desk Lamp,Vikram Rao,11,1200,0.1,11880.0
+DT-0167,2025-02-07,South,Furniture,Filing Cabinet,Arjun Mehta,5,3800,0.15,16150.0
+DT-0168,2025-12-20,North,Appliances,Electric Kettle,Ananya Iyer,7,1400,0.05,9310.0
+DT-0169,2025-05-02,South,Furniture,Desk Lamp,Ananya Iyer,12,1200,0.05,13680.0
+DT-0170,2025-12-04,South,Electronics,USB Hub,Kavya Reddy,12,900,0.0,10800.0
+DT-0171,2025-09-12,West,Appliances,Electric Kettle,Vikram Rao,10,1400,0.05,13300.0
+DT-0172,2025-11-22,North,Electronics,USB Hub,Vikram Rao,11,900,0.15,8415.0
+DT-0173,2025-11-18,North,Office Supplies,Printer Paper (ream),Ananya Iyer,5,320,0.05,1520.0
+DT-0174,2025-10-24,South,Electronics,Wireless Mouse,Arjun Mehta,6,650,0.15,3315.0
+DT-0175,2025-03-31,North,Office Supplies,Ball Pen (pack),Meera Nair,9,180,0.1,1458.0
+DT-0176,2025-03-26,North,Appliances,Table Fan,Meera Nair,5,2100,0.15,8925.0
+DT-0177,2025-02-28,South,Electronics,Laptop Stand,Rohan Desai,11,2400,0.15,22440.0
+DT-0178,2025-07-23,West,Appliances,Table Fan,Ananya Iyer,2,2100,0.05,3990.0
+DT-0179,2025-05-16,South,Furniture,Filing Cabinet,Meera Nair,12,3800,0.15,38760.0
+DT-0180,2025-10-27,South,Office Supplies,Ball Pen (pack),Vikram Rao,2,180,0.15,306.0
+DT-0181,2025-08-30,North,Appliances,Room Heater,Vikram Rao,6,2800,0.1,15120.0
+DT-0182,2025-11-28,North,Appliances,Room Heater,Arjun Mehta,5,2800,0.15,11900.0
+DT-0183,2025-03-01,North,Appliances,Table Fan,Ananya Iyer,8,2100,0.0,16800.0
+DT-0184,2025-05-01,West,Electronics,Wireless Mouse,Rohan Desai,6,650,0.15,3315.0
+DT-0185,2025-12-23,West,Furniture,Filing Cabinet,Arjun Mehta,12,3800,0.0,45600.0
+DT-0186,2025-12-02,North,Furniture,Desk Lamp,Rohan Desai,5,1200,0.0,6000.0
+DT-0187,2025-07-09,North,Furniture,Office Chair,Rohan Desai,6,5500,0.0,33000.0
+DT-0188,2025-07-08,South,Appliances,Table Fan,Meera Nair,1,2100,0.05,1995.0
+DT-0189,2025-04-08,West,Appliances,Table Fan,Vikram Rao,2,2100,0.15,3570.0
+DT-0190,2025-11-25,East,Appliances,Electric Kettle,Vikram Rao,6,1400,0.0,8400.0
+DT-0191,2025-10-17,North,Appliances,Room Heater,Vikram Rao,4,2800,0.1,10080.0
+DT-0192,2025-04-30,South,Electronics,USB Hub,Vikram Rao,1,900,0.05,855.0
+DT-0193,2025-03-08,South,Office Supplies,Printer Paper (ream),Vikram Rao,11,320,0.0,3520.0
+DT-0194,2025-01-08,South,Office Supplies,Notebook (A4),Vikram Rao,6,240,0.0,1440.0
+DT-0195,2025-05-16,North,Office Supplies,Notebook (A4),Ananya Iyer,2,240,0.15,408.0
+DT-0196,2025-09-01,South,Furniture,Filing Cabinet,Kavya Reddy,2,3800,0.05,7220.0
+DT-0197,2025-04-24,West,Electronics,USB Hub,Arjun Mehta,9,900,0.05,7695.0
+DT-0198,2025-11-26,West,Electronics,Wireless Mouse,Rohan Desai,7,650,0.05,4322.5
+DT-0199,2025-02-25,South,Appliances,Electric Kettle,Kavya Reddy,2,1400,0.05,2660.0
+DT-0200,2025-03-17,North,Electronics,USB Hub,Rohan Desai,10,900,0.1,8100.0
+DT-0201,2025-06-16,South,Office Supplies,Ball Pen (pack),Kavya Reddy,8,180,0.1,1296.0
+DT-0202,2025-08-09,North,Office Supplies,Notebook (A4),Rohan Desai,11,240,0.1,2376.0
+DT-0203,2025-04-21,South,Appliances,Table Fan,Arjun Mehta,6,2100,0.05,11970.0
+DT-0204,2025-08-01,East,Electronics,Wireless Mouse,Meera Nair,11,650,0.05,6792.5
+DT-0205,2025-03-20,East,Furniture,Office Chair,Arjun Mehta,2,5500,0.0,11000.0
+DT-0206,2025-02-19,East,Furniture,Office Chair,Kavya Reddy,9,5500,0.0,49500.0
+DT-0207,2025-10-15,South,Office Supplies,Ball Pen (pack),Arjun Mehta,6,180,0.15,918.0
+DT-0208,2025-01-27,West,Office Supplies,Ball Pen (pack),Kavya Reddy,2,180,0.1,324.0
+DT-0209,2025-04-19,North,Furniture,Office Chair,Meera Nair,6,5500,0.1,29700.0
+DT-0210,2025-02-28,East,Furniture,Desk Lamp,Kavya Reddy,9,1200,0.1,9720.0
+DT-0211,2025-12-12,East,Electronics,USB Hub,Ananya Iyer,12,900,0.05,10260.0
+DT-0212,2025-04-03,North,Office Supplies,Ball Pen (pack),Vikram Rao,6,180,0.0,1080.0
+DT-0213,2025-03-15,South,Furniture,Office Chair,Ananya Iyer,12,5500,0.15,56100.0
+DT-0214,2025-02-16,East,Electronics,Wireless Mouse,Vikram Rao,8,650,0.05,4940.0
+DT-0215,2025-07-09,South,Furniture,Filing Cabinet,Ananya Iyer,10,3800,0.0,38000.0
+DT-0216,2025-03-21,North,Office Supplies,Notebook (A4),Arjun Mehta,2,240,0.05,456.0
+DT-0217,2025-12-05,South,Office Supplies,Ball Pen (pack),Kavya Reddy,5,180,0.0,900.0
+DT-0218,2025-02-28,South,Electronics,USB Hub,Arjun Mehta,11,900,0.1,8910.0
+DT-0219,2025-09-27,East,Electronics,Wireless Mouse,Ananya Iyer,10,650,0.0,6500.0
+DT-0220,2025-04-15,South,Electronics,Laptop Stand,Meera Nair,5,2400,0.05,11400.0
+DT-0221,2025-03-03,North,Office Supplies,Printer Paper (ream),Kavya Reddy,3,320,0.05,912.0
+DT-0222,2025-12-27,North,Furniture,Filing Cabinet,Arjun Mehta,6,3800,0.0,22800.0
+DT-0223,2025-01-22,South,Furniture,Office Chair,Arjun Mehta,6,5500,0.1,29700.0
+DT-0224,2025-10-21,South,Office Supplies,Ball Pen (pack),Ananya Iyer,2,180,0.05,342.0
+DT-0225,2025-06-16,North,Appliances,Table Fan,Ananya Iyer,12,2100,0.05,23940.0
+DT-0226,2025-08-12,West,Electronics,USB Hub,Ananya Iyer,7,900,0.1,5670.0
+DT-0227,2025-07-22,West,Office Supplies,Printer Paper (ream),Ananya Iyer,6,320,0.0,1920.0
+DT-0228,2025-09-19,East,Furniture,Office Chair,Rohan Desai,6,5500,0.05,31350.0
+DT-0229,2025-11-27,West,Electronics,Laptop Stand,Vikram Rao,5,2400,0.0,12000.0
+DT-0230,2025-11-05,North,Office Supplies,Printer Paper (ream),Arjun Mehta,3,320,0.15,816.0
+DT-0231,2025-08-26,East,Office Supplies,Ball Pen (pack),Rohan Desai,11,180,0.1,1782.0
+DT-0232,2025-11-22,West,Furniture,Filing Cabinet,Arjun Mehta,6,3800,0.0,22800.0
+DT-0233,2025-02-04,South,Office Supplies,Ball Pen (pack),Meera Nair,10,180,0.0,1800.0
+DT-0234,2025-09-17,North,Furniture,Office Chair,Meera Nair,1,5500,0.05,5225.0
+DT-0235,2025-02-09,East,Appliances,Electric Kettle,Kavya Reddy,10,1400,0.1,12600.0
+DT-0236,2025-07-16,South,Furniture,Filing Cabinet,Kavya Reddy,1,3800,0.05,3610.0
+DT-0237,2025-11-30,North,Office Supplies,Notebook (A4),Arjun Mehta,3,240,0.0,720.0
+DT-0238,2025-02-22,West,Appliances,Room Heater,Rohan Desai,2,2800,0.1,5040.0
+DT-0239,2025-03-30,North,Office Supplies,Ball Pen (pack),Kavya Reddy,9,180,0.1,1458.0
+DT-0240,2025-03-23,South,Appliances,Table Fan,Rohan Desai,7,2100,0.05,13965.0
+DT-0241,2025-11-03,North,Office Supplies,Ball Pen (pack),Ananya Iyer,2,180,0.05,342.0
+DT-0242,2025-10-13,East,Electronics,USB Hub,Vikram Rao,11,900,0.1,8910.0
+DT-0243,2025-06-20,North,Office Supplies,Ball Pen (pack),Rohan Desai,5,180,0.15,765.0
+DT-0244,2025-12-06,South,Office Supplies,Printer Paper (ream),Arjun Mehta,5,320,0.1,1440.0
+DT-0245,2025-11-26,East,Appliances,Room Heater,Rohan Desai,12,2800,0.15,28560.0
+DT-0246,2025-09-27,North,Office Supplies,Notebook (A4),Meera Nair,6,240,0.0,1440.0
+DT-0247,2025-06-08,North,Electronics,Wireless Mouse,Vikram Rao,4,650,0.0,2600.0
+DT-0248,2025-03-21,North,Appliances,Electric Kettle,Rohan Desai,9,1400,0.1,11340.0
+DT-0249,2025-09-27,North,Furniture,Filing Cabinet,Arjun Mehta,3,3800,0.1,10260.0
+DT-0250,2025-03-20,North,Appliances,Room Heater,Arjun Mehta,3,2800,0.15,7140.0
+DT-0251,2025-01-23,South,Office Supplies,Printer Paper (ream),Meera Nair,8,320,0.1,2304.0
+DT-0252,2025-08-18,North,Electronics,Wireless Mouse,Rohan Desai,4,650,0.05,2470.0
+DT-0253,2025-10-20,West,Furniture,Desk Lamp,Kavya Reddy,7,1200,0.1,7560.0
+DT-0254,2025-08-03,West,Appliances,Room Heater,Ananya Iyer,3,2800,0.05,7980.0
+DT-0255,2025-11-25,South,Furniture,Office Chair,Ananya Iyer,12,5500,0.1,59400.0
+DT-0256,2025-05-26,North,Electronics,Wireless Mouse,Arjun Mehta,9,650,0.0,5850.0
+DT-0257,2025-02-16,West,Electronics,Wireless Mouse,Arjun Mehta,6,650,0.0,3900.0
+DT-0258,2025-01-28,South,Furniture,Desk Lamp,Vikram Rao,2,1200,0.05,2280.0
+DT-0259,2025-01-15,South,Electronics,USB Hub,Vikram Rao,11,900,0.05,9405.0
+DT-0260,2025-03-12,North,Appliances,Table Fan,Rohan Desai,12,2100,0.0,25200.0
+DT-0261,2025-08-29,South,Electronics,Laptop Stand,Vikram Rao,1,2400,0.05,2280.0
+DT-0262,2025-03-18,South,Office Supplies,Notebook (A4),Meera Nair,7,240,0.0,1680.0
+DT-0263,2025-05-02,South,Electronics,Wireless Mouse,Arjun Mehta,11,650,0.1,6435.0
+DT-0264,2025-02-02,North,Appliances,Room Heater,Rohan Desai,9,2800,0.0,25200.0
+DT-0265,2025-09-21,South,Office Supplies,Ball Pen (pack),Kavya Reddy,7,180,0.0,1260.0
+DT-0266,2025-06-30,North,Furniture,Filing Cabinet,Kavya Reddy,11,3800,0.0,41800.0
+DT-0267,2025-07-04,North,Furniture,Filing Cabinet,Ananya Iyer,9,3800,0.1,30780.0
+DT-0268,2025-07-19,West,Electronics,Wireless Mouse,Rohan Desai,6,650,0.05,3705.0
+DT-0269,2025-01-09,South,Electronics,Laptop Stand,Rohan Desai,12,2400,0.15,24480.0
+DT-0270,2025-02-23,East,Office Supplies,Ball Pen (pack),Meera Nair,3,180,0.0,540.0
+DT-0271,2025-10-07,South,Office Supplies,Notebook (A4),Arjun Mehta,8,240,0.15,1632.0
+DT-0272,2025-11-20,North,Electronics,USB Hub,Meera Nair,8,900,0.0,7200.0
+DT-0273,2025-04-14,North,Electronics,Laptop Stand,Kavya Reddy,6,2400,0.05,13680.0
+DT-0274,2025-07-23,West,Furniture,Desk Lamp,Vikram Rao,1,1200,0.15,1020.0
+DT-0275,2025-05-27,South,Office Supplies,Notebook (A4),Ananya Iyer,6,240,0.05,1368.0
+DT-0276,2025-07-08,South,Furniture,Desk Lamp,Vikram Rao,7,1200,0.05,7980.0
+DT-0277,2025-09-12,East,Furniture,Filing Cabinet,Rohan Desai,5,3800,0.0,19000.0
+DT-0278,2025-08-06,North,Office Supplies,Printer Paper (ream),Meera Nair,9,320,0.05,2736.0
+DT-0279,2025-02-22,North,Office Supplies,Ball Pen (pack),Rohan Desai,8,180,0.1,1296.0
+DT-0280,2025-08-07,North,Furniture,Desk Lamp,Meera Nair,1,1200,0.15,1020.0
+DT-0281,2025-11-11,West,Electronics,Laptop Stand,Rohan Desai,2,2400,0.15,4080.0
+DT-0282,2025-07-27,South,Appliances,Room Heater,Vikram Rao,3,2800,0.0,8400.0
+DT-0283,2025-11-08,East,Furniture,Office Chair,Rohan Desai,2,5500,0.0,11000.0
+DT-0284,2025-07-07,South,Appliances,Electric Kettle,Rohan Desai,10,1400,0.0,14000.0
+DT-0285,2025-08-19,West,Furniture,Office Chair,Kavya Reddy,10,5500,0.0,55000.0
+DT-0286,2025-07-07,South,Office Supplies,Printer Paper (ream),Rohan Desai,2,320,0.0,640.0
+DT-0287,2025-04-06,South,Furniture,Filing Cabinet,Meera Nair,2,3800,0.05,7220.0
+DT-0288,2025-12-27,South,Appliances,Table Fan,Vikram Rao,12,2100,0.05,23940.0
+DT-0289,2025-03-04,North,Electronics,Laptop Stand,Ananya Iyer,12,2400,0.05,27360.0
+DT-0290,2025-12-16,West,Appliances,Room Heater,Ananya Iyer,6,2800,0.15,14280.0
+DT-0291,2025-10-09,South,Appliances,Electric Kettle,Rohan Desai,12,1400,0.15,14280.0
+DT-0292,2025-11-23,North,Furniture,Office Chair,Vikram Rao,2,5500,0.0,11000.0
+DT-0293,2025-05-02,East,Electronics,USB Hub,Arjun Mehta,10,900,0.05,8550.0
+DT-0294,2025-10-10,North,Appliances,Electric Kettle,Rohan Desai,5,1400,0.05,6650.0
+DT-0295,2025-09-03,South,Office Supplies,Notebook (A4),Meera Nair,2,240,0.0,480.0
+DT-0296,2025-11-25,North,Furniture,Filing Cabinet,Kavya Reddy,6,3800,0.0,22800.0
+DT-0297,2025-11-24,East,Office Supplies,Printer Paper (ream),Ananya Iyer,7,320,0.1,2016.0
+DT-0298,2025-03-05,South,Electronics,Laptop Stand,Vikram Rao,6,2400,0.15,12240.0
+DT-0299,2025-06-27,West,Furniture,Desk Lamp,Vikram Rao,2,1200,0.05,2280.0
+DT-0300,2025-11-22,West,Electronics,USB Hub,Kavya Reddy,5,900,0.1,4050.0
+DT-0301,2025-02-17,South,Electronics,USB Hub,Rohan Desai,3,900,0.0,2700.0
+DT-0302,2025-11-16,East,Office Supplies,Notebook (A4),Ananya Iyer,1,240,0.0,240.0
+DT-0303,2025-01-24,West,Office Supplies,Ball Pen (pack),Kavya Reddy,11,180,0.0,1980.0
+DT-0304,2025-08-02,East,Electronics,USB Hub,Rohan Desai,9,900,0.05,7695.0
+DT-0305,2025-06-04,South,Appliances,Room Heater,Arjun Mehta,7,2800,0.05,18620.0
+DT-0306,2025-02-07,East,Electronics,Wireless Mouse,Vikram Rao,8,650,0.05,4940.0
+DT-0307,2025-06-24,East,Electronics,USB Hub,Meera Nair,6,900,0.15,4590.0
+DT-0308,2025-07-24,North,Furniture,Filing Cabinet,Vikram Rao,2,3800,0.05,7220.0
+DT-0309,2025-08-27,North,Furniture,Office Chair,Meera Nair,2,5500,0.0,11000.0
+DT-0310,2025-07-16,West,Furniture,Office Chair,Rohan Desai,6,5500,0.1,29700.0
+DT-0311,2025-06-10,North,Electronics,USB Hub,Meera Nair,8,900,0.05,6840.0
+DT-0312,2025-09-12,North,Appliances,Room Heater,Vikram Rao,8,2800,0.0,22400.0
+DT-0313,2025-10-26,South,Electronics,Wireless Mouse,Rohan Desai,10,650,0.15,5525.0
+DT-0314,2025-08-29,North,Electronics,Laptop Stand,Meera Nair,7,2400,0.0,16800.0
+DT-0315,2025-07-07,East,Furniture,Desk Lamp,Kavya Reddy,1,1200,0.1,1080.0
+DT-0316,2025-04-10,South,Electronics,Wireless Mouse,Kavya Reddy,9,650,0.05,5557.5
+DT-0317,2025-05-24,West,Office Supplies,Notebook (A4),Ananya Iyer,2,240,0.0,480.0
+DT-0318,2025-07-21,South,Appliances,Room Heater,Vikram Rao,6,2800,0.0,16800.0
+DT-0319,2025-11-05,South,Furniture,Office Chair,Rohan Desai,1,5500,0.0,5500.0
+DT-0320,2025-06-20,West,Furniture,Office Chair,Vikram Rao,10,5500,0.1,49500.0
+DT-0321,2025-06-17,West,Electronics,Wireless Mouse,Meera Nair,10,650,0.15,5525.0
+DT-0322,2025-10-31,South,Appliances,Room Heater,Kavya Reddy,8,2800,0.15,19040.0
+DT-0323,2025-06-03,South,Electronics,Wireless Mouse,Arjun Mehta,11,650,0.0,7150.0
+DT-0324,2025-10-26,South,Appliances,Room Heater,Kavya Reddy,11,2800,0.0,30800.0
+DT-0325,2025-08-31,North,Office Supplies,Notebook (A4),Rohan Desai,10,240,0.0,2400.0
+DT-0326,2025-01-27,East,Electronics,USB Hub,Arjun Mehta,12,900,0.1,9720.0
+DT-0327,2025-03-17,West,Electronics,USB Hub,Vikram Rao,12,900,0.0,10800.0
+DT-0328,2025-01-10,South,Furniture,Desk Lamp,Arjun Mehta,12,1200,0.0,14400.0
+DT-0329,2025-09-14,East,Appliances,Room Heater,Rohan Desai,12,2800,0.0,33600.0
+DT-0330,2025-03-12,South,Furniture,Filing Cabinet,Arjun Mehta,8,3800,0.1,27360.0
+DT-0331,2025-06-10,West,Furniture,Filing Cabinet,Meera Nair,6,3800,0.1,20520.0
+DT-0332,2025-12-13,East,Office Supplies,Notebook (A4),Kavya Reddy,12,240,0.05,2736.0
+DT-0333,2025-09-05,North,Electronics,USB Hub,Meera Nair,5,900,0.0,4500.0
+DT-0334,2025-05-28,East,Office Supplies,Ball Pen (pack),Meera Nair,6,180,0.05,1026.0
+DT-0335,2025-10-14,West,Office Supplies,Ball Pen (pack),Kavya Reddy,5,180,0.0,900.0
+DT-0336,2025-12-13,South,Appliances,Table Fan,Meera Nair,6,2100,0.0,12600.0
+DT-0337,2025-01-22,North,Office Supplies,Ball Pen (pack),Meera Nair,8,180,0.15,1224.0
+DT-0338,2025-09-03,North,Appliances,Table Fan,Meera Nair,9,2100,0.15,16065.0
+DT-0339,2025-03-12,North,Office Supplies,Printer Paper (ream),Rohan Desai,4,320,0.0,1280.0
+DT-0340,2025-09-29,North,Electronics,Laptop Stand,Rohan Desai,7,2400,0.05,15960.0
+DT-0341,2025-08-30,North,Office Supplies,Printer Paper (ream),Arjun Mehta,9,320,0.0,2880.0
+DT-0342,2025-12-01,West,Appliances,Table Fan,Meera Nair,11,2100,0.0,23100.0
+DT-0343,2025-06-14,North,Electronics,Laptop Stand,Vikram Rao,11,2400,0.1,23760.0
+DT-0344,2025-10-01,East,Appliances,Electric Kettle,Vikram Rao,3,1400,0.05,3990.0
+DT-0345,2025-01-19,West,Furniture,Desk Lamp,Meera Nair,3,1200,0.15,3060.0
+DT-0346,2025-01-20,North,Furniture,Office Chair,Arjun Mehta,6,5500,0.05,31350.0
+DT-0347,2025-11-25,South,Furniture,Office Chair,Meera Nair,9,5500,0.05,47025.0
+DT-0348,2025-04-09,West,Furniture,Filing Cabinet,Meera Nair,8,3800,0.15,25840.0
+DT-0349,2025-04-06,North,Furniture,Desk Lamp,Vikram Rao,10,1200,0.15,10200.0
+DT-0350,2025-03-31,East,Office Supplies,Ball Pen (pack),Meera Nair,7,180,0.1,1134.0
+DT-0351,2025-02-14,South,Electronics,Laptop Stand,Vikram Rao,8,2400,0.05,18240.0
+DT-0352,2025-01-04,North,Electronics,Wireless Mouse,Kavya Reddy,6,650,0.05,3705.0
+DT-0353,2025-10-21,North,Office Supplies,Notebook (A4),Rohan Desai,4,240,0.0,960.0
+DT-0354,2025-03-02,South,Electronics,USB Hub,Meera Nair,9,900,0.15,6885.0
+DT-0355,2025-12-20,North,Appliances,Table Fan,Vikram Rao,6,2100,0.1,11340.0
+DT-0356,2025-04-23,West,Furniture,Desk Lamp,Meera Nair,12,1200,0.1,12960.0
+DT-0357,2025-08-01,East,Appliances,Room Heater,Vikram Rao,11,2800,0.0,30800.0
+DT-0358,2025-12-15,East,Appliances,Electric Kettle,Kavya Reddy,9,1400,0.05,11970.0
+DT-0359,2025-12-27,South,Appliances,Electric Kettle,Kavya Reddy,1,1400,0.1,1260.0
+DT-0360,2025-04-14,South,Electronics,Wireless Mouse,Ananya Iyer,9,650,0.05,5557.5
+DT-0361,2025-12-15,North,Furniture,Office Chair,Ananya Iyer,9,5500,0.05,47025.0
+DT-0362,2025-08-21,North,Furniture,Filing Cabinet,Arjun Mehta,1,3800,0.1,3420.0
+DT-0363,2025-12-11,West,Office Supplies,Ball Pen (pack),Rohan Desai,5,180,0.0,900.0
+DT-0364,2025-04-22,South,Electronics,Wireless Mouse,Kavya Reddy,12,650,0.0,7800.0
+DT-0365,2025-01-31,West,Electronics,Wireless Mouse,Arjun Mehta,1,650,0.05,617.5
+DT-0366,2025-04-03,East,Office Supplies,Notebook (A4),Meera Nair,11,240,0.05,2508.0
+DT-0367,2025-07-15,South,Appliances,Table Fan,Rohan Desai,7,2100,0.0,14700.0
+DT-0368,2025-12-05,West,Electronics,Wireless Mouse,Kavya Reddy,2,650,0.0,1300.0
+DT-0369,2025-07-21,South,Office Supplies,Printer Paper (ream),Meera Nair,1,320,0.0,320.0
+DT-0370,2025-08-26,East,Furniture,Filing Cabinet,Vikram Rao,7,3800,0.0,26600.0
+DT-0371,2025-08-24,South,Electronics,USB Hub,Rohan Desai,2,900,0.0,1800.0
+DT-0372,2025-08-03,East,Appliances,Electric Kettle,Ananya Iyer,4,1400,0.0,5600.0
+DT-0373,2025-02-21,East,Furniture,Filing Cabinet,Vikram Rao,12,3800,0.0,45600.0
+DT-0374,2025-01-23,South,Electronics,Laptop Stand,Kavya Reddy,1,2400,0.0,2400.0
+DT-0375,2025-05-29,North,Appliances,Room Heater,Kavya Reddy,6,2800,0.1,15120.0
+DT-0376,2025-12-11,West,Electronics,Laptop Stand,Vikram Rao,11,2400,0.1,23760.0
+DT-0377,2025-07-31,South,Electronics,USB Hub,Rohan Desai,12,900,0.0,10800.0
+DT-0378,2025-12-14,South,Furniture,Desk Lamp,Arjun Mehta,11,1200,0.15,11220.0
+DT-0379,2025-09-26,South,Furniture,Office Chair,Vikram Rao,5,5500,0.05,26125.0
+DT-0380,2025-10-03,South,Appliances,Table Fan,Arjun Mehta,12,2100,0.0,25200.0
+DT-0381,2025-01-30,South,Appliances,Room Heater,Arjun Mehta,9,2800,0.0,25200.0
+DT-0382,2025-05-05,North,Furniture,Office Chair,Ananya Iyer,8,5500,0.05,41800.0
+DT-0383,2025-10-02,East,Electronics,Wireless Mouse,Kavya Reddy,7,650,0.15,3867.5
+DT-0384,2025-11-05,North,Electronics,USB Hub,Kavya Reddy,12,900,0.15,9180.0
+DT-0385,2025-04-22,South,Appliances,Table Fan,Vikram Rao,5,2100,0.0,10500.0
+DT-0386,2025-04-08,West,Electronics,Wireless Mouse,Kavya Reddy,4,650,0.15,2210.0
+DT-0387,2025-12-27,North,Appliances,Room Heater,Arjun Mehta,6,2800,0.05,15960.0
+DT-0388,2025-08-27,South,Furniture,Desk Lamp,Arjun Mehta,6,1200,0.1,6480.0
+DT-0389,2025-08-27,North,Appliances,Table Fan,Meera Nair,6,2100,0.0,12600.0
+DT-0390,2025-06-10,South,Furniture,Office Chair,Ananya Iyer,12,5500,0.0,66000.0
+DT-0391,2025-05-14,South,Furniture,Filing Cabinet,Vikram Rao,7,3800,0.05,25270.0
+DT-0392,2025-04-11,South,Furniture,Office Chair,Rohan Desai,8,5500,0.1,39600.0
+DT-0393,2025-12-17,South,Office Supplies,Ball Pen (pack),Rohan Desai,12,180,0.15,1836.0
+DT-0394,2025-09-09,South,Office Supplies,Ball Pen (pack),Rohan Desai,3,180,0.0,540.0
+DT-0395,2025-10-07,South,Appliances,Room Heater,Kavya Reddy,11,2800,0.0,30800.0
+DT-0396,2025-01-18,West,Electronics,USB Hub,Arjun Mehta,1,900,0.0,900.0
+DT-0397,2025-03-12,West,Electronics,USB Hub,Vikram Rao,3,900,0.0,2700.0
+DT-0398,2025-09-16,South,Electronics,USB Hub,Arjun Mehta,11,900,0.1,8910.0
+DT-0399,2025-12-04,South,Electronics,USB Hub,Ananya Iyer,7,900,0.0,6300.0
+DT-0400,2025-09-29,East,Furniture,Desk Lamp,Rohan Desai,1,1200,0.1,1080.0
+DT-0401,2025-12-12,South,Appliances,Electric Kettle,Kavya Reddy,2,1400,0.0,2800.0
+DT-0402,2025-03-18,North,Office Supplies,Ball Pen (pack),Arjun Mehta,6,180,0.05,1026.0
+DT-0403,2025-02-10,South,Furniture,Filing Cabinet,Vikram Rao,4,3800,0.15,12920.0
+DT-0404,2025-06-03,East,Appliances,Room Heater,Ananya Iyer,11,2800,0.0,30800.0
+DT-0405,2025-07-27,South,Furniture,Office Chair,Rohan Desai,11,5500,0.0,60500.0
+DT-0406,2025-03-29,North,Appliances,Room Heater,Ananya Iyer,6,2800,0.1,15120.0
+DT-0407,2025-09-28,West,Electronics,USB Hub,Meera Nair,10,900,0.05,8550.0
+DT-0408,2025-01-24,West,Office Supplies,Ball Pen (pack),Rohan Desai,9,180,0.1,1458.0
+DT-0409,2025-01-17,North,Appliances,Electric Kettle,Vikram Rao,4,1400,0.1,5040.0
+DT-0410,2025-12-31,West,Appliances,Table Fan,Vikram Rao,3,2100,0.1,5670.0
+DT-0411,2025-10-18,West,Furniture,Filing Cabinet,Rohan Desai,6,3800,0.05,21660.0
+DT-0412,2025-03-13,East,Office Supplies,Printer Paper (ream),Meera Nair,9,320,0.15,2448.0
+DT-0413,2025-01-28,North,Electronics,Laptop Stand,Kavya Reddy,6,2400,0.1,12960.0
+DT-0414,2025-11-01,South,Office Supplies,Printer Paper (ream),Arjun Mehta,11,320,0.05,3344.0
+DT-0415,2025-09-09,North,Furniture,Desk Lamp,Rohan Desai,7,1200,0.0,8400.0
+DT-0416,2025-10-27,East,Electronics,USB Hub,Rohan Desai,5,900,0.0,4500.0
+DT-0417,2025-02-07,North,Electronics,USB Hub,Rohan Desai,11,900,0.0,9900.0
+DT-0418,2025-07-19,South,Electronics,Laptop Stand,Meera Nair,5,2400,0.05,11400.0
+DT-0419,2025-05-19,North,Electronics,Wireless Mouse,Kavya Reddy,8,650,0.1,4680.0
+DT-0420,2025-09-20,South,Electronics,Wireless Mouse,Kavya Reddy,9,650,0.0,5850.0
+DT-0421,2025-11-03,East,Appliances,Electric Kettle,Arjun Mehta,5,1400,0.05,6650.0
+DT-0422,2025-02-13,East,Furniture,Office Chair,Vikram Rao,10,5500,0.1,49500.0
+DT-0423,2025-12-17,South,Electronics,Wireless Mouse,Vikram Rao,5,650,0.05,3087.5
+DT-0424,2025-02-02,North,Electronics,Wireless Mouse,Meera Nair,8,650,0.0,5200.0
+DT-0425,2025-05-09,West,Office Supplies,Ball Pen (pack),Vikram Rao,10,180,0.1,1620.0
+DT-0426,2025-08-23,North,Electronics,Wireless Mouse,Arjun Mehta,6,650,0.1,3510.0
+DT-0427,2025-06-18,South,Furniture,Filing Cabinet,Meera Nair,10,3800,0.0,38000.0
+DT-0428,2025-06-14,East,Office Supplies,Ball Pen (pack),Arjun Mehta,6,180,0.0,1080.0
+DT-0429,2025-06-13,North,Office Supplies,Ball Pen (pack),Meera Nair,10,180,0.0,1800.0
+DT-0430,2025-07-12,North,Office Supplies,Ball Pen (pack),Vikram Rao,2,180,0.1,324.0
+DT-0431,2025-10-31,West,Electronics,USB Hub,Arjun Mehta,1,900,0.15,765.0
+DT-0432,2025-12-29,North,Office Supplies,Notebook (A4),Rohan Desai,2,240,0.05,456.0
+DT-0433,2025-09-13,North,Electronics,Wireless Mouse,Rohan Desai,11,650,0.0,7150.0
+DT-0434,2025-08-05,East,Electronics,USB Hub,Arjun Mehta,8,900,0.1,6480.0
+DT-0435,2025-10-01,South,Appliances,Room Heater,Ananya Iyer,7,2800,0.1,17640.0
+DT-0436,2025-07-04,East,Appliances,Room Heater,Ananya Iyer,11,2800,0.0,30800.0
+DT-0437,2025-05-08,East,Furniture,Filing Cabinet,Kavya Reddy,10,3800,0.0,38000.0
+DT-0438,2025-11-27,East,Furniture,Desk Lamp,Ananya Iyer,7,1200,0.0,8400.0
+DT-0439,2025-02-20,North,Furniture,Filing Cabinet,Rohan Desai,9,3800,0.1,30780.0
+DT-0440,2025-10-22,North,Furniture,Desk Lamp,Rohan Desai,11,1200,0.1,11880.0
+DT-0441,2025-09-14,North,Appliances,Table Fan,Arjun Mehta,2,2100,0.05,3990.0
+DT-0442,2025-02-13,North,Appliances,Electric Kettle,Meera Nair,6,1400,0.05,7980.0
+DT-0443,2025-08-22,East,Furniture,Desk Lamp,Arjun Mehta,8,1200,0.0,9600.0
+DT-0444,2025-12-23,South,Electronics,Laptop Stand,Ananya Iyer,12,2400,0.0,28800.0
+DT-0445,2025-06-25,East,Office Supplies,Printer Paper (ream),Kavya Reddy,12,320,0.0,3840.0
+DT-0446,2025-03-31,South,Furniture,Desk Lamp,Arjun Mehta,8,1200,0.0,9600.0
+DT-0447,2025-11-19,North,Office Supplies,Ball Pen (pack),Rohan Desai,7,180,0.0,1260.0
+DT-0448,2025-11-11,West,Furniture,Desk Lamp,Rohan Desai,7,1200,0.0,8400.0
+DT-0449,2025-04-20,North,Office Supplies,Printer Paper (ream),Kavya Reddy,10,320,0.0,3200.0
+DT-0450,2025-04-06,South,Electronics,Laptop Stand,Arjun Mehta,5,2400,0.15,10200.0
+DT-0451,2025-09-28,West,Electronics,Wireless Mouse,Kavya Reddy,10,650,0.05,6175.0
+DT-0452,2025-02-28,South,Appliances,Room Heater,Rohan Desai,3,2800,0.15,7140.0
+DT-0453,2025-06-02,West,Office Supplies,Notebook (A4),Ananya Iyer,3,240,0.05,684.0
+DT-0454,2025-05-03,South,Electronics,USB Hub,Arjun Mehta,3,900,0.1,2430.0
+DT-0455,2025-08-03,East,Furniture,Desk Lamp,Rohan Desai,3,1200,0.05,3420.0
+DT-0456,2025-10-03,East,Office Supplies,Printer Paper (ream),Arjun Mehta,9,320,0.0,2880.0
+DT-0457,2025-05-28,North,Electronics,Wireless Mouse,Meera Nair,10,650,0.0,6500.0
+DT-0458,2025-01-05,South,Electronics,Wireless Mouse,Rohan Desai,9,650,0.1,5265.0
+DT-0459,2025-09-11,South,Furniture,Filing Cabinet,Vikram Rao,8,3800,0.05,28880.0
+DT-0460,2025-02-12,South,Office Supplies,Printer Paper (ream),Meera Nair,5,320,0.0,1600.0
+DT-0461,2025-04-26,South,Electronics,Wireless Mouse,Arjun Mehta,10,650,0.15,5525.0
+DT-0462,2025-10-09,South,Furniture,Desk Lamp,Kavya Reddy,9,1200,0.05,10260.0
+DT-0463,2025-01-22,East,Furniture,Office Chair,Rohan Desai,7,5500,0.0,38500.0
+DT-0464,2025-12-01,East,Electronics,Laptop Stand,Meera Nair,8,2400,0.05,18240.0
+DT-0465,2025-02-14,South,Appliances,Electric Kettle,Kavya Reddy,4,1400,0.15,4760.0
+DT-0466,2025-12-19,South,Office Supplies,Notebook (A4),Kavya Reddy,7,240,0.0,1680.0
+DT-0467,2025-03-13,East,Appliances,Electric Kettle,Kavya Reddy,10,1400,0.05,13300.0
+DT-0468,2025-05-24,East,Electronics,USB Hub,Kavya Reddy,5,900,0.05,4275.0
+DT-0469,2025-05-17,West,Furniture,Filing Cabinet,Arjun Mehta,2,3800,0.0,7600.0
+DT-0470,2025-01-31,West,Appliances,Electric Kettle,Vikram Rao,12,1400,0.0,16800.0
+DT-0471,2025-03-16,East,Appliances,Room Heater,Vikram Rao,7,2800,0.05,18620.0
+DT-0472,2025-10-23,East,Office Supplies,Ball Pen (pack),Rohan Desai,8,180,0.0,1440.0
+DT-0473,2025-02-17,South,Office Supplies,Notebook (A4),Arjun Mehta,6,240,0.05,1368.0
+DT-0474,2025-06-17,East,Appliances,Room Heater,Arjun Mehta,2,2800,0.15,4760.0
+DT-0475,2025-11-22,East,Furniture,Office Chair,Vikram Rao,9,5500,0.05,47025.0
+DT-0476,2025-08-08,West,Furniture,Desk Lamp,Kavya Reddy,5,1200,0.05,5700.0
+DT-0477,2025-10-23,North,Appliances,Table Fan,Ananya Iyer,11,2100,0.0,23100.0
+DT-0478,2025-02-20,East,Appliances,Electric Kettle,Arjun Mehta,2,1400,0.0,2800.0
+DT-0479,2025-08-22,North,Appliances,Electric Kettle,Rohan Desai,12,1400,0.0,16800.0
+DT-0480,2025-06-04,North,Appliances,Table Fan,Meera Nair,2,2100,0.15,3570.0
+DT-0481,2025-05-09,North,Office Supplies,Notebook (A4),Arjun Mehta,3,240,0.0,720.0
+DT-0482,2025-11-17,South,Office Supplies,Printer Paper (ream),Ananya Iyer,7,320,0.15,1904.0
+DT-0483,2025-12-27,North,Electronics,Laptop Stand,Vikram Rao,3,2400,0.1,6480.0
+DT-0484,2025-09-23,East,Electronics,USB Hub,Arjun Mehta,6,900,0.0,5400.0
+DT-0485,2025-12-22,North,Electronics,Wireless Mouse,Ananya Iyer,2,650,0.15,1105.0
+DT-0486,2025-02-22,South,Appliances,Electric Kettle,Rohan Desai,7,1400,0.0,9800.0
+DT-0487,2025-12-13,North,Furniture,Office Chair,Vikram Rao,10,5500,0.15,46750.0
+DT-0488,2025-08-14,South,Electronics,USB Hub,Kavya Reddy,3,900,0.05,2565.0
+DT-0489,2025-12-18,South,Electronics,Laptop Stand,Kavya Reddy,3,2400,0.0,7200.0
+DT-0490,2025-07-16,South,Furniture,Office Chair,Rohan Desai,4,5500,0.05,20900.0
+DT-0491,2025-02-13,North,Office Supplies,Notebook (A4),Rohan Desai,10,240,0.05,2280.0
+DT-0492,2025-01-14,West,Office Supplies,Ball Pen (pack),Kavya Reddy,4,180,0.1,648.0
+DT-0493,2025-09-18,North,Furniture,Filing Cabinet,Arjun Mehta,1,3800,0.0,3800.0
+DT-0494,2025-07-17,North,Furniture,Filing Cabinet,Ananya Iyer,2,3800,0.1,6840.0
+DT-0495,2025-07-04,West,Electronics,USB Hub,Kavya Reddy,7,900,0.05,5985.0
+DT-0496,2025-12-16,North,Furniture,Office Chair,Ananya Iyer,1,5500,0.1,4950.0
+DT-0497,2025-01-08,North,Electronics,Laptop Stand,Meera Nair,7,2400,0.1,15120.0
+DT-0498,2025-11-18,East,Office Supplies,Ball Pen (pack),Ananya Iyer,12,180,0.05,2052.0
+DT-0499,2025-11-24,South,Office Supplies,Ball Pen (pack),Ananya Iyer,2,180,0.05,342.0
+DT-0500,2025-09-19,West,Appliances,Electric Kettle,Arjun Mehta,9,1400,0.05,11970.0
+DT-0501,2025-10-28,East,Appliances,Room Heater,Meera Nair,11,2800,0.0,30800.0
+DT-0502,2025-12-24,South,Appliances,Electric Kettle,Ananya Iyer,1,1400,0.0,1400.0
+DT-0503,2025-08-11,North,Office Supplies,Printer Paper (ream),Rohan Desai,5,320,0.15,1360.0
+DT-0504,2025-12-03,East,Electronics,USB Hub,Ananya Iyer,3,900,0.15,2295.0
+DT-0505,2025-03-25,South,Furniture,Filing Cabinet,Vikram Rao,12,3800,0.05,43320.0
+DT-0506,2025-07-10,North,Office Supplies,Ball Pen (pack),Ananya Iyer,12,180,0.0,2160.0
+DT-0507,2025-06-21,West,Electronics,Laptop Stand,Kavya Reddy,5,2400,0.15,10200.0
+DT-0508,2025-11-18,North,Furniture,Desk Lamp,Kavya Reddy,1,1200,0.05,1140.0
+DT-0509,2025-03-27,South,Electronics,Laptop Stand,Rohan Desai,10,2400,0.15,20400.0
+DT-0510,2025-03-01,North,Furniture,Office Chair,Ananya Iyer,1,5500,0.0,5500.0
+DT-0511,2025-08-30,South,Appliances,Electric Kettle,Rohan Desai,1,1400,0.1,1260.0
+DT-0512,2025-12-02,South,Furniture,Desk Lamp,Meera Nair,12,1200,0.05,13680.0
+DT-0513,2025-02-09,South,Electronics,USB Hub,Vikram Rao,1,900,0.0,900.0
+DT-0514,2025-09-22,West,Appliances,Electric Kettle,Meera Nair,8,1400,0.05,10640.0
+DT-0515,2025-06-17,North,Furniture,Desk Lamp,Kavya Reddy,4,1200,0.05,4560.0
+DT-0516,2025-06-05,East,Electronics,Wireless Mouse,Vikram Rao,10,650,0.05,6175.0
+DT-0517,2025-10-07,East,Electronics,Laptop Stand,Vikram Rao,7,2400,0.0,16800.0
+DT-0518,2025-10-05,South,Appliances,Electric Kettle,Rohan Desai,6,1400,0.0,8400.0
+DT-0519,2025-07-12,West,Office Supplies,Printer Paper (ream),Vikram Rao,4,320,0.1,1152.0
+DT-0520,2025-08-03,South,Electronics,Laptop Stand,Ananya Iyer,12,2400,0.05,27360.0
+DT-0521,2025-01-23,West,Appliances,Room Heater,Meera Nair,7,2800,0.15,16660.0
+DT-0522,2025-08-23,West,Electronics,Laptop Stand,Rohan Desai,9,2400,0.0,21600.0
+DT-0523,2025-07-21,North,Furniture,Desk Lamp,Vikram Rao,11,1200,0.0,13200.0
+DT-0524,2025-05-30,North,Electronics,Wireless Mouse,Meera Nair,12,650,0.15,6630.0
+DT-0525,2025-06-12,South,Electronics,Laptop Stand,Ananya Iyer,3,2400,0.1,6480.0
+DT-0526,2025-03-21,North,Furniture,Desk Lamp,Kavya Reddy,7,1200,0.0,8400.0
+DT-0527,2025-07-03,West,Electronics,Wireless Mouse,Ananya Iyer,8,650,0.05,4940.0
+DT-0528,2025-02-16,North,Office Supplies,Notebook (A4),Ananya Iyer,12,240,0.1,2592.0
+DT-0529,2025-04-21,West,Furniture,Office Chair,Meera Nair,12,5500,0.0,66000.0
+DT-0530,2025-07-22,South,Office Supplies,Ball Pen (pack),Arjun Mehta,3,180,0.0,540.0
+DT-0531,2025-08-20,South,Furniture,Office Chair,Vikram Rao,8,5500,0.0,44000.0
+DT-0532,2025-03-04,North,Appliances,Electric Kettle,Arjun Mehta,3,1400,0.0,4200.0
+DT-0533,2025-07-10,East,Appliances,Electric Kettle,Meera Nair,10,1400,0.1,12600.0
+DT-0534,2025-02-08,North,Electronics,USB Hub,Ananya Iyer,8,900,0.0,7200.0
+DT-0535,2025-06-19,North,Appliances,Electric Kettle,Arjun Mehta,3,1400,0.1,3780.0
+DT-0536,2025-07-22,South,Furniture,Desk Lamp,Vikram Rao,3,1200,0.05,3420.0
+DT-0537,2025-04-06,North,Furniture,Office Chair,Kavya Reddy,1,5500,0.1,4950.0
+DT-0538,2025-11-12,North,Electronics,Wireless Mouse,Ananya Iyer,9,650,0.05,5557.5
+DT-0539,2025-02-14,North,Electronics,Laptop Stand,Vikram Rao,11,2400,0.1,23760.0
+DT-0540,2025-11-19,West,Furniture,Office Chair,Meera Nair,7,5500,0.15,32725.0
+DT-0541,2025-09-03,South,Furniture,Filing Cabinet,Arjun Mehta,9,3800,0.05,32490.0
+DT-0542,2025-05-19,North,Electronics,Laptop Stand,Ananya Iyer,1,2400,0.05,2280.0
+DT-0543,2025-08-30,South,Office Supplies,Printer Paper (ream),Vikram Rao,3,320,0.0,960.0
+DT-0544,2025-12-03,North,Furniture,Filing Cabinet,Kavya Reddy,1,3800,0.0,3800.0
+DT-0545,2025-07-18,South,Appliances,Electric Kettle,Kavya Reddy,3,1400,0.0,4200.0
+DT-0546,2025-06-12,West,Office Supplies,Notebook (A4),Rohan Desai,1,240,0.15,204.0
+DT-0547,2025-06-30,West,Furniture,Filing Cabinet,Kavya Reddy,4,3800,0.05,14440.0
+DT-0548,2025-06-08,North,Electronics,Laptop Stand,Vikram Rao,4,2400,0.1,8640.0
+DT-0549,2025-01-11,South,Electronics,USB Hub,Meera Nair,4,900,0.0,3600.0
+DT-0550,2025-04-01,West,Appliances,Table Fan,Vikram Rao,1,2100,0.0,2100.0
+DT-0551,2025-10-28,East,Electronics,Laptop Stand,Ananya Iyer,9,2400,0.05,20520.0
+DT-0552,2025-07-11,East,Office Supplies,Notebook (A4),Meera Nair,2,240,0.05,456.0
+DT-0553,2025-06-15,North,Electronics,Wireless Mouse,Rohan Desai,11,650,0.05,6792.5
+DT-0554,2025-06-12,North,Appliances,Room Heater,Vikram Rao,10,2800,0.05,26600.0
+DT-0555,2025-12-07,East,Electronics,Wireless Mouse,Meera Nair,12,650,0.15,6630.0
+DT-0556,2025-03-07,North,Electronics,USB Hub,Kavya Reddy,10,900,0.05,8550.0
+DT-0557,2025-01-17,North,Electronics,USB Hub,Kavya Reddy,4,900,0.15,3060.0
+DT-0558,2025-02-23,West,Electronics,USB Hub,Meera Nair,2,900,0.0,1800.0
+DT-0559,2025-06-13,North,Appliances,Electric Kettle,Rohan Desai,12,1400,0.15,14280.0
+DT-0560,2025-06-21,South,Electronics,Laptop Stand,Meera Nair,12,2400,0.0,28800.0
+DT-0561,2025-05-12,East,Office Supplies,Printer Paper (ream),Rohan Desai,7,320,0.05,2128.0
+DT-0562,2025-08-03,West,Appliances,Table Fan,Kavya Reddy,7,2100,0.05,13965.0
+DT-0563,2025-07-12,North,Furniture,Filing Cabinet,Vikram Rao,11,3800,0.15,35530.0
+DT-0564,2025-03-25,South,Office Supplies,Printer Paper (ream),Meera Nair,5,320,0.0,1600.0
+DT-0565,2025-05-14,West,Electronics,Laptop Stand,Rohan Desai,7,2400,0.0,16800.0
+DT-0566,2025-02-08,South,Appliances,Electric Kettle,Kavya Reddy,6,1400,0.1,7560.0
+DT-0567,2025-09-05,East,Furniture,Filing Cabinet,Arjun Mehta,3,3800,0.1,10260.0
+DT-0568,2025-03-22,North,Furniture,Office Chair,Kavya Reddy,7,5500,0.15,32725.0
+DT-0569,2025-10-04,North,Electronics,Laptop Stand,Arjun Mehta,2,2400,0.0,4800.0
+DT-0570,2025-10-20,South,Furniture,Office Chair,Arjun Mehta,6,5500,0.0,33000.0
+DT-0571,2025-02-14,North,Office Supplies,Notebook (A4),Ananya Iyer,8,240,0.0,1920.0
+DT-0572,2025-01-14,North,Office Supplies,Printer Paper (ream),Meera Nair,8,320,0.0,2560.0
+DT-0573,2025-07-23,South,Appliances,Table Fan,Kavya Reddy,2,2100,0.15,3570.0
+DT-0574,2025-07-18,North,Appliances,Table Fan,Ananya Iyer,3,2100,0.05,5985.0
+DT-0575,2025-05-15,South,Electronics,Wireless Mouse,Vikram Rao,10,650,0.0,6500.0
+DT-0576,2025-12-23,East,Electronics,Wireless Mouse,Kavya Reddy,9,650,0.05,5557.5
+DT-0577,2025-04-27,South,Appliances,Room Heater,Rohan Desai,7,2800,0.1,17640.0
+DT-0578,2025-09-01,South,Electronics,Wireless Mouse,Rohan Desai,2,650,0.05,1235.0
+DT-0579,2025-01-18,South,Appliances,Room Heater,Vikram Rao,11,2800,0.1,27720.0
+DT-0580,2025-03-03,West,Furniture,Office Chair,Vikram Rao,4,5500,0.0,22000.0
+DT-0581,2025-01-22,South,Appliances,Table Fan,Vikram Rao,4,2100,0.15,7140.0
+DT-0582,2025-11-01,North,Appliances,Electric Kettle,Kavya Reddy,2,1400,0.05,2660.0
+DT-0583,2025-07-23,South,Appliances,Room Heater,Rohan Desai,8,2800,0.0,22400.0
+DT-0584,2025-11-16,East,Office Supplies,Printer Paper (ream),Vikram Rao,7,320,0.0,2240.0
+DT-0585,2025-10-18,East,Office Supplies,Printer Paper (ream),Ananya Iyer,2,320,0.1,576.0
+DT-0586,2025-05-27,West,Appliances,Table Fan,Rohan Desai,5,2100,0.05,9975.0
+DT-0587,2025-09-06,South,Furniture,Office Chair,Vikram Rao,5,5500,0.05,26125.0
+DT-0588,2025-11-13,East,Office Supplies,Printer Paper (ream),Rohan Desai,7,320,0.05,2128.0
+DT-0589,2025-05-02,North,Furniture,Desk Lamp,Meera Nair,6,1200,0.0,7200.0
+DT-0590,2025-06-05,South,Appliances,Room Heater,Vikram Rao,11,2800,0.0,30800.0
+DT-0591,2025-03-10,South,Office Supplies,Ball Pen (pack),Arjun Mehta,5,180,0.15,765.0
+DT-0592,2025-11-06,East,Electronics,Laptop Stand,Arjun Mehta,7,2400,0.15,14280.0
+DT-0593,2025-09-22,West,Appliances,Room Heater,Meera Nair,3,2800,0.0,8400.0
+DT-0594,2025-12-30,South,Electronics,USB Hub,Vikram Rao,10,900,0.0,9000.0
+DT-0595,2025-04-09,West,Electronics,Laptop Stand,Arjun Mehta,4,2400,0.0,9600.0
+DT-0596,2025-01-26,West,Office Supplies,Ball Pen (pack),Kavya Reddy,6,180,0.05,1026.0
+DT-0597,2025-07-23,East,Electronics,Laptop Stand,Arjun Mehta,4,2400,0.05,9120.0
+DT-0598,2025-11-01,South,Appliances,Table Fan,Meera Nair,10,2100,0.1,18900.0
+DT-0599,2025-06-26,North,Appliances,Room Heater,Meera Nair,12,2800,0.0,33600.0
+DT-0600,2025-01-15,South,Electronics,USB Hub,Rohan Desai,4,900,0.0,3600.0
