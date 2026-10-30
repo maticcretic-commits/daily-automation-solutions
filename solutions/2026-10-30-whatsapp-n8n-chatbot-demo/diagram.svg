@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360">
+<rect x="0" y="0" width="880" height="360" fill="#f8fafc"/>
+<text x="30" y="30" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0f172a">WhatsApp + n8n chatbot demo - architecture (SIMULATION ONLY)</text>
+<rect x="30" y="60" width="150" height="70" rx="8" fill="#dbeafe" stroke="#334155" stroke-width="1.5"/>
+<text x="105" y="90" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Fictional customer</text>
+<text x="105" y="112" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">sample JSON file</text>
+<rect x="230" y="60" width="170" height="70" rx="8" fill="#dbeafe" stroke="#334155" stroke-width="1.5"/>
+<text x="315" y="90" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Webhook payload</text>
+<text x="315" y="112" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">WhatsApp-style JSON</text>
+<rect x="450" y="60" width="170" height="70" rx="8" fill="#dbeafe" stroke="#334155" stroke-width="1.5"/>
+<text x="535" y="90" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">n8n workflow</text>
+<text x="535" y="112" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">Webhook > Parse > Classify</text>
+<rect x="670" y="60" width="180" height="70" rx="8" fill="#dbeafe" stroke="#334155" stroke-width="1.5"/>
+<text x="760" y="90" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Intent Router</text>
+<text x="760" y="112" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">price / hours / human</text>
+<rect x="230" y="210" width="170" height="70" rx="8" fill="#fef3c7" stroke="#334155" stroke-width="1.5"/>
+<text x="315" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Mock responder</text>
+<text x="315" y="262" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">rules feed composer</text>
+<rect x="450" y="210" width="170" height="70" rx="8" fill="#fef3c7" stroke="#334155" stroke-width="1.5"/>
+<text x="535" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Reply composer</text>
+<text x="535" y="262" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">template reply - SIMULATED</text>
+<rect x="670" y="210" width="180" height="70" rx="8" fill="#fef3c7" stroke="#334155" stroke-width="1.5"/>
+<text x="760" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Mock send endpoint</text>
+<text x="760" y="262" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">.invalid - SIMULATED</text>
+<rect x="30" y="210" width="150" height="70" rx="8" fill="#dbeafe" stroke="#334155" stroke-width="1.5"/>
+<text x="105" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">Error path</text>
+<text x="105" y="262" font-family="sans-serif" font-size="12" fill="#334155" text-anchor="middle">malformed > 400 response</text>
+<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker></defs>
+<text x="30" y="325" font-family="sans-serif" font-size="13" fill="#b91c1c">Flow: payload > n8n > router > mock responder + composer > mock send. Malformed payloads: rejected by Parse node, 400 response.</text>
+<line x1="755" y1="130" x2="755" y2="170" stroke="#334155" stroke-width="2"/><line x1="755" y1="170" x2="535" y2="170" stroke="#334155" stroke-width="2"/><line x1="535" y1="170" x2="535" y2="205" stroke="#334155" stroke-width="2" marker-end="url(#ah)"/><line x1="400" y1="245" x2="445" y2="245" stroke="#334155" stroke-width="2" marker-end="url(#ah)"/><line x1="620" y1="245" x2="665" y2="245" stroke="#334155" stroke-width="2" marker-end="url(#ah)"/>
+<text x="30" y="348" font-family="sans-serif" font-size="13" fill="#b91c1c">No live WhatsApp message was sent. No live API was called. n8n was not run on this machine.</text>
+</svg>
