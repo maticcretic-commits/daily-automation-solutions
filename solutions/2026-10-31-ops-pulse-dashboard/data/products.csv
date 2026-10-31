@@ -1,0 +1,25 @@
+ProductID,Product,Category,Unit,OpeningStock,ReorderLevel,UnitCost
+P01,Basmati Rice 5kg,FMCG,bag,180,50,420
+P02,Mustard Oil 1L,FMCG,bottle,150,45,165
+P03,Wheat Flour 10kg,FMCG,bag,200,55,380
+P04,Sugar 5kg,FMCG,bag,160,40,230
+P05,Tea Powder 500g,FMCG,pack,120,35,310
+P06,Toor Dal 2kg,FMCG,pack,140,40,285
+P07,LED Bulb 9W,Electronics,unit,220,60,95
+P08,Extension Board 5m,Electronics,unit,90,30,340
+P09,USB Cable 1m,Electronics,unit,260,70,85
+P10,Table Fan 400mm,Electronics,unit,70,25,1450
+P11,Mixer Grinder 750W,Electronics,unit,55,20,2850
+P12,Iron Box Steam,Electronics,unit,65,25,1180
+P13,Cotton Shirt M,Apparel,piece,110,35,520
+P14,Denim Jeans 32,Apparel,piece,95,30,890
+P15,Kids T-Shirt Set,Apparel,set,130,40,460
+P16,Saree Cotton Print,Apparel,piece,75,25,740
+P17,Bedsheet King,Apparel,piece,85,30,980
+P18,Towel Set x3,Apparel,set,105,35,390
+P19,Steel Dinner Set,Home,set,60,20,1650
+P20,Pressure Cooker 5L,Home,unit,80,25,1120
+P21,Storage Box 40L,Home,unit,150,45,320
+P22,Floor Cleaner 1L,Home,bottle,190,50,145
+P23,Dish Wash Gel 500ml,Home,bottle,170,50,120
+P24,Broom + Dustpan Set,Home,set,115,35,210
