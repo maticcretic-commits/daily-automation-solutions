@@ -1,0 +1,362 @@
+date,description,category,type,amount
+2026-01-02,Other expenses — Misc vendor,Other expenses,Operating,3083
+2026-01-02,Salaries — Payroll,Salaries,Operating,12592
+2026-01-04,Utilities — Utility provider,Utilities,Operating,3665
+2026-01-05,Consulting fees — Patel Logistics,Consulting fees,Revenue,4880
+2026-01-06,Contractor costs — Contractor A,Contractor costs,Direct,8148
+2026-01-06,Marketing — Ad platform,Marketing,Operating,14210
+2026-01-06,Professional fees — CA firm,Professional fees,Operating,3214
+2026-01-06,Software & tools — SaaS vendor,Software & tools,Operating,6874
+2026-01-06,Software & tools — SaaS vendor,Software & tools,Operating,622
+2026-01-06,Training workshops — Khan Retail Group,Training workshops,Revenue,60733
+2026-01-06,Travel — Travel desk,Travel,Operating,4010
+2026-01-07,Marketing — Ad platform,Marketing,Operating,1801
+2026-01-09,Consulting fees — Mehta Foods,Consulting fees,Revenue,3682
+2026-01-09,Utilities — Utility provider,Utilities,Operating,1128
+2026-01-10,Travel — Travel desk,Travel,Operating,18744
+2026-01-11,Contractor costs — Contractor A,Contractor costs,Direct,11995
+2026-01-11,Other expenses — Misc vendor,Other expenses,Operating,6546
+2026-01-11,Salaries — Payroll,Salaries,Operating,22372
+2026-01-12,Monthly retainers — Sharma Textiles,Monthly retainers,Revenue,123262
+2026-01-13,Marketing — Ad platform,Marketing,Operating,1191
+2026-01-13,Software & tools — SaaS vendor,Software & tools,Operating,6762
+2026-01-14,Contractor costs — Contractor B,Contractor costs,Direct,40184
+2026-01-15,Consulting fees — Iyer Engineering,Consulting fees,Revenue,322862
+2026-01-15,Salaries — Payroll,Salaries,Operating,122595
+2026-01-16,Rent — Landlord — CG Road,Rent,Operating,26890
+2026-01-17,Professional fees — CA firm,Professional fees,Operating,8290
+2026-01-19,Utilities — Utility provider,Utilities,Operating,5021
+2026-01-20,Monthly retainers — Sharma Textiles,Monthly retainers,Revenue,35732
+2026-01-21,Consulting fees — Patel Logistics,Consulting fees,Revenue,22756
+2026-01-22,Rent — Landlord — CG Road,Rent,Operating,1125
+2026-01-23,Rent — Landlord — CG Road,Rent,Operating,7635
+2026-01-26,Salaries — Payroll,Salaries,Operating,65214
+2026-01-26,Software & tools — SaaS vendor,Software & tools,Operating,8354
+2026-01-26,Training workshops — Sharma Textiles,Training workshops,Revenue,3904
+2026-01-27,Rent — Landlord — CG Road,Rent,Operating,9350
+2026-02-01,Consulting fees — Desai Pharma,Consulting fees,Revenue,95616
+2026-02-02,Other expenses — Misc vendor,Other expenses,Operating,134
+2026-02-03,Other expenses — Misc vendor,Other expenses,Operating,2544
+2026-02-05,Consulting fees — Sharma Textiles,Consulting fees,Revenue,3994
+2026-02-05,Contractor costs — Contractor A,Contractor costs,Direct,43499
+2026-02-05,Travel — Travel desk,Travel,Operating,6123
+2026-02-07,Contractor costs — Contractor A,Contractor costs,Direct,11895
+2026-02-07,Professional fees — CA firm,Professional fees,Operating,11094
+2026-02-08,Training workshops — Sharma Textiles,Training workshops,Revenue,9794
+2026-02-11,Professional fees — CA firm,Professional fees,Operating,1579
+2026-02-11,Rent — Landlord — CG Road,Rent,Operating,33991
+2026-02-11,Utilities — Utility provider,Utilities,Operating,1879
+2026-02-16,Salaries — Payroll,Salaries,Operating,9980
+2026-02-16,Software & tools — SaaS vendor,Software & tools,Operating,15272
+2026-02-17,Consulting fees — Patel Logistics,Consulting fees,Revenue,241186
+2026-02-17,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,1344
+2026-02-18,Training workshops — Sharma Textiles,Training workshops,Revenue,16095
+2026-02-19,Marketing — Ad platform,Marketing,Operating,8447
+2026-02-20,Marketing — Ad platform,Marketing,Operating,9607
+2026-02-20,Software & tools — SaaS vendor,Software & tools,Operating,4468
+2026-02-21,Consulting fees — Sharma Textiles,Consulting fees,Revenue,11530
+2026-02-21,Rent — Landlord — CG Road,Rent,Operating,11009
+2026-02-21,Utilities — Utility provider,Utilities,Operating,7609
+2026-02-23,Marketing — Ad platform,Marketing,Operating,2126
+2026-02-23,Professional fees — CA firm,Professional fees,Operating,756
+2026-02-24,Training workshops — Desai Pharma,Training workshops,Revenue,20510
+2026-02-24,Utilities — Utility provider,Utilities,Operating,962
+2026-02-26,Marketing — Ad platform,Marketing,Operating,4110
+2026-02-26,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,151567
+2026-02-26,Other expenses — Misc vendor,Other expenses,Operating,3415
+2026-02-26,Salaries — Payroll,Salaries,Operating,180386
+2026-02-26,Training workshops — Patel Logistics,Training workshops,Revenue,19682
+2026-02-27,Professional fees — CA firm,Professional fees,Operating,2069
+2026-02-28,Salaries — Payroll,Salaries,Operating,35665
+2026-02-28,Travel — Travel desk,Travel,Operating,21072
+2026-03-01,Rent — Landlord — CG Road,Rent,Operating,1786
+2026-03-01,Travel — Travel desk,Travel,Operating,6913
+2026-03-02,Contractor costs — Contractor A,Contractor costs,Direct,12260
+2026-03-02,Contractor costs — Contractor A,Contractor costs,Direct,29825
+2026-03-02,Utilities — Utility provider,Utilities,Operating,4671
+2026-03-02,Utilities — Utility provider,Utilities,Operating,1663
+2026-03-03,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,46823
+2026-03-04,Other expenses — Misc vendor,Other expenses,Operating,933
+2026-03-04,Rent — Landlord — CG Road,Rent,Operating,19600
+2026-03-04,Salaries — Payroll,Salaries,Operating,62533
+2026-03-04,Utilities — Utility provider,Utilities,Operating,3553
+2026-03-05,Professional fees — CA firm,Professional fees,Operating,2897
+2026-03-05,Training workshops — Iyer Engineering,Training workshops,Revenue,29186
+2026-03-06,Consulting fees — Khan Retail Group,Consulting fees,Revenue,255264
+2026-03-06,Other expenses — Misc vendor,Other expenses,Operating,2665
+2026-03-06,Travel — Travel desk,Travel,Operating,7117
+2026-03-08,Marketing — Ad platform,Marketing,Operating,20096
+2026-03-09,Software & tools — SaaS vendor,Software & tools,Operating,13696
+2026-03-09,Software & tools — SaaS vendor,Software & tools,Operating,4214
+2026-03-11,Contractor costs — Contractor B,Contractor costs,Direct,9152
+2026-03-14,Professional fees — CA firm,Professional fees,Operating,9431
+2026-03-14,Travel — Travel desk,Travel,Operating,5619
+2026-03-15,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,2083
+2026-03-15,Travel — Travel desk,Travel,Operating,5813
+2026-03-16,Marketing — Ad platform,Marketing,Operating,5283
+2026-03-16,Rent — Landlord — CG Road,Rent,Operating,23614
+2026-03-17,Consulting fees — Khan Retail Group,Consulting fees,Revenue,18270
+2026-03-19,Consulting fees — Mehta Foods,Consulting fees,Revenue,88878
+2026-03-22,Salaries — Payroll,Salaries,Operating,77904
+2026-03-23,Marketing — Ad platform,Marketing,Operating,5637
+2026-03-23,Software & tools — SaaS vendor,Software & tools,Operating,5585
+2026-03-24,Professional fees — CA firm,Professional fees,Operating,4808
+2026-03-24,Training workshops — Khan Retail Group,Training workshops,Revenue,9486
+2026-03-25,Monthly retainers — Desai Pharma,Monthly retainers,Revenue,94379
+2026-03-25,Salaries — Payroll,Salaries,Operating,55986
+2026-03-26,Professional fees — CA firm,Professional fees,Operating,866
+2026-03-27,Monthly retainers — Mehta Foods,Monthly retainers,Revenue,12653
+2026-03-27,Other expenses — Misc vendor,Other expenses,Operating,3309
+2026-03-28,Salaries — Payroll,Salaries,Operating,25646
+2026-03-28,Training workshops — Khan Retail Group,Training workshops,Revenue,22689
+2026-04-01,Marketing — Ad platform,Marketing,Operating,26603
+2026-04-01,Training workshops — Khan Retail Group,Training workshops,Revenue,9771
+2026-04-02,Consulting fees — Desai Pharma,Consulting fees,Revenue,213087
+2026-04-03,Consulting fees — Iyer Engineering,Consulting fees,Revenue,9402
+2026-04-03,Marketing — Ad platform,Marketing,Operating,4109
+2026-04-03,Training workshops — Desai Pharma,Training workshops,Revenue,3718
+2026-04-03,Utilities — Utility provider,Utilities,Operating,2885
+2026-04-05,Software & tools — SaaS vendor,Software & tools,Operating,8980
+2026-04-05,Software & tools — SaaS vendor,Software & tools,Operating,12257
+2026-04-05,Utilities — Utility provider,Utilities,Operating,604
+2026-04-06,Salaries — Payroll,Salaries,Operating,111363
+2026-04-06,Utilities — Utility provider,Utilities,Operating,2669
+2026-04-07,Training workshops — Patel Logistics,Training workshops,Revenue,49976
+2026-04-08,Other expenses — Misc vendor,Other expenses,Operating,24
+2026-04-08,Salaries — Payroll,Salaries,Operating,5619
+2026-04-11,Rent — Landlord — CG Road,Rent,Operating,34193
+2026-04-12,Contractor costs — Contractor B,Contractor costs,Direct,10731
+2026-04-12,Utilities — Utility provider,Utilities,Operating,4011
+2026-04-14,Contractor costs — Contractor B,Contractor costs,Direct,53898
+2026-04-16,Other expenses — Misc vendor,Other expenses,Operating,6382
+2026-04-16,Professional fees — CA firm,Professional fees,Operating,5554
+2026-04-16,Rent — Landlord — CG Road,Rent,Operating,10807
+2026-04-17,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,13709
+2026-04-17,Professional fees — CA firm,Professional fees,Operating,4274
+2026-04-17,Software & tools — SaaS vendor,Software & tools,Operating,682
+2026-04-18,Contractor costs — Contractor B,Contractor costs,Direct,2682
+2026-04-23,Other expenses — Misc vendor,Other expenses,Operating,3923
+2026-04-24,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,10578
+2026-04-24,Salaries — Payroll,Salaries,Operating,104682
+2026-04-26,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,137267
+2026-04-26,Training workshops — Desai Pharma,Training workshops,Revenue,20308
+2026-04-27,Professional fees — CA firm,Professional fees,Operating,2858
+2026-04-27,Travel — Travel desk,Travel,Operating,20404
+2026-04-27,Travel — Travel desk,Travel,Operating,4638
+2026-04-28,Consulting fees — Khan Retail Group,Consulting fees,Revenue,117869
+2026-05-02,Training workshops — Iyer Engineering,Training workshops,Revenue,43377
+2026-05-04,Rent — Landlord — CG Road,Rent,Operating,18715
+2026-05-04,Software & tools — SaaS vendor,Software & tools,Operating,18801
+2026-05-05,Rent — Landlord — CG Road,Rent,Operating,14213
+2026-05-05,Rent — Landlord — CG Road,Rent,Operating,5149
+2026-05-06,Consulting fees — Mehta Foods,Consulting fees,Revenue,120265
+2026-05-06,Rent — Landlord — CG Road,Rent,Operating,6923
+2026-05-06,Salaries — Payroll,Salaries,Operating,33168
+2026-05-07,Training workshops — Iyer Engineering,Training workshops,Revenue,16065
+2026-05-08,Marketing — Ad platform,Marketing,Operating,157
+2026-05-08,Software & tools — SaaS vendor,Software & tools,Operating,6151
+2026-05-09,Professional fees — CA firm,Professional fees,Operating,3568
+2026-05-11,Utilities — Utility provider,Utilities,Operating,6960
+2026-05-12,Contractor costs — Contractor B,Contractor costs,Direct,24432
+2026-05-13,Contractor costs — Contractor B,Contractor costs,Direct,19519
+2026-05-13,Travel — Travel desk,Travel,Operating,13810
+2026-05-14,Other expenses — Misc vendor,Other expenses,Operating,2820
+2026-05-16,Travel — Travel desk,Travel,Operating,14544
+2026-05-16,Utilities — Utility provider,Utilities,Operating,2458
+2026-05-17,Consulting fees — Khan Retail Group,Consulting fees,Revenue,232860
+2026-05-18,Salaries — Payroll,Salaries,Operating,154184
+2026-05-19,Monthly retainers — Iyer Engineering,Monthly retainers,Revenue,12138
+2026-05-19,Utilities — Utility provider,Utilities,Operating,729
+2026-05-20,Contractor costs — Contractor A,Contractor costs,Direct,1859
+2026-05-20,Monthly retainers — Mehta Foods,Monthly retainers,Revenue,105929
+2026-05-21,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,38203
+2026-05-22,Marketing — Ad platform,Marketing,Operating,6867
+2026-05-23,Salaries — Payroll,Salaries,Operating,49400
+2026-05-24,Marketing — Ad platform,Marketing,Operating,15013
+2026-05-24,Professional fees — CA firm,Professional fees,Operating,19197
+2026-05-24,Training workshops — Mehta Foods,Training workshops,Revenue,22596
+2026-05-25,Contractor costs — Contractor B,Contractor costs,Direct,16158
+2026-05-25,Utilities — Utility provider,Utilities,Operating,500
+2026-05-27,Other expenses — Misc vendor,Other expenses,Operating,7941
+2026-06-01,Training workshops — Patel Logistics,Training workshops,Revenue,31585
+2026-06-02,Contractor costs — Contractor B,Contractor costs,Direct,26768
+2026-06-02,Monthly retainers — Desai Pharma,Monthly retainers,Revenue,136824
+2026-06-02,Rent — Landlord — CG Road,Rent,Operating,1
+2026-06-02,Travel — Travel desk,Travel,Operating,9242
+2026-06-04,Contractor costs — Contractor B,Contractor costs,Direct,12954
+2026-06-04,Marketing — Ad platform,Marketing,Operating,2853
+2026-06-04,Other expenses — Misc vendor,Other expenses,Operating,6793
+2026-06-05,Other expenses — Misc vendor,Other expenses,Operating,1662
+2026-06-05,Utilities — Utility provider,Utilities,Operating,5791
+2026-06-06,Utilities — Utility provider,Utilities,Operating,266
+2026-06-08,Marketing — Ad platform,Marketing,Operating,21534
+2026-06-08,Training workshops — Patel Logistics,Training workshops,Revenue,21699
+2026-06-08,Travel — Travel desk,Travel,Operating,9496
+2026-06-10,Consulting fees — Khan Retail Group,Consulting fees,Revenue,174875
+2026-06-10,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,18902
+2026-06-11,Salaries — Payroll,Salaries,Operating,1761
+2026-06-13,Rent — Landlord — CG Road,Rent,Operating,1483
+2026-06-14,Consulting fees — Patel Logistics,Consulting fees,Revenue,8573
+2026-06-14,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,4670
+2026-06-14,Salaries — Payroll,Salaries,Operating,43075
+2026-06-15,Contractor costs — Contractor B,Contractor costs,Direct,15728
+2026-06-17,Professional fees — CA firm,Professional fees,Operating,3250
+2026-06-18,Professional fees — CA firm,Professional fees,Operating,4401
+2026-06-18,Software & tools — SaaS vendor,Software & tools,Operating,12144
+2026-06-19,Consulting fees — Khan Retail Group,Consulting fees,Revenue,170641
+2026-06-19,Professional fees — CA firm,Professional fees,Operating,9542
+2026-06-20,Other expenses — Misc vendor,Other expenses,Operating,2348
+2026-06-20,Software & tools — SaaS vendor,Software & tools,Operating,8099
+2026-06-23,Training workshops — Iyer Engineering,Training workshops,Revenue,25041
+2026-06-23,Utilities — Utility provider,Utilities,Operating,75
+2026-06-24,Travel — Travel desk,Travel,Operating,621
+2026-06-25,Software & tools — SaaS vendor,Software & tools,Operating,1643
+2026-06-26,Rent — Landlord — CG Road,Rent,Operating,43516
+2026-06-26,Utilities — Utility provider,Utilities,Operating,4060
+2026-06-27,Salaries — Payroll,Salaries,Operating,189954
+2026-07-01,Other expenses — Misc vendor,Other expenses,Operating,2855
+2026-07-01,Professional fees — CA firm,Professional fees,Operating,618
+2026-07-01,Rent — Landlord — CG Road,Rent,Operating,536
+2026-07-02,Contractor costs — Contractor A,Contractor costs,Direct,15395
+2026-07-03,Contractor costs — Contractor B,Contractor costs,Direct,30998
+2026-07-04,Rent — Landlord — CG Road,Rent,Operating,44464
+2026-07-04,Salaries — Payroll,Salaries,Operating,17759
+2026-07-05,Utilities — Utility provider,Utilities,Operating,593
+2026-07-06,Utilities — Utility provider,Utilities,Operating,8015
+2026-07-07,Training workshops — Mehta Foods,Training workshops,Revenue,28386
+2026-07-08,Marketing — Ad platform,Marketing,Operating,3642
+2026-07-09,Contractor costs — Contractor B,Contractor costs,Direct,24425
+2026-07-09,Utilities — Utility provider,Utilities,Operating,810
+2026-07-10,Software & tools — SaaS vendor,Software & tools,Operating,17457
+2026-07-12,Consulting fees — Mehta Foods,Consulting fees,Revenue,16544
+2026-07-12,Travel — Travel desk,Travel,Operating,3578
+2026-07-13,Marketing — Ad platform,Marketing,Operating,22755
+2026-07-13,Other expenses — Misc vendor,Other expenses,Operating,321
+2026-07-13,Training workshops — Desai Pharma,Training workshops,Revenue,1877
+2026-07-14,Professional fees — CA firm,Professional fees,Operating,5772
+2026-07-16,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,56105
+2026-07-17,Travel — Travel desk,Travel,Operating,6533
+2026-07-18,Travel — Travel desk,Travel,Operating,13929
+2026-07-19,Marketing — Ad platform,Marketing,Operating,8997
+2026-07-19,Software & tools — SaaS vendor,Software & tools,Operating,3243
+2026-07-20,Training workshops — Khan Retail Group,Training workshops,Revenue,16565
+2026-07-21,Professional fees — CA firm,Professional fees,Operating,10413
+2026-07-22,Consulting fees — Sharma Textiles,Consulting fees,Revenue,228866
+2026-07-22,Software & tools — SaaS vendor,Software & tools,Operating,4478
+2026-07-24,Other expenses — Misc vendor,Other expenses,Operating,1667
+2026-07-24,Training workshops — Mehta Foods,Training workshops,Revenue,18572
+2026-07-25,Consulting fees — Desai Pharma,Consulting fees,Revenue,123366
+2026-07-25,Utilities — Utility provider,Utilities,Operating,1557
+2026-07-26,Salaries — Payroll,Salaries,Operating,71016
+2026-07-27,Other expenses — Misc vendor,Other expenses,Operating,3993
+2026-07-28,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,109824
+2026-07-28,Salaries — Payroll,Salaries,Operating,147413
+2026-08-02,Travel — Travel desk,Travel,Operating,5673
+2026-08-03,Travel — Travel desk,Travel,Operating,18871
+2026-08-04,Other expenses — Misc vendor,Other expenses,Operating,207
+2026-08-05,Contractor costs — Contractor B,Contractor costs,Direct,25163
+2026-08-07,Contractor costs — Contractor A,Contractor costs,Direct,6041
+2026-08-07,Marketing — Ad platform,Marketing,Operating,20564
+2026-08-07,Rent — Landlord — CG Road,Rent,Operating,468
+2026-08-07,Rent — Landlord — CG Road,Rent,Operating,2147
+2026-08-07,Salaries — Payroll,Salaries,Operating,90421
+2026-08-08,Salaries — Payroll,Salaries,Operating,123559
+2026-08-08,Software & tools — SaaS vendor,Software & tools,Operating,8551
+2026-08-10,Software & tools — SaaS vendor,Software & tools,Operating,6364
+2026-08-11,Training workshops — Desai Pharma,Training workshops,Revenue,35797
+2026-08-12,Other expenses — Misc vendor,Other expenses,Operating,5
+2026-08-12,Other expenses — Misc vendor,Other expenses,Operating,4688
+2026-08-13,Monthly retainers — Sharma Textiles,Monthly retainers,Revenue,23916
+2026-08-13,Rent — Landlord — CG Road,Rent,Operating,8867
+2026-08-13,Utilities — Utility provider,Utilities,Operating,191
+2026-08-14,Training workshops — Iyer Engineering,Training workshops,Revenue,6973
+2026-08-15,Consulting fees — Sharma Textiles,Consulting fees,Revenue,172313
+2026-08-15,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,27998
+2026-08-17,Professional fees — CA firm,Professional fees,Operating,347
+2026-08-17,Utilities — Utility provider,Utilities,Operating,8478
+2026-08-18,Marketing — Ad platform,Marketing,Operating,4518
+2026-08-18,Travel — Travel desk,Travel,Operating,292
+2026-08-18,Utilities — Utility provider,Utilities,Operating,238
+2026-08-19,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,54651
+2026-08-19,Rent — Landlord — CG Road,Rent,Operating,33518
+2026-08-19,Software & tools — SaaS vendor,Software & tools,Operating,9502
+2026-08-20,Consulting fees — Khan Retail Group,Consulting fees,Revenue,180680
+2026-08-20,Contractor costs — Contractor B,Contractor costs,Direct,32219
+2026-08-21,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,57030
+2026-08-22,Other expenses — Misc vendor,Other expenses,Operating,2114
+2026-08-23,Utilities — Utility provider,Utilities,Operating,2016
+2026-08-24,Marketing — Ad platform,Marketing,Operating,10427
+2026-08-24,Professional fees — CA firm,Professional fees,Operating,1570
+2026-08-25,Professional fees — CA firm,Professional fees,Operating,9220
+2026-08-25,Professional fees — CA firm,Professional fees,Operating,5677
+2026-08-25,Training workshops — Iyer Engineering,Training workshops,Revenue,55188
+2026-08-26,Salaries — Payroll,Salaries,Operating,18627
+2026-09-01,Software & tools — SaaS vendor,Software & tools,Operating,3117
+2026-09-01,Software & tools — SaaS vendor,Software & tools,Operating,10177
+2026-09-02,Rent — Landlord — CG Road,Rent,Operating,7890
+2026-09-05,Training workshops — Patel Logistics,Training workshops,Revenue,72295
+2026-09-05,Utilities — Utility provider,Utilities,Operating,5619
+2026-09-08,Marketing — Ad platform,Marketing,Operating,17212
+2026-09-09,Monthly retainers — Sharma Textiles,Monthly retainers,Revenue,72455
+2026-09-10,Consulting fees — Patel Logistics,Consulting fees,Revenue,149312
+2026-09-10,Software & tools — SaaS vendor,Software & tools,Operating,5600
+2026-09-12,Monthly retainers — Khan Retail Group,Monthly retainers,Revenue,56546
+2026-09-13,Professional fees — CA firm,Professional fees,Operating,2175
+2026-09-13,Professional fees — CA firm,Professional fees,Operating,13532
+2026-09-13,Utilities — Utility provider,Utilities,Operating,808
+2026-09-14,Monthly retainers — Sharma Textiles,Monthly retainers,Revenue,39097
+2026-09-15,Contractor costs — Contractor B,Contractor costs,Direct,6376
+2026-09-15,Other expenses — Misc vendor,Other expenses,Operating,1810
+2026-09-16,Other expenses — Misc vendor,Other expenses,Operating,6499
+2026-09-17,Salaries — Payroll,Salaries,Operating,26722
+2026-09-17,Salaries — Payroll,Salaries,Operating,33456
+2026-09-17,Software & tools — SaaS vendor,Software & tools,Operating,6550
+2026-09-17,Training workshops — Sharma Textiles,Training workshops,Revenue,4815
+2026-09-18,Training workshops — Desai Pharma,Training workshops,Revenue,4091
+2026-09-19,Contractor costs — Contractor B,Contractor costs,Direct,60660
+2026-09-19,Salaries — Payroll,Salaries,Operating,178725
+2026-09-20,Consulting fees — Desai Pharma,Consulting fees,Revenue,170523
+2026-09-20,Marketing — Ad platform,Marketing,Operating,15270
+2026-09-21,Training workshops — Sharma Textiles,Training workshops,Revenue,9465
+2026-09-21,Travel — Travel desk,Travel,Operating,11517
+2026-09-23,Rent — Landlord — CG Road,Rent,Operating,4517
+2026-09-23,Travel — Travel desk,Travel,Operating,10324
+2026-09-25,Travel — Travel desk,Travel,Operating,5548
+2026-09-26,Consulting fees — Patel Logistics,Consulting fees,Revenue,61164
+2026-09-27,Rent — Landlord — CG Road,Rent,Operating,32593
+2026-09-28,Utilities — Utility provider,Utilities,Operating,3467
+2026-10-01,Training workshops — Desai Pharma,Training workshops,Revenue,79707
+2026-10-01,Training workshops — Desai Pharma,Training workshops,Revenue,18584
+2026-10-03,Marketing — Ad platform,Marketing,Operating,6674
+2026-10-03,Professional fees — CA firm,Professional fees,Operating,5615
+2026-10-04,Salaries — Payroll,Salaries,Operating,156827
+2026-10-07,Other expenses — Misc vendor,Other expenses,Operating,19
+2026-10-08,Consulting fees — Khan Retail Group,Consulting fees,Revenue,15947
+2026-10-08,Salaries — Payroll,Salaries,Operating,46803
+2026-10-09,Consulting fees — Desai Pharma,Consulting fees,Revenue,192011
+2026-10-09,Other expenses — Misc vendor,Other expenses,Operating,1877
+2026-10-09,Software & tools — SaaS vendor,Software & tools,Operating,18631
+2026-10-11,Marketing — Ad platform,Marketing,Operating,1711
+2026-10-11,Travel — Travel desk,Travel,Operating,6388
+2026-10-11,Travel — Travel desk,Travel,Operating,19485
+2026-10-13,Rent — Landlord — CG Road,Rent,Operating,9901
+2026-10-14,Contractor costs — Contractor A,Contractor costs,Direct,41684
+2026-10-15,Marketing — Ad platform,Marketing,Operating,149
+2026-10-15,Professional fees — CA firm,Professional fees,Operating,675
+2026-10-16,Monthly retainers — Iyer Engineering,Monthly retainers,Revenue,15516
+2026-10-16,Rent — Landlord — CG Road,Rent,Operating,34725
+2026-10-16,Software & tools — SaaS vendor,Software & tools,Operating,1077
+2026-10-17,Other expenses — Misc vendor,Other expenses,Operating,5937
+2026-10-17,Utilities — Utility provider,Utilities,Operating,4767
+2026-10-18,Consulting fees — Iyer Engineering,Consulting fees,Revenue,187725
+2026-10-18,Professional fees — CA firm,Professional fees,Operating,5706
+2026-10-18,Rent — Landlord — CG Road,Rent,Operating,374
+2026-10-19,Monthly retainers — Mehta Foods,Monthly retainers,Revenue,146639
+2026-10-23,Monthly retainers — Patel Logistics,Monthly retainers,Revenue,11705
+2026-10-23,Salaries — Payroll,Salaries,Operating,25958
+2026-10-25,Professional fees — CA firm,Professional fees,Operating,6933
+2026-10-25,Utilities — Utility provider,Utilities,Operating,5982
+2026-10-26,Marketing — Ad platform,Marketing,Operating,23709
+2026-10-26,Software & tools — SaaS vendor,Software & tools,Operating,4675
+2026-10-27,Contractor costs — Contractor A,Contractor costs,Direct,21540
+2026-10-28,Other expenses — Misc vendor,Other expenses,Operating,1825
