@@ -1,0 +1,22 @@
+account,type,normal,opening_debit,opening_credit
+Cash,Asset,Dr,450000,0
+Accounts Receivable,Asset,Dr,180000,0
+Inventory,Asset,Dr,320000,0
+Prepaid Expenses,Asset,Dr,30000,0
+Equipment,Asset,Dr,600000,0
+Accumulated Depreciation,Asset,Cr,0,60000
+Accounts Payable,Liability,Cr,0,210000
+GST Payable,Liability,Cr,0,45000
+Short-term Loan,Liability,Cr,0,300000
+Owner's Capital,Equity,Cr,0,700000
+Retained Earnings,Equity,Cr,0,265000
+Drawings,Equity,Dr,0,0
+Sales Revenue,Revenue,Cr,0,0
+Other Income,Revenue,Cr,0,0
+Cost of Goods Sold,COGS,Dr,0,0
+Rent Expense,Expense,Dr,0,0
+Salaries Expense,Expense,Dr,0,0
+Utilities Expense,Expense,Dr,0,0
+Depreciation Expense,Expense,Dr,0,0
+Marketing Expense,Expense,Dr,0,0
+Bank Charges,Expense,Dr,0,0
