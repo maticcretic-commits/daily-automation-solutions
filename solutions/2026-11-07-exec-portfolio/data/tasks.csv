@@ -1,0 +1,61 @@
+task_id,project_id,task,owner,status,due,pct,priority
+T001,P01,Rollout plan,S. Patel,In progress,2026-10-07,0.6,High
+T002,P01,Training session,K. Nair,Blocked,2026-10-05,0.25,Low
+T003,P01,Cutover rehearsal,K. Nair,Completed,2026-10-11,1.0,Medium
+T004,P01,Scope sign-off,S. Patel,Not started,2026-10-14,0.0,High
+T005,P01,Stakeholder workshop,P. Shah,Completed,2026-12-11,1.0,Medium
+T006,P02,Training session,K. Nair,Blocked,2026-11-17,0.1,Medium
+T007,P02,Budget review,S. Patel,Completed,2026-10-15,1.0,Low
+T008,P02,Scope sign-off,M. Ali,In progress,2026-11-20,0.3,Medium
+T009,P02,Steering committee update,K. Nair,Completed,2026-12-08,1.0,High
+T010,P02,Go-live checklist,S. Patel,Completed,2026-11-11,1.0,Medium
+T011,P03,Risk review,K. Nair,Completed,2026-10-01,1.0,Medium
+T012,P03,Cutover rehearsal,M. Ali,In progress,2026-10-15,0.5,Medium
+T013,P03,Pilot with two teams,M. Ali,Not started,2026-11-08,0.0,High
+T014,P03,Scope sign-off,T. Das,Completed,2026-10-19,1.0,Medium
+T015,P03,UAT round 1,R. Iyer,Blocked,2026-12-15,0.25,Low
+T016,P04,Risk review,P. Shah,In progress,2026-10-14,0.2,Medium
+T017,P04,Fix UAT defects,S. Patel,Blocked,2026-12-13,0.4,High
+T018,P04,Build first draft,P. Shah,In progress,2026-12-15,0.6,High
+T019,P04,Steering committee update,R. Iyer,Completed,2026-12-10,1.0,Low
+T020,P04,Rollout plan,P. Shah,In progress,2026-12-14,0.6,High
+T021,P05,Scope sign-off,R. Iyer,Completed,2026-12-15,1.0,Low
+T022,P05,Handover document,T. Das,Not started,2026-12-08,0.0,Medium
+T023,P05,Cutover rehearsal,M. Ali,Not started,2026-10-10,0.0,High
+T024,P05,Build first draft,P. Shah,Blocked,2026-11-08,0.4,Medium
+T025,P05,Risk review,K. Nair,Completed,2026-11-16,1.0,Medium
+T026,P06,Go-live checklist,K. Nair,In progress,2026-10-10,0.8,Low
+T027,P06,Fix UAT defects,M. Ali,Not started,2026-11-13,0.0,Low
+T028,P06,Rollout plan,S. Patel,Completed,2026-11-09,1.0,Medium
+T029,P06,Scope sign-off,T. Das,Completed,2026-10-24,1.0,Medium
+T030,P06,Steering committee update,K. Nair,In progress,2026-11-24,0.8,High
+T031,P07,Handover document,T. Das,In progress,2026-10-02,0.8,Medium
+T032,P07,Stakeholder workshop,S. Patel,Completed,2026-10-07,1.0,Low
+T033,P07,Go-live checklist,T. Das,In progress,2026-11-09,0.6,High
+T034,P07,Vendor evaluation,K. Nair,In progress,2026-10-08,0.6,High
+T035,P07,Scope sign-off,M. Ali,Completed,2026-10-03,1.0,Low
+T036,P08,Scope sign-off,P. Shah,In progress,2026-10-03,0.6,Medium
+T037,P08,Data extract & cleanse,M. Ali,Completed,2026-10-07,1.0,High
+T038,P08,Budget review,P. Shah,In progress,2026-12-03,0.3,Low
+T039,P08,Risk review,T. Das,Completed,2026-12-08,1.0,Medium
+T040,P08,Rollout plan,M. Ali,In progress,2026-12-14,0.9,Medium
+T041,P09,Data extract & cleanse,S. Patel,Completed,2026-10-17,1.0,Medium
+T042,P09,Rollout plan,R. Iyer,In progress,2026-10-02,0.3,Low
+T043,P09,Cutover rehearsal,M. Ali,In progress,2026-11-12,0.8,Low
+T044,P09,Pilot with two teams,R. Iyer,Completed,2026-10-23,1.0,Medium
+T045,P09,Build first draft,S. Patel,Completed,2026-11-13,1.0,Medium
+T046,P10,Handover document,T. Das,Not started,2026-11-01,0.0,Low
+T047,P10,Steering committee update,S. Patel,Completed,2026-12-01,1.0,Medium
+T048,P10,Vendor evaluation,K. Nair,In progress,2026-11-06,0.5,Medium
+T049,P10,Data extract & cleanse,K. Nair,Completed,2026-11-23,1.0,Medium
+T050,P10,UAT round 1,S. Patel,Completed,2026-11-08,1.0,Medium
+T051,P11,Training session,S. Patel,Completed,2026-11-15,1.0,Low
+T052,P11,Stakeholder workshop,M. Ali,In progress,2026-12-15,0.8,High
+T053,P11,Handover document,P. Shah,Blocked,2026-11-21,0.1,Low
+T054,P11,Budget review,P. Shah,Not started,2026-11-17,0.0,Medium
+T055,P11,Steering committee update,S. Patel,In progress,2026-11-28,0.5,Low
+T056,P12,Data extract & cleanse,P. Shah,Completed,2026-10-09,1.0,High
+T057,P12,Handover document,R. Iyer,In progress,2026-11-19,0.2,High
+T058,P12,Budget review,R. Iyer,In progress,2026-10-01,0.4,High
+T059,P12,Pilot with two teams,P. Shah,Completed,2026-10-19,1.0,High
+T060,P12,Rollout plan,T. Das,Completed,2026-12-14,1.0,Low
