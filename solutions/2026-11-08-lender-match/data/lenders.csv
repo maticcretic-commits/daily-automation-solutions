@@ -1,0 +1,15 @@
+lender,type,max_loan,min_rate,max_rate,ltv,tenor_yrs,orig_fee,close_days,min_revenue,min_credit,collateral,prepay_penalty
+Meridian Capital Partners,Asset-based,3000000,0.095,0.13,0.75,7,0.02,21,2000000,650,AR + inventory + equipment,Yes
+Harbor SBA Lending,SBA 7(a),5000000,0.0825,0.105,0.90,10,0.025,45,1000000,680,Business assets + personal guarantee,No
+BluePeak Commercial,Conventional,4000000,0.075,0.095,0.80,10,0.01,35,5000000,700,Real estate + equipment,Yes
+Apex Growth Finance,Non-traditional,2500000,0.11,0.15,0.70,5,0.03,10,1500000,620,AR + future receivables,No
+Foundry Equipment Finance,Asset-based,2000000,0.09,0.12,0.85,7,0.015,18,1000000,640,Equipment only,Yes
+Liberty SBA Direct,SBA 7(a),5000000,0.085,0.11,0.90,10,0.02,60,750000,680,Business assets + personal guarantee,No
+Northgate Bank,Conventional,6000000,0.07,0.09,0.75,10,0.01,40,10000000,720,Real estate + business assets,Yes
+Velocity Capital,Non-traditional,1500000,0.12,0.16,0.65,3,0.035,7,1000000,600,Future receivables,No
+Ironbridge Asset Lending,Asset-based,4500000,0.10,0.135,0.80,8,0.02,25,3000000,660,AR + inventory + equipment,Yes
+Cascade SBA Partners,SBA 7(a),5000000,0.08,0.10,0.90,10,0.03,50,1200000,690,Business assets + personal guarantee,No
+Summit Commercial Bank,Conventional,8000000,0.0725,0.0925,0.80,12,0.008,30,8000000,710,Real estate + equipment,Yes
+Pioneer Revenue Finance,Non-traditional,2000000,0.115,0.145,0.70,4,0.025,12,2000000,630,Future receivables,No
+Keystone Manufacturing Capital,Asset-based,3500000,0.0925,0.125,0.78,7,0.018,20,2500000,650,AR + inventory + equipment,Yes
+Beacon SBA Lending,SBA 7(a),5000000,0.0875,0.1075,0.90,10,0.0225,55,900000,675,Business assets + personal guarantee,No
