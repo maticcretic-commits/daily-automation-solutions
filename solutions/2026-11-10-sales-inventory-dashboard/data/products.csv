@@ -1,0 +1,15 @@
+product,category,unit_price,cost_price,opening_stock,reorder_level
+LED Bulb 9W,Electronics,89,55,120,30
+Ceiling Fan,Electronics,1450,980,45,15
+Extension Board,Electronics,349,210,90,25
+Mixer Grinder,Electronics,1899,1350,35,12
+Basmati Rice 5kg,Grocery,649,540,150,40
+Mustard Oil 1L,Grocery,189,150,180,40
+Wheat Atta 10kg,Grocery,459,380,140,35
+Sugar 5kg,Grocery,289,240,160,35
+Ball Pen Box,Stationery,120,78,200,40
+A4 Notebook,Stationery,85,55,220,40
+Geometry Box,Stationery,149,95,130,30
+Steel Tiffin,Home & Kitchen,299,190,80,20
+Pressure Cooker 5L,Home & Kitchen,1199,820,40,12
+Plastic Chair,Home & Kitchen,449,300,70,20
