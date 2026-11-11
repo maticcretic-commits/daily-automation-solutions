@@ -1,0 +1,94 @@
+receipt_id,date,sku,qty
+RC-001,2026-04-03,Sunflower Oil 5L,188
+RC-002,2026-04-05,Chana Dal 5kg,182
+RC-003,2026-04-10,Chana Dal 5kg,78
+RC-004,2026-04-11,Refined Oil 1L,142
+RC-005,2026-04-12,Turmeric Powder 1kg,151
+RC-006,2026-04-16,Coriander Powder 1kg,199
+RC-007,2026-04-17,Rice 25kg,126
+RC-008,2026-04-19,Chilli Powder 1kg,75
+RC-009,2026-04-23,Toor Dal 5kg,75
+RC-010,2026-04-24,Coriander Powder 1kg,137
+RC-011,2026-04-25,Moong Dal 5kg,195
+RC-012,2026-04-28,Wheat Flour 10kg,177
+RC-013,2026-04-30,Chana Dal 5kg,65
+RC-014,2026-05-01,Turmeric Powder 1kg,168
+RC-015,2026-05-04,Sunflower Oil 5L,196
+RC-016,2026-05-05,Toor Dal 5kg,76
+RC-017,2026-05-10,Refined Oil 1L,174
+RC-018,2026-05-12,Sunflower Oil 5L,103
+RC-019,2026-05-13,Chilli Powder 1kg,105
+RC-020,2026-05-18,Wheat Flour 10kg,189
+RC-021,2026-05-20,Mustard Oil 5L,187
+RC-022,2026-05-21,Refined Oil 1L,75
+RC-023,2026-05-28,Toor Dal 5kg,172
+RC-024,2026-05-31,Wheat Flour 10kg,76
+RC-025,2026-06-02,Chana Dal 5kg,130
+RC-026,2026-06-03,Sunflower Oil 5L,83
+RC-027,2026-06-04,Mustard Oil 5L,76
+RC-028,2026-06-06,Mustard Oil 5L,153
+RC-029,2026-06-09,Refined Oil 1L,154
+RC-030,2026-06-10,Toor Dal 5kg,80
+RC-031,2026-06-11,Coriander Powder 1kg,90
+RC-032,2026-06-12,Refined Oil 1L,179
+RC-033,2026-06-13,Sugar 5kg,165
+RC-034,2026-06-14,Rice 25kg,82
+RC-035,2026-06-15,Moong Dal 5kg,198
+RC-036,2026-06-17,Turmeric Powder 1kg,150
+RC-037,2026-06-18,Chilli Powder 1kg,149
+RC-038,2026-06-19,Coriander Powder 1kg,171
+RC-039,2026-06-22,Chana Dal 5kg,100
+RC-040,2026-06-26,Sunflower Oil 5L,182
+RC-041,2026-06-28,Mustard Oil 5L,103
+RC-042,2026-06-29,Sugar 5kg,129
+RC-043,2026-07-05,Wheat Flour 10kg,192
+RC-044,2026-07-09,Moong Dal 5kg,59
+RC-045,2026-07-12,Chilli Powder 1kg,152
+RC-046,2026-07-16,Sunflower Oil 5L,156
+RC-047,2026-07-20,Turmeric Powder 1kg,169
+RC-048,2026-07-21,Sunflower Oil 5L,76
+RC-049,2026-07-23,Turmeric Powder 1kg,133
+RC-050,2026-07-30,Coriander Powder 1kg,142
+RC-051,2026-07-31,Chilli Powder 1kg,166
+RC-052,2026-08-03,Moong Dal 5kg,137
+RC-053,2026-08-07,Sugar 5kg,63
+RC-054,2026-08-11,Coriander Powder 1kg,179
+RC-055,2026-08-13,Chilli Powder 1kg,180
+RC-056,2026-08-15,Rice 25kg,140
+RC-057,2026-08-17,Toor Dal 5kg,190
+RC-058,2026-08-20,Refined Oil 1L,106
+RC-059,2026-08-23,Coriander Powder 1kg,63
+RC-060,2026-08-24,Toor Dal 5kg,200
+RC-061,2026-08-26,Mustard Oil 5L,79
+RC-062,2026-08-27,Chana Dal 5kg,157
+RC-063,2026-08-28,Chilli Powder 1kg,168
+RC-064,2026-08-29,Mustard Oil 5L,52
+RC-065,2026-08-31,Sunflower Oil 5L,191
+RC-066,2026-09-02,Chilli Powder 1kg,93
+RC-067,2026-09-03,Mustard Oil 5L,123
+RC-068,2026-09-05,Wheat Flour 10kg,70
+RC-069,2026-09-10,Chana Dal 5kg,168
+RC-070,2026-09-13,Chana Dal 5kg,135
+RC-071,2026-09-15,Turmeric Powder 1kg,87
+RC-072,2026-09-17,Mustard Oil 5L,101
+RC-073,2026-09-22,Rice 25kg,104
+RC-074,2026-09-23,Chana Dal 5kg,163
+RC-075,2026-09-27,Refined Oil 1L,196
+RC-076,2026-09-28,Chana Dal 5kg,199
+RC-077,2026-10-04,Toor Dal 5kg,89
+RC-078,2026-10-06,Rice 25kg,198
+RC-079,2026-10-07,Chana Dal 5kg,136
+RC-080,2026-10-09,Mustard Oil 5L,60
+RC-081,2026-10-10,Moong Dal 5kg,149
+RC-082,2026-10-11,Toor Dal 5kg,72
+RC-083,2026-10-12,Wheat Flour 10kg,140
+RC-084,2026-10-13,Chana Dal 5kg,183
+RC-085,2026-10-14,Toor Dal 5kg,174
+RC-086,2026-10-16,Wheat Flour 10kg,110
+RC-087,2026-10-23,Sunflower Oil 5L,112
+RC-088,2026-10-26,Turmeric Powder 1kg,88
+RC-089,2026-10-29,Rice 25kg,185
+RC-090,2026-10-30,Wheat Flour 10kg,188
+RC-091,2026-08-15,Sugar 5kg,498
+RC-092,2026-08-15,Moong Dal 5kg,111
+RC-093,2026-08-15,Coriander Powder 1kg,174
