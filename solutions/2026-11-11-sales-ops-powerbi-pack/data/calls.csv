@@ -1,0 +1,91 @@
+call_id,date,customer,channel,outcome,order_value
+CL-001,2026-10-15,Singh Provisions,Distributor,No order,0
+CL-002,2026-10-16,Gupta Traders,Distributor,No order,0
+CL-003,2026-10-14,Verma Wholesale,Distributor,No order,0
+CL-004,2026-10-12,Kumar & Sons,Distributor,Order placed,28376
+CL-005,2026-10-13,Sharma Distributors,Distributor,Order placed,19575
+CL-006,2026-10-16,Ramesh General Store,Retail,Order placed,50449
+CL-007,2026-10-12,Priya Mart,Retail,No order,0
+CL-008,2026-10-12,Anand Kirana,Retail,Follow-up,0
+CL-009,2026-10-14,Sita Stores,Retail,Order placed,23225
+CL-010,2026-10-13,Mohan Traders,Retail,Order placed,20180
+CL-011,2026-10-15,Lakshmi General,Retail,Follow-up,0
+CL-012,2026-10-13,City Bazar,Retail,Follow-up,0
+CL-013,2026-10-16,New Mart,Retail,Follow-up,0
+CL-014,2026-10-16,Grand Hotel Patna,Institutional,Order placed,18880
+CL-015,2026-10-14,Shanti Canteen Services,Institutional,No order,0
+CL-016,2026-10-12,Heritage Banquet Hall,Institutional,Order placed,12559
+CL-017,2026-10-16,City Hospital Canteen,Institutional,Order placed,20912
+CL-018,2026-10-13,QuickBuy Online,Online,Order placed,9300
+CL-019,2026-10-14,BazaarKart Seller,Online,No order,0
+CL-020,2026-10-12,FreshKart Retail,Online,No order,0
+CL-021,2026-10-19,Singh Provisions,Distributor,No order,0
+CL-022,2026-10-22,Gupta Traders,Distributor,Order placed,27226
+CL-023,2026-10-23,Verma Wholesale,Distributor,Order placed,28228
+CL-024,2026-10-19,Kumar & Sons,Distributor,Order placed,31850
+CL-025,2026-10-22,Sharma Distributors,Distributor,Order placed,40464
+CL-026,2026-10-20,Ramesh General Store,Retail,Follow-up,0
+CL-027,2026-10-23,Priya Mart,Retail,Order placed,31189
+CL-028,2026-10-20,Anand Kirana,Retail,Order placed,35941
+CL-029,2026-10-21,Sita Stores,Retail,Follow-up,0
+CL-030,2026-10-21,Mohan Traders,Retail,No order,0
+CL-031,2026-10-20,Lakshmi General,Retail,Follow-up,0
+CL-032,2026-10-22,City Bazar,Retail,Follow-up,0
+CL-033,2026-10-21,New Mart,Retail,Order placed,42097
+CL-034,2026-10-23,Grand Hotel Patna,Institutional,Order placed,52175
+CL-035,2026-10-19,Shanti Canteen Services,Institutional,Order placed,34018
+CL-036,2026-10-20,Heritage Banquet Hall,Institutional,No order,0
+CL-037,2026-10-23,City Hospital Canteen,Institutional,Follow-up,0
+CL-038,2026-10-22,QuickBuy Online,Online,Order placed,8079
+CL-039,2026-10-21,BazaarKart Seller,Online,Follow-up,0
+CL-040,2026-10-21,FreshKart Retail,Online,Follow-up,0
+CL-041,2026-10-29,Singh Provisions,Distributor,Order placed,54344
+CL-042,2026-10-26,Gupta Traders,Distributor,Follow-up,0
+CL-043,2026-10-30,Verma Wholesale,Distributor,Follow-up,0
+CL-044,2026-10-28,Kumar & Sons,Distributor,No order,0
+CL-045,2026-10-27,Sharma Distributors,Distributor,Order placed,33461
+CL-046,2026-10-30,Ramesh General Store,Retail,Follow-up,0
+CL-047,2026-10-30,Priya Mart,Retail,Follow-up,0
+CL-048,2026-10-27,Anand Kirana,Retail,Follow-up,0
+CL-049,2026-10-29,Sita Stores,Retail,Follow-up,0
+CL-050,2026-10-30,Mohan Traders,Retail,No order,0
+CL-051,2026-10-30,Lakshmi General,Retail,Follow-up,0
+CL-052,2026-10-26,City Bazar,Retail,Follow-up,0
+CL-053,2026-10-29,New Mart,Retail,Follow-up,0
+CL-054,2026-10-28,Grand Hotel Patna,Institutional,Order placed,26568
+CL-055,2026-10-30,Shanti Canteen Services,Institutional,Follow-up,0
+CL-056,2026-10-26,Heritage Banquet Hall,Institutional,No order,0
+CL-057,2026-10-28,City Hospital Canteen,Institutional,No order,0
+CL-058,2026-10-29,QuickBuy Online,Online,Order placed,45052
+CL-059,2026-10-26,BazaarKart Seller,Online,Follow-up,0
+CL-060,2026-10-30,FreshKart Retail,Online,Order placed,48190
+CL-061,2026-11-05,Singh Provisions,Distributor,Follow-up,0
+CL-062,2026-11-03,Gupta Traders,Distributor,Follow-up,0
+CL-063,2026-11-05,Verma Wholesale,Distributor,Follow-up,0
+CL-064,2026-11-03,Kumar & Sons,Distributor,Follow-up,0
+CL-065,2026-11-05,Sharma Distributors,Distributor,Order placed,46752
+CL-066,2026-11-04,Ramesh General Store,Retail,Order placed,34500
+CL-067,2026-11-02,Priya Mart,Retail,Order placed,33041
+CL-068,2026-11-04,Anand Kirana,Retail,Order placed,57397
+CL-069,2026-11-02,Sita Stores,Retail,Order placed,49250
+CL-070,2026-11-03,Mohan Traders,Retail,No order,0
+CL-071,2026-11-03,Lakshmi General,Retail,Follow-up,0
+CL-072,2026-11-06,City Bazar,Retail,Follow-up,0
+CL-073,2026-11-03,New Mart,Retail,Order placed,28276
+CL-074,2026-11-04,Grand Hotel Patna,Institutional,Order placed,35524
+CL-075,2026-11-02,Shanti Canteen Services,Institutional,Order placed,18024
+CL-076,2026-11-02,Heritage Banquet Hall,Institutional,Follow-up,0
+CL-077,2026-11-03,City Hospital Canteen,Institutional,Order placed,55817
+CL-078,2026-11-04,QuickBuy Online,Online,Order placed,18481
+CL-079,2026-11-06,BazaarKart Seller,Online,No order,0
+CL-080,2026-11-03,FreshKart Retail,Online,No order,0
+CL-081,2026-11-09,Gupta Traders,Distributor,Order placed,30250
+CL-082,2026-11-10,Verma Wholesale,Distributor,Follow-up,0
+CL-083,2026-11-10,Sita Stores,Retail,Order placed,58218
+CL-084,2026-11-09,Mohan Traders,Retail,Order placed,30258
+CL-085,2026-11-09,City Bazar,Retail,Order placed,35446
+CL-086,2026-11-09,New Mart,Retail,Follow-up,0
+CL-087,2026-11-09,Grand Hotel Patna,Institutional,Order placed,6735
+CL-088,2026-11-10,Heritage Banquet Hall,Institutional,Follow-up,0
+CL-089,2026-11-10,QuickBuy Online,Online,No order,0
+CL-090,2026-11-10,BazaarKart Seller,Online,Order placed,59102
