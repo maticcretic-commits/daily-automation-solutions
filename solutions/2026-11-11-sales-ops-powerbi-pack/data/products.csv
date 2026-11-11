@@ -1,0 +1,13 @@
+sku,category,unit_price,cost_price,opening_stock,reorder_level
+Rice 25kg,Staples,1450,1280,180,60
+Wheat Flour 10kg,Staples,420,365,240,80
+Sugar 5kg,Staples,230,205,300,100
+Toor Dal 5kg,Pulses,640,560,150,50
+Chana Dal 5kg,Pulses,310,270,180,60
+Moong Dal 5kg,Pulses,520,455,120,40
+Mustard Oil 5L,Edible Oil,780,690,140,50
+Sunflower Oil 5L,Edible Oil,690,610,160,55
+Refined Oil 1L,Edible Oil,165,145,400,120
+Turmeric Powder 1kg,Spices,240,205,200,70
+Chilli Powder 1kg,Spices,280,240,180,60
+Coriander Powder 1kg,Spices,210,180,190,65
