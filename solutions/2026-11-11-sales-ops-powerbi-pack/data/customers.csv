@@ -1,0 +1,21 @@
+customer,channel,route,credit_days,credit_limit
+Singh Provisions,Distributor,Patna City,30,500000
+Gupta Traders,Distributor,Danapur,30,400000
+Verma Wholesale,Distributor,Hajipur,21,350000
+Kumar & Sons,Distributor,Muzaffarpur,30,450000
+Sharma Distributors,Distributor,Gaya,21,300000
+Ramesh General Store,Retail,Patna City,7,80000
+Priya Mart,Retail,Patna City,7,60000
+Anand Kirana,Retail,Danapur,14,70000
+Sita Stores,Retail,Hajipur,7,50000
+Mohan Traders,Retail,Muzaffarpur,14,90000
+Lakshmi General,Retail,Gaya,7,55000
+City Bazar,Retail,Patna City,14,100000
+New Mart,Retail,Danapur,7,65000
+Grand Hotel Patna,Institutional,Patna City,15,250000
+Shanti Canteen Services,Institutional,Danapur,15,180000
+Heritage Banquet Hall,Institutional,Hajipur,15,200000
+City Hospital Canteen,Institutional,Patna City,15,150000
+QuickBuy Online,Online,Patna City,0,100000
+BazaarKart Seller,Online,Danapur,0,80000
+FreshKart Retail,Online,Hajipur,0,90000
