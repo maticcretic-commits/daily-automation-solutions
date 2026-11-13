@@ -1,0 +1,1250 @@
+order_id,date,customer,region,channel,product,category,qty,unit_price,amount
+ORD-00001,2026-01-01,City Hospital Canteen,Patna,Institutional,Garam Masala 500g,Spices,15,237.99,3569.85
+ORD-00002,2026-01-01,Rani Sati Stores,Gaya,Retail,Rice 25kg,Staples,5,1179.81,5899.05
+ORD-00003,2026-01-01,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Rice 25kg,Staples,5,1174.69,5873.45
+ORD-00004,2026-01-02,Jai Mata Di Store,Gaya,Retail,Chana Dal 5kg,Pulses,5,323.12,1615.6
+ORD-00005,2026-01-02,Bokaro Kirana House,Bokaro,Retail,Garam Masala 500g,Spices,10,240.6,2406.0
+ORD-00006,2026-01-02,Gupta Kirana,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,40,262.03,10481.2
+ORD-00007,2026-01-03,Bokaro Kirana House,Bokaro,Retail,Toor Dal 5kg,Pulses,25,321.01,8025.25
+ORD-00008,2026-01-03,Kumar & Sons,Patna,Distributor,Wheat Flour 10kg,Staples,15,506.51,7597.65
+ORD-00009,2026-01-04,Motihari Distributors,Motihari,Distributor,Chana Dal 5kg,Pulses,15,314.49,4717.35
+ORD-00010,2026-01-04,Rani Sati Stores,Gaya,Retail,Sunflower Oil 5L,Edible Oil,25,636.93,15923.25
+ORD-00011,2026-01-04,Rani Sati Stores,Gaya,Retail,Sunflower Oil 5L,Edible Oil,5,685.29,3426.45
+ORD-00012,2026-01-05,New Bharat Foods,Patna,Institutional,Turmeric Powder 1kg,Spices,25,197.91,4947.75
+ORD-00013,2026-01-05,City Hospital Canteen,Patna,Institutional,Garam Masala 500g,Spices,5,251.9,1259.5
+ORD-00014,2026-01-06,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,15,666.91,10003.65
+ORD-00015,2026-01-06,Singh Traders,Gaya,Distributor,Sugar 5kg,Staples,15,258.2,3873.0
+ORD-00016,2026-01-06,Kumar & Sons,Patna,Distributor,Coriander Powder 1kg,Spices,80,151.71,12136.8
+ORD-00017,2026-01-06,Anand General Store,Muzaffarpur,Retail,Groundnut Oil 5L,Edible Oil,25,688.76,17219.0
+ORD-00018,2026-01-06,Jamshedpur Foods,Jamshedpur,Wholesale,Turmeric Powder 1kg,Spices,20,176.97,3539.4
+ORD-00019,2026-01-07,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,25,1273.49,31837.25
+ORD-00020,2026-01-07,Agarwal Distributors,Patna,Distributor,Groundnut Oil 5L,Edible Oil,40,746.12,29844.8
+ORD-00021,2026-01-07,Singh Traders,Gaya,Distributor,Wheat Flour 10kg,Staples,50,525.59,26279.5
+ORD-00022,2026-01-08,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,100,624.64,62464.0
+ORD-00023,2026-01-08,Ranchi Wholesale Mart,Ranchi,Distributor,Rice 25kg,Staples,20,1219.34,24386.8
+ORD-00024,2026-01-08,Siuri Traders,Siuri,Wholesale,Turmeric Powder 1kg,Spices,10,208.7,2087.0
+ORD-00025,2026-01-09,Maa Durga Mart,Bhagalpur,Retail,Sunflower Oil 5L,Edible Oil,100,660.65,66065.0
+ORD-00026,2026-01-09,Verma Trading Co.,Patna,Wholesale,Chana Dal 5kg,Pulses,15,328.45,4926.75
+ORD-00027,2026-01-09,City Hospital Canteen,Patna,Institutional,Wheat Flour 10kg,Staples,20,463.19,9263.8
+ORD-00028,2026-01-10,Railway Canteen (PNBE),Patna,Institutional,Groundnut Oil 5L,Edible Oil,80,675.31,54024.8
+ORD-00029,2026-01-10,Bhatia General Store,Patna,Retail,Sugar 5kg,Staples,50,262.05,13102.5
+ORD-00030,2026-01-11,College Canteen (Magadh Univ.),Gaya,Institutional,Chilli Powder 1kg,Spices,15,304.26,4563.9
+ORD-00031,2026-01-11,Agarwal Distributors,Patna,Distributor,Sugar 5kg,Staples,50,258.29,12914.5
+ORD-00032,2026-01-12,Lakshmi Traders,Muzaffarpur,Distributor,Garam Masala 500g,Spices,20,242.74,4854.8
+ORD-00033,2026-01-12,Lakshmi Traders,Muzaffarpur,Distributor,Mustard Oil 5L,Edible Oil,10,775.86,7758.6
+ORD-00034,2026-01-12,New Bharat Foods,Patna,Institutional,Turmeric Powder 1kg,Spices,20,188.29,3765.8
+ORD-00035,2026-01-12,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,15,194.28,2914.2
+ORD-00036,2026-01-13,Verma Trading Co.,Patna,Wholesale,Sunflower Oil 5L,Edible Oil,20,667.47,13349.4
+ORD-00037,2026-01-13,Singh Traders,Gaya,Distributor,Chana Dal 5kg,Pulses,15,294.45,4416.75
+ORD-00038,2026-01-13,Jamshedpur Foods,Jamshedpur,Wholesale,Rice 25kg,Staples,15,1284.18,19262.7
+ORD-00039,2026-01-14,New Bharat Foods,Patna,Institutional,Mustard Oil 5L,Edible Oil,20,762.32,15246.4
+ORD-00040,2026-01-14,Gupta Kirana,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,10,477.08,4770.8
+ORD-00041,2026-01-14,Singh Traders,Gaya,Distributor,Basmati Rice 5kg,Staples,80,452.63,36210.4
+ORD-00042,2026-01-14,Dhanbad Provisions,Dhanbad,Wholesale,Toor Dal 5kg,Pulses,5,318.24,1591.2
+ORD-00043,2026-01-15,Bokaro Kirana House,Bokaro,Retail,Basmati Rice 5kg,Staples,10,461.35,4613.5
+ORD-00044,2026-01-15,Dhanbad Provisions,Dhanbad,Wholesale,Sunflower Oil 5L,Edible Oil,10,612.5,6125.0
+ORD-00045,2026-01-15,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,15,667.43,10011.45
+ORD-00046,2026-01-15,Lakshmi Traders,Muzaffarpur,Distributor,Toor Dal 5kg,Pulses,20,319.2,6384.0
+ORD-00047,2026-01-15,City Hospital Canteen,Patna,Institutional,Mustard Oil 5L,Edible Oil,20,783.22,15664.4
+ORD-00048,2026-01-16,Kumar & Sons,Patna,Distributor,Chana Dal 5kg,Pulses,100,323.31,32331.0
+ORD-00049,2026-01-16,Railway Canteen (PNBE),Patna,Institutional,Garam Masala 500g,Spices,10,242.2,2422.0
+ORD-00050,2026-01-16,Verma Trading Co.,Patna,Wholesale,Chilli Powder 1kg,Spices,20,264.32,5286.4
+ORD-00051,2026-01-16,Sharma Distributors,Patna,Distributor,Moong Dal 2kg,Pulses,5,257.91,1289.55
+ORD-00052,2026-01-17,College Canteen (Magadh Univ.),Gaya,Institutional,Sugar 5kg,Staples,15,222.95,3344.25
+ORD-00053,2026-01-17,Deoghar General Store,Deoghar,Retail,Groundnut Oil 5L,Edible Oil,20,666.55,13331.0
+ORD-00054,2026-01-18,Sahu Brothers,Bhagalpur,Distributor,Moong Dal 2kg,Pulses,10,274.76,2747.6
+ORD-00055,2026-01-18,Singh Traders,Gaya,Distributor,Rice 25kg,Staples,5,1373.47,6867.35
+ORD-00056,2026-01-19,Sharma Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,25,171.14,4278.5
+ORD-00057,2026-01-19,New Bharat Foods,Patna,Institutional,Toor Dal 5kg,Pulses,40,325.61,13024.4
+ORD-00058,2026-01-19,Verma Trading Co.,Patna,Wholesale,Groundnut Oil 5L,Edible Oil,20,636.84,12736.8
+ORD-00059,2026-01-20,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,10,786.99,7869.9
+ORD-00060,2026-01-20,Hazaribagh Traders,Hazaribagh,Retail,Rice 25kg,Staples,25,1223.24,30581.0
+ORD-00061,2026-01-20,Sahu Brothers,Bhagalpur,Distributor,Mustard Oil 5L,Edible Oil,50,681.34,34067.0
+ORD-00062,2026-01-20,Hazaribagh Traders,Hazaribagh,Retail,Coriander Powder 1kg,Spices,20,149.91,2998.2
+ORD-00063,2026-01-20,Lakshmi Traders,Muzaffarpur,Distributor,Basmati Rice 5kg,Staples,20,445.07,8901.4
+ORD-00064,2026-01-21,Jamshedpur Foods,Jamshedpur,Wholesale,Wheat Flour 10kg,Staples,50,504.78,25239.0
+ORD-00065,2026-01-21,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,15,498.75,7481.25
+ORD-00066,2026-01-21,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,20,183.04,3660.8
+ORD-00067,2026-01-21,Lakshmi Traders,Muzaffarpur,Distributor,Coriander Powder 1kg,Spices,50,162.36,8118.0
+ORD-00068,2026-01-22,Singh Traders,Gaya,Distributor,Moong Dal 2kg,Pulses,10,267.51,2675.1
+ORD-00069,2026-01-22,Anand General Store,Muzaffarpur,Retail,Basmati Rice 5kg,Staples,25,436.01,10900.25
+ORD-00070,2026-01-22,Bhatia General Store,Patna,Retail,Coriander Powder 1kg,Spices,5,162.46,812.3
+ORD-00071,2026-01-23,Motihari Distributors,Motihari,Distributor,Sunflower Oil 5L,Edible Oil,5,629.55,3147.75
+ORD-00072,2026-01-23,Siuri Traders,Siuri,Wholesale,Rice 25kg,Staples,20,1340.72,26814.4
+ORD-00073,2026-01-23,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Turmeric Powder 1kg,Spices,25,185.09,4627.25
+ORD-00074,2026-01-23,Maa Durga Mart,Bhagalpur,Retail,Garam Masala 500g,Spices,20,221.28,4425.6
+ORD-00075,2026-01-23,Maa Durga Mart,Bhagalpur,Retail,Toor Dal 5kg,Pulses,10,343.08,3430.8
+ORD-00076,2026-01-24,Agarwal Distributors,Patna,Distributor,Sunflower Oil 5L,Edible Oil,5,629.21,3146.05
+ORD-00077,2026-01-24,Bokaro Kirana House,Bokaro,Retail,Chana Dal 5kg,Pulses,50,340.01,17000.5
+ORD-00078,2026-01-24,Ranchi Wholesale Mart,Ranchi,Distributor,Sunflower Oil 5L,Edible Oil,100,641.64,64164.0
+ORD-00079,2026-01-25,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,15,465.85,6987.75
+ORD-00080,2026-01-25,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Basmati Rice 5kg,Staples,50,421.01,21050.5
+ORD-00081,2026-01-25,College Canteen (Magadh Univ.),Gaya,Institutional,Chilli Powder 1kg,Spices,25,258.82,6470.5
+ORD-00082,2026-01-26,Maa Durga Mart,Bhagalpur,Retail,Toor Dal 5kg,Pulses,10,345.89,3458.9
+ORD-00083,2026-01-26,Maa Durga Mart,Bhagalpur,Retail,Moong Dal 2kg,Pulses,15,250.71,3760.65
+ORD-00084,2026-01-26,Kumar & Sons,Patna,Distributor,Groundnut Oil 5L,Edible Oil,15,699.62,10494.3
+ORD-00085,2026-01-27,Jai Mata Di Store,Gaya,Retail,Toor Dal 5kg,Pulses,25,369.07,9226.75
+ORD-00086,2026-01-27,Kumar & Sons,Patna,Distributor,Sunflower Oil 5L,Edible Oil,10,692.01,6920.1
+ORD-00087,2026-01-27,Ranchi Wholesale Mart,Ranchi,Distributor,Coriander Powder 1kg,Spices,50,163.55,8177.5
+ORD-00088,2026-01-28,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Turmeric Powder 1kg,Spices,5,189.36,946.8
+ORD-00089,2026-01-28,Dhanbad Provisions,Dhanbad,Wholesale,Basmati Rice 5kg,Staples,80,387.91,31032.8
+ORD-00090,2026-01-28,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,80,305.69,24455.2
+ORD-00091,2026-01-28,Gupta Kirana,Muzaffarpur,Retail,Chana Dal 5kg,Pulses,100,307.53,30753.0
+ORD-00092,2026-01-29,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,40,293.75,11750.0
+ORD-00093,2026-01-29,Siuri Traders,Siuri,Wholesale,Sugar 5kg,Staples,10,224.96,2249.6
+ORD-00094,2026-01-29,City Hospital Canteen,Patna,Institutional,Toor Dal 5kg,Pulses,25,323.24,8081.0
+ORD-00095,2026-01-29,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,80,175.04,14003.2
+ORD-00096,2026-01-30,New Bharat Foods,Patna,Institutional,Garam Masala 500g,Spices,10,217.14,2171.4
+ORD-00097,2026-01-30,College Canteen (Magadh Univ.),Gaya,Institutional,Toor Dal 5kg,Pulses,25,350.37,8759.25
+ORD-00098,2026-01-30,Motihari Distributors,Motihari,Distributor,Sugar 5kg,Staples,25,222.23,5555.75
+ORD-00099,2026-01-30,Motihari Distributors,Motihari,Distributor,Coriander Powder 1kg,Spices,5,161.83,809.15
+ORD-00100,2026-01-30,Gupta Kirana,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,10,152.79,1527.9
+ORD-00101,2026-01-31,Verma Trading Co.,Patna,Wholesale,Chana Dal 5kg,Pulses,50,288.43,14421.5
+ORD-00102,2026-01-31,Bokaro Kirana House,Bokaro,Retail,Coriander Powder 1kg,Spices,20,174.95,3499.0
+ORD-00103,2026-01-31,Dhanbad Provisions,Dhanbad,Wholesale,Sugar 5kg,Staples,5,222.19,1110.95
+ORD-00104,2026-02-01,College Canteen (Magadh Univ.),Gaya,Institutional,Chana Dal 5kg,Pulses,5,308.61,1543.05
+ORD-00105,2026-02-02,Sharma Distributors,Patna,Distributor,Basmati Rice 5kg,Staples,50,441.33,22066.5
+ORD-00106,2026-02-02,Dhanbad Provisions,Dhanbad,Wholesale,Moong Dal 2kg,Pulses,15,248.8,3732.0
+ORD-00107,2026-02-02,Bokaro Kirana House,Bokaro,Retail,Sunflower Oil 5L,Edible Oil,20,593.38,11867.6
+ORD-00108,2026-02-02,Sahu Brothers,Bhagalpur,Distributor,Wheat Flour 10kg,Staples,15,445.76,6686.4
+ORD-00109,2026-02-03,Sharma Distributors,Patna,Distributor,Moong Dal 2kg,Pulses,15,254.23,3813.45
+ORD-00110,2026-02-03,Motihari Distributors,Motihari,Distributor,Turmeric Powder 1kg,Spices,50,204.94,10247.0
+ORD-00111,2026-02-03,Bokaro Kirana House,Bokaro,Retail,Groundnut Oil 5L,Edible Oil,15,663.03,9945.45
+ORD-00112,2026-02-04,Rani Sati Stores,Gaya,Retail,Toor Dal 5kg,Pulses,10,366.99,3669.9
+ORD-00113,2026-02-04,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Moong Dal 2kg,Pulses,40,246.9,9876.0
+ORD-00114,2026-02-04,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,5,695.47,3477.35
+ORD-00115,2026-02-04,Sharma Distributors,Patna,Distributor,Rice 25kg,Staples,10,1323.85,13238.5
+ORD-00116,2026-02-05,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,15,189.73,2845.95
+ORD-00117,2026-02-05,Gupta Kirana,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,20,168.78,3375.6
+ORD-00118,2026-02-05,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,25,268.55,6713.75
+ORD-00119,2026-02-05,Ranchi Wholesale Mart,Ranchi,Distributor,Coriander Powder 1kg,Spices,10,158.13,1581.3
+ORD-00120,2026-02-06,Hazaribagh Traders,Hazaribagh,Retail,Toor Dal 5kg,Pulses,5,321.2,1606.0
+ORD-00121,2026-02-06,Lakshmi Traders,Muzaffarpur,Distributor,Coriander Powder 1kg,Spices,20,156.8,3136.0
+ORD-00122,2026-02-06,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,10,451.27,4512.7
+ORD-00123,2026-02-06,Rani Sati Stores,Gaya,Retail,Coriander Powder 1kg,Spices,5,170.02,850.1
+ORD-00124,2026-02-07,Lakshmi Traders,Muzaffarpur,Distributor,Turmeric Powder 1kg,Spices,50,194.22,9711.0
+ORD-00125,2026-02-07,Deoghar General Store,Deoghar,Retail,Sunflower Oil 5L,Edible Oil,20,654.7,13094.0
+ORD-00126,2026-02-08,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,80,679.19,54335.2
+ORD-00127,2026-02-08,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sunflower Oil 5L,Edible Oil,15,660.01,9900.15
+ORD-00128,2026-02-09,Verma Trading Co.,Patna,Wholesale,Rice 25kg,Staples,5,1222.15,6110.75
+ORD-00129,2026-02-09,Jamshedpur Foods,Jamshedpur,Wholesale,Sugar 5kg,Staples,5,234.71,1173.55
+ORD-00130,2026-02-09,Jai Mata Di Store,Gaya,Retail,Coriander Powder 1kg,Spices,25,171.86,4296.5
+ORD-00131,2026-02-10,College Canteen (Magadh Univ.),Gaya,Institutional,Garam Masala 500g,Spices,15,233.17,3497.55
+ORD-00132,2026-02-10,Bokaro Kirana House,Bokaro,Retail,Garam Masala 500g,Spices,5,247.07,1235.35
+ORD-00133,2026-02-10,New Bharat Foods,Patna,Institutional,Garam Masala 500g,Spices,20,227.93,4558.6
+ORD-00134,2026-02-10,Anand General Store,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,10,162.45,1624.5
+ORD-00135,2026-02-10,Jai Mata Di Store,Gaya,Retail,Sunflower Oil 5L,Edible Oil,40,674.35,26974.0
+ORD-00136,2026-02-11,Lakshmi Traders,Muzaffarpur,Distributor,Wheat Flour 10kg,Staples,40,479.58,19183.2
+ORD-00137,2026-02-11,Agarwal Distributors,Patna,Distributor,Garam Masala 500g,Spices,5,239.93,1199.65
+ORD-00138,2026-02-11,Motihari Distributors,Motihari,Distributor,Moong Dal 2kg,Pulses,40,254.11,10164.4
+ORD-00139,2026-02-11,Gupta Kirana,Muzaffarpur,Retail,Sugar 5kg,Staples,25,228.04,5701.0
+ORD-00140,2026-02-12,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,15,264.33,3964.95
+ORD-00141,2026-02-12,Verma Trading Co.,Patna,Wholesale,Turmeric Powder 1kg,Spices,15,200.69,3010.35
+ORD-00142,2026-02-12,Jai Mata Di Store,Gaya,Retail,Basmati Rice 5kg,Staples,50,457.44,22872.0
+ORD-00143,2026-02-13,Ranchi Wholesale Mart,Ranchi,Distributor,Chilli Powder 1kg,Spices,10,273.56,2735.6
+ORD-00144,2026-02-13,Bhatia General Store,Patna,Retail,Moong Dal 2kg,Pulses,40,283.76,11350.4
+ORD-00145,2026-02-13,College Canteen (Magadh Univ.),Gaya,Institutional,Garam Masala 500g,Spices,5,243.64,1218.2
+ORD-00146,2026-02-13,Sharma Distributors,Patna,Distributor,Toor Dal 5kg,Pulses,10,356.97,3569.7
+ORD-00147,2026-02-13,Jai Mata Di Store,Gaya,Retail,Coriander Powder 1kg,Spices,10,171.57,1715.7
+ORD-00148,2026-02-14,Sharma Distributors,Patna,Distributor,Sunflower Oil 5L,Edible Oil,10,649.38,6493.8
+ORD-00149,2026-02-14,Siuri Traders,Siuri,Wholesale,Toor Dal 5kg,Pulses,10,361.25,3612.5
+ORD-00150,2026-02-15,Kumar & Sons,Patna,Distributor,Wheat Flour 10kg,Staples,100,482.05,48205.0
+ORD-00151,2026-02-15,Dhanbad Provisions,Dhanbad,Wholesale,Toor Dal 5kg,Pulses,10,320.15,3201.5
+ORD-00152,2026-02-16,Ranchi Wholesale Mart,Ranchi,Distributor,Mustard Oil 5L,Edible Oil,15,744.55,11168.25
+ORD-00153,2026-02-16,Anand General Store,Muzaffarpur,Retail,Turmeric Powder 1kg,Spices,80,197.84,15827.2
+ORD-00154,2026-02-16,Lakshmi Traders,Muzaffarpur,Distributor,Groundnut Oil 5L,Edible Oil,10,715.17,7151.7
+ORD-00155,2026-02-16,Bhatia General Store,Patna,Retail,Toor Dal 5kg,Pulses,5,360.14,1800.7
+ORD-00156,2026-02-17,Sharma Distributors,Patna,Distributor,Garam Masala 500g,Spices,5,231.42,1157.1
+ORD-00157,2026-02-17,Kumar & Sons,Patna,Distributor,Sunflower Oil 5L,Edible Oil,15,654.11,9811.65
+ORD-00158,2026-02-17,Agarwal Distributors,Patna,Distributor,Chana Dal 5kg,Pulses,5,289.96,1449.8
+ORD-00159,2026-02-18,Anand General Store,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,40,155.1,6204.0
+ORD-00160,2026-02-18,Sharma Distributors,Patna,Distributor,Sugar 5kg,Staples,5,222.68,1113.4
+ORD-00161,2026-02-18,Agarwal Distributors,Patna,Distributor,Toor Dal 5kg,Pulses,15,335.96,5039.4
+ORD-00162,2026-02-19,Siuri Traders,Siuri,Wholesale,Groundnut Oil 5L,Edible Oil,15,700.04,10500.6
+ORD-00163,2026-02-19,Bokaro Kirana House,Bokaro,Retail,Garam Masala 500g,Spices,25,213.55,5338.75
+ORD-00164,2026-02-19,College Canteen (Magadh Univ.),Gaya,Institutional,Turmeric Powder 1kg,Spices,10,200.99,2009.9
+ORD-00165,2026-02-20,Agarwal Distributors,Patna,Distributor,Garam Masala 500g,Spices,5,222.06,1110.3
+ORD-00166,2026-02-20,Jamshedpur Foods,Jamshedpur,Wholesale,Moong Dal 2kg,Pulses,10,257.32,2573.2
+ORD-00167,2026-02-20,Jamshedpur Foods,Jamshedpur,Wholesale,Garam Masala 500g,Spices,15,241.81,3627.15
+ORD-00168,2026-02-20,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,50,240.13,12006.5
+ORD-00169,2026-02-20,Singh Traders,Gaya,Distributor,Toor Dal 5kg,Pulses,5,350.26,1751.3
+ORD-00170,2026-02-21,Agarwal Distributors,Patna,Distributor,Rice 25kg,Staples,20,1193.63,23872.6
+ORD-00171,2026-02-21,Rani Sati Stores,Gaya,Retail,Moong Dal 2kg,Pulses,40,273.97,10958.8
+ORD-00172,2026-02-22,New Bharat Foods,Patna,Institutional,Wheat Flour 10kg,Staples,40,486.87,19474.8
+ORD-00173,2026-02-23,Singh Traders,Gaya,Distributor,Chilli Powder 1kg,Spices,20,287.06,5741.2
+ORD-00174,2026-02-23,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,10,257.17,2571.7
+ORD-00175,2026-02-23,Verma Trading Co.,Patna,Wholesale,Wheat Flour 10kg,Staples,20,480.63,9612.6
+ORD-00176,2026-02-23,Railway Canteen (PNBE),Patna,Institutional,Rice 25kg,Staples,15,1301.32,19519.8
+ORD-00177,2026-02-24,Jamshedpur Foods,Jamshedpur,Wholesale,Sunflower Oil 5L,Edible Oil,10,677.87,6778.7
+ORD-00178,2026-02-24,Jamshedpur Foods,Jamshedpur,Wholesale,Toor Dal 5kg,Pulses,15,356.78,5351.7
+ORD-00179,2026-02-24,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,40,242.93,9717.2
+ORD-00180,2026-02-24,Railway Canteen (PNBE),Patna,Institutional,Coriander Powder 1kg,Spices,10,169.96,1699.6
+ORD-00181,2026-02-25,City Hospital Canteen,Patna,Institutional,Mustard Oil 5L,Edible Oil,50,748.97,37448.5
+ORD-00182,2026-02-25,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,10,274.65,2746.5
+ORD-00183,2026-02-25,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,10,263.44,2634.4
+ORD-00184,2026-02-25,Singh Traders,Gaya,Distributor,Coriander Powder 1kg,Spices,50,147.47,7373.5
+ORD-00185,2026-02-25,Hazaribagh Traders,Hazaribagh,Retail,Moong Dal 2kg,Pulses,25,285.29,7132.25
+ORD-00186,2026-02-26,Gupta Kirana,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,5,159.84,799.2
+ORD-00187,2026-02-26,Ranchi Wholesale Mart,Ranchi,Distributor,Rice 25kg,Staples,10,1181.18,11811.8
+ORD-00188,2026-02-26,Agarwal Distributors,Patna,Distributor,Groundnut Oil 5L,Edible Oil,20,637.52,12750.4
+ORD-00189,2026-02-26,College Canteen (Magadh Univ.),Gaya,Institutional,Chana Dal 5kg,Pulses,40,340.51,13620.4
+ORD-00190,2026-02-27,Anand General Store,Muzaffarpur,Retail,Groundnut Oil 5L,Edible Oil,15,665.5,9982.5
+ORD-00191,2026-02-27,Anand General Store,Muzaffarpur,Retail,Turmeric Powder 1kg,Spices,15,183.1,2746.5
+ORD-00192,2026-02-27,Hazaribagh Traders,Hazaribagh,Retail,Sugar 5kg,Staples,20,232.42,4648.4
+ORD-00193,2026-02-27,Bokaro Kirana House,Bokaro,Retail,Mustard Oil 5L,Edible Oil,40,780.68,31227.2
+ORD-00194,2026-02-28,Bokaro Kirana House,Bokaro,Retail,Chilli Powder 1kg,Spices,20,298.0,5960.0
+ORD-00195,2026-02-28,Anand General Store,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,15,149.38,2240.7
+ORD-00196,2026-03-01,Bokaro Kirana House,Bokaro,Retail,Sunflower Oil 5L,Edible Oil,20,662.95,13259.0
+ORD-00197,2026-03-01,College Canteen (Magadh Univ.),Gaya,Institutional,Sunflower Oil 5L,Edible Oil,25,646.11,16152.75
+ORD-00198,2026-03-01,City Hospital Canteen,Patna,Institutional,Sugar 5kg,Staples,10,239.92,2399.2
+ORD-00199,2026-03-02,Singh Traders,Gaya,Distributor,Wheat Flour 10kg,Staples,20,497.69,9953.8
+ORD-00200,2026-03-02,Agarwal Distributors,Patna,Distributor,Toor Dal 5kg,Pulses,100,330.15,33015.0
+ORD-00201,2026-03-02,Sharma Distributors,Patna,Distributor,Rice 25kg,Staples,10,1263.84,12638.4
+ORD-00202,2026-03-02,Deoghar General Store,Deoghar,Retail,Wheat Flour 10kg,Staples,10,518.56,5185.6
+ORD-00203,2026-03-03,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,10,230.88,2308.8
+ORD-00204,2026-03-03,Bhatia General Store,Patna,Retail,Chilli Powder 1kg,Spices,80,286.64,22931.2
+ORD-00205,2026-03-03,Gupta Kirana,Muzaffarpur,Retail,Rice 25kg,Staples,40,1227.97,49118.8
+ORD-00206,2026-03-04,Agarwal Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,40,495.93,19837.2
+ORD-00207,2026-03-04,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sugar 5kg,Staples,5,245.9,1229.5
+ORD-00208,2026-03-04,Ranchi Wholesale Mart,Ranchi,Distributor,Toor Dal 5kg,Pulses,5,366.42,1832.1
+ORD-00209,2026-03-05,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,20,273.76,5475.2
+ORD-00210,2026-03-05,City Hospital Canteen,Patna,Institutional,Moong Dal 2kg,Pulses,15,283.37,4250.55
+ORD-00211,2026-03-05,Bhatia General Store,Patna,Retail,Sunflower Oil 5L,Edible Oil,25,635.24,15881.0
+ORD-00212,2026-03-05,Anand General Store,Muzaffarpur,Retail,Basmati Rice 5kg,Staples,10,405.68,4056.8
+ORD-00213,2026-03-06,Maa Durga Mart,Bhagalpur,Retail,Chana Dal 5kg,Pulses,20,293.65,5873.0
+ORD-00214,2026-03-06,Sharma Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,40,190.33,7613.2
+ORD-00215,2026-03-06,Sahu Brothers,Bhagalpur,Distributor,Sunflower Oil 5L,Edible Oil,50,682.39,34119.5
+ORD-00216,2026-03-07,Agarwal Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,10,184.45,1844.5
+ORD-00217,2026-03-07,Rani Sati Stores,Gaya,Retail,Chilli Powder 1kg,Spices,25,273.72,6843.0
+ORD-00218,2026-03-08,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chana Dal 5kg,Pulses,40,338.61,13544.4
+ORD-00219,2026-03-08,College Canteen (Magadh Univ.),Gaya,Institutional,Toor Dal 5kg,Pulses,50,313.57,15678.5
+ORD-00220,2026-03-09,Dhanbad Provisions,Dhanbad,Wholesale,Mustard Oil 5L,Edible Oil,10,722.67,7226.7
+ORD-00221,2026-03-09,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,15,413.5,6202.5
+ORD-00222,2026-03-09,Bokaro Kirana House,Bokaro,Retail,Groundnut Oil 5L,Edible Oil,20,672.72,13454.4
+ORD-00223,2026-03-09,Agarwal Distributors,Patna,Distributor,Mustard Oil 5L,Edible Oil,5,748.69,3743.45
+ORD-00224,2026-03-10,Deoghar General Store,Deoghar,Retail,Rice 25kg,Staples,25,1361.99,34049.75
+ORD-00225,2026-03-10,Kumar & Sons,Patna,Distributor,Garam Masala 500g,Spices,15,241.53,3622.95
+ORD-00226,2026-03-11,Hazaribagh Traders,Hazaribagh,Retail,Toor Dal 5kg,Pulses,20,357.35,7147.0
+ORD-00227,2026-03-11,Bhatia General Store,Patna,Retail,Moong Dal 2kg,Pulses,10,267.63,2676.3
+ORD-00228,2026-03-11,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chana Dal 5kg,Pulses,25,313.65,7841.25
+ORD-00229,2026-03-11,New Bharat Foods,Patna,Institutional,Rice 25kg,Staples,5,1364.57,6822.85
+ORD-00230,2026-03-12,Sharma Distributors,Patna,Distributor,Garam Masala 500g,Spices,40,243.51,9740.4
+ORD-00231,2026-03-12,City Hospital Canteen,Patna,Institutional,Coriander Powder 1kg,Spices,20,150.48,3009.6
+ORD-00232,2026-03-12,Hazaribagh Traders,Hazaribagh,Retail,Toor Dal 5kg,Pulses,15,325.78,4886.7
+ORD-00233,2026-03-12,Railway Canteen (PNBE),Patna,Institutional,Chilli Powder 1kg,Spices,40,296.79,11871.6
+ORD-00234,2026-03-13,Dhanbad Provisions,Dhanbad,Wholesale,Garam Masala 500g,Spices,40,213.82,8552.8
+ORD-00235,2026-03-13,New Bharat Foods,Patna,Institutional,Rice 25kg,Staples,15,1186.72,17800.8
+ORD-00236,2026-03-13,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,15,204.42,3066.3
+ORD-00237,2026-03-13,Sahu Brothers,Bhagalpur,Distributor,Garam Masala 500g,Spices,100,222.65,22265.0
+ORD-00238,2026-03-13,Sharma Distributors,Patna,Distributor,Moong Dal 2kg,Pulses,15,263.26,3948.9
+ORD-00239,2026-03-13,New Bharat Foods,Patna,Institutional,Rice 25kg,Staples,80,1225.56,98044.8
+ORD-00240,2026-03-14,Deoghar General Store,Deoghar,Retail,Chilli Powder 1kg,Spices,40,264.5,10580.0
+ORD-00241,2026-03-14,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,100,258.56,25856.0
+ORD-00242,2026-03-14,Hazaribagh Traders,Hazaribagh,Retail,Chilli Powder 1kg,Spices,15,297.15,4457.25
+ORD-00243,2026-03-15,New Bharat Foods,Patna,Institutional,Toor Dal 5kg,Pulses,10,313.6,3136.0
+ORD-00244,2026-03-15,Motihari Distributors,Motihari,Distributor,Basmati Rice 5kg,Staples,10,436.11,4361.1
+ORD-00245,2026-03-16,Railway Canteen (PNBE),Patna,Institutional,Rice 25kg,Staples,25,1169.97,29249.25
+ORD-00246,2026-03-16,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,15,444.94,6674.1
+ORD-00247,2026-03-16,City Hospital Canteen,Patna,Institutional,Basmati Rice 5kg,Staples,10,435.67,4356.7
+ORD-00248,2026-03-16,Ranchi Wholesale Mart,Ranchi,Distributor,Moong Dal 2kg,Pulses,25,262.76,6569.0
+ORD-00249,2026-03-17,Maa Durga Mart,Bhagalpur,Retail,Moong Dal 2kg,Pulses,20,270.5,5410.0
+ORD-00250,2026-03-17,Maa Durga Mart,Bhagalpur,Retail,Groundnut Oil 5L,Edible Oil,10,661.14,6611.4
+ORD-00251,2026-03-17,New Bharat Foods,Patna,Institutional,Turmeric Powder 1kg,Spices,15,184.8,2772.0
+ORD-00252,2026-03-17,Lakshmi Traders,Muzaffarpur,Distributor,Toor Dal 5kg,Pulses,25,372.97,9324.25
+ORD-00253,2026-03-17,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,5,715.54,3577.7
+ORD-00254,2026-03-17,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,25,282.52,7063.0
+ORD-00255,2026-03-18,Railway Canteen (PNBE),Patna,Institutional,Rice 25kg,Staples,10,1351.19,13511.9
+ORD-00256,2026-03-18,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,10,187.93,1879.3
+ORD-00257,2026-03-19,Maa Durga Mart,Bhagalpur,Retail,Chilli Powder 1kg,Spices,10,286.87,2868.7
+ORD-00258,2026-03-19,Maa Durga Mart,Bhagalpur,Retail,Sugar 5kg,Staples,25,263.39,6584.75
+ORD-00259,2026-03-19,Motihari Distributors,Motihari,Distributor,Moong Dal 2kg,Pulses,40,273.61,10944.4
+ORD-00260,2026-03-19,Jai Mata Di Store,Gaya,Retail,Turmeric Powder 1kg,Spices,20,183.36,3667.2
+ORD-00261,2026-03-20,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Groundnut Oil 5L,Edible Oil,15,655.68,9835.2
+ORD-00262,2026-03-20,Kumar & Sons,Patna,Distributor,Chilli Powder 1kg,Spices,15,267.87,4018.05
+ORD-00263,2026-03-20,Motihari Distributors,Motihari,Distributor,Moong Dal 2kg,Pulses,20,240.83,4816.6
+ORD-00264,2026-03-20,Ranchi Wholesale Mart,Ranchi,Distributor,Rice 25kg,Staples,10,1205.74,12057.4
+ORD-00265,2026-03-20,Lakshmi Traders,Muzaffarpur,Distributor,Chana Dal 5kg,Pulses,20,326.88,6537.6
+ORD-00266,2026-03-20,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,25,188.12,4703.0
+ORD-00267,2026-03-21,City Hospital Canteen,Patna,Institutional,Toor Dal 5kg,Pulses,25,357.93,8948.25
+ORD-00268,2026-03-22,Sharma Distributors,Patna,Distributor,Moong Dal 2kg,Pulses,50,264.55,13227.5
+ORD-00269,2026-03-22,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,50,1177.07,58853.5
+ORD-00270,2026-03-23,Jamshedpur Foods,Jamshedpur,Wholesale,Garam Masala 500g,Spices,20,227.69,4553.8
+ORD-00271,2026-03-23,Hazaribagh Traders,Hazaribagh,Retail,Mustard Oil 5L,Edible Oil,80,772.63,61810.4
+ORD-00272,2026-03-23,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Basmati Rice 5kg,Staples,25,398.97,9974.25
+ORD-00273,2026-03-23,Ranchi Wholesale Mart,Ranchi,Distributor,Rice 25kg,Staples,5,1183.43,5917.15
+ORD-00274,2026-03-23,Singh Traders,Gaya,Distributor,Chana Dal 5kg,Pulses,40,329.07,13162.8
+ORD-00275,2026-03-23,Siuri Traders,Siuri,Wholesale,Garam Masala 500g,Spices,15,245.22,3678.3
+ORD-00276,2026-03-24,Dhanbad Provisions,Dhanbad,Wholesale,Moong Dal 2kg,Pulses,40,254.29,10171.6
+ORD-00277,2026-03-24,Sahu Brothers,Bhagalpur,Distributor,Garam Masala 500g,Spices,15,234.63,3519.45
+ORD-00278,2026-03-24,Singh Traders,Gaya,Distributor,Groundnut Oil 5L,Edible Oil,10,758.78,7587.8
+ORD-00279,2026-03-25,Jamshedpur Foods,Jamshedpur,Wholesale,Moong Dal 2kg,Pulses,10,249.87,2498.7
+ORD-00280,2026-03-25,College Canteen (Magadh Univ.),Gaya,Institutional,Basmati Rice 5kg,Staples,25,454.56,11364.0
+ORD-00281,2026-03-25,Kumar & Sons,Patna,Distributor,Coriander Powder 1kg,Spices,40,154.58,6183.2
+ORD-00282,2026-03-26,Motihari Distributors,Motihari,Distributor,Groundnut Oil 5L,Edible Oil,15,715.0,10725.0
+ORD-00283,2026-03-26,Maa Durga Mart,Bhagalpur,Retail,Moong Dal 2kg,Pulses,5,252.36,1261.8
+ORD-00284,2026-03-26,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chana Dal 5kg,Pulses,40,328.61,13144.4
+ORD-00285,2026-03-26,Gupta Kirana,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,15,277.98,4169.7
+ORD-00286,2026-03-26,Sahu Brothers,Bhagalpur,Distributor,Moong Dal 2kg,Pulses,10,265.97,2659.7
+ORD-00287,2026-03-26,Motihari Distributors,Motihari,Distributor,Toor Dal 5kg,Pulses,10,325.52,3255.2
+ORD-00288,2026-03-27,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,25,616.82,15420.5
+ORD-00289,2026-03-27,Verma Trading Co.,Patna,Wholesale,Wheat Flour 10kg,Staples,50,441.71,22085.5
+ORD-00290,2026-03-27,Lakshmi Traders,Muzaffarpur,Distributor,Mustard Oil 5L,Edible Oil,25,679.74,16993.5
+ORD-00291,2026-03-28,Singh Traders,Gaya,Distributor,Rice 25kg,Staples,50,1200.91,60045.5
+ORD-00292,2026-03-28,Lakshmi Traders,Muzaffarpur,Distributor,Coriander Powder 1kg,Spices,20,151.04,3020.8
+ORD-00293,2026-03-28,Hazaribagh Traders,Hazaribagh,Retail,Turmeric Powder 1kg,Spices,100,176.44,17644.0
+ORD-00294,2026-03-29,Agarwal Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,5,498.28,2491.4
+ORD-00295,2026-03-29,New Bharat Foods,Patna,Institutional,Coriander Powder 1kg,Spices,5,174.67,873.35
+ORD-00296,2026-03-29,Motihari Distributors,Motihari,Distributor,Sunflower Oil 5L,Edible Oil,25,597.72,14943.0
+ORD-00297,2026-03-30,Bhatia General Store,Patna,Retail,Rice 25kg,Staples,50,1290.51,64525.5
+ORD-00298,2026-03-30,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,5,280.65,1403.25
+ORD-00299,2026-03-30,City Hospital Canteen,Patna,Institutional,Toor Dal 5kg,Pulses,100,347.23,34723.0
+ORD-00300,2026-03-30,Verma Trading Co.,Patna,Wholesale,Sunflower Oil 5L,Edible Oil,5,624.65,3123.25
+ORD-00301,2026-03-31,Kumar & Sons,Patna,Distributor,Groundnut Oil 5L,Edible Oil,80,660.52,52841.6
+ORD-00302,2026-03-31,Hazaribagh Traders,Hazaribagh,Retail,Mustard Oil 5L,Edible Oil,25,745.04,18626.0
+ORD-00303,2026-03-31,Gupta Kirana,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,10,680.16,6801.6
+ORD-00304,2026-04-01,Railway Canteen (PNBE),Patna,Institutional,Coriander Powder 1kg,Spices,20,156.2,3124.0
+ORD-00305,2026-04-01,Kumar & Sons,Patna,Distributor,Basmati Rice 5kg,Staples,20,425.38,8507.6
+ORD-00306,2026-04-01,Lakshmi Traders,Muzaffarpur,Distributor,Wheat Flour 10kg,Staples,15,520.75,7811.25
+ORD-00307,2026-04-01,Hazaribagh Traders,Hazaribagh,Retail,Chilli Powder 1kg,Spices,20,269.81,5396.2
+ORD-00308,2026-04-02,Motihari Distributors,Motihari,Distributor,Coriander Powder 1kg,Spices,50,174.96,8748.0
+ORD-00309,2026-04-02,City Hospital Canteen,Patna,Institutional,Moong Dal 2kg,Pulses,100,250.99,25099.0
+ORD-00310,2026-04-02,Anand General Store,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,25,618.66,15466.5
+ORD-00311,2026-04-02,Maa Durga Mart,Bhagalpur,Retail,Basmati Rice 5kg,Staples,15,419.25,6288.75
+ORD-00312,2026-04-02,Bokaro Kirana House,Bokaro,Retail,Basmati Rice 5kg,Staples,20,397.84,7956.8
+ORD-00313,2026-04-03,New Bharat Foods,Patna,Institutional,Chilli Powder 1kg,Spices,10,291.46,2914.6
+ORD-00314,2026-04-03,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,10,230.46,2304.6
+ORD-00315,2026-04-04,Agarwal Distributors,Patna,Distributor,Sugar 5kg,Staples,50,244.99,12249.5
+ORD-00316,2026-04-04,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,10,1186.17,11861.7
+ORD-00317,2026-04-04,Motihari Distributors,Motihari,Distributor,Chana Dal 5kg,Pulses,20,301.03,6020.6
+ORD-00318,2026-04-05,Bokaro Kirana House,Bokaro,Retail,Chana Dal 5kg,Pulses,40,308.99,12359.6
+ORD-00319,2026-04-05,Kumar & Sons,Patna,Distributor,Rice 25kg,Staples,5,1287.23,6436.15
+ORD-00320,2026-04-05,Verma Trading Co.,Patna,Wholesale,Chana Dal 5kg,Pulses,20,323.02,6460.4
+ORD-00321,2026-04-06,College Canteen (Magadh Univ.),Gaya,Institutional,Basmati Rice 5kg,Staples,15,414.51,6217.65
+ORD-00322,2026-04-06,Deoghar General Store,Deoghar,Retail,Basmati Rice 5kg,Staples,10,397.85,3978.5
+ORD-00323,2026-04-06,Maa Durga Mart,Bhagalpur,Retail,Turmeric Powder 1kg,Spices,25,200.16,5004.0
+ORD-00324,2026-04-06,Deoghar General Store,Deoghar,Retail,Rice 25kg,Staples,15,1263.06,18945.9
+ORD-00325,2026-04-06,Bhatia General Store,Patna,Retail,Chilli Powder 1kg,Spices,25,272.64,6816.0
+ORD-00326,2026-04-07,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,80,276.26,22100.8
+ORD-00327,2026-04-07,Bokaro Kirana House,Bokaro,Retail,Moong Dal 2kg,Pulses,15,265.99,3989.85
+ORD-00328,2026-04-07,Lakshmi Traders,Muzaffarpur,Distributor,Basmati Rice 5kg,Staples,40,386.46,15458.4
+ORD-00329,2026-04-07,Verma Trading Co.,Patna,Wholesale,Mustard Oil 5L,Edible Oil,15,739.43,11091.45
+ORD-00330,2026-04-07,Dhanbad Provisions,Dhanbad,Wholesale,Chilli Powder 1kg,Spices,25,277.78,6944.5
+ORD-00331,2026-04-07,Dhanbad Provisions,Dhanbad,Wholesale,Chilli Powder 1kg,Spices,15,306.31,4594.65
+ORD-00332,2026-04-08,Verma Trading Co.,Patna,Wholesale,Basmati Rice 5kg,Staples,10,441.31,4413.1
+ORD-00333,2026-04-08,Bokaro Kirana House,Bokaro,Retail,Wheat Flour 10kg,Staples,10,511.09,5110.9
+ORD-00334,2026-04-08,Agarwal Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,10,301.55,3015.5
+ORD-00335,2026-04-08,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,10,270.13,2701.3
+ORD-00336,2026-04-08,Jai Mata Di Store,Gaya,Retail,Wheat Flour 10kg,Staples,15,463.44,6951.6
+ORD-00337,2026-04-08,New Bharat Foods,Patna,Institutional,Chilli Powder 1kg,Spices,15,267.79,4016.85
+ORD-00338,2026-04-09,Agarwal Distributors,Patna,Distributor,Chana Dal 5kg,Pulses,15,315.78,4736.7
+ORD-00339,2026-04-09,Bhatia General Store,Patna,Retail,Sugar 5kg,Staples,5,242.02,1210.1
+ORD-00340,2026-04-09,Anand General Store,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,10,283.11,2831.1
+ORD-00341,2026-04-09,Jamshedpur Foods,Jamshedpur,Wholesale,Wheat Flour 10kg,Staples,25,523.95,13098.75
+ORD-00342,2026-04-09,Jamshedpur Foods,Jamshedpur,Wholesale,Sunflower Oil 5L,Edible Oil,40,647.79,25911.6
+ORD-00343,2026-04-10,Maa Durga Mart,Bhagalpur,Retail,Chilli Powder 1kg,Spices,10,263.1,2631.0
+ORD-00344,2026-04-10,Jamshedpur Foods,Jamshedpur,Wholesale,Toor Dal 5kg,Pulses,15,341.93,5128.95
+ORD-00345,2026-04-10,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,20,245.99,4919.8
+ORD-00346,2026-04-10,Anand General Store,Muzaffarpur,Retail,Rice 25kg,Staples,80,1271.36,101708.8
+ORD-00347,2026-04-11,Kumar & Sons,Patna,Distributor,Mustard Oil 5L,Edible Oil,20,745.07,14901.4
+ORD-00348,2026-04-11,Bhatia General Store,Patna,Retail,Sunflower Oil 5L,Edible Oil,10,594.93,5949.3
+ORD-00349,2026-04-11,Bokaro Kirana House,Bokaro,Retail,Chana Dal 5kg,Pulses,5,323.32,1616.6
+ORD-00350,2026-04-12,Hazaribagh Traders,Hazaribagh,Retail,Chilli Powder 1kg,Spices,15,276.44,4146.6
+ORD-00351,2026-04-12,Gupta Kirana,Muzaffarpur,Retail,Toor Dal 5kg,Pulses,5,361.79,1808.95
+ORD-00352,2026-04-12,Jai Mata Di Store,Gaya,Retail,Wheat Flour 10kg,Staples,15,453.42,6801.3
+ORD-00353,2026-04-13,Bokaro Kirana House,Bokaro,Retail,Mustard Oil 5L,Edible Oil,100,704.44,70444.0
+ORD-00354,2026-04-13,Maa Durga Mart,Bhagalpur,Retail,Rice 25kg,Staples,5,1201.04,6005.2
+ORD-00355,2026-04-13,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,15,235.56,3533.4
+ORD-00356,2026-04-13,Verma Trading Co.,Patna,Wholesale,Chana Dal 5kg,Pulses,10,310.71,3107.1
+ORD-00357,2026-04-14,New Bharat Foods,Patna,Institutional,Wheat Flour 10kg,Staples,20,476.09,9521.8
+ORD-00358,2026-04-14,Anand General Store,Muzaffarpur,Retail,Sugar 5kg,Staples,5,230.09,1150.45
+ORD-00359,2026-04-14,Railway Canteen (PNBE),Patna,Institutional,Rice 25kg,Staples,50,1153.9,57695.0
+ORD-00360,2026-04-14,Ranchi Wholesale Mart,Ranchi,Distributor,Groundnut Oil 5L,Edible Oil,15,657.78,9866.7
+ORD-00361,2026-04-14,Verma Trading Co.,Patna,Wholesale,Turmeric Powder 1kg,Spices,20,189.21,3784.2
+ORD-00362,2026-04-15,Gupta Kirana,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,10,693.69,6936.9
+ORD-00363,2026-04-15,Agarwal Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,40,155.37,6214.8
+ORD-00364,2026-04-15,Agarwal Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,10,276.44,2764.4
+ORD-00365,2026-04-15,New Bharat Foods,Patna,Institutional,Moong Dal 2kg,Pulses,5,253.01,1265.05
+ORD-00366,2026-04-16,Deoghar General Store,Deoghar,Retail,Sunflower Oil 5L,Edible Oil,20,676.2,13524.0
+ORD-00367,2026-04-16,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,80,734.94,58795.2
+ORD-00368,2026-04-17,Anand General Store,Muzaffarpur,Retail,Toor Dal 5kg,Pulses,50,338.06,16903.0
+ORD-00369,2026-04-17,New Bharat Foods,Patna,Institutional,Moong Dal 2kg,Pulses,15,282.5,4237.5
+ORD-00370,2026-04-17,Jai Mata Di Store,Gaya,Retail,Garam Masala 500g,Spices,15,223.88,3358.2
+ORD-00371,2026-04-17,Anand General Store,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,25,496.14,12403.5
+ORD-00372,2026-04-17,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,40,418.03,16721.2
+ORD-00373,2026-04-18,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Rice 25kg,Staples,15,1215.4,18231.0
+ORD-00374,2026-04-18,Deoghar General Store,Deoghar,Retail,Coriander Powder 1kg,Spices,15,154.69,2320.35
+ORD-00375,2026-04-19,Railway Canteen (PNBE),Patna,Institutional,Toor Dal 5kg,Pulses,5,367.49,1837.45
+ORD-00376,2026-04-19,Kumar & Sons,Patna,Distributor,Chilli Powder 1kg,Spices,20,294.13,5882.6
+ORD-00377,2026-04-19,City Hospital Canteen,Patna,Institutional,Sugar 5kg,Staples,20,256.2,5124.0
+ORD-00378,2026-04-20,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,10,648.99,6489.9
+ORD-00379,2026-04-20,Deoghar General Store,Deoghar,Retail,Wheat Flour 10kg,Staples,25,516.83,12920.75
+ORD-00380,2026-04-20,Anand General Store,Muzaffarpur,Retail,Toor Dal 5kg,Pulses,50,345.27,17263.5
+ORD-00381,2026-04-20,Jamshedpur Foods,Jamshedpur,Wholesale,Garam Masala 500g,Spices,10,222.45,2224.5
+ORD-00382,2026-04-20,Jamshedpur Foods,Jamshedpur,Wholesale,Sunflower Oil 5L,Edible Oil,40,637.69,25507.6
+ORD-00383,2026-04-21,Ranchi Wholesale Mart,Ranchi,Distributor,Wheat Flour 10kg,Staples,15,459.24,6888.6
+ORD-00384,2026-04-21,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,20,278.95,5579.0
+ORD-00385,2026-04-22,City Hospital Canteen,Patna,Institutional,Garam Masala 500g,Spices,25,251.53,6288.25
+ORD-00386,2026-04-22,Jamshedpur Foods,Jamshedpur,Wholesale,Sugar 5kg,Staples,10,224.83,2248.3
+ORD-00387,2026-04-22,Bhatia General Store,Patna,Retail,Basmati Rice 5kg,Staples,20,415.56,8311.2
+ORD-00388,2026-04-22,Agarwal Distributors,Patna,Distributor,Basmati Rice 5kg,Staples,20,427.51,8550.2
+ORD-00389,2026-04-22,Maa Durga Mart,Bhagalpur,Retail,Rice 25kg,Staples,20,1289.97,25799.4
+ORD-00390,2026-04-23,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,50,224.88,11244.0
+ORD-00391,2026-04-23,Bokaro Kirana House,Bokaro,Retail,Moong Dal 2kg,Pulses,20,274.11,5482.2
+ORD-00392,2026-04-24,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,15,458.92,6883.8
+ORD-00393,2026-04-24,Railway Canteen (PNBE),Patna,Institutional,Chilli Powder 1kg,Spices,10,285.14,2851.4
+ORD-00394,2026-04-24,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chilli Powder 1kg,Spices,10,258.95,2589.5
+ORD-00395,2026-04-24,Lakshmi Traders,Muzaffarpur,Distributor,Sugar 5kg,Staples,10,257.7,2577.0
+ORD-00396,2026-04-24,Maa Durga Mart,Bhagalpur,Retail,Garam Masala 500g,Spices,15,229.0,3435.0
+ORD-00397,2026-04-24,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,15,165.9,2488.5
+ORD-00398,2026-04-25,Lakshmi Traders,Muzaffarpur,Distributor,Basmati Rice 5kg,Staples,5,446.04,2230.2
+ORD-00399,2026-04-25,Anand General Store,Muzaffarpur,Retail,Garam Masala 500g,Spices,25,232.89,5822.25
+ORD-00400,2026-04-25,Motihari Distributors,Motihari,Distributor,Chilli Powder 1kg,Spices,40,292.22,11688.8
+ORD-00401,2026-04-26,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,20,615.98,12319.6
+ORD-00402,2026-04-26,Deoghar General Store,Deoghar,Retail,Turmeric Powder 1kg,Spices,25,206.57,5164.25
+ORD-00403,2026-04-27,Gupta Kirana,Muzaffarpur,Retail,Groundnut Oil 5L,Edible Oil,100,656.8,65680.0
+ORD-00404,2026-04-27,Lakshmi Traders,Muzaffarpur,Distributor,Garam Masala 500g,Spices,15,247.31,3709.65
+ORD-00405,2026-04-27,Motihari Distributors,Motihari,Distributor,Sunflower Oil 5L,Edible Oil,20,689.72,13794.4
+ORD-00406,2026-04-27,Bhatia General Store,Patna,Retail,Rice 25kg,Staples,20,1237.89,24757.8
+ORD-00407,2026-04-28,Singh Traders,Gaya,Distributor,Garam Masala 500g,Spices,15,214.82,3222.3
+ORD-00408,2026-04-28,Bokaro Kirana House,Bokaro,Retail,Rice 25kg,Staples,15,1213.32,18199.8
+ORD-00409,2026-04-28,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,10,234.8,2348.0
+ORD-00410,2026-04-28,College Canteen (Magadh Univ.),Gaya,Institutional,Basmati Rice 5kg,Staples,20,392.89,7857.8
+ORD-00411,2026-04-28,Kumar & Sons,Patna,Distributor,Coriander Powder 1kg,Spices,15,158.57,2378.55
+ORD-00412,2026-04-29,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,10,253.52,2535.2
+ORD-00413,2026-04-29,Jamshedpur Foods,Jamshedpur,Wholesale,Garam Masala 500g,Spices,10,213.41,2134.1
+ORD-00414,2026-04-29,New Bharat Foods,Patna,Institutional,Moong Dal 2kg,Pulses,25,264.51,6612.75
+ORD-00415,2026-04-29,Anand General Store,Muzaffarpur,Retail,Basmati Rice 5kg,Staples,25,449.27,11231.75
+ORD-00416,2026-04-29,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,25,241.9,6047.5
+ORD-00417,2026-04-29,Motihari Distributors,Motihari,Distributor,Basmati Rice 5kg,Staples,20,428.79,8575.8
+ORD-00418,2026-04-30,Anand General Store,Muzaffarpur,Retail,Groundnut Oil 5L,Edible Oil,15,736.42,11046.3
+ORD-00419,2026-04-30,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,25,240.82,6020.5
+ORD-00420,2026-04-30,Singh Traders,Gaya,Distributor,Coriander Powder 1kg,Spices,15,167.9,2518.5
+ORD-00421,2026-04-30,College Canteen (Magadh Univ.),Gaya,Institutional,Wheat Flour 10kg,Staples,40,512.79,20511.6
+ORD-00422,2026-04-30,Gupta Kirana,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,80,157.4,12592.0
+ORD-00423,2026-05-01,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,15,296.69,4450.35
+ORD-00424,2026-05-01,Dhanbad Provisions,Dhanbad,Wholesale,Sugar 5kg,Staples,40,234.63,9385.2
+ORD-00425,2026-05-01,Maa Durga Mart,Bhagalpur,Retail,Toor Dal 5kg,Pulses,15,341.35,5120.25
+ORD-00426,2026-05-01,Siuri Traders,Siuri,Wholesale,Mustard Oil 5L,Edible Oil,40,724.84,28993.6
+ORD-00427,2026-05-01,City Hospital Canteen,Patna,Institutional,Moong Dal 2kg,Pulses,10,257.02,2570.2
+ORD-00428,2026-05-01,Siuri Traders,Siuri,Wholesale,Garam Masala 500g,Spices,15,245.83,3687.45
+ORD-00429,2026-05-02,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,10,194.91,1949.1
+ORD-00430,2026-05-03,Anand General Store,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,5,740.38,3701.9
+ORD-00431,2026-05-03,College Canteen (Magadh Univ.),Gaya,Institutional,Turmeric Powder 1kg,Spices,50,181.69,9084.5
+ORD-00432,2026-05-03,Motihari Distributors,Motihari,Distributor,Garam Masala 500g,Spices,25,231.75,5793.75
+ORD-00433,2026-05-04,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,15,247.09,3706.35
+ORD-00434,2026-05-04,Sahu Brothers,Bhagalpur,Distributor,Basmati Rice 5kg,Staples,25,440.82,11020.5
+ORD-00435,2026-05-04,Lakshmi Traders,Muzaffarpur,Distributor,Chana Dal 5kg,Pulses,15,288.2,4323.0
+ORD-00436,2026-05-04,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,20,229.91,4598.2
+ORD-00437,2026-05-05,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,5,265.86,1329.3
+ORD-00438,2026-05-05,Bhatia General Store,Patna,Retail,Coriander Powder 1kg,Spices,25,156.03,3900.75
+ORD-00439,2026-05-05,Rani Sati Stores,Gaya,Retail,Garam Masala 500g,Spices,15,230.7,3460.5
+ORD-00440,2026-05-05,Deoghar General Store,Deoghar,Retail,Mustard Oil 5L,Edible Oil,5,662.92,3314.6
+ORD-00441,2026-05-05,Sharma Distributors,Patna,Distributor,Basmati Rice 5kg,Staples,15,458.14,6872.1
+ORD-00442,2026-05-05,Bokaro Kirana House,Bokaro,Retail,Chilli Powder 1kg,Spices,15,277.13,4156.95
+ORD-00443,2026-05-06,Gupta Kirana,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,25,260.16,6504.0
+ORD-00444,2026-05-06,Hazaribagh Traders,Hazaribagh,Retail,Toor Dal 5kg,Pulses,10,367.81,3678.1
+ORD-00445,2026-05-06,Gupta Kirana,Muzaffarpur,Retail,Turmeric Powder 1kg,Spices,15,201.22,3018.3
+ORD-00446,2026-05-06,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chilli Powder 1kg,Spices,40,274.98,10999.2
+ORD-00447,2026-05-06,Kumar & Sons,Patna,Distributor,Sugar 5kg,Staples,20,245.62,4912.4
+ORD-00448,2026-05-07,Gupta Kirana,Muzaffarpur,Retail,Coriander Powder 1kg,Spices,5,151.32,756.6
+ORD-00449,2026-05-07,Kumar & Sons,Patna,Distributor,Sugar 5kg,Staples,5,251.55,1257.75
+ORD-00450,2026-05-07,Railway Canteen (PNBE),Patna,Institutional,Mustard Oil 5L,Edible Oil,40,770.14,30805.6
+ORD-00451,2026-05-07,Verma Trading Co.,Patna,Wholesale,Wheat Flour 10kg,Staples,40,482.86,19314.4
+ORD-00452,2026-05-08,Rani Sati Stores,Gaya,Retail,Turmeric Powder 1kg,Spices,15,184.18,2762.7
+ORD-00453,2026-05-08,Kumar & Sons,Patna,Distributor,Rice 25kg,Staples,10,1232.71,12327.1
+ORD-00454,2026-05-08,Sharma Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,10,175.29,1752.9
+ORD-00455,2026-05-08,Ranchi Wholesale Mart,Ranchi,Distributor,Garam Masala 500g,Spices,40,240.87,9634.8
+ORD-00456,2026-05-08,Rani Sati Stores,Gaya,Retail,Chana Dal 5kg,Pulses,25,327.7,8192.5
+ORD-00457,2026-05-09,Jamshedpur Foods,Jamshedpur,Wholesale,Wheat Flour 10kg,Staples,15,476.93,7153.95
+ORD-00458,2026-05-09,Maa Durga Mart,Bhagalpur,Retail,Sunflower Oil 5L,Edible Oil,15,593.56,8903.4
+ORD-00459,2026-05-09,Rani Sati Stores,Gaya,Retail,Toor Dal 5kg,Pulses,15,330.6,4959.0
+ORD-00460,2026-05-10,Siuri Traders,Siuri,Wholesale,Sunflower Oil 5L,Edible Oil,100,688.39,68839.0
+ORD-00461,2026-05-11,Railway Canteen (PNBE),Patna,Institutional,Garam Masala 500g,Spices,15,216.02,3240.3
+ORD-00462,2026-05-11,Kumar & Sons,Patna,Distributor,Groundnut Oil 5L,Edible Oil,10,705.13,7051.3
+ORD-00463,2026-05-11,City Hospital Canteen,Patna,Institutional,Turmeric Powder 1kg,Spices,50,184.35,9217.5
+ORD-00464,2026-05-11,Railway Canteen (PNBE),Patna,Institutional,Coriander Powder 1kg,Spices,50,160.75,8037.5
+ORD-00465,2026-05-11,Deoghar General Store,Deoghar,Retail,Chilli Powder 1kg,Spices,10,298.27,2982.7
+ORD-00466,2026-05-12,Gupta Kirana,Muzaffarpur,Retail,Garam Masala 500g,Spices,15,251.91,3778.65
+ORD-00467,2026-05-12,Sharma Distributors,Patna,Distributor,Chana Dal 5kg,Pulses,20,292.62,5852.4
+ORD-00468,2026-05-12,Kumar & Sons,Patna,Distributor,Sunflower Oil 5L,Edible Oil,50,694.35,34717.5
+ORD-00469,2026-05-12,Dhanbad Provisions,Dhanbad,Wholesale,Moong Dal 2kg,Pulses,15,258.99,3884.85
+ORD-00470,2026-05-12,New Bharat Foods,Patna,Institutional,Rice 25kg,Staples,10,1215.51,12155.1
+ORD-00471,2026-05-13,Maa Durga Mart,Bhagalpur,Retail,Sugar 5kg,Staples,20,229.87,4597.4
+ORD-00472,2026-05-13,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,10,444.89,4448.9
+ORD-00473,2026-05-13,Railway Canteen (PNBE),Patna,Institutional,Wheat Flour 10kg,Staples,20,514.63,10292.6
+ORD-00474,2026-05-13,Singh Traders,Gaya,Distributor,Sugar 5kg,Staples,10,254.78,2547.8
+ORD-00475,2026-05-13,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,20,279.22,5584.4
+ORD-00476,2026-05-13,Railway Canteen (PNBE),Patna,Institutional,Groundnut Oil 5L,Edible Oil,25,727.35,18183.75
+ORD-00477,2026-05-14,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,20,221.22,4424.4
+ORD-00478,2026-05-14,Maa Durga Mart,Bhagalpur,Retail,Toor Dal 5kg,Pulses,100,337.43,33743.0
+ORD-00479,2026-05-14,Gupta Kirana,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,10,632.02,6320.2
+ORD-00480,2026-05-14,Singh Traders,Gaya,Distributor,Coriander Powder 1kg,Spices,50,155.79,7789.5
+ORD-00481,2026-05-14,Rani Sati Stores,Gaya,Retail,Rice 25kg,Staples,40,1181.05,47242.0
+ORD-00482,2026-05-15,Sharma Distributors,Patna,Distributor,Sugar 5kg,Staples,25,230.43,5760.75
+ORD-00483,2026-05-15,Singh Traders,Gaya,Distributor,Moong Dal 2kg,Pulses,15,263.08,3946.2
+ORD-00484,2026-05-15,Jai Mata Di Store,Gaya,Retail,Chana Dal 5kg,Pulses,20,336.53,6730.6
+ORD-00485,2026-05-15,Lakshmi Traders,Muzaffarpur,Distributor,Moong Dal 2kg,Pulses,10,252.25,2522.5
+ORD-00486,2026-05-15,Singh Traders,Gaya,Distributor,Sugar 5kg,Staples,10,224.3,2243.0
+ORD-00487,2026-05-15,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,20,232.21,4644.2
+ORD-00488,2026-05-16,Verma Trading Co.,Patna,Wholesale,Toor Dal 5kg,Pulses,15,355.84,5337.6
+ORD-00489,2026-05-16,Hazaribagh Traders,Hazaribagh,Retail,Basmati Rice 5kg,Staples,80,455.08,36406.4
+ORD-00490,2026-05-16,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,80,650.68,52054.4
+ORD-00491,2026-05-17,Lakshmi Traders,Muzaffarpur,Distributor,Sugar 5kg,Staples,80,237.63,19010.4
+ORD-00492,2026-05-17,Dhanbad Provisions,Dhanbad,Wholesale,Garam Masala 500g,Spices,80,247.53,19802.4
+ORD-00493,2026-05-17,Siuri Traders,Siuri,Wholesale,Rice 25kg,Staples,15,1374.3,20614.5
+ORD-00494,2026-05-18,Agarwal Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,40,493.76,19750.4
+ORD-00495,2026-05-18,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,40,675.33,27013.2
+ORD-00496,2026-05-18,Maa Durga Mart,Bhagalpur,Retail,Sugar 5kg,Staples,100,228.65,22865.0
+ORD-00497,2026-05-18,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,50,244.62,12231.0
+ORD-00498,2026-05-19,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,15,602.44,9036.6
+ORD-00499,2026-05-19,Dhanbad Provisions,Dhanbad,Wholesale,Rice 25kg,Staples,20,1267.9,25358.0
+ORD-00500,2026-05-19,Kumar & Sons,Patna,Distributor,Basmati Rice 5kg,Staples,25,442.14,11053.5
+ORD-00501,2026-05-19,Bokaro Kirana House,Bokaro,Retail,Garam Masala 500g,Spices,15,225.33,3379.95
+ORD-00502,2026-05-19,Lakshmi Traders,Muzaffarpur,Distributor,Coriander Powder 1kg,Spices,80,173.29,13863.2
+ORD-00503,2026-05-20,Bokaro Kirana House,Bokaro,Retail,Mustard Oil 5L,Edible Oil,15,679.71,10195.65
+ORD-00504,2026-05-20,Dhanbad Provisions,Dhanbad,Wholesale,Groundnut Oil 5L,Edible Oil,40,689.72,27588.8
+ORD-00505,2026-05-20,Railway Canteen (PNBE),Patna,Institutional,Basmati Rice 5kg,Staples,50,405.76,20288.0
+ORD-00506,2026-05-20,College Canteen (Magadh Univ.),Gaya,Institutional,Coriander Powder 1kg,Spices,25,157.63,3940.75
+ORD-00507,2026-05-20,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Mustard Oil 5L,Edible Oil,5,670.04,3350.2
+ORD-00508,2026-05-21,Hazaribagh Traders,Hazaribagh,Retail,Groundnut Oil 5L,Edible Oil,20,694.72,13894.4
+ORD-00509,2026-05-21,Deoghar General Store,Deoghar,Retail,Toor Dal 5kg,Pulses,40,323.71,12948.4
+ORD-00510,2026-05-21,Dhanbad Provisions,Dhanbad,Wholesale,Rice 25kg,Staples,5,1236.79,6183.95
+ORD-00511,2026-05-21,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Basmati Rice 5kg,Staples,20,453.23,9064.6
+ORD-00512,2026-05-21,Lakshmi Traders,Muzaffarpur,Distributor,Sunflower Oil 5L,Edible Oil,40,639.73,25589.2
+ORD-00513,2026-05-22,Singh Traders,Gaya,Distributor,Basmati Rice 5kg,Staples,50,450.67,22533.5
+ORD-00514,2026-05-22,Dhanbad Provisions,Dhanbad,Wholesale,Toor Dal 5kg,Pulses,20,334.27,6685.4
+ORD-00515,2026-05-22,Motihari Distributors,Motihari,Distributor,Mustard Oil 5L,Edible Oil,80,772.46,61796.8
+ORD-00516,2026-05-22,Jai Mata Di Store,Gaya,Retail,Sunflower Oil 5L,Edible Oil,5,657.69,3288.45
+ORD-00517,2026-05-23,Bokaro Kirana House,Bokaro,Retail,Rice 25kg,Staples,40,1279.21,51168.4
+ORD-00518,2026-05-23,Sahu Brothers,Bhagalpur,Distributor,Mustard Oil 5L,Edible Oil,80,698.76,55900.8
+ORD-00519,2026-05-23,Railway Canteen (PNBE),Patna,Institutional,Mustard Oil 5L,Edible Oil,10,778.03,7780.3
+ORD-00520,2026-05-24,Kumar & Sons,Patna,Distributor,Toor Dal 5kg,Pulses,10,327.85,3278.5
+ORD-00521,2026-05-24,Agarwal Distributors,Patna,Distributor,Sugar 5kg,Staples,25,237.05,5926.25
+ORD-00522,2026-05-24,Kumar & Sons,Patna,Distributor,Basmati Rice 5kg,Staples,25,422.13,10553.25
+ORD-00523,2026-05-25,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,15,753.42,11301.3
+ORD-00524,2026-05-25,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,100,247.56,24756.0
+ORD-00525,2026-05-25,Motihari Distributors,Motihari,Distributor,Coriander Powder 1kg,Spices,15,165.28,2479.2
+ORD-00526,2026-05-25,Ranchi Wholesale Mart,Ranchi,Distributor,Basmati Rice 5kg,Staples,15,392.33,5884.95
+ORD-00527,2026-05-26,New Bharat Foods,Patna,Institutional,Toor Dal 5kg,Pulses,15,348.3,5224.5
+ORD-00528,2026-05-26,Lakshmi Traders,Muzaffarpur,Distributor,Sugar 5kg,Staples,100,256.08,25608.0
+ORD-00529,2026-05-26,Bhatia General Store,Patna,Retail,Chana Dal 5kg,Pulses,5,312.17,1560.85
+ORD-00530,2026-05-26,Bhatia General Store,Patna,Retail,Sunflower Oil 5L,Edible Oil,40,617.82,24712.8
+ORD-00531,2026-05-27,Hazaribagh Traders,Hazaribagh,Retail,Sugar 5kg,Staples,20,241.03,4820.6
+ORD-00532,2026-05-27,Dhanbad Provisions,Dhanbad,Wholesale,Moong Dal 2kg,Pulses,100,241.07,24107.0
+ORD-00533,2026-05-27,City Hospital Canteen,Patna,Institutional,Coriander Powder 1kg,Spices,5,163.36,816.8
+ORD-00534,2026-05-27,Agarwal Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,25,175.28,4382.0
+ORD-00535,2026-05-27,Bhatia General Store,Patna,Retail,Rice 25kg,Staples,5,1326.27,6631.35
+ORD-00536,2026-05-28,Lakshmi Traders,Muzaffarpur,Distributor,Groundnut Oil 5L,Edible Oil,20,747.73,14954.6
+ORD-00537,2026-05-28,Agarwal Distributors,Patna,Distributor,Garam Masala 500g,Spices,5,237.72,1188.6
+ORD-00538,2026-05-28,Jai Mata Di Store,Gaya,Retail,Chana Dal 5kg,Pulses,100,288.15,28815.0
+ORD-00539,2026-05-28,Dhanbad Provisions,Dhanbad,Wholesale,Wheat Flour 10kg,Staples,15,486.5,7297.5
+ORD-00540,2026-05-28,Verma Trading Co.,Patna,Wholesale,Basmati Rice 5kg,Staples,25,458.28,11457.0
+ORD-00541,2026-05-28,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,20,654.05,13081.0
+ORD-00542,2026-05-29,Sharma Distributors,Patna,Distributor,Chana Dal 5kg,Pulses,40,301.34,12053.6
+ORD-00543,2026-05-29,Jai Mata Di Store,Gaya,Retail,Rice 25kg,Staples,20,1220.32,24406.4
+ORD-00544,2026-05-29,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,5,216.9,1084.5
+ORD-00545,2026-05-29,Sahu Brothers,Bhagalpur,Distributor,Chilli Powder 1kg,Spices,10,281.53,2815.3
+ORD-00546,2026-05-29,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,5,178.82,894.1
+ORD-00547,2026-05-30,Singh Traders,Gaya,Distributor,Sunflower Oil 5L,Edible Oil,10,679.88,6798.8
+ORD-00548,2026-05-30,City Hospital Canteen,Patna,Institutional,Mustard Oil 5L,Edible Oil,20,667.85,13357.0
+ORD-00549,2026-05-31,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,15,258.17,3872.55
+ORD-00550,2026-05-31,Gupta Kirana,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,15,701.23,10518.45
+ORD-00551,2026-06-01,Hazaribagh Traders,Hazaribagh,Retail,Sugar 5kg,Staples,10,248.47,2484.7
+ORD-00552,2026-06-01,Hazaribagh Traders,Hazaribagh,Retail,Basmati Rice 5kg,Staples,25,392.0,9800.0
+ORD-00553,2026-06-01,Railway Canteen (PNBE),Patna,Institutional,Toor Dal 5kg,Pulses,15,328.43,4926.45
+ORD-00554,2026-06-01,Railway Canteen (PNBE),Patna,Institutional,Wheat Flour 10kg,Staples,10,468.48,4684.8
+ORD-00555,2026-06-02,Kumar & Sons,Patna,Distributor,Turmeric Powder 1kg,Spices,15,200.64,3009.6
+ORD-00556,2026-06-02,Verma Trading Co.,Patna,Wholesale,Rice 25kg,Staples,10,1280.69,12806.9
+ORD-00557,2026-06-02,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,15,242.83,3642.45
+ORD-00558,2026-06-02,Hazaribagh Traders,Hazaribagh,Retail,Toor Dal 5kg,Pulses,40,365.46,14618.4
+ORD-00559,2026-06-02,Hazaribagh Traders,Hazaribagh,Retail,Basmati Rice 5kg,Staples,10,439.35,4393.5
+ORD-00560,2026-06-03,Motihari Distributors,Motihari,Distributor,Chilli Powder 1kg,Spices,10,297.18,2971.8
+ORD-00561,2026-06-03,Jamshedpur Foods,Jamshedpur,Wholesale,Turmeric Powder 1kg,Spices,15,206.86,3102.9
+ORD-00562,2026-06-03,Bhatia General Store,Patna,Retail,Wheat Flour 10kg,Staples,50,463.17,23158.5
+ORD-00563,2026-06-03,Maa Durga Mart,Bhagalpur,Retail,Rice 25kg,Staples,20,1275.96,25519.2
+ORD-00564,2026-06-04,Singh Traders,Gaya,Distributor,Rice 25kg,Staples,100,1248.6,124860.0
+ORD-00565,2026-06-04,City Hospital Canteen,Patna,Institutional,Coriander Powder 1kg,Spices,15,156.67,2350.05
+ORD-00566,2026-06-04,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,5,669.09,3345.45
+ORD-00567,2026-06-04,College Canteen (Magadh Univ.),Gaya,Institutional,Coriander Powder 1kg,Spices,50,149.74,7487.0
+ORD-00568,2026-06-04,Agarwal Distributors,Patna,Distributor,Mustard Oil 5L,Edible Oil,50,714.48,35724.0
+ORD-00569,2026-06-05,Agarwal Distributors,Patna,Distributor,Basmati Rice 5kg,Staples,5,404.73,2023.65
+ORD-00570,2026-06-05,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,10,203.63,2036.3
+ORD-00571,2026-06-05,Sharma Distributors,Patna,Distributor,Groundnut Oil 5L,Edible Oil,10,713.36,7133.6
+ORD-00572,2026-06-05,Lakshmi Traders,Muzaffarpur,Distributor,Garam Masala 500g,Spices,15,248.25,3723.75
+ORD-00573,2026-06-05,Jamshedpur Foods,Jamshedpur,Wholesale,Rice 25kg,Staples,25,1298.3,32457.5
+ORD-00574,2026-06-06,Singh Traders,Gaya,Distributor,Basmati Rice 5kg,Staples,25,407.92,10198.0
+ORD-00575,2026-06-06,Deoghar General Store,Deoghar,Retail,Turmeric Powder 1kg,Spices,15,203.74,3056.1
+ORD-00576,2026-06-06,Sahu Brothers,Bhagalpur,Distributor,Garam Masala 500g,Spices,40,246.99,9879.6
+ORD-00577,2026-06-06,Dhanbad Provisions,Dhanbad,Wholesale,Wheat Flour 10kg,Staples,20,468.21,9364.2
+ORD-00578,2026-06-07,Anand General Store,Muzaffarpur,Retail,Garam Masala 500g,Spices,15,220.86,3312.9
+ORD-00579,2026-06-07,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Mustard Oil 5L,Edible Oil,25,672.73,16818.25
+ORD-00580,2026-06-07,Agarwal Distributors,Patna,Distributor,Rice 25kg,Staples,10,1196.41,11964.1
+ORD-00581,2026-06-08,Motihari Distributors,Motihari,Distributor,Moong Dal 2kg,Pulses,40,260.84,10433.6
+ORD-00582,2026-06-08,New Bharat Foods,Patna,Institutional,Toor Dal 5kg,Pulses,20,354.18,7083.6
+ORD-00583,2026-06-08,Lakshmi Traders,Muzaffarpur,Distributor,Mustard Oil 5L,Edible Oil,20,733.5,14670.0
+ORD-00584,2026-06-08,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,100,233.33,23333.0
+ORD-00585,2026-06-08,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,5,205.28,1026.4
+ORD-00586,2026-06-09,Anand General Store,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,15,269.73,4045.95
+ORD-00587,2026-06-09,Verma Trading Co.,Patna,Wholesale,Groundnut Oil 5L,Edible Oil,25,729.9,18247.5
+ORD-00588,2026-06-09,Railway Canteen (PNBE),Patna,Institutional,Moong Dal 2kg,Pulses,5,252.06,1260.3
+ORD-00589,2026-06-09,Anand General Store,Muzaffarpur,Retail,Basmati Rice 5kg,Staples,10,455.87,4558.7
+ORD-00590,2026-06-09,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,10,1279.07,12790.7
+ORD-00591,2026-06-10,Ranchi Wholesale Mart,Ranchi,Distributor,Wheat Flour 10kg,Staples,80,497.35,39788.0
+ORD-00592,2026-06-10,Lakshmi Traders,Muzaffarpur,Distributor,Sunflower Oil 5L,Edible Oil,25,672.7,16817.5
+ORD-00593,2026-06-10,Singh Traders,Gaya,Distributor,Coriander Powder 1kg,Spices,15,159.91,2398.65
+ORD-00594,2026-06-10,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,15,269.77,4046.55
+ORD-00595,2026-06-10,Ranchi Wholesale Mart,Ranchi,Distributor,Wheat Flour 10kg,Staples,25,484.33,12108.25
+ORD-00596,2026-06-11,Sharma Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,5,268.26,1341.3
+ORD-00597,2026-06-11,Singh Traders,Gaya,Distributor,Mustard Oil 5L,Edible Oil,20,717.38,14347.6
+ORD-00598,2026-06-11,Verma Trading Co.,Patna,Wholesale,Coriander Powder 1kg,Spices,20,156.92,3138.4
+ORD-00599,2026-06-11,Jamshedpur Foods,Jamshedpur,Wholesale,Turmeric Powder 1kg,Spices,20,189.71,3794.2
+ORD-00600,2026-06-12,Sahu Brothers,Bhagalpur,Distributor,Garam Masala 500g,Spices,50,223.2,11160.0
+ORD-00601,2026-06-12,Agarwal Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,10,280.52,2805.2
+ORD-00602,2026-06-12,Siuri Traders,Siuri,Wholesale,Sunflower Oil 5L,Edible Oil,25,646.77,16169.25
+ORD-00603,2026-06-13,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,10,751.46,7514.6
+ORD-00604,2026-06-13,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,25,272.36,6809.0
+ORD-00605,2026-06-14,Sharma Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,100,295.52,29552.0
+ORD-00606,2026-06-14,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,10,244.51,2445.1
+ORD-00607,2026-06-14,Agarwal Distributors,Patna,Distributor,Sugar 5kg,Staples,15,254.44,3816.6
+ORD-00608,2026-06-15,Maa Durga Mart,Bhagalpur,Retail,Coriander Powder 1kg,Spices,15,175.9,2638.5
+ORD-00609,2026-06-15,Maa Durga Mart,Bhagalpur,Retail,Toor Dal 5kg,Pulses,40,347.43,13897.2
+ORD-00610,2026-06-15,Ranchi Wholesale Mart,Ranchi,Distributor,Garam Masala 500g,Spices,5,236.47,1182.35
+ORD-00611,2026-06-15,Sharma Distributors,Patna,Distributor,Rice 25kg,Staples,5,1258.56,6292.8
+ORD-00612,2026-06-15,Maa Durga Mart,Bhagalpur,Retail,Chilli Powder 1kg,Spices,15,265.49,3982.35
+ORD-00613,2026-06-16,Ranchi Wholesale Mart,Ranchi,Distributor,Garam Masala 500g,Spices,25,234.77,5869.25
+ORD-00614,2026-06-16,New Bharat Foods,Patna,Institutional,Chana Dal 5kg,Pulses,10,310.66,3106.6
+ORD-00615,2026-06-16,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,50,278.05,13902.5
+ORD-00616,2026-06-16,Deoghar General Store,Deoghar,Retail,Wheat Flour 10kg,Staples,5,497.65,2488.25
+ORD-00617,2026-06-17,Sharma Distributors,Patna,Distributor,Mustard Oil 5L,Edible Oil,20,736.12,14722.4
+ORD-00618,2026-06-17,Bhatia General Store,Patna,Retail,Chana Dal 5kg,Pulses,15,320.17,4802.55
+ORD-00619,2026-06-17,Gupta Kirana,Muzaffarpur,Retail,Rice 25kg,Staples,5,1167.3,5836.5
+ORD-00620,2026-06-17,Bokaro Kirana House,Bokaro,Retail,Rice 25kg,Staples,20,1317.86,26357.2
+ORD-00621,2026-06-17,Maa Durga Mart,Bhagalpur,Retail,Coriander Powder 1kg,Spices,15,166.64,2499.6
+ORD-00622,2026-06-17,Lakshmi Traders,Muzaffarpur,Distributor,Groundnut Oil 5L,Edible Oil,5,635.11,3175.55
+ORD-00623,2026-06-18,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,5,266.43,1332.15
+ORD-00624,2026-06-18,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,50,239.89,11994.5
+ORD-00625,2026-06-18,Ranchi Wholesale Mart,Ranchi,Distributor,Wheat Flour 10kg,Staples,5,460.3,2301.5
+ORD-00626,2026-06-18,Jamshedpur Foods,Jamshedpur,Wholesale,Toor Dal 5kg,Pulses,100,316.68,31668.0
+ORD-00627,2026-06-18,City Hospital Canteen,Patna,Institutional,Chana Dal 5kg,Pulses,10,324.63,3246.3
+ORD-00628,2026-06-19,City Hospital Canteen,Patna,Institutional,Toor Dal 5kg,Pulses,15,351.8,5277.0
+ORD-00629,2026-06-19,Bokaro Kirana House,Bokaro,Retail,Toor Dal 5kg,Pulses,40,353.23,14129.2
+ORD-00630,2026-06-19,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,10,522.07,5220.7
+ORD-00631,2026-06-19,College Canteen (Magadh Univ.),Gaya,Institutional,Sunflower Oil 5L,Edible Oil,10,654.22,6542.2
+ORD-00632,2026-06-19,Siuri Traders,Siuri,Wholesale,Basmati Rice 5kg,Staples,15,411.91,6178.65
+ORD-00633,2026-06-19,Anand General Store,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,10,256.09,2560.9
+ORD-00634,2026-06-20,Jai Mata Di Store,Gaya,Retail,Coriander Powder 1kg,Spices,5,166.86,834.3
+ORD-00635,2026-06-20,Bokaro Kirana House,Bokaro,Retail,Coriander Powder 1kg,Spices,10,168.77,1687.7
+ORD-00636,2026-06-20,Gupta Kirana,Muzaffarpur,Retail,Garam Masala 500g,Spices,5,247.82,1239.1
+ORD-00637,2026-06-20,Dhanbad Provisions,Dhanbad,Wholesale,Sunflower Oil 5L,Edible Oil,15,701.68,10525.2
+ORD-00638,2026-06-21,Jai Mata Di Store,Gaya,Retail,Moong Dal 2kg,Pulses,15,280.36,4205.4
+ORD-00639,2026-06-21,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,10,640.9,6409.0
+ORD-00640,2026-06-22,Gupta Kirana,Muzaffarpur,Retail,Turmeric Powder 1kg,Spices,40,181.66,7266.4
+ORD-00641,2026-06-22,Maa Durga Mart,Bhagalpur,Retail,Wheat Flour 10kg,Staples,10,506.07,5060.7
+ORD-00642,2026-06-22,Agarwal Distributors,Patna,Distributor,Mustard Oil 5L,Edible Oil,10,705.87,7058.7
+ORD-00643,2026-06-22,Hazaribagh Traders,Hazaribagh,Retail,Chilli Powder 1kg,Spices,80,304.07,24325.6
+ORD-00644,2026-06-22,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,10,763.88,7638.8
+ORD-00645,2026-06-23,Ranchi Wholesale Mart,Ranchi,Distributor,Moong Dal 2kg,Pulses,25,245.22,6130.5
+ORD-00646,2026-06-23,Motihari Distributors,Motihari,Distributor,Basmati Rice 5kg,Staples,10,457.49,4574.9
+ORD-00647,2026-06-23,Railway Canteen (PNBE),Patna,Institutional,Groundnut Oil 5L,Edible Oil,15,685.16,10277.4
+ORD-00648,2026-06-23,Jai Mata Di Store,Gaya,Retail,Wheat Flour 10kg,Staples,15,525.81,7887.15
+ORD-00649,2026-06-23,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,100,175.91,17591.0
+ORD-00650,2026-06-24,College Canteen (Magadh Univ.),Gaya,Institutional,Garam Masala 500g,Spices,100,227.54,22754.0
+ORD-00651,2026-06-24,New Bharat Foods,Patna,Institutional,Sunflower Oil 5L,Edible Oil,5,610.11,3050.55
+ORD-00652,2026-06-24,Jai Mata Di Store,Gaya,Retail,Basmati Rice 5kg,Staples,25,401.08,10027.0
+ORD-00653,2026-06-24,New Bharat Foods,Patna,Institutional,Chilli Powder 1kg,Spices,10,289.92,2899.2
+ORD-00654,2026-06-24,Sahu Brothers,Bhagalpur,Distributor,Groundnut Oil 5L,Edible Oil,15,737.0,11055.0
+ORD-00655,2026-06-25,Sharma Distributors,Patna,Distributor,Garam Masala 500g,Spices,25,235.67,5891.75
+ORD-00656,2026-06-25,Sharma Distributors,Patna,Distributor,Mustard Oil 5L,Edible Oil,20,724.8,14496.0
+ORD-00657,2026-06-25,Bhatia General Store,Patna,Retail,Sugar 5kg,Staples,15,262.76,3941.4
+ORD-00658,2026-06-25,Hazaribagh Traders,Hazaribagh,Retail,Garam Masala 500g,Spices,15,213.9,3208.5
+ORD-00659,2026-06-25,Bhatia General Store,Patna,Retail,Moong Dal 2kg,Pulses,10,266.24,2662.4
+ORD-00660,2026-06-26,Jai Mata Di Store,Gaya,Retail,Groundnut Oil 5L,Edible Oil,20,644.34,12886.8
+ORD-00661,2026-06-26,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,15,499.44,7491.6
+ORD-00662,2026-06-26,Dhanbad Provisions,Dhanbad,Wholesale,Moong Dal 2kg,Pulses,15,260.66,3909.9
+ORD-00663,2026-06-26,Jai Mata Di Store,Gaya,Retail,Wheat Flour 10kg,Staples,50,448.99,22449.5
+ORD-00664,2026-06-26,City Hospital Canteen,Patna,Institutional,Coriander Powder 1kg,Spices,20,148.86,2977.2
+ORD-00665,2026-06-27,Sahu Brothers,Bhagalpur,Distributor,Groundnut Oil 5L,Edible Oil,5,746.41,3732.05
+ORD-00666,2026-06-27,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sunflower Oil 5L,Edible Oil,15,640.94,9614.1
+ORD-00667,2026-06-28,Sahu Brothers,Bhagalpur,Distributor,Chana Dal 5kg,Pulses,10,324.49,3244.9
+ORD-00668,2026-06-28,Kumar & Sons,Patna,Distributor,Basmati Rice 5kg,Staples,20,405.74,8114.8
+ORD-00669,2026-06-28,Siuri Traders,Siuri,Wholesale,Mustard Oil 5L,Edible Oil,5,739.06,3695.3
+ORD-00670,2026-06-29,Sharma Distributors,Patna,Distributor,Sugar 5kg,Staples,80,239.36,19148.8
+ORD-00671,2026-06-29,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,20,299.87,5997.4
+ORD-00672,2026-06-29,Siuri Traders,Siuri,Wholesale,Garam Masala 500g,Spices,40,214.18,8567.2
+ORD-00673,2026-06-29,Rani Sati Stores,Gaya,Retail,Sunflower Oil 5L,Edible Oil,15,613.6,9204.0
+ORD-00674,2026-06-29,Bokaro Kirana House,Bokaro,Retail,Mustard Oil 5L,Edible Oil,15,737.02,11055.3
+ORD-00675,2026-06-30,Bhatia General Store,Patna,Retail,Sugar 5kg,Staples,10,243.71,2437.1
+ORD-00676,2026-06-30,Sharma Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,20,505.63,10112.6
+ORD-00677,2026-06-30,Sahu Brothers,Bhagalpur,Distributor,Groundnut Oil 5L,Edible Oil,15,721.95,10829.25
+ORD-00678,2026-06-30,Gupta Kirana,Muzaffarpur,Retail,Groundnut Oil 5L,Edible Oil,20,690.39,13807.8
+ORD-00679,2026-06-30,City Hospital Canteen,Patna,Institutional,Chana Dal 5kg,Pulses,50,313.41,15670.5
+ORD-00680,2026-07-01,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,10,335.94,3359.4
+ORD-00681,2026-07-01,Kumar & Sons,Patna,Distributor,Turmeric Powder 1kg,Spices,25,175.14,4378.5
+ORD-00682,2026-07-01,Hazaribagh Traders,Hazaribagh,Retail,Garam Masala 500g,Spices,50,252.33,12616.5
+ORD-00683,2026-07-01,Siuri Traders,Siuri,Wholesale,Chana Dal 5kg,Pulses,20,310.32,6206.4
+ORD-00684,2026-07-01,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,15,192.21,2883.15
+ORD-00685,2026-07-02,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,25,216.15,5403.75
+ORD-00686,2026-07-02,Verma Trading Co.,Patna,Wholesale,Toor Dal 5kg,Pulses,20,336.48,6729.6
+ORD-00687,2026-07-02,Maa Durga Mart,Bhagalpur,Retail,Chana Dal 5kg,Pulses,20,292.67,5853.4
+ORD-00688,2026-07-02,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,15,693.79,10406.85
+ORD-00689,2026-07-02,Bokaro Kirana House,Bokaro,Retail,Coriander Powder 1kg,Spices,20,160.72,3214.4
+ORD-00690,2026-07-03,Bokaro Kirana House,Bokaro,Retail,Coriander Powder 1kg,Spices,10,159.89,1598.9
+ORD-00691,2026-07-03,Rani Sati Stores,Gaya,Retail,Basmati Rice 5kg,Staples,10,425.02,4250.2
+ORD-00692,2026-07-03,Sharma Distributors,Patna,Distributor,Toor Dal 5kg,Pulses,15,370.26,5553.9
+ORD-00693,2026-07-03,Jai Mata Di Store,Gaya,Retail,Toor Dal 5kg,Pulses,15,364.12,5461.8
+ORD-00694,2026-07-03,Deoghar General Store,Deoghar,Retail,Wheat Flour 10kg,Staples,10,472.26,4722.6
+ORD-00695,2026-07-04,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,20,258.9,5178.0
+ORD-00696,2026-07-04,Agarwal Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,15,191.59,2873.85
+ORD-00697,2026-07-05,Singh Traders,Gaya,Distributor,Rice 25kg,Staples,15,1252.84,18792.6
+ORD-00698,2026-07-05,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,100,296.51,29651.0
+ORD-00699,2026-07-05,Jamshedpur Foods,Jamshedpur,Wholesale,Sunflower Oil 5L,Edible Oil,15,635.78,9536.7
+ORD-00700,2026-07-06,City Hospital Canteen,Patna,Institutional,Basmati Rice 5kg,Staples,40,434.6,17384.0
+ORD-00701,2026-07-06,Deoghar General Store,Deoghar,Retail,Sunflower Oil 5L,Edible Oil,15,684.46,10266.9
+ORD-00702,2026-07-06,Lakshmi Traders,Muzaffarpur,Distributor,Basmati Rice 5kg,Staples,15,444.75,6671.25
+ORD-00703,2026-07-06,Anand General Store,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,40,266.48,10659.2
+ORD-00704,2026-07-06,Bhatia General Store,Patna,Retail,Sugar 5kg,Staples,100,227.8,22780.0
+ORD-00705,2026-07-07,Bhatia General Store,Patna,Retail,Chana Dal 5kg,Pulses,20,293.22,5864.4
+ORD-00706,2026-07-07,Dhanbad Provisions,Dhanbad,Wholesale,Wheat Flour 10kg,Staples,20,471.62,9432.4
+ORD-00707,2026-07-07,City Hospital Canteen,Patna,Institutional,Mustard Oil 5L,Edible Oil,20,663.46,13269.2
+ORD-00708,2026-07-07,Kumar & Sons,Patna,Distributor,Mustard Oil 5L,Edible Oil,15,692.67,10390.05
+ORD-00709,2026-07-07,Ranchi Wholesale Mart,Ranchi,Distributor,Turmeric Powder 1kg,Spices,15,190.7,2860.5
+ORD-00710,2026-07-08,Rani Sati Stores,Gaya,Retail,Wheat Flour 10kg,Staples,10,464.29,4642.9
+ORD-00711,2026-07-08,Lakshmi Traders,Muzaffarpur,Distributor,Basmati Rice 5kg,Staples,25,434.46,10861.5
+ORD-00712,2026-07-08,City Hospital Canteen,Patna,Institutional,Rice 25kg,Staples,15,1225.11,18376.65
+ORD-00713,2026-07-08,College Canteen (Magadh Univ.),Gaya,Institutional,Wheat Flour 10kg,Staples,5,450.65,2253.25
+ORD-00714,2026-07-08,Sharma Distributors,Patna,Distributor,Sugar 5kg,Staples,40,229.83,9193.2
+ORD-00715,2026-07-08,Singh Traders,Gaya,Distributor,Mustard Oil 5L,Edible Oil,80,740.02,59201.6
+ORD-00716,2026-07-08,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,25,258.73,6468.25
+ORD-00717,2026-07-09,Kumar & Sons,Patna,Distributor,Sugar 5kg,Staples,15,257.21,3858.15
+ORD-00718,2026-07-09,Agarwal Distributors,Patna,Distributor,Basmati Rice 5kg,Staples,10,424.63,4246.3
+ORD-00719,2026-07-09,Sahu Brothers,Bhagalpur,Distributor,Chilli Powder 1kg,Spices,50,274.35,13717.5
+ORD-00720,2026-07-10,Kumar & Sons,Patna,Distributor,Chilli Powder 1kg,Spices,25,285.32,7133.0
+ORD-00721,2026-07-10,Railway Canteen (PNBE),Patna,Institutional,Garam Masala 500g,Spices,50,219.75,10987.5
+ORD-00722,2026-07-10,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,15,283.89,4258.35
+ORD-00723,2026-07-10,Hazaribagh Traders,Hazaribagh,Retail,Chana Dal 5kg,Pulses,10,286.57,2865.7
+ORD-00724,2026-07-11,Deoghar General Store,Deoghar,Retail,Chana Dal 5kg,Pulses,10,289.03,2890.3
+ORD-00725,2026-07-11,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,50,248.66,12433.0
+ORD-00726,2026-07-11,Singh Traders,Gaya,Distributor,Moong Dal 2kg,Pulses,15,265.1,3976.5
+ORD-00727,2026-07-11,Dhanbad Provisions,Dhanbad,Wholesale,Chana Dal 5kg,Pulses,50,340.43,17021.5
+ORD-00728,2026-07-12,Motihari Distributors,Motihari,Distributor,Moong Dal 2kg,Pulses,15,246.82,3702.3
+ORD-00729,2026-07-12,Railway Canteen (PNBE),Patna,Institutional,Coriander Powder 1kg,Spices,20,158.5,3170.0
+ORD-00730,2026-07-13,Motihari Distributors,Motihari,Distributor,Sugar 5kg,Staples,20,249.72,4994.4
+ORD-00731,2026-07-13,Deoghar General Store,Deoghar,Retail,Chilli Powder 1kg,Spices,15,261.23,3918.45
+ORD-00732,2026-07-13,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,5,257.98,1289.9
+ORD-00733,2026-07-13,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sugar 5kg,Staples,5,234.57,1172.85
+ORD-00734,2026-07-13,Bokaro Kirana House,Bokaro,Retail,Chilli Powder 1kg,Spices,50,259.33,12966.5
+ORD-00735,2026-07-14,Bhatia General Store,Patna,Retail,Sugar 5kg,Staples,10,232.98,2329.8
+ORD-00736,2026-07-14,Verma Trading Co.,Patna,Wholesale,Chilli Powder 1kg,Spices,40,285.29,11411.6
+ORD-00737,2026-07-14,Agarwal Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,5,149.83,749.15
+ORD-00738,2026-07-14,Kumar & Sons,Patna,Distributor,Moong Dal 2kg,Pulses,20,260.92,5218.4
+ORD-00739,2026-07-14,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,5,312.25,1561.25
+ORD-00740,2026-07-15,Sahu Brothers,Bhagalpur,Distributor,Chilli Powder 1kg,Spices,50,293.61,14680.5
+ORD-00741,2026-07-15,Sahu Brothers,Bhagalpur,Distributor,Toor Dal 5kg,Pulses,15,335.62,5034.3
+ORD-00742,2026-07-15,Siuri Traders,Siuri,Wholesale,Wheat Flour 10kg,Staples,5,470.08,2350.4
+ORD-00743,2026-07-15,Bokaro Kirana House,Bokaro,Retail,Rice 25kg,Staples,20,1179.27,23585.4
+ORD-00744,2026-07-16,Rani Sati Stores,Gaya,Retail,Chana Dal 5kg,Pulses,20,287.96,5759.2
+ORD-00745,2026-07-16,Rani Sati Stores,Gaya,Retail,Turmeric Powder 1kg,Spices,15,205.74,3086.1
+ORD-00746,2026-07-16,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Toor Dal 5kg,Pulses,5,323.82,1619.1
+ORD-00747,2026-07-16,Deoghar General Store,Deoghar,Retail,Toor Dal 5kg,Pulses,40,370.13,14805.2
+ORD-00748,2026-07-17,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Mustard Oil 5L,Edible Oil,15,726.96,10904.4
+ORD-00749,2026-07-17,College Canteen (Magadh Univ.),Gaya,Institutional,Groundnut Oil 5L,Edible Oil,15,637.56,9563.4
+ORD-00750,2026-07-17,Verma Trading Co.,Patna,Wholesale,Sunflower Oil 5L,Edible Oil,10,663.1,6631.0
+ORD-00751,2026-07-17,Siuri Traders,Siuri,Wholesale,Coriander Powder 1kg,Spices,10,159.33,1593.3
+ORD-00752,2026-07-17,Kumar & Sons,Patna,Distributor,Basmati Rice 5kg,Staples,20,391.67,7833.4
+ORD-00753,2026-07-18,Kumar & Sons,Patna,Distributor,Coriander Powder 1kg,Spices,5,153.36,766.8
+ORD-00754,2026-07-18,Jai Mata Di Store,Gaya,Retail,Chana Dal 5kg,Pulses,25,309.49,7737.25
+ORD-00755,2026-07-18,Ranchi Wholesale Mart,Ranchi,Distributor,Mustard Oil 5L,Edible Oil,15,729.7,10945.5
+ORD-00756,2026-07-19,Bhatia General Store,Patna,Retail,Chana Dal 5kg,Pulses,20,314.83,6296.6
+ORD-00757,2026-07-19,Jamshedpur Foods,Jamshedpur,Wholesale,Sunflower Oil 5L,Edible Oil,10,646.51,6465.1
+ORD-00758,2026-07-19,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,10,302.97,3029.7
+ORD-00759,2026-07-19,Singh Traders,Gaya,Distributor,Rice 25kg,Staples,15,1199.77,17996.55
+ORD-00760,2026-07-20,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,25,225.27,5631.75
+ORD-00761,2026-07-20,Dhanbad Provisions,Dhanbad,Wholesale,Turmeric Powder 1kg,Spices,10,175.35,1753.5
+ORD-00762,2026-07-20,Hazaribagh Traders,Hazaribagh,Retail,Rice 25kg,Staples,5,1317.52,6587.6
+ORD-00763,2026-07-21,Kumar & Sons,Patna,Distributor,Sunflower Oil 5L,Edible Oil,20,614.66,12293.2
+ORD-00764,2026-07-21,Ranchi Wholesale Mart,Ranchi,Distributor,Wheat Flour 10kg,Staples,10,502.57,5025.7
+ORD-00765,2026-07-21,College Canteen (Magadh Univ.),Gaya,Institutional,Rice 25kg,Staples,25,1294.42,32360.5
+ORD-00766,2026-07-21,Bokaro Kirana House,Bokaro,Retail,Toor Dal 5kg,Pulses,25,366.83,9170.75
+ORD-00767,2026-07-21,City Hospital Canteen,Patna,Institutional,Sugar 5kg,Staples,20,235.12,4702.4
+ORD-00768,2026-07-22,Motihari Distributors,Motihari,Distributor,Garam Masala 500g,Spices,5,251.17,1255.85
+ORD-00769,2026-07-22,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Toor Dal 5kg,Pulses,20,322.97,6459.4
+ORD-00770,2026-07-22,City Hospital Canteen,Patna,Institutional,Chilli Powder 1kg,Spices,10,283.24,2832.4
+ORD-00771,2026-07-23,Kumar & Sons,Patna,Distributor,Rice 25kg,Staples,20,1266.63,25332.6
+ORD-00772,2026-07-23,Sharma Distributors,Patna,Distributor,Mustard Oil 5L,Edible Oil,20,769.42,15388.4
+ORD-00773,2026-07-23,Jai Mata Di Store,Gaya,Retail,Groundnut Oil 5L,Edible Oil,40,745.9,29836.0
+ORD-00774,2026-07-23,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,80,248.64,19891.2
+ORD-00775,2026-07-23,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,15,205.09,3076.35
+ORD-00776,2026-07-23,Agarwal Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,15,260.67,3910.05
+ORD-00777,2026-07-23,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,10,154.35,1543.5
+ORD-00778,2026-07-24,Singh Traders,Gaya,Distributor,Wheat Flour 10kg,Staples,5,518.61,2593.05
+ORD-00779,2026-07-24,Lakshmi Traders,Muzaffarpur,Distributor,Turmeric Powder 1kg,Spices,20,205.47,4109.4
+ORD-00780,2026-07-24,Maa Durga Mart,Bhagalpur,Retail,Sugar 5kg,Staples,50,228.97,11448.5
+ORD-00781,2026-07-24,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,20,295.95,5919.0
+ORD-00782,2026-07-25,Hazaribagh Traders,Hazaribagh,Retail,Moong Dal 2kg,Pulses,25,254.2,6355.0
+ORD-00783,2026-07-25,City Hospital Canteen,Patna,Institutional,Chana Dal 5kg,Pulses,20,321.55,6431.0
+ORD-00784,2026-07-25,Singh Traders,Gaya,Distributor,Wheat Flour 10kg,Staples,100,461.68,46168.0
+ORD-00785,2026-07-26,Siuri Traders,Siuri,Wholesale,Sugar 5kg,Staples,80,251.08,20086.4
+ORD-00786,2026-07-26,Rani Sati Stores,Gaya,Retail,Coriander Powder 1kg,Spices,20,174.49,3489.8
+ORD-00787,2026-07-26,Kumar & Sons,Patna,Distributor,Chilli Powder 1kg,Spices,25,293.41,7335.25
+ORD-00788,2026-07-26,College Canteen (Magadh Univ.),Gaya,Institutional,Chilli Powder 1kg,Spices,40,283.54,11341.6
+ORD-00789,2026-07-27,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,5,340.23,1701.15
+ORD-00790,2026-07-27,Jai Mata Di Store,Gaya,Retail,Garam Masala 500g,Spices,25,219.24,5481.0
+ORD-00791,2026-07-27,Sharma Distributors,Patna,Distributor,Basmati Rice 5kg,Staples,10,448.26,4482.6
+ORD-00792,2026-07-27,Hazaribagh Traders,Hazaribagh,Retail,Mustard Oil 5L,Edible Oil,25,693.86,17346.5
+ORD-00793,2026-07-27,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Mustard Oil 5L,Edible Oil,20,693.81,13876.2
+ORD-00794,2026-07-27,Gupta Kirana,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,10,470.85,4708.5
+ORD-00795,2026-07-27,Kumar & Sons,Patna,Distributor,Rice 25kg,Staples,40,1342.56,53702.4
+ORD-00796,2026-07-28,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,10,721.84,7218.4
+ORD-00797,2026-07-28,New Bharat Foods,Patna,Institutional,Toor Dal 5kg,Pulses,10,317.89,3178.9
+ORD-00798,2026-07-28,Anand General Store,Muzaffarpur,Retail,Toor Dal 5kg,Pulses,25,354.11,8852.75
+ORD-00799,2026-07-28,Sharma Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,15,262.82,3942.3
+ORD-00800,2026-07-28,Sahu Brothers,Bhagalpur,Distributor,Mustard Oil 5L,Edible Oil,25,707.72,17693.0
+ORD-00801,2026-07-28,Singh Traders,Gaya,Distributor,Coriander Powder 1kg,Spices,10,155.23,1552.3
+ORD-00802,2026-07-28,Jai Mata Di Store,Gaya,Retail,Groundnut Oil 5L,Edible Oil,100,680.52,68052.0
+ORD-00803,2026-07-29,Ranchi Wholesale Mart,Ranchi,Distributor,Garam Masala 500g,Spices,15,246.12,3691.8
+ORD-00804,2026-07-29,Anand General Store,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,5,277.3,1386.5
+ORD-00805,2026-07-29,City Hospital Canteen,Patna,Institutional,Wheat Flour 10kg,Staples,10,481.43,4814.3
+ORD-00806,2026-07-29,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,10,232.06,2320.6
+ORD-00807,2026-07-30,Sahu Brothers,Bhagalpur,Distributor,Toor Dal 5kg,Pulses,50,350.93,17546.5
+ORD-00808,2026-07-30,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,10,268.43,2684.3
+ORD-00809,2026-07-30,New Bharat Foods,Patna,Institutional,Turmeric Powder 1kg,Spices,5,189.25,946.25
+ORD-00810,2026-07-30,Rani Sati Stores,Gaya,Retail,Mustard Oil 5L,Edible Oil,20,751.03,15020.6
+ORD-00811,2026-07-31,Siuri Traders,Siuri,Wholesale,Toor Dal 5kg,Pulses,20,365.59,7311.8
+ORD-00812,2026-07-31,Verma Trading Co.,Patna,Wholesale,Chilli Powder 1kg,Spices,15,301.87,4528.05
+ORD-00813,2026-07-31,Rani Sati Stores,Gaya,Retail,Mustard Oil 5L,Edible Oil,20,719.86,14397.2
+ORD-00814,2026-07-31,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Coriander Powder 1kg,Spices,40,152.6,6104.0
+ORD-00815,2026-08-01,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,40,203.05,8122.0
+ORD-00816,2026-08-01,Jamshedpur Foods,Jamshedpur,Wholesale,Chana Dal 5kg,Pulses,50,294.47,14723.5
+ORD-00817,2026-08-01,Anand General Store,Muzaffarpur,Retail,Rice 25kg,Staples,15,1270.05,19050.75
+ORD-00818,2026-08-01,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chilli Powder 1kg,Spices,20,270.44,5408.8
+ORD-00819,2026-08-02,Motihari Distributors,Motihari,Distributor,Groundnut Oil 5L,Edible Oil,25,643.63,16090.75
+ORD-00820,2026-08-02,Lakshmi Traders,Muzaffarpur,Distributor,Sugar 5kg,Staples,50,227.92,11396.0
+ORD-00821,2026-08-03,Siuri Traders,Siuri,Wholesale,Groundnut Oil 5L,Edible Oil,80,706.12,56489.6
+ORD-00822,2026-08-03,Siuri Traders,Siuri,Wholesale,Chilli Powder 1kg,Spices,25,259.31,6482.75
+ORD-00823,2026-08-03,Ranchi Wholesale Mart,Ranchi,Distributor,Groundnut Oil 5L,Edible Oil,40,656.04,26241.6
+ORD-00824,2026-08-03,Hazaribagh Traders,Hazaribagh,Retail,Chilli Powder 1kg,Spices,5,306.19,1530.95
+ORD-00825,2026-08-03,New Bharat Foods,Patna,Institutional,Moong Dal 2kg,Pulses,40,252.3,10092.0
+ORD-00826,2026-08-03,Kumar & Sons,Patna,Distributor,Basmati Rice 5kg,Staples,15,427.63,6414.45
+ORD-00827,2026-08-04,Ranchi Wholesale Mart,Ranchi,Distributor,Turmeric Powder 1kg,Spices,80,196.68,15734.4
+ORD-00828,2026-08-04,Lakshmi Traders,Muzaffarpur,Distributor,Wheat Flour 10kg,Staples,10,451.29,4512.9
+ORD-00829,2026-08-04,Lakshmi Traders,Muzaffarpur,Distributor,Toor Dal 5kg,Pulses,80,339.37,27149.6
+ORD-00830,2026-08-04,Maa Durga Mart,Bhagalpur,Retail,Moong Dal 2kg,Pulses,15,252.7,3790.5
+ORD-00831,2026-08-04,New Bharat Foods,Patna,Institutional,Basmati Rice 5kg,Staples,50,448.07,22403.5
+ORD-00832,2026-08-04,Gupta Kirana,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,10,488.59,4885.9
+ORD-00833,2026-08-05,Deoghar General Store,Deoghar,Retail,Basmati Rice 5kg,Staples,20,440.39,8807.8
+ORD-00834,2026-08-05,College Canteen (Magadh Univ.),Gaya,Institutional,Turmeric Powder 1kg,Spices,15,202.59,3038.85
+ORD-00835,2026-08-05,Motihari Distributors,Motihari,Distributor,Mustard Oil 5L,Edible Oil,10,757.66,7576.6
+ORD-00836,2026-08-05,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,10,221.36,2213.6
+ORD-00837,2026-08-05,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sugar 5kg,Staples,5,263.26,1316.3
+ORD-00838,2026-08-05,Railway Canteen (PNBE),Patna,Institutional,Chilli Powder 1kg,Spices,50,269.02,13451.0
+ORD-00839,2026-08-06,City Hospital Canteen,Patna,Institutional,Turmeric Powder 1kg,Spices,10,181.71,1817.1
+ORD-00840,2026-08-06,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,10,174.12,1741.2
+ORD-00841,2026-08-06,Railway Canteen (PNBE),Patna,Institutional,Sugar 5kg,Staples,10,224.74,2247.4
+ORD-00842,2026-08-06,College Canteen (Magadh Univ.),Gaya,Institutional,Toor Dal 5kg,Pulses,15,357.91,5368.65
+ORD-00843,2026-08-06,College Canteen (Magadh Univ.),Gaya,Institutional,Chana Dal 5kg,Pulses,15,333.58,5003.7
+ORD-00844,2026-08-06,Jamshedpur Foods,Jamshedpur,Wholesale,Moong Dal 2kg,Pulses,50,250.44,12522.0
+ORD-00845,2026-08-07,Rani Sati Stores,Gaya,Retail,Turmeric Powder 1kg,Spices,50,181.65,9082.5
+ORD-00846,2026-08-07,Jamshedpur Foods,Jamshedpur,Wholesale,Rice 25kg,Staples,15,1228.03,18420.45
+ORD-00847,2026-08-07,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sugar 5kg,Staples,10,229.32,2293.2
+ORD-00848,2026-08-07,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,10,1295.09,12950.9
+ORD-00849,2026-08-08,College Canteen (Magadh Univ.),Gaya,Institutional,Coriander Powder 1kg,Spices,15,151.77,2276.55
+ORD-00850,2026-08-08,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,20,162.79,3255.8
+ORD-00851,2026-08-08,Gupta Kirana,Muzaffarpur,Retail,Sugar 5kg,Staples,15,253.73,3805.95
+ORD-00852,2026-08-08,Verma Trading Co.,Patna,Wholesale,Toor Dal 5kg,Pulses,5,359.06,1795.3
+ORD-00853,2026-08-09,Lakshmi Traders,Muzaffarpur,Distributor,Turmeric Powder 1kg,Spices,20,190.84,3816.8
+ORD-00854,2026-08-09,Verma Trading Co.,Patna,Wholesale,Mustard Oil 5L,Edible Oil,20,681.36,13627.2
+ORD-00855,2026-08-09,City Hospital Canteen,Patna,Institutional,Coriander Powder 1kg,Spices,25,158.25,3956.25
+ORD-00856,2026-08-10,Sharma Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,80,189.91,15192.8
+ORD-00857,2026-08-10,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,40,263.93,10557.2
+ORD-00858,2026-08-10,Gupta Kirana,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,80,720.53,57642.4
+ORD-00859,2026-08-10,Railway Canteen (PNBE),Patna,Institutional,Sugar 5kg,Staples,15,243.55,3653.25
+ORD-00860,2026-08-10,Bokaro Kirana House,Bokaro,Retail,Basmati Rice 5kg,Staples,20,423.96,8479.2
+ORD-00861,2026-08-10,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,5,236.21,1181.05
+ORD-00862,2026-08-10,Verma Trading Co.,Patna,Wholesale,Moong Dal 2kg,Pulses,25,240.73,6018.25
+ORD-00863,2026-08-11,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,80,279.24,22339.2
+ORD-00864,2026-08-11,Bokaro Kirana House,Bokaro,Retail,Groundnut Oil 5L,Edible Oil,100,737.38,73738.0
+ORD-00865,2026-08-11,Sahu Brothers,Bhagalpur,Distributor,Coriander Powder 1kg,Spices,25,158.67,3966.75
+ORD-00866,2026-08-11,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,5,286.64,1433.2
+ORD-00867,2026-08-11,Motihari Distributors,Motihari,Distributor,Coriander Powder 1kg,Spices,20,147.25,2945.0
+ORD-00868,2026-08-11,Kumar & Sons,Patna,Distributor,Mustard Oil 5L,Edible Oil,10,666.37,6663.7
+ORD-00869,2026-08-12,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,100,1210.33,121033.0
+ORD-00870,2026-08-12,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,15,244.83,3672.45
+ORD-00871,2026-08-12,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Moong Dal 2kg,Pulses,50,274.11,13705.5
+ORD-00872,2026-08-12,Kumar & Sons,Patna,Distributor,Groundnut Oil 5L,Edible Oil,20,656.36,13127.2
+ORD-00873,2026-08-13,Siuri Traders,Siuri,Wholesale,Basmati Rice 5kg,Staples,25,391.26,9781.5
+ORD-00874,2026-08-13,College Canteen (Magadh Univ.),Gaya,Institutional,Basmati Rice 5kg,Staples,15,443.43,6651.45
+ORD-00875,2026-08-13,City Hospital Canteen,Patna,Institutional,Garam Masala 500g,Spices,40,241.66,9666.4
+ORD-00876,2026-08-13,Railway Canteen (PNBE),Patna,Institutional,Coriander Powder 1kg,Spices,25,175.9,4397.5
+ORD-00877,2026-08-13,Deoghar General Store,Deoghar,Retail,Groundnut Oil 5L,Edible Oil,5,640.5,3202.5
+ORD-00878,2026-08-13,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,10,250.11,2501.1
+ORD-00879,2026-08-13,Motihari Distributors,Motihari,Distributor,Turmeric Powder 1kg,Spices,5,182.65,913.25
+ORD-00880,2026-08-14,Singh Traders,Gaya,Distributor,Mustard Oil 5L,Edible Oil,5,671.01,3355.05
+ORD-00881,2026-08-14,Verma Trading Co.,Patna,Wholesale,Mustard Oil 5L,Edible Oil,5,682.31,3411.55
+ORD-00882,2026-08-14,Bhatia General Store,Patna,Retail,Chana Dal 5kg,Pulses,15,324.28,4864.2
+ORD-00883,2026-08-14,Sharma Distributors,Patna,Distributor,Rice 25kg,Staples,15,1172.84,17592.6
+ORD-00884,2026-08-14,Sahu Brothers,Bhagalpur,Distributor,Chana Dal 5kg,Pulses,15,307.76,4616.4
+ORD-00885,2026-08-14,Dhanbad Provisions,Dhanbad,Wholesale,Mustard Oil 5L,Edible Oil,20,738.91,14778.2
+ORD-00886,2026-08-14,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Coriander Powder 1kg,Spices,40,163.33,6533.2
+ORD-00887,2026-08-15,College Canteen (Magadh Univ.),Gaya,Institutional,Toor Dal 5kg,Pulses,10,353.45,3534.5
+ORD-00888,2026-08-15,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sunflower Oil 5L,Edible Oil,20,702.23,14044.6
+ORD-00889,2026-08-16,Siuri Traders,Siuri,Wholesale,Wheat Flour 10kg,Staples,5,468.32,2341.6
+ORD-00890,2026-08-16,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,20,196.4,3928.0
+ORD-00891,2026-08-17,Hazaribagh Traders,Hazaribagh,Retail,Coriander Powder 1kg,Spices,10,155.63,1556.3
+ORD-00892,2026-08-17,Jai Mata Di Store,Gaya,Retail,Mustard Oil 5L,Edible Oil,5,709.06,3545.3
+ORD-00893,2026-08-17,New Bharat Foods,Patna,Institutional,Mustard Oil 5L,Edible Oil,15,755.01,11325.15
+ORD-00894,2026-08-17,City Hospital Canteen,Patna,Institutional,Sugar 5kg,Staples,25,223.41,5585.25
+ORD-00895,2026-08-17,Bokaro Kirana House,Bokaro,Retail,Sugar 5kg,Staples,15,260.23,3903.45
+ORD-00896,2026-08-17,Hazaribagh Traders,Hazaribagh,Retail,Rice 25kg,Staples,20,1350.2,27004.0
+ORD-00897,2026-08-18,Railway Canteen (PNBE),Patna,Institutional,Moong Dal 2kg,Pulses,80,260.49,20839.2
+ORD-00898,2026-08-18,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,5,195.97,979.85
+ORD-00899,2026-08-18,Kumar & Sons,Patna,Distributor,Chilli Powder 1kg,Spices,15,297.44,4461.6
+ORD-00900,2026-08-18,Motihari Distributors,Motihari,Distributor,Basmati Rice 5kg,Staples,20,457.29,9145.8
+ORD-00901,2026-08-19,Maa Durga Mart,Bhagalpur,Retail,Sugar 5kg,Staples,15,221.01,3315.15
+ORD-00902,2026-08-19,New Bharat Foods,Patna,Institutional,Moong Dal 2kg,Pulses,15,247.29,3709.35
+ORD-00903,2026-08-19,Jai Mata Di Store,Gaya,Retail,Sunflower Oil 5L,Edible Oil,15,683.35,10250.25
+ORD-00904,2026-08-19,Singh Traders,Gaya,Distributor,Turmeric Powder 1kg,Spices,50,200.71,10035.5
+ORD-00905,2026-08-19,Jai Mata Di Store,Gaya,Retail,Wheat Flour 10kg,Staples,5,503.23,2516.15
+ORD-00906,2026-08-19,Bokaro Kirana House,Bokaro,Retail,Wheat Flour 10kg,Staples,20,521.72,10434.4
+ORD-00907,2026-08-20,Singh Traders,Gaya,Distributor,Chana Dal 5kg,Pulses,10,330.79,3307.9
+ORD-00908,2026-08-20,Jai Mata Di Store,Gaya,Retail,Turmeric Powder 1kg,Spices,15,201.97,3029.55
+ORD-00909,2026-08-20,Motihari Distributors,Motihari,Distributor,Coriander Powder 1kg,Spices,25,171.27,4281.75
+ORD-00910,2026-08-21,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,10,631.08,6310.8
+ORD-00911,2026-08-21,Bhatia General Store,Patna,Retail,Mustard Oil 5L,Edible Oil,5,760.92,3804.6
+ORD-00912,2026-08-21,Siuri Traders,Siuri,Wholesale,Moong Dal 2kg,Pulses,5,283.05,1415.25
+ORD-00913,2026-08-21,Siuri Traders,Siuri,Wholesale,Rice 25kg,Staples,40,1185.06,47402.4
+ORD-00914,2026-08-22,Kumar & Sons,Patna,Distributor,Coriander Powder 1kg,Spices,15,165.77,2486.55
+ORD-00915,2026-08-22,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,25,178.03,4450.75
+ORD-00916,2026-08-23,New Bharat Foods,Patna,Institutional,Wheat Flour 10kg,Staples,15,479.77,7196.55
+ORD-00917,2026-08-23,Verma Trading Co.,Patna,Wholesale,Chilli Powder 1kg,Spices,5,296.37,1481.85
+ORD-00918,2026-08-23,Railway Canteen (PNBE),Patna,Institutional,Garam Masala 500g,Spices,10,223.47,2234.7
+ORD-00919,2026-08-23,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,5,756.4,3782.0
+ORD-00920,2026-08-24,College Canteen (Magadh Univ.),Gaya,Institutional,Sunflower Oil 5L,Edible Oil,10,603.83,6038.3
+ORD-00921,2026-08-24,Anand General Store,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,10,686.1,6861.0
+ORD-00922,2026-08-24,Anand General Store,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,15,473.12,7096.8
+ORD-00923,2026-08-24,Sharma Distributors,Patna,Distributor,Sunflower Oil 5L,Edible Oil,5,681.87,3409.35
+ORD-00924,2026-08-24,Bokaro Kirana House,Bokaro,Retail,Wheat Flour 10kg,Staples,50,477.76,23888.0
+ORD-00925,2026-08-24,New Bharat Foods,Patna,Institutional,Moong Dal 2kg,Pulses,25,271.27,6781.75
+ORD-00926,2026-08-25,Dhanbad Provisions,Dhanbad,Wholesale,Groundnut Oil 5L,Edible Oil,50,648.78,32439.0
+ORD-00927,2026-08-25,Singh Traders,Gaya,Distributor,Groundnut Oil 5L,Edible Oil,15,658.88,9883.2
+ORD-00928,2026-08-25,Verma Trading Co.,Patna,Wholesale,Turmeric Powder 1kg,Spices,15,202.49,3037.35
+ORD-00929,2026-08-25,Kumar & Sons,Patna,Distributor,Toor Dal 5kg,Pulses,5,370.68,1853.4
+ORD-00930,2026-08-25,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,20,149.14,2982.8
+ORD-00931,2026-08-25,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,40,216.61,8664.4
+ORD-00932,2026-08-25,Hazaribagh Traders,Hazaribagh,Retail,Garam Masala 500g,Spices,20,249.51,4990.2
+ORD-00933,2026-08-26,New Bharat Foods,Patna,Institutional,Chana Dal 5kg,Pulses,40,298.29,11931.6
+ORD-00934,2026-08-26,Maa Durga Mart,Bhagalpur,Retail,Wheat Flour 10kg,Staples,15,513.95,7709.25
+ORD-00935,2026-08-26,Kumar & Sons,Patna,Distributor,Mustard Oil 5L,Edible Oil,25,683.22,17080.5
+ORD-00936,2026-08-26,City Hospital Canteen,Patna,Institutional,Wheat Flour 10kg,Staples,50,510.64,25532.0
+ORD-00937,2026-08-26,Railway Canteen (PNBE),Patna,Institutional,Moong Dal 2kg,Pulses,20,241.63,4832.6
+ORD-00938,2026-08-26,Railway Canteen (PNBE),Patna,Institutional,Groundnut Oil 5L,Edible Oil,10,684.95,6849.5
+ORD-00939,2026-08-26,Hazaribagh Traders,Hazaribagh,Retail,Chana Dal 5kg,Pulses,50,289.37,14468.5
+ORD-00940,2026-08-27,Ranchi Wholesale Mart,Ranchi,Distributor,Moong Dal 2kg,Pulses,5,246.68,1233.4
+ORD-00941,2026-08-27,Motihari Distributors,Motihari,Distributor,Wheat Flour 10kg,Staples,40,501.89,20075.6
+ORD-00942,2026-08-27,Bokaro Kirana House,Bokaro,Retail,Sunflower Oil 5L,Edible Oil,20,613.22,12264.4
+ORD-00943,2026-08-27,Dhanbad Provisions,Dhanbad,Wholesale,Sugar 5kg,Staples,20,254.54,5090.8
+ORD-00944,2026-08-27,Maa Durga Mart,Bhagalpur,Retail,Basmati Rice 5kg,Staples,15,455.27,6829.05
+ORD-00945,2026-08-27,City Hospital Canteen,Patna,Institutional,Basmati Rice 5kg,Staples,10,439.17,4391.7
+ORD-00946,2026-08-27,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,25,234.42,5860.5
+ORD-00947,2026-08-28,New Bharat Foods,Patna,Institutional,Sunflower Oil 5L,Edible Oil,15,592.24,8883.6
+ORD-00948,2026-08-28,Gupta Kirana,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,25,767.06,19176.5
+ORD-00949,2026-08-28,Singh Traders,Gaya,Distributor,Rice 25kg,Staples,80,1321.04,105683.2
+ORD-00950,2026-08-28,Bhatia General Store,Patna,Retail,Moong Dal 2kg,Pulses,15,271.13,4066.95
+ORD-00951,2026-08-29,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,25,182.32,4558.0
+ORD-00952,2026-08-29,Motihari Distributors,Motihari,Distributor,Chana Dal 5kg,Pulses,20,339.97,6799.4
+ORD-00953,2026-08-30,Agarwal Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,10,175.68,1756.8
+ORD-00954,2026-08-30,Ranchi Wholesale Mart,Ranchi,Distributor,Chilli Powder 1kg,Spices,5,257.87,1289.35
+ORD-00955,2026-08-31,New Bharat Foods,Patna,Institutional,Sugar 5kg,Staples,15,237.43,3561.45
+ORD-00956,2026-08-31,Verma Trading Co.,Patna,Wholesale,Basmati Rice 5kg,Staples,50,451.06,22553.0
+ORD-00957,2026-08-31,Dhanbad Provisions,Dhanbad,Wholesale,Chana Dal 5kg,Pulses,100,337.5,33750.0
+ORD-00958,2026-08-31,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,10,206.7,2067.0
+ORD-00959,2026-09-01,Jamshedpur Foods,Jamshedpur,Wholesale,Basmati Rice 5kg,Staples,10,388.65,3886.5
+ORD-00960,2026-09-01,Jai Mata Di Store,Gaya,Retail,Moong Dal 2kg,Pulses,50,258.66,12933.0
+ORD-00961,2026-09-01,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,5,674.46,3372.3
+ORD-00962,2026-09-01,Sahu Brothers,Bhagalpur,Distributor,Chana Dal 5kg,Pulses,10,307.6,3076.0
+ORD-00963,2026-09-01,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,5,637.63,3188.15
+ORD-00964,2026-09-01,Verma Trading Co.,Patna,Wholesale,Rice 25kg,Staples,50,1215.78,60789.0
+ORD-00965,2026-09-01,City Hospital Canteen,Patna,Institutional,Toor Dal 5kg,Pulses,15,326.51,4897.65
+ORD-00966,2026-09-02,Agarwal Distributors,Patna,Distributor,Groundnut Oil 5L,Edible Oil,100,714.06,71406.0
+ORD-00967,2026-09-02,Bhatia General Store,Patna,Retail,Garam Masala 500g,Spices,40,222.54,8901.6
+ORD-00968,2026-09-02,Railway Canteen (PNBE),Patna,Institutional,Garam Masala 500g,Spices,40,212.76,8510.4
+ORD-00969,2026-09-02,Dhanbad Provisions,Dhanbad,Wholesale,Chana Dal 5kg,Pulses,5,316.45,1582.25
+ORD-00970,2026-09-02,Deoghar General Store,Deoghar,Retail,Chana Dal 5kg,Pulses,15,291.49,4372.35
+ORD-00971,2026-09-02,Motihari Distributors,Motihari,Distributor,Rice 25kg,Staples,100,1240.67,124067.0
+ORD-00972,2026-09-02,Bokaro Kirana House,Bokaro,Retail,Sunflower Oil 5L,Edible Oil,100,592.56,59256.0
+ORD-00973,2026-09-03,Gupta Kirana,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,25,512.54,12813.5
+ORD-00974,2026-09-03,Jai Mata Di Store,Gaya,Retail,Rice 25kg,Staples,50,1226.17,61308.5
+ORD-00975,2026-09-03,Hazaribagh Traders,Hazaribagh,Retail,Coriander Powder 1kg,Spices,15,157.45,2361.75
+ORD-00976,2026-09-04,Anand General Store,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,5,628.41,3142.05
+ORD-00977,2026-09-04,Sahu Brothers,Bhagalpur,Distributor,Toor Dal 5kg,Pulses,15,316.26,4743.9
+ORD-00978,2026-09-04,Anand General Store,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,25,487.15,12178.75
+ORD-00979,2026-09-04,Singh Traders,Gaya,Distributor,Moong Dal 2kg,Pulses,40,282.27,11290.8
+ORD-00980,2026-09-04,Siuri Traders,Siuri,Wholesale,Rice 25kg,Staples,40,1232.49,49299.6
+ORD-00981,2026-09-04,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,15,254.39,3815.85
+ORD-00982,2026-09-05,College Canteen (Magadh Univ.),Gaya,Institutional,Sugar 5kg,Staples,40,228.91,9156.4
+ORD-00983,2026-09-05,Gupta Kirana,Muzaffarpur,Retail,Chana Dal 5kg,Pulses,15,323.51,4852.65
+ORD-00984,2026-09-05,Dhanbad Provisions,Dhanbad,Wholesale,Rice 25kg,Staples,50,1267.79,63389.5
+ORD-00985,2026-09-06,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,15,215.89,3238.35
+ORD-00986,2026-09-06,Anand General Store,Muzaffarpur,Retail,Basmati Rice 5kg,Staples,15,451.86,6777.9
+ORD-00987,2026-09-07,Rani Sati Stores,Gaya,Retail,Sunflower Oil 5L,Edible Oil,40,611.16,24446.4
+ORD-00988,2026-09-07,Dhanbad Provisions,Dhanbad,Wholesale,Mustard Oil 5L,Edible Oil,25,728.01,18200.25
+ORD-00989,2026-09-07,New Bharat Foods,Patna,Institutional,Chana Dal 5kg,Pulses,25,286.54,7163.5
+ORD-00990,2026-09-07,College Canteen (Magadh Univ.),Gaya,Institutional,Basmati Rice 5kg,Staples,5,417.06,2085.3
+ORD-00991,2026-09-07,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Coriander Powder 1kg,Spices,80,169.78,13582.4
+ORD-00992,2026-09-07,Railway Canteen (PNBE),Patna,Institutional,Mustard Oil 5L,Edible Oil,10,679.13,6791.3
+ORD-00993,2026-09-08,Jamshedpur Foods,Jamshedpur,Wholesale,Wheat Flour 10kg,Staples,50,459.36,22968.0
+ORD-00994,2026-09-08,Sahu Brothers,Bhagalpur,Distributor,Garam Masala 500g,Spices,10,225.52,2255.2
+ORD-00995,2026-09-08,Ranchi Wholesale Mart,Ranchi,Distributor,Groundnut Oil 5L,Edible Oil,15,743.96,11159.4
+ORD-00996,2026-09-08,Lakshmi Traders,Muzaffarpur,Distributor,Coriander Powder 1kg,Spices,20,169.46,3389.2
+ORD-00997,2026-09-09,Bokaro Kirana House,Bokaro,Retail,Groundnut Oil 5L,Edible Oil,5,658.01,3290.05
+ORD-00998,2026-09-09,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Rice 25kg,Staples,40,1323.52,52940.8
+ORD-00999,2026-09-09,Motihari Distributors,Motihari,Distributor,Mustard Oil 5L,Edible Oil,10,694.95,6949.5
+ORD-01000,2026-09-09,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,5,478.24,2391.2
+ORD-01001,2026-09-10,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,20,219.82,4396.4
+ORD-01002,2026-09-10,Lakshmi Traders,Muzaffarpur,Distributor,Sugar 5kg,Staples,80,240.81,19264.8
+ORD-01003,2026-09-10,Sahu Brothers,Bhagalpur,Distributor,Mustard Oil 5L,Edible Oil,100,745.0,74500.0
+ORD-01004,2026-09-10,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,10,228.08,2280.8
+ORD-01005,2026-09-10,Railway Canteen (PNBE),Patna,Institutional,Basmati Rice 5kg,Staples,100,433.65,43365.0
+ORD-01006,2026-09-10,Verma Trading Co.,Patna,Wholesale,Toor Dal 5kg,Pulses,100,344.37,34437.0
+ORD-01007,2026-09-10,Agarwal Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,15,205.8,3087.0
+ORD-01008,2026-09-11,Railway Canteen (PNBE),Patna,Institutional,Chilli Powder 1kg,Spices,10,302.36,3023.6
+ORD-01009,2026-09-11,Hazaribagh Traders,Hazaribagh,Retail,Mustard Oil 5L,Edible Oil,15,684.22,10263.3
+ORD-01010,2026-09-11,Kumar & Sons,Patna,Distributor,Groundnut Oil 5L,Edible Oil,15,701.81,10527.15
+ORD-01011,2026-09-11,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,15,257.76,3866.4
+ORD-01012,2026-09-12,Lakshmi Traders,Muzaffarpur,Distributor,Chana Dal 5kg,Pulses,40,310.76,12430.4
+ORD-01013,2026-09-12,Maa Durga Mart,Bhagalpur,Retail,Turmeric Powder 1kg,Spices,15,186.37,2795.55
+ORD-01014,2026-09-12,New Bharat Foods,Patna,Institutional,Wheat Flour 10kg,Staples,15,478.32,7174.8
+ORD-01015,2026-09-12,Maa Durga Mart,Bhagalpur,Retail,Chilli Powder 1kg,Spices,20,285.25,5705.0
+ORD-01016,2026-09-13,Bhatia General Store,Patna,Retail,Mustard Oil 5L,Edible Oil,10,720.08,7200.8
+ORD-01017,2026-09-13,Verma Trading Co.,Patna,Wholesale,Chilli Powder 1kg,Spices,5,288.33,1441.65
+ORD-01018,2026-09-13,Sharma Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,5,158.35,791.75
+ORD-01019,2026-09-14,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,25,162.12,4053.0
+ORD-01020,2026-09-14,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,25,612.45,15311.25
+ORD-01021,2026-09-14,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,5,493.38,2466.9
+ORD-01022,2026-09-14,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Garam Masala 500g,Spices,80,232.73,18618.4
+ORD-01023,2026-09-15,Kumar & Sons,Patna,Distributor,Garam Masala 500g,Spices,20,224.51,4490.2
+ORD-01024,2026-09-15,Verma Trading Co.,Patna,Wholesale,Sunflower Oil 5L,Edible Oil,15,630.78,9461.7
+ORD-01025,2026-09-15,Jamshedpur Foods,Jamshedpur,Wholesale,Chana Dal 5kg,Pulses,15,336.28,5044.2
+ORD-01026,2026-09-15,Sharma Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,20,158.11,3162.2
+ORD-01027,2026-09-15,Motihari Distributors,Motihari,Distributor,Moong Dal 2kg,Pulses,20,284.81,5696.2
+ORD-01028,2026-09-15,Siuri Traders,Siuri,Wholesale,Turmeric Powder 1kg,Spices,50,200.42,10021.0
+ORD-01029,2026-09-16,Kumar & Sons,Patna,Distributor,Toor Dal 5kg,Pulses,15,368.6,5529.0
+ORD-01030,2026-09-16,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,80,281.09,22487.2
+ORD-01031,2026-09-16,Gupta Kirana,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,25,676.09,16902.25
+ORD-01032,2026-09-16,Lakshmi Traders,Muzaffarpur,Distributor,Mustard Oil 5L,Edible Oil,5,743.44,3717.2
+ORD-01033,2026-09-16,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Mustard Oil 5L,Edible Oil,20,713.31,14266.2
+ORD-01034,2026-09-16,Bhatia General Store,Patna,Retail,Rice 25kg,Staples,20,1200.02,24000.4
+ORD-01035,2026-09-17,Lakshmi Traders,Muzaffarpur,Distributor,Turmeric Powder 1kg,Spices,100,180.94,18094.0
+ORD-01036,2026-09-17,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Mustard Oil 5L,Edible Oil,10,700.31,7003.1
+ORD-01037,2026-09-17,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,20,643.79,12875.8
+ORD-01038,2026-09-17,College Canteen (Magadh Univ.),Gaya,Institutional,Sunflower Oil 5L,Edible Oil,10,609.24,6092.4
+ORD-01039,2026-09-17,Jamshedpur Foods,Jamshedpur,Wholesale,Coriander Powder 1kg,Spices,10,163.6,1636.0
+ORD-01040,2026-09-17,Siuri Traders,Siuri,Wholesale,Turmeric Powder 1kg,Spices,100,182.85,18285.0
+ORD-01041,2026-09-18,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,10,330.93,3309.3
+ORD-01042,2026-09-18,Motihari Distributors,Motihari,Distributor,Garam Masala 500g,Spices,50,217.46,10873.0
+ORD-01043,2026-09-18,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,25,225.59,5639.75
+ORD-01044,2026-09-18,Motihari Distributors,Motihari,Distributor,Turmeric Powder 1kg,Spices,15,196.87,2953.05
+ORD-01045,2026-09-19,Anand General Store,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,5,704.48,3522.4
+ORD-01046,2026-09-19,Deoghar General Store,Deoghar,Retail,Groundnut Oil 5L,Edible Oil,100,722.22,72222.0
+ORD-01047,2026-09-19,City Hospital Canteen,Patna,Institutional,Turmeric Powder 1kg,Spices,10,197.08,1970.8
+ORD-01048,2026-09-20,Deoghar General Store,Deoghar,Retail,Chilli Powder 1kg,Spices,10,284.6,2846.0
+ORD-01049,2026-09-20,Hazaribagh Traders,Hazaribagh,Retail,Chana Dal 5kg,Pulses,40,324.14,12965.6
+ORD-01050,2026-09-21,Singh Traders,Gaya,Distributor,Chilli Powder 1kg,Spices,50,282.81,14140.5
+ORD-01051,2026-09-21,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,15,293.49,4402.35
+ORD-01052,2026-09-21,Sahu Brothers,Bhagalpur,Distributor,Coriander Powder 1kg,Spices,5,158.11,790.55
+ORD-01053,2026-09-21,Rani Sati Stores,Gaya,Retail,Sunflower Oil 5L,Edible Oil,10,651.41,6514.1
+ORD-01054,2026-09-21,Railway Canteen (PNBE),Patna,Institutional,Coriander Powder 1kg,Spices,10,149.4,1494.0
+ORD-01055,2026-09-21,Agarwal Distributors,Patna,Distributor,Sunflower Oil 5L,Edible Oil,15,612.15,9182.25
+ORD-01056,2026-09-22,Bhatia General Store,Patna,Retail,Coriander Powder 1kg,Spices,20,153.42,3068.4
+ORD-01057,2026-09-22,Sahu Brothers,Bhagalpur,Distributor,Chana Dal 5kg,Pulses,5,296.92,1484.6
+ORD-01058,2026-09-22,Gupta Kirana,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,25,239.59,5989.75
+ORD-01059,2026-09-22,Agarwal Distributors,Patna,Distributor,Moong Dal 2kg,Pulses,15,279.88,4198.2
+ORD-01060,2026-09-23,Maa Durga Mart,Bhagalpur,Retail,Coriander Powder 1kg,Spices,20,161.76,3235.2
+ORD-01061,2026-09-23,Hazaribagh Traders,Hazaribagh,Retail,Moong Dal 2kg,Pulses,10,256.1,2561.0
+ORD-01062,2026-09-23,Jamshedpur Foods,Jamshedpur,Wholesale,Moong Dal 2kg,Pulses,50,275.38,13769.0
+ORD-01063,2026-09-24,Anand General Store,Muzaffarpur,Retail,Garam Masala 500g,Spices,10,248.91,2489.1
+ORD-01064,2026-09-24,Dhanbad Provisions,Dhanbad,Wholesale,Mustard Oil 5L,Edible Oil,20,747.52,14950.4
+ORD-01065,2026-09-24,Lakshmi Traders,Muzaffarpur,Distributor,Moong Dal 2kg,Pulses,15,280.27,4204.05
+ORD-01066,2026-09-24,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,100,300.02,30002.0
+ORD-01067,2026-09-24,Kumar & Sons,Patna,Distributor,Moong Dal 2kg,Pulses,25,254.48,6362.0
+ORD-01068,2026-09-24,Bhatia General Store,Patna,Retail,Moong Dal 2kg,Pulses,100,239.32,23932.0
+ORD-01069,2026-09-25,Deoghar General Store,Deoghar,Retail,Sunflower Oil 5L,Edible Oil,80,595.88,47670.4
+ORD-01070,2026-09-25,Bokaro Kirana House,Bokaro,Retail,Toor Dal 5kg,Pulses,25,313.32,7833.0
+ORD-01071,2026-09-25,Rani Sati Stores,Gaya,Retail,Sunflower Oil 5L,Edible Oil,10,648.98,6489.8
+ORD-01072,2026-09-25,Deoghar General Store,Deoghar,Retail,Chana Dal 5kg,Pulses,80,309.43,24754.4
+ORD-01073,2026-09-25,Deoghar General Store,Deoghar,Retail,Basmati Rice 5kg,Staples,10,404.27,4042.7
+ORD-01074,2026-09-25,Agarwal Distributors,Patna,Distributor,Sugar 5kg,Staples,15,232.09,3481.35
+ORD-01075,2026-09-26,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,20,711.97,14239.4
+ORD-01076,2026-09-26,Jai Mata Di Store,Gaya,Retail,Moong Dal 2kg,Pulses,20,259.85,5197.0
+ORD-01077,2026-09-26,Sahu Brothers,Bhagalpur,Distributor,Chana Dal 5kg,Pulses,15,317.29,4759.35
+ORD-01078,2026-09-27,Kumar & Sons,Patna,Distributor,Coriander Powder 1kg,Spices,20,160.74,3214.8
+ORD-01079,2026-09-27,Motihari Distributors,Motihari,Distributor,Garam Masala 500g,Spices,10,212.55,2125.5
+ORD-01080,2026-09-27,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,10,253.26,2532.6
+ORD-01081,2026-09-28,Kumar & Sons,Patna,Distributor,Turmeric Powder 1kg,Spices,25,201.86,5046.5
+ORD-01082,2026-09-28,Anand General Store,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,15,526.48,7897.2
+ORD-01083,2026-09-28,Lakshmi Traders,Muzaffarpur,Distributor,Rice 25kg,Staples,20,1264.53,25290.6
+ORD-01084,2026-09-28,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,25,683.72,17093.0
+ORD-01085,2026-09-28,College Canteen (Magadh Univ.),Gaya,Institutional,Sugar 5kg,Staples,20,247.6,4952.0
+ORD-01086,2026-09-28,Gupta Kirana,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,50,250.88,12544.0
+ORD-01087,2026-09-29,Singh Traders,Gaya,Distributor,Chilli Powder 1kg,Spices,50,283.39,14169.5
+ORD-01088,2026-09-29,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,20,302.87,6057.4
+ORD-01089,2026-09-29,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Chilli Powder 1kg,Spices,25,301.84,7546.0
+ORD-01090,2026-09-29,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,5,212.82,1064.1
+ORD-01091,2026-09-29,Anand General Store,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,5,711.78,3558.9
+ORD-01092,2026-09-29,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,40,754.33,30173.2
+ORD-01093,2026-09-30,Gupta Kirana,Muzaffarpur,Retail,Toor Dal 5kg,Pulses,80,357.01,28560.8
+ORD-01094,2026-09-30,College Canteen (Magadh Univ.),Gaya,Institutional,Sugar 5kg,Staples,50,261.13,13056.5
+ORD-01095,2026-09-30,Agarwal Distributors,Patna,Distributor,Turmeric Powder 1kg,Spices,25,187.8,4695.0
+ORD-01096,2026-09-30,Rani Sati Stores,Gaya,Retail,Garam Masala 500g,Spices,10,250.26,2502.6
+ORD-01097,2026-10-01,Gupta Kirana,Muzaffarpur,Retail,Chilli Powder 1kg,Spices,15,306.31,4594.65
+ORD-01098,2026-10-01,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Toor Dal 5kg,Pulses,20,338.84,6776.8
+ORD-01099,2026-10-01,Dhanbad Provisions,Dhanbad,Wholesale,Chilli Powder 1kg,Spices,5,283.58,1417.9
+ORD-01100,2026-10-02,Siuri Traders,Siuri,Wholesale,Mustard Oil 5L,Edible Oil,80,676.76,54140.8
+ORD-01101,2026-10-02,Jai Mata Di Store,Gaya,Retail,Moong Dal 2kg,Pulses,25,272.3,6807.5
+ORD-01102,2026-10-02,Maa Durga Mart,Bhagalpur,Retail,Coriander Powder 1kg,Spices,20,162.4,3248.0
+ORD-01103,2026-10-02,Hazaribagh Traders,Hazaribagh,Retail,Toor Dal 5kg,Pulses,50,349.92,17496.0
+ORD-01104,2026-10-02,Sharma Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,15,519.37,7790.55
+ORD-01105,2026-10-02,Sahu Brothers,Bhagalpur,Distributor,Chilli Powder 1kg,Spices,10,304.15,3041.5
+ORD-01106,2026-10-02,Sahu Brothers,Bhagalpur,Distributor,Toor Dal 5kg,Pulses,5,341.18,1705.9
+ORD-01107,2026-10-02,College Canteen (Magadh Univ.),Gaya,Institutional,Coriander Powder 1kg,Spices,15,151.92,2278.8
+ORD-01108,2026-10-03,Lakshmi Traders,Muzaffarpur,Distributor,Wheat Flour 10kg,Staples,5,504.91,2524.55
+ORD-01109,2026-10-03,Sharma Distributors,Patna,Distributor,Sugar 5kg,Staples,10,245.67,2456.7
+ORD-01110,2026-10-03,Railway Canteen (PNBE),Patna,Institutional,Sunflower Oil 5L,Edible Oil,5,646.5,3232.5
+ORD-01111,2026-10-04,Verma Trading Co.,Patna,Wholesale,Chana Dal 5kg,Pulses,10,295.43,2954.3
+ORD-01112,2026-10-04,Kumar & Sons,Patna,Distributor,Sugar 5kg,Staples,40,233.98,9359.2
+ORD-01113,2026-10-04,Verma Trading Co.,Patna,Wholesale,Chana Dal 5kg,Pulses,20,334.54,6690.8
+ORD-01114,2026-10-05,Kumar & Sons,Patna,Distributor,Groundnut Oil 5L,Edible Oil,25,684.43,17110.75
+ORD-01115,2026-10-05,Anand General Store,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,10,493.8,4938.0
+ORD-01116,2026-10-05,Jamshedpur Foods,Jamshedpur,Wholesale,Chilli Powder 1kg,Spices,20,289.4,5788.0
+ORD-01117,2026-10-06,Gupta Kirana,Muzaffarpur,Retail,Wheat Flour 10kg,Staples,50,468.76,23438.0
+ORD-01118,2026-10-06,Deoghar General Store,Deoghar,Retail,Coriander Powder 1kg,Spices,25,148.75,3718.75
+ORD-01119,2026-10-06,City Hospital Canteen,Patna,Institutional,Turmeric Powder 1kg,Spices,5,188.2,941.0
+ORD-01120,2026-10-06,Jai Mata Di Store,Gaya,Retail,Sunflower Oil 5L,Edible Oil,100,694.12,69412.0
+ORD-01121,2026-10-06,Sharma Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,15,280.09,4201.35
+ORD-01122,2026-10-07,Hazaribagh Traders,Hazaribagh,Retail,Moong Dal 2kg,Pulses,10,283.04,2830.4
+ORD-01123,2026-10-07,Jamshedpur Foods,Jamshedpur,Wholesale,Rice 25kg,Staples,20,1174.28,23485.6
+ORD-01124,2026-10-07,Rani Sati Stores,Gaya,Retail,Mustard Oil 5L,Edible Oil,20,783.88,15677.6
+ORD-01125,2026-10-07,College Canteen (Magadh Univ.),Gaya,Institutional,Garam Masala 500g,Spices,20,219.41,4388.2
+ORD-01126,2026-10-07,Sahu Brothers,Bhagalpur,Distributor,Wheat Flour 10kg,Staples,20,520.65,10413.0
+ORD-01127,2026-10-08,Deoghar General Store,Deoghar,Retail,Sugar 5kg,Staples,10,228.02,2280.2
+ORD-01128,2026-10-08,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,5,259.52,1297.6
+ORD-01129,2026-10-08,Singh Traders,Gaya,Distributor,Sugar 5kg,Staples,25,225.66,5641.5
+ORD-01130,2026-10-08,Maa Durga Mart,Bhagalpur,Retail,Chana Dal 5kg,Pulses,100,295.62,29562.0
+ORD-01131,2026-10-08,Lakshmi Traders,Muzaffarpur,Distributor,Wheat Flour 10kg,Staples,10,472.44,4724.4
+ORD-01132,2026-10-08,Ranchi Wholesale Mart,Ranchi,Distributor,Chilli Powder 1kg,Spices,40,280.39,11215.6
+ORD-01133,2026-10-09,Jamshedpur Foods,Jamshedpur,Wholesale,Rice 25kg,Staples,15,1270.12,19051.8
+ORD-01134,2026-10-09,Ranchi Wholesale Mart,Ranchi,Distributor,Groundnut Oil 5L,Edible Oil,40,667.07,26682.8
+ORD-01135,2026-10-09,Maa Durga Mart,Bhagalpur,Retail,Toor Dal 5kg,Pulses,25,364.27,9106.75
+ORD-01136,2026-10-09,Jamshedpur Foods,Jamshedpur,Wholesale,Turmeric Powder 1kg,Spices,10,207.02,2070.2
+ORD-01137,2026-10-09,Dhanbad Provisions,Dhanbad,Wholesale,Chilli Powder 1kg,Spices,5,291.57,1457.85
+ORD-01138,2026-10-09,Ranchi Wholesale Mart,Ranchi,Distributor,Rice 25kg,Staples,20,1231.92,24638.4
+ORD-01139,2026-10-10,Deoghar General Store,Deoghar,Retail,Moong Dal 2kg,Pulses,10,246.85,2468.5
+ORD-01140,2026-10-10,Jamshedpur Foods,Jamshedpur,Wholesale,Turmeric Powder 1kg,Spices,10,202.45,2024.5
+ORD-01141,2026-10-10,Maa Durga Mart,Bhagalpur,Retail,Mustard Oil 5L,Edible Oil,50,773.95,38697.5
+ORD-01142,2026-10-10,Sahu Brothers,Bhagalpur,Distributor,Garam Masala 500g,Spices,15,245.99,3689.85
+ORD-01143,2026-10-11,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Turmeric Powder 1kg,Spices,15,206.64,3099.6
+ORD-01144,2026-10-11,City Hospital Canteen,Patna,Institutional,Rice 25kg,Staples,50,1207.66,60383.0
+ORD-01145,2026-10-11,Sahu Brothers,Bhagalpur,Distributor,Toor Dal 5kg,Pulses,20,332.53,6650.6
+ORD-01146,2026-10-12,Kumar & Sons,Patna,Distributor,Sunflower Oil 5L,Edible Oil,20,598.07,11961.4
+ORD-01147,2026-10-12,Sahu Brothers,Bhagalpur,Distributor,Coriander Powder 1kg,Spices,10,163.21,1632.1
+ORD-01148,2026-10-12,Agarwal Distributors,Patna,Distributor,Rice 25kg,Staples,40,1215.03,48601.2
+ORD-01149,2026-10-12,Motihari Distributors,Motihari,Distributor,Mustard Oil 5L,Edible Oil,100,707.47,70747.0
+ORD-01150,2026-10-12,Sahu Brothers,Bhagalpur,Distributor,Moong Dal 2kg,Pulses,10,252.41,2524.1
+ORD-01151,2026-10-12,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Turmeric Powder 1kg,Spices,10,184.26,1842.6
+ORD-01152,2026-10-13,College Canteen (Magadh Univ.),Gaya,Institutional,Moong Dal 2kg,Pulses,25,266.74,6668.5
+ORD-01153,2026-10-13,Siuri Traders,Siuri,Wholesale,Mustard Oil 5L,Edible Oil,10,725.17,7251.7
+ORD-01154,2026-10-13,Sahu Brothers,Bhagalpur,Distributor,Toor Dal 5kg,Pulses,10,324.27,3242.7
+ORD-01155,2026-10-13,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Basmati Rice 5kg,Staples,25,460.15,11503.75
+ORD-01156,2026-10-13,Jai Mata Di Store,Gaya,Retail,Chilli Powder 1kg,Spices,15,306.52,4597.8
+ORD-01157,2026-10-14,Motihari Distributors,Motihari,Distributor,Wheat Flour 10kg,Staples,50,457.28,22864.0
+ORD-01158,2026-10-14,Ranchi Wholesale Mart,Ranchi,Distributor,Moong Dal 2kg,Pulses,20,254.84,5096.8
+ORD-01159,2026-10-14,Gupta Kirana,Muzaffarpur,Retail,Sugar 5kg,Staples,50,239.84,11992.0
+ORD-01160,2026-10-15,Verma Trading Co.,Patna,Wholesale,Garam Masala 500g,Spices,20,243.79,4875.8
+ORD-01161,2026-10-15,Jai Mata Di Store,Gaya,Retail,Moong Dal 2kg,Pulses,25,259.17,6479.25
+ORD-01162,2026-10-15,Anand General Store,Muzaffarpur,Retail,Chana Dal 5kg,Pulses,25,318.17,7954.25
+ORD-01163,2026-10-15,Sharma Distributors,Patna,Distributor,Coriander Powder 1kg,Spices,20,159.61,3192.2
+ORD-01164,2026-10-15,New Bharat Foods,Patna,Institutional,Groundnut Oil 5L,Edible Oil,20,737.13,14742.6
+ORD-01165,2026-10-15,Jamshedpur Foods,Jamshedpur,Wholesale,Toor Dal 5kg,Pulses,25,366.93,9173.25
+ORD-01166,2026-10-16,Bokaro Kirana House,Bokaro,Retail,Wheat Flour 10kg,Staples,5,474.75,2373.75
+ORD-01167,2026-10-16,Motihari Distributors,Motihari,Distributor,Wheat Flour 10kg,Staples,80,451.06,36084.8
+ORD-01168,2026-10-16,Gupta Kirana,Muzaffarpur,Retail,Rice 25kg,Staples,20,1314.01,26280.2
+ORD-01169,2026-10-17,Sharma Distributors,Patna,Distributor,Moong Dal 2kg,Pulses,40,252.46,10098.4
+ORD-01170,2026-10-17,City Hospital Canteen,Patna,Institutional,Wheat Flour 10kg,Staples,25,469.76,11744.0
+ORD-01171,2026-10-17,Ranchi Wholesale Mart,Ranchi,Distributor,Groundnut Oil 5L,Edible Oil,20,657.98,13159.6
+ORD-01172,2026-10-18,Verma Trading Co.,Patna,Wholesale,Mustard Oil 5L,Edible Oil,5,681.52,3407.6
+ORD-01173,2026-10-18,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Rice 25kg,Staples,20,1188.11,23762.2
+ORD-01174,2026-10-19,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,5,596.55,2982.75
+ORD-01175,2026-10-19,City Hospital Canteen,Patna,Institutional,Turmeric Powder 1kg,Spices,20,184.98,3699.6
+ORD-01176,2026-10-19,Railway Canteen (PNBE),Patna,Institutional,Turmeric Powder 1kg,Spices,5,193.7,968.5
+ORD-01177,2026-10-19,Maa Durga Mart,Bhagalpur,Retail,Basmati Rice 5kg,Staples,20,420.32,8406.4
+ORD-01178,2026-10-19,College Canteen (Magadh Univ.),Gaya,Institutional,Wheat Flour 10kg,Staples,40,486.86,19474.4
+ORD-01179,2026-10-19,Rani Sati Stores,Gaya,Retail,Basmati Rice 5kg,Staples,5,439.72,2198.6
+ORD-01180,2026-10-19,City Hospital Canteen,Patna,Institutional,Chilli Powder 1kg,Spices,25,280.86,7021.5
+ORD-01181,2026-10-19,Bhatia General Store,Patna,Retail,Mustard Oil 5L,Edible Oil,10,752.92,7529.2
+ORD-01182,2026-10-20,Railway Canteen (PNBE),Patna,Institutional,Mustard Oil 5L,Edible Oil,5,719.41,3597.05
+ORD-01183,2026-10-20,Bhatia General Store,Patna,Retail,Toor Dal 5kg,Pulses,15,324.59,4868.85
+ORD-01184,2026-10-20,Ranchi Wholesale Mart,Ranchi,Distributor,Sugar 5kg,Staples,15,228.41,3426.15
+ORD-01185,2026-10-20,Kumar & Sons,Patna,Distributor,Moong Dal 2kg,Pulses,40,277.69,11107.6
+ORD-01186,2026-10-20,Jamshedpur Foods,Jamshedpur,Wholesale,Toor Dal 5kg,Pulses,15,373.88,5608.2
+ORD-01187,2026-10-20,Deoghar General Store,Deoghar,Retail,Mustard Oil 5L,Edible Oil,20,741.08,14821.6
+ORD-01188,2026-10-21,Anand General Store,Muzaffarpur,Retail,Moong Dal 2kg,Pulses,15,257.33,3859.95
+ORD-01189,2026-10-21,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sunflower Oil 5L,Edible Oil,5,687.37,3436.85
+ORD-01190,2026-10-21,Rani Sati Stores,Gaya,Retail,Basmati Rice 5kg,Staples,20,435.08,8701.6
+ORD-01191,2026-10-21,Railway Canteen (PNBE),Patna,Institutional,Sugar 5kg,Staples,80,233.82,18705.6
+ORD-01192,2026-10-21,Sharma Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,15,502.99,7544.85
+ORD-01193,2026-10-21,City Hospital Canteen,Patna,Institutional,Groundnut Oil 5L,Edible Oil,20,682.62,13652.4
+ORD-01194,2026-10-21,Hazaribagh Traders,Hazaribagh,Retail,Chilli Powder 1kg,Spices,10,262.6,2626.0
+ORD-01195,2026-10-21,Sahu Brothers,Bhagalpur,Distributor,Turmeric Powder 1kg,Spices,20,206.36,4127.2
+ORD-01196,2026-10-22,Gupta Kirana,Muzaffarpur,Retail,Mustard Oil 5L,Edible Oil,5,766.32,3831.6
+ORD-01197,2026-10-22,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Toor Dal 5kg,Pulses,50,333.06,16653.0
+ORD-01198,2026-10-22,Rani Sati Stores,Gaya,Retail,Wheat Flour 10kg,Staples,15,476.88,7153.2
+ORD-01199,2026-10-22,Verma Trading Co.,Patna,Wholesale,Groundnut Oil 5L,Edible Oil,20,712.68,14253.6
+ORD-01200,2026-10-22,Verma Trading Co.,Patna,Wholesale,Mustard Oil 5L,Edible Oil,15,758.0,11370.0
+ORD-01201,2026-10-22,Motihari Distributors,Motihari,Distributor,Basmati Rice 5kg,Staples,50,430.77,21538.5
+ORD-01202,2026-10-22,Rani Sati Stores,Gaya,Retail,Chilli Powder 1kg,Spices,15,271.05,4065.75
+ORD-01203,2026-10-22,Hazaribagh Traders,Hazaribagh,Retail,Sunflower Oil 5L,Edible Oil,15,674.54,10118.1
+ORD-01204,2026-10-23,Gupta Kirana,Muzaffarpur,Retail,Basmati Rice 5kg,Staples,5,410.35,2051.75
+ORD-01205,2026-10-23,Rani Sati Stores,Gaya,Retail,Toor Dal 5kg,Pulses,10,352.67,3526.7
+ORD-01206,2026-10-23,Hazaribagh Traders,Hazaribagh,Retail,Groundnut Oil 5L,Edible Oil,20,740.74,14814.8
+ORD-01207,2026-10-23,Deoghar General Store,Deoghar,Retail,Turmeric Powder 1kg,Spices,80,188.54,15083.2
+ORD-01208,2026-10-23,Jai Mata Di Store,Gaya,Retail,Sugar 5kg,Staples,15,244.96,3674.4
+ORD-01209,2026-10-23,Bhatia General Store,Patna,Retail,Basmati Rice 5kg,Staples,10,389.11,3891.1
+ORD-01210,2026-10-24,Verma Trading Co.,Patna,Wholesale,Sugar 5kg,Staples,15,241.09,3616.35
+ORD-01211,2026-10-24,Hazaribagh Traders,Hazaribagh,Retail,Wheat Flour 10kg,Staples,5,501.43,2507.15
+ORD-01212,2026-10-24,Motihari Distributors,Motihari,Distributor,Sugar 5kg,Staples,50,244.94,12247.0
+ORD-01213,2026-10-25,Bhagalpur Wholesale Hub,Bhagalpur,Wholesale,Sugar 5kg,Staples,20,224.98,4499.6
+ORD-01214,2026-10-25,City Hospital Canteen,Patna,Institutional,Rice 25kg,Staples,25,1169.86,29246.5
+ORD-01215,2026-10-25,Rani Sati Stores,Gaya,Retail,Sugar 5kg,Staples,10,226.38,2263.8
+ORD-01216,2026-10-25,City Hospital Canteen,Patna,Institutional,Sunflower Oil 5L,Edible Oil,20,641.29,12825.8
+ORD-01217,2026-10-26,College Canteen (Magadh Univ.),Gaya,Institutional,Sunflower Oil 5L,Edible Oil,20,614.97,12299.4
+ORD-01218,2026-10-26,Bokaro Kirana House,Bokaro,Retail,Mustard Oil 5L,Edible Oil,5,738.02,3690.1
+ORD-01219,2026-10-26,Singh Traders,Gaya,Distributor,Chilli Powder 1kg,Spices,10,298.85,2988.5
+ORD-01220,2026-10-26,New Bharat Foods,Patna,Institutional,Sugar 5kg,Staples,10,248.87,2488.7
+ORD-01221,2026-10-26,College Canteen (Magadh Univ.),Gaya,Institutional,Turmeric Powder 1kg,Spices,10,183.31,1833.1
+ORD-01222,2026-10-26,Agarwal Distributors,Patna,Distributor,Garam Masala 500g,Spices,20,222.35,4447.0
+ORD-01223,2026-10-26,Jai Mata Di Store,Gaya,Retail,Mustard Oil 5L,Edible Oil,80,673.93,53914.4
+ORD-01224,2026-10-26,Sharma Distributors,Patna,Distributor,Groundnut Oil 5L,Edible Oil,15,698.77,10481.55
+ORD-01225,2026-10-27,Hazaribagh Traders,Hazaribagh,Retail,Moong Dal 2kg,Pulses,10,268.99,2689.9
+ORD-01226,2026-10-27,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,10,648.59,6485.9
+ORD-01227,2026-10-27,Jamshedpur Foods,Jamshedpur,Wholesale,Garam Masala 500g,Spices,50,220.78,11039.0
+ORD-01228,2026-10-27,Bokaro Kirana House,Bokaro,Retail,Wheat Flour 10kg,Staples,5,442.99,2214.95
+ORD-01229,2026-10-27,Bhatia General Store,Patna,Retail,Turmeric Powder 1kg,Spices,20,184.34,3686.8
+ORD-01230,2026-10-28,Ranchi Wholesale Mart,Ranchi,Distributor,Chilli Powder 1kg,Spices,80,265.0,21200.0
+ORD-01231,2026-10-28,Motihari Distributors,Motihari,Distributor,Sunflower Oil 5L,Edible Oil,20,637.27,12745.4
+ORD-01232,2026-10-28,Jai Mata Di Store,Gaya,Retail,Wheat Flour 10kg,Staples,80,519.29,41543.2
+ORD-01233,2026-10-28,Rani Sati Stores,Gaya,Retail,Moong Dal 2kg,Pulses,100,283.83,28383.0
+ORD-01234,2026-10-28,Jamshedpur Foods,Jamshedpur,Wholesale,Groundnut Oil 5L,Edible Oil,20,645.71,12914.2
+ORD-01235,2026-10-28,Verma Trading Co.,Patna,Wholesale,Groundnut Oil 5L,Edible Oil,15,640.0,9600.0
+ORD-01236,2026-10-29,Deoghar General Store,Deoghar,Retail,Basmati Rice 5kg,Staples,10,428.39,4283.9
+ORD-01237,2026-10-29,Siuri Traders,Siuri,Wholesale,Coriander Powder 1kg,Spices,40,152.85,6114.0
+ORD-01238,2026-10-29,Sharma Distributors,Patna,Distributor,Chilli Powder 1kg,Spices,5,261.35,1306.75
+ORD-01239,2026-10-29,Bokaro Kirana House,Bokaro,Retail,Groundnut Oil 5L,Edible Oil,15,726.17,10892.55
+ORD-01240,2026-10-29,Agarwal Distributors,Patna,Distributor,Chana Dal 5kg,Pulses,40,310.0,12400.0
+ORD-01241,2026-10-30,Siuri Traders,Siuri,Wholesale,Groundnut Oil 5L,Edible Oil,80,692.27,55381.6
+ORD-01242,2026-10-30,Siuri Traders,Siuri,Wholesale,Turmeric Powder 1kg,Spices,5,182.29,911.45
+ORD-01243,2026-10-30,City Hospital Canteen,Patna,Institutional,Toor Dal 5kg,Pulses,10,321.32,3213.2
+ORD-01244,2026-10-30,Gupta Kirana,Muzaffarpur,Retail,Sunflower Oil 5L,Edible Oil,50,631.61,31580.5
+ORD-01245,2026-10-30,Deoghar General Store,Deoghar,Retail,Garam Masala 500g,Spices,10,251.85,2518.5
+ORD-01246,2026-10-30,Deoghar General Store,Deoghar,Retail,Groundnut Oil 5L,Edible Oil,5,739.13,3695.65
+ORD-01247,2026-10-31,Gupta Kirana,Muzaffarpur,Retail,Groundnut Oil 5L,Edible Oil,50,718.14,35907.0
+ORD-01248,2026-10-31,Ranchi Wholesale Mart,Ranchi,Distributor,Chana Dal 5kg,Pulses,50,298.85,14942.5
+ORD-01249,2026-10-31,Agarwal Distributors,Patna,Distributor,Wheat Flour 10kg,Staples,5,508.23,2541.15
