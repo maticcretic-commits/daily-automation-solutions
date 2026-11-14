@@ -1,0 +1,4 @@
+scenario,revenue_growth,gross_margin,opex_growth
+Base,0.08,0.38,0.05
+Bull,0.12,0.41,0.04
+Bear,0.03,0.34,0.07
