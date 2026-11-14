@@ -1,0 +1,11 @@
+key,value
+asking_price_usd,2400000
+net_debt_usd,650000
+shares_outstanding,100000
+tax_rate,0.25
+wacc,0.11
+terminal_growth,0.025
+depreciation_usd_per_year,220000
+capex_usd_per_year,180000
+working_capital_pct_revenue,0.12
+interest_usd_per_year,90000
