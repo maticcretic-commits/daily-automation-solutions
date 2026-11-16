@@ -1,0 +1,247 @@
+Date,OrderID,Category,Product,Region,Channel,Qty,UnitPrice,Revenue,Month
+2026-01-01,GT-2026-0001,Staples,Sugar 1kg,Darbhanga,Wholesale,2183,45,98235,2026-01
+2026-01-01,GT-2026-0002,Staples,Sugar 1kg,Darbhanga,Online,2609,45,117405,2026-01
+2026-01-02,GT-2026-0003,Beverages,Tea 500g,Darbhanga,Online,114,260,29640,2026-01
+2026-01-02,GT-2026-0004,Snacks,Biscuits 400g,Muzaffarpur,Online,235,95,22325,2026-01
+2026-01-04,GT-2026-0005,Beverages,Instant Coffee 200g,Gaya,Retail,151,340,51340,2026-01
+2026-01-05,GT-2026-0006,Snacks,Namkeen 500g,Gaya,Wholesale,120,120,14400,2026-01
+2026-01-07,GT-2026-0007,Snacks,Namkeen 500g,Bhagalpur,Wholesale,258,120,30960,2026-01
+2026-01-09,GT-2026-0008,Personal Care,Shampoo 650ml,Muzaffarpur,Online,116,290,33640,2026-01
+2026-01-10,GT-2026-0009,Beverages,Instant Coffee 200g,Darbhanga,Online,148,340,50320,2026-01
+2026-01-10,GT-2026-0010,Personal Care,Bath Soap (pack of 4),Bhagalpur,Wholesale,281,180,50580,2026-01
+2026-01-11,GT-2026-0011,Beverages,Instant Coffee 200g,Gaya,Online,139,340,47260,2026-01
+2026-01-13,GT-2026-0012,Home Care,Floor Cleaner 1L,Bhagalpur,Retail,222,150,33300,2026-01
+2026-01-15,GT-2026-0013,Home Care,Detergent Powder 3kg,Muzaffarpur,Retail,134,330,44220,2026-01
+2026-01-19,GT-2026-0014,Staples,Atta 10kg,Darbhanga,Retail,236,420,99120,2026-01
+2026-01-19,GT-2026-0015,Staples,Sugar 1kg,Gaya,Online,1610,45,72450,2026-01
+2026-01-20,GT-2026-0016,Personal Care,Bath Soap (pack of 4),Gaya,Online,248,180,44640,2026-01
+2026-01-21,GT-2026-0017,Personal Care,Shampoo 650ml,Patna,Online,92,290,26680,2026-01
+2026-01-24,GT-2026-0018,Home Care,Floor Cleaner 1L,Muzaffarpur,Retail,349,150,52350,2026-01
+2026-01-25,GT-2026-0019,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Retail,238,180,42840,2026-01
+2026-01-25,GT-2026-0020,Personal Care,Shampoo 650ml,Darbhanga,Retail,111,290,32190,2026-01
+2026-01-25,GT-2026-0021,Snacks,Biscuits 400g,Bhagalpur,Retail,265,95,25175,2026-01
+2026-01-27,GT-2026-0022,Home Care,Floor Cleaner 1L,Darbhanga,Retail,334,150,50100,2026-01
+2026-01-29,GT-2026-0023,Snacks,Biscuits 400g,Gaya,Wholesale,176,95,16720,2026-01
+2026-01-31,GT-2026-0024,Snacks,Biscuits 400g,Bhagalpur,Online,368,95,34960,2026-01
+2026-02-01,GT-2026-0025,Snacks,Biscuits 400g,Darbhanga,Wholesale,319,95,30305,2026-02
+2026-02-01,GT-2026-0026,Staples,Sugar 1kg,Patna,Wholesale,2252,45,101340,2026-02
+2026-02-03,GT-2026-0027,Beverages,Instant Coffee 200g,Patna,Retail,89,340,30260,2026-02
+2026-02-04,GT-2026-0028,Home Care,Floor Cleaner 1L,Muzaffarpur,Online,303,150,45450,2026-02
+2026-02-05,GT-2026-0029,Staples,Sugar 1kg,Muzaffarpur,Online,1758,45,79110,2026-02
+2026-02-06,GT-2026-0030,Home Care,Detergent Powder 3kg,Bhagalpur,Online,128,330,42240,2026-02
+2026-02-06,GT-2026-0031,Snacks,Biscuits 400g,Darbhanga,Online,516,95,49020,2026-02
+2026-02-06,GT-2026-0032,Staples,Atta 10kg,Darbhanga,Wholesale,201,420,84420,2026-02
+2026-02-07,GT-2026-0033,Staples,Basmati Rice 5kg,Muzaffarpur,Wholesale,180,310,55800,2026-02
+2026-02-08,GT-2026-0034,Home Care,Detergent Powder 3kg,Muzaffarpur,Online,94,330,31020,2026-02
+2026-02-08,GT-2026-0035,Personal Care,Shampoo 650ml,Gaya,Retail,194,290,56260,2026-02
+2026-02-09,GT-2026-0036,Beverages,Instant Coffee 200g,Bhagalpur,Retail,152,340,51680,2026-02
+2026-02-09,GT-2026-0037,Home Care,Detergent Powder 3kg,Gaya,Wholesale,100,330,33000,2026-02
+2026-02-13,GT-2026-0038,Snacks,Namkeen 500g,Darbhanga,Retail,280,120,33600,2026-02
+2026-02-16,GT-2026-0039,Staples,Basmati Rice 5kg,Muzaffarpur,Wholesale,128,310,39680,2026-02
+2026-02-18,GT-2026-0040,Beverages,Instant Coffee 200g,Muzaffarpur,Retail,92,340,31280,2026-02
+2026-02-18,GT-2026-0041,Personal Care,Bath Soap (pack of 4),Darbhanga,Wholesale,327,180,58860,2026-02
+2026-02-18,GT-2026-0042,Personal Care,Bath Soap (pack of 4),Gaya,Online,488,180,87840,2026-02
+2026-02-18,GT-2026-0043,Staples,Sugar 1kg,Muzaffarpur,Retail,1480,45,66600,2026-02
+2026-02-20,GT-2026-0044,Home Care,Floor Cleaner 1L,Bhagalpur,Retail,118,150,17700,2026-02
+2026-02-21,GT-2026-0045,Snacks,Biscuits 400g,Bhagalpur,Wholesale,490,95,46550,2026-02
+2026-02-22,GT-2026-0046,Personal Care,Bath Soap (pack of 4),Darbhanga,Retail,340,180,61200,2026-02
+2026-02-23,GT-2026-0047,Home Care,Detergent Powder 3kg,Darbhanga,Retail,135,330,44550,2026-02
+2026-02-24,GT-2026-0048,Beverages,Instant Coffee 200g,Patna,Wholesale,147,340,49980,2026-02
+2026-02-26,GT-2026-0049,Beverages,Tea 500g,Bhagalpur,Online,95,260,24700,2026-02
+2026-03-01,GT-2026-0050,Beverages,Tea 500g,Muzaffarpur,Retail,73,260,18980,2026-03
+2026-03-01,GT-2026-0051,Personal Care,Shampoo 650ml,Bhagalpur,Online,159,290,46110,2026-03
+2026-03-02,GT-2026-0052,Home Care,Detergent Powder 3kg,Gaya,Retail,288,330,95040,2026-03
+2026-03-02,GT-2026-0053,Personal Care,Shampoo 650ml,Gaya,Online,176,290,51040,2026-03
+2026-03-04,GT-2026-0054,Beverages,Instant Coffee 200g,Gaya,Wholesale,121,340,41140,2026-03
+2026-03-04,GT-2026-0055,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Retail,227,180,40860,2026-03
+2026-03-07,GT-2026-0056,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Online,147,180,26460,2026-03
+2026-03-08,GT-2026-0057,Snacks,Biscuits 400g,Muzaffarpur,Online,279,95,26505,2026-03
+2026-03-09,GT-2026-0058,Snacks,Biscuits 400g,Muzaffarpur,Wholesale,412,95,39140,2026-03
+2026-03-10,GT-2026-0059,Beverages,Tea 500g,Patna,Online,102,260,26520,2026-03
+2026-03-10,GT-2026-0060,Beverages,Tea 500g,Darbhanga,Wholesale,67,260,17420,2026-03
+2026-03-11,GT-2026-0061,Snacks,Biscuits 400g,Bhagalpur,Retail,490,95,46550,2026-03
+2026-03-12,GT-2026-0062,Home Care,Floor Cleaner 1L,Muzaffarpur,Retail,223,150,33450,2026-03
+2026-03-13,GT-2026-0063,Snacks,Biscuits 400g,Bhagalpur,Retail,398,95,37810,2026-03
+2026-03-14,GT-2026-0064,Staples,Sugar 1kg,Muzaffarpur,Retail,1058,45,47610,2026-03
+2026-03-20,GT-2026-0065,Beverages,Instant Coffee 200g,Gaya,Wholesale,105,340,35700,2026-03
+2026-03-20,GT-2026-0066,Staples,Sugar 1kg,Gaya,Retail,2095,45,94275,2026-03
+2026-03-23,GT-2026-0067,Personal Care,Shampoo 650ml,Gaya,Online,83,290,24070,2026-03
+2026-03-25,GT-2026-0068,Personal Care,Shampoo 650ml,Patna,Retail,173,290,50170,2026-03
+2026-03-25,GT-2026-0069,Staples,Basmati Rice 5kg,Patna,Retail,402,310,124620,2026-03
+2026-03-26,GT-2026-0070,Home Care,Detergent Powder 3kg,Darbhanga,Retail,113,330,37290,2026-03
+2026-03-29,GT-2026-0071,Staples,Sugar 1kg,Patna,Retail,2981,45,134145,2026-03
+2026-03-30,GT-2026-0072,Beverages,Instant Coffee 200g,Muzaffarpur,Retail,96,340,32640,2026-03
+2026-03-31,GT-2026-0073,Home Care,Detergent Powder 3kg,Patna,Retail,185,330,61050,2026-03
+2026-04-01,GT-2026-0074,Home Care,Floor Cleaner 1L,Bhagalpur,Wholesale,317,150,47550,2026-04
+2026-04-01,GT-2026-0075,Snacks,Biscuits 400g,Gaya,Wholesale,212,95,20140,2026-04
+2026-04-01,GT-2026-0076,Staples,Atta 10kg,Darbhanga,Wholesale,167,420,70140,2026-04
+2026-04-02,GT-2026-0077,Snacks,Namkeen 500g,Gaya,Wholesale,182,120,21840,2026-04
+2026-04-03,GT-2026-0078,Personal Care,Shampoo 650ml,Patna,Retail,271,290,78590,2026-04
+2026-04-04,GT-2026-0079,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Retail,238,180,42840,2026-04
+2026-04-04,GT-2026-0080,Personal Care,Bath Soap (pack of 4),Darbhanga,Online,285,180,51300,2026-04
+2026-04-05,GT-2026-0081,Beverages,Instant Coffee 200g,Muzaffarpur,Retail,156,340,53040,2026-04
+2026-04-07,GT-2026-0082,Beverages,Tea 500g,Patna,Retail,235,260,61100,2026-04
+2026-04-07,GT-2026-0083,Snacks,Biscuits 400g,Muzaffarpur,Wholesale,416,95,39520,2026-04
+2026-04-08,GT-2026-0084,Home Care,Floor Cleaner 1L,Gaya,Retail,248,150,37200,2026-04
+2026-04-10,GT-2026-0085,Beverages,Tea 500g,Muzaffarpur,Retail,105,260,27300,2026-04
+2026-04-11,GT-2026-0086,Staples,Basmati Rice 5kg,Muzaffarpur,Retail,219,310,67890,2026-04
+2026-04-13,GT-2026-0087,Staples,Sugar 1kg,Darbhanga,Retail,2263,45,101835,2026-04
+2026-04-14,GT-2026-0088,Staples,Basmati Rice 5kg,Patna,Wholesale,113,310,35030,2026-04
+2026-04-23,GT-2026-0089,Home Care,Detergent Powder 3kg,Gaya,Retail,120,330,39600,2026-04
+2026-04-23,GT-2026-0090,Snacks,Biscuits 400g,Muzaffarpur,Online,424,95,40280,2026-04
+2026-04-23,GT-2026-0091,Staples,Sugar 1kg,Darbhanga,Wholesale,1121,45,50445,2026-04
+2026-04-24,GT-2026-0092,Staples,Basmati Rice 5kg,Muzaffarpur,Wholesale,325,310,100750,2026-04
+2026-04-26,GT-2026-0093,Home Care,Detergent Powder 3kg,Bhagalpur,Retail,114,330,37620,2026-04
+2026-04-26,GT-2026-0094,Snacks,Namkeen 500g,Patna,Retail,217,120,26040,2026-04
+2026-04-27,GT-2026-0095,Beverages,Instant Coffee 200g,Patna,Wholesale,158,340,53720,2026-04
+2026-04-28,GT-2026-0096,Home Care,Floor Cleaner 1L,Patna,Retail,203,150,30450,2026-04
+2026-04-28,GT-2026-0097,Home Care,Floor Cleaner 1L,Darbhanga,Retail,153,150,22950,2026-04
+2026-04-28,GT-2026-0098,Personal Care,Bath Soap (pack of 4),Darbhanga,Wholesale,461,180,82980,2026-04
+2026-05-01,GT-2026-0099,Staples,Sugar 1kg,Patna,Online,3036,45,136620,2026-05
+2026-05-03,GT-2026-0100,Home Care,Floor Cleaner 1L,Gaya,Retail,445,150,66750,2026-05
+2026-05-04,GT-2026-0101,Snacks,Biscuits 400g,Patna,Wholesale,313,95,29735,2026-05
+2026-05-11,GT-2026-0102,Home Care,Floor Cleaner 1L,Patna,Online,445,150,66750,2026-05
+2026-05-11,GT-2026-0103,Snacks,Biscuits 400g,Darbhanga,Wholesale,404,95,38380,2026-05
+2026-05-12,GT-2026-0104,Snacks,Biscuits 400g,Patna,Wholesale,343,95,32585,2026-05
+2026-05-13,GT-2026-0105,Beverages,Instant Coffee 200g,Patna,Retail,105,340,35700,2026-05
+2026-05-13,GT-2026-0106,Beverages,Tea 500g,Bhagalpur,Wholesale,197,260,51220,2026-05
+2026-05-13,GT-2026-0107,Home Care,Detergent Powder 3kg,Bhagalpur,Wholesale,90,330,29700,2026-05
+2026-05-15,GT-2026-0108,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Retail,205,180,36900,2026-05
+2026-05-17,GT-2026-0109,Staples,Atta 10kg,Gaya,Online,224,420,94080,2026-05
+2026-05-18,GT-2026-0110,Home Care,Floor Cleaner 1L,Bhagalpur,Wholesale,265,150,39750,2026-05
+2026-05-19,GT-2026-0111,Beverages,Tea 500g,Gaya,Retail,199,260,51740,2026-05
+2026-05-20,GT-2026-0112,Beverages,Tea 500g,Patna,Wholesale,85,260,22100,2026-05
+2026-05-20,GT-2026-0113,Personal Care,Bath Soap (pack of 4),Darbhanga,Online,205,180,36900,2026-05
+2026-05-20,GT-2026-0114,Staples,Atta 10kg,Darbhanga,Retail,313,420,131460,2026-05
+2026-05-21,GT-2026-0115,Staples,Basmati Rice 5kg,Bhagalpur,Online,171,310,53010,2026-05
+2026-05-24,GT-2026-0116,Beverages,Instant Coffee 200g,Bhagalpur,Online,124,340,42160,2026-05
+2026-05-24,GT-2026-0117,Personal Care,Shampoo 650ml,Gaya,Wholesale,106,290,30740,2026-05
+2026-05-24,GT-2026-0118,Staples,Sugar 1kg,Darbhanga,Retail,1043,45,46935,2026-05
+2026-05-25,GT-2026-0119,Snacks,Biscuits 400g,Gaya,Retail,293,95,27835,2026-05
+2026-05-26,GT-2026-0120,Personal Care,Bath Soap (pack of 4),Gaya,Wholesale,152,180,27360,2026-05
+2026-05-27,GT-2026-0121,Personal Care,Bath Soap (pack of 4),Patna,Online,315,180,56700,2026-05
+2026-05-29,GT-2026-0122,Personal Care,Shampoo 650ml,Patna,Retail,238,290,69020,2026-05
+2026-05-30,GT-2026-0123,Snacks,Namkeen 500g,Muzaffarpur,Online,309,120,37080,2026-05
+2026-06-02,GT-2026-0124,Home Care,Floor Cleaner 1L,Muzaffarpur,Retail,276,150,41400,2026-06
+2026-06-07,GT-2026-0125,Staples,Sugar 1kg,Bhagalpur,Online,1265,45,56925,2026-06
+2026-06-08,GT-2026-0126,Snacks,Biscuits 400g,Bhagalpur,Wholesale,414,95,39330,2026-06
+2026-06-09,GT-2026-0127,Home Care,Floor Cleaner 1L,Patna,Online,142,150,21300,2026-06
+2026-06-09,GT-2026-0128,Personal Care,Shampoo 650ml,Gaya,Wholesale,264,290,76560,2026-06
+2026-06-11,GT-2026-0129,Personal Care,Bath Soap (pack of 4),Patna,Retail,356,180,64080,2026-06
+2026-06-12,GT-2026-0130,Staples,Sugar 1kg,Muzaffarpur,Wholesale,1440,45,64800,2026-06
+2026-06-13,GT-2026-0131,Beverages,Tea 500g,Gaya,Online,184,260,47840,2026-06
+2026-06-15,GT-2026-0132,Beverages,Instant Coffee 200g,Bhagalpur,Retail,90,340,30600,2026-06
+2026-06-15,GT-2026-0133,Home Care,Floor Cleaner 1L,Gaya,Retail,201,150,30150,2026-06
+2026-06-16,GT-2026-0134,Snacks,Namkeen 500g,Darbhanga,Wholesale,301,120,36120,2026-06
+2026-06-19,GT-2026-0135,Home Care,Floor Cleaner 1L,Gaya,Retail,353,150,52950,2026-06
+2026-06-21,GT-2026-0136,Beverages,Instant Coffee 200g,Muzaffarpur,Retail,124,340,42160,2026-06
+2026-06-21,GT-2026-0137,Personal Care,Bath Soap (pack of 4),Patna,Online,454,180,81720,2026-06
+2026-06-22,GT-2026-0138,Personal Care,Shampoo 650ml,Gaya,Wholesale,209,290,60610,2026-06
+2026-06-23,GT-2026-0139,Staples,Atta 10kg,Gaya,Online,95,420,39900,2026-06
+2026-06-23,GT-2026-0140,Staples,Atta 10kg,Darbhanga,Retail,260,420,109200,2026-06
+2026-06-24,GT-2026-0141,Beverages,Instant Coffee 200g,Gaya,Retail,184,340,62560,2026-06
+2026-06-24,GT-2026-0142,Home Care,Detergent Powder 3kg,Patna,Wholesale,111,330,36630,2026-06
+2026-06-26,GT-2026-0143,Home Care,Floor Cleaner 1L,Bhagalpur,Wholesale,173,150,25950,2026-06
+2026-06-26,GT-2026-0144,Snacks,Biscuits 400g,Gaya,Online,247,95,23465,2026-06
+2026-06-26,GT-2026-0145,Snacks,Biscuits 400g,Muzaffarpur,Retail,369,95,35055,2026-06
+2026-06-27,GT-2026-0146,Snacks,Namkeen 500g,Bhagalpur,Retail,279,120,33480,2026-06
+2026-06-29,GT-2026-0147,Staples,Basmati Rice 5kg,Darbhanga,Online,322,310,99820,2026-06
+2026-06-29,GT-2026-0148,Staples,Sugar 1kg,Bhagalpur,Wholesale,903,45,40635,2026-06
+2026-07-02,GT-2026-0149,Beverages,Instant Coffee 200g,Patna,Wholesale,60,340,20400,2026-07
+2026-07-02,GT-2026-0150,Beverages,Tea 500g,Bhagalpur,Wholesale,176,260,45760,2026-07
+2026-07-03,GT-2026-0151,Personal Care,Shampoo 650ml,Muzaffarpur,Wholesale,192,290,55680,2026-07
+2026-07-03,GT-2026-0152,Snacks,Biscuits 400g,Patna,Wholesale,333,95,31635,2026-07
+2026-07-04,GT-2026-0153,Snacks,Namkeen 500g,Bhagalpur,Retail,446,120,53520,2026-07
+2026-07-05,GT-2026-0154,Staples,Atta 10kg,Gaya,Wholesale,158,420,66360,2026-07
+2026-07-06,GT-2026-0155,Home Care,Floor Cleaner 1L,Muzaffarpur,Online,259,150,38850,2026-07
+2026-07-06,GT-2026-0156,Personal Care,Bath Soap (pack of 4),Bhagalpur,Retail,287,180,51660,2026-07
+2026-07-06,GT-2026-0157,Staples,Sugar 1kg,Gaya,Wholesale,2600,45,117000,2026-07
+2026-07-07,GT-2026-0158,Beverages,Instant Coffee 200g,Darbhanga,Wholesale,118,340,40120,2026-07
+2026-07-10,GT-2026-0159,Home Care,Floor Cleaner 1L,Patna,Wholesale,143,150,21450,2026-07
+2026-07-12,GT-2026-0160,Beverages,Instant Coffee 200g,Bhagalpur,Online,79,340,26860,2026-07
+2026-07-12,GT-2026-0161,Beverages,Tea 500g,Bhagalpur,Online,84,260,21840,2026-07
+2026-07-15,GT-2026-0162,Personal Care,Shampoo 650ml,Gaya,Online,223,290,64670,2026-07
+2026-07-16,GT-2026-0163,Home Care,Floor Cleaner 1L,Muzaffarpur,Wholesale,325,150,48750,2026-07
+2026-07-17,GT-2026-0164,Snacks,Namkeen 500g,Patna,Retail,283,120,33960,2026-07
+2026-07-17,GT-2026-0165,Staples,Basmati Rice 5kg,Bhagalpur,Online,317,310,98270,2026-07
+2026-07-18,GT-2026-0166,Beverages,Instant Coffee 200g,Gaya,Wholesale,77,340,26180,2026-07
+2026-07-21,GT-2026-0167,Personal Care,Shampoo 650ml,Muzaffarpur,Online,240,290,69600,2026-07
+2026-07-23,GT-2026-0168,Home Care,Detergent Powder 3kg,Gaya,Wholesale,76,330,25080,2026-07
+2026-07-23,GT-2026-0169,Home Care,Floor Cleaner 1L,Gaya,Online,315,150,47250,2026-07
+2026-07-25,GT-2026-0170,Home Care,Floor Cleaner 1L,Patna,Retail,131,150,19650,2026-07
+2026-07-26,GT-2026-0171,Snacks,Namkeen 500g,Patna,Retail,274,120,32880,2026-07
+2026-07-29,GT-2026-0172,Staples,Atta 10kg,Darbhanga,Online,394,420,165480,2026-07
+2026-07-30,GT-2026-0173,Snacks,Biscuits 400g,Bhagalpur,Wholesale,276,95,26220,2026-07
+2026-08-02,GT-2026-0174,Beverages,Tea 500g,Bhagalpur,Retail,213,260,55380,2026-08
+2026-08-04,GT-2026-0175,Snacks,Biscuits 400g,Gaya,Wholesale,370,95,35150,2026-08
+2026-08-06,GT-2026-0176,Snacks,Biscuits 400g,Bhagalpur,Retail,186,95,17670,2026-08
+2026-08-06,GT-2026-0177,Staples,Sugar 1kg,Muzaffarpur,Retail,2063,45,92835,2026-08
+2026-08-07,GT-2026-0178,Beverages,Tea 500g,Gaya,Wholesale,165,260,42900,2026-08
+2026-08-07,GT-2026-0179,Snacks,Namkeen 500g,Gaya,Online,392,120,47040,2026-08
+2026-08-07,GT-2026-0180,Staples,Atta 10kg,Patna,Retail,131,420,55020,2026-08
+2026-08-09,GT-2026-0181,Beverages,Tea 500g,Gaya,Online,260,260,67600,2026-08
+2026-08-09,GT-2026-0182,Personal Care,Shampoo 650ml,Darbhanga,Wholesale,134,290,38860,2026-08
+2026-08-12,GT-2026-0183,Home Care,Floor Cleaner 1L,Patna,Retail,442,150,66300,2026-08
+2026-08-13,GT-2026-0184,Beverages,Instant Coffee 200g,Muzaffarpur,Wholesale,135,340,45900,2026-08
+2026-08-14,GT-2026-0185,Home Care,Detergent Powder 3kg,Muzaffarpur,Wholesale,120,330,39600,2026-08
+2026-08-16,GT-2026-0186,Staples,Sugar 1kg,Bhagalpur,Retail,1474,45,66330,2026-08
+2026-08-17,GT-2026-0187,Snacks,Namkeen 500g,Bhagalpur,Online,162,120,19440,2026-08
+2026-08-18,GT-2026-0188,Home Care,Detergent Powder 3kg,Muzaffarpur,Wholesale,196,330,64680,2026-08
+2026-08-18,GT-2026-0189,Staples,Basmati Rice 5kg,Gaya,Wholesale,158,310,48980,2026-08
+2026-08-19,GT-2026-0190,Personal Care,Bath Soap (pack of 4),Bhagalpur,Online,238,180,42840,2026-08
+2026-08-20,GT-2026-0191,Snacks,Namkeen 500g,Patna,Online,394,120,47280,2026-08
+2026-08-21,GT-2026-0192,Staples,Atta 10kg,Gaya,Retail,150,420,63000,2026-08
+2026-08-24,GT-2026-0193,Personal Care,Shampoo 650ml,Patna,Online,74,290,21460,2026-08
+2026-08-27,GT-2026-0194,Personal Care,Bath Soap (pack of 4),Bhagalpur,Retail,290,180,52200,2026-08
+2026-08-28,GT-2026-0195,Personal Care,Shampoo 650ml,Muzaffarpur,Online,149,290,43210,2026-08
+2026-08-31,GT-2026-0196,Home Care,Floor Cleaner 1L,Darbhanga,Online,469,150,70350,2026-08
+2026-08-31,GT-2026-0197,Personal Care,Shampoo 650ml,Darbhanga,Retail,182,290,52780,2026-08
+2026-08-31,GT-2026-0198,Staples,Basmati Rice 5kg,Gaya,Wholesale,344,310,106640,2026-08
+2026-09-01,GT-2026-0199,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Retail,325,180,58500,2026-09
+2026-09-02,GT-2026-0200,Home Care,Floor Cleaner 1L,Darbhanga,Online,386,150,57900,2026-09
+2026-09-02,GT-2026-0201,Staples,Sugar 1kg,Gaya,Retail,1803,45,81135,2026-09
+2026-09-09,GT-2026-0202,Personal Care,Shampoo 650ml,Bhagalpur,Retail,323,290,93670,2026-09
+2026-09-10,GT-2026-0203,Staples,Sugar 1kg,Patna,Wholesale,1259,45,56655,2026-09
+2026-09-11,GT-2026-0204,Snacks,Namkeen 500g,Gaya,Online,399,120,47880,2026-09
+2026-09-11,GT-2026-0205,Staples,Basmati Rice 5kg,Muzaffarpur,Online,358,310,110980,2026-09
+2026-09-14,GT-2026-0206,Staples,Basmati Rice 5kg,Bhagalpur,Wholesale,202,310,62620,2026-09
+2026-09-15,GT-2026-0207,Beverages,Tea 500g,Gaya,Online,98,260,25480,2026-09
+2026-09-15,GT-2026-0208,Snacks,Biscuits 400g,Muzaffarpur,Online,366,95,34770,2026-09
+2026-09-16,GT-2026-0209,Beverages,Tea 500g,Muzaffarpur,Retail,205,260,53300,2026-09
+2026-09-16,GT-2026-0210,Home Care,Floor Cleaner 1L,Patna,Wholesale,213,150,31950,2026-09
+2026-09-16,GT-2026-0211,Home Care,Floor Cleaner 1L,Patna,Online,173,150,25950,2026-09
+2026-09-17,GT-2026-0212,Beverages,Tea 500g,Darbhanga,Online,195,260,50700,2026-09
+2026-09-18,GT-2026-0213,Snacks,Biscuits 400g,Darbhanga,Wholesale,475,95,45125,2026-09
+2026-09-21,GT-2026-0214,Beverages,Instant Coffee 200g,Gaya,Online,73,340,24820,2026-09
+2026-09-21,GT-2026-0215,Home Care,Floor Cleaner 1L,Darbhanga,Wholesale,162,150,24300,2026-09
+2026-09-21,GT-2026-0216,Home Care,Floor Cleaner 1L,Gaya,Retail,369,150,55350,2026-09
+2026-09-22,GT-2026-0217,Personal Care,Shampoo 650ml,Gaya,Wholesale,203,290,58870,2026-09
+2026-09-23,GT-2026-0218,Snacks,Biscuits 400g,Darbhanga,Retail,336,95,31920,2026-09
+2026-09-24,GT-2026-0219,Home Care,Floor Cleaner 1L,Patna,Retail,206,150,30900,2026-09
+2026-09-25,GT-2026-0220,Beverages,Tea 500g,Darbhanga,Retail,256,260,66560,2026-09
+2026-09-26,GT-2026-0221,Staples,Sugar 1kg,Gaya,Wholesale,2596,45,116820,2026-09
+2026-09-27,GT-2026-0222,Staples,Basmati Rice 5kg,Muzaffarpur,Wholesale,128,310,39680,2026-09
+2026-09-30,GT-2026-0223,Personal Care,Shampoo 650ml,Muzaffarpur,Online,187,290,54230,2026-09
+2026-10-03,GT-2026-0224,Staples,Basmati Rice 5kg,Gaya,Online,476,310,147560,2026-10
+2026-10-06,GT-2026-0225,Beverages,Tea 500g,Patna,Wholesale,82,260,21320,2026-10
+2026-10-07,GT-2026-0226,Home Care,Floor Cleaner 1L,Bhagalpur,Wholesale,266,150,39900,2026-10
+2026-10-07,GT-2026-0227,Snacks,Namkeen 500g,Bhagalpur,Online,410,120,49200,2026-10
+2026-10-08,GT-2026-0228,Personal Care,Bath Soap (pack of 4),Patna,Retail,470,180,84600,2026-10
+2026-10-09,GT-2026-0229,Home Care,Floor Cleaner 1L,Darbhanga,Retail,291,150,43650,2026-10
+2026-10-13,GT-2026-0230,Beverages,Tea 500g,Gaya,Online,112,260,29120,2026-10
+2026-10-14,GT-2026-0231,Staples,Basmati Rice 5kg,Bhagalpur,Wholesale,340,310,105400,2026-10
+2026-10-14,GT-2026-0232,Staples,Sugar 1kg,Bhagalpur,Online,4311,45,193995,2026-10
+2026-10-15,GT-2026-0233,Home Care,Detergent Powder 3kg,Patna,Retail,81,330,26730,2026-10
+2026-10-16,GT-2026-0234,Staples,Sugar 1kg,Patna,Retail,1906,45,85770,2026-10
+2026-10-18,GT-2026-0235,Home Care,Detergent Powder 3kg,Patna,Online,111,330,36630,2026-10
+2026-10-19,GT-2026-0236,Snacks,Biscuits 400g,Muzaffarpur,Online,372,95,35340,2026-10
+2026-10-20,GT-2026-0237,Beverages,Instant Coffee 200g,Bhagalpur,Retail,123,340,41820,2026-10
+2026-10-21,GT-2026-0238,Personal Care,Bath Soap (pack of 4),Darbhanga,Wholesale,363,180,65340,2026-10
+2026-10-21,GT-2026-0239,Snacks,Biscuits 400g,Patna,Online,394,95,37430,2026-10
+2026-10-22,GT-2026-0240,Beverages,Instant Coffee 200g,Patna,Retail,151,340,51340,2026-10
+2026-10-22,GT-2026-0241,Home Care,Floor Cleaner 1L,Bhagalpur,Retail,246,150,36900,2026-10
+2026-10-26,GT-2026-0242,Beverages,Tea 500g,Gaya,Retail,188,260,48880,2026-10
+2026-10-26,GT-2026-0243,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Wholesale,347,180,62460,2026-10
+2026-10-28,GT-2026-0244,Snacks,Namkeen 500g,Gaya,Retail,375,120,45000,2026-10
+2026-10-29,GT-2026-0245,Home Care,Detergent Powder 3kg,Muzaffarpur,Online,77,330,25410,2026-10
+2026-10-30,GT-2026-0246,Personal Care,Bath Soap (pack of 4),Muzaffarpur,Retail,360,180,64800,2026-10
