@@ -1,0 +1,4 @@
+scenario,growth_y1,growth_y2,growth_y3,gross_margin,opex_growth
+Base,0.18,0.15,0.12,0.33,0.10
+Optimistic,0.25,0.22,0.18,0.35,0.12
+Pessimistic,0.08,0.06,0.05,0.28,0.06
