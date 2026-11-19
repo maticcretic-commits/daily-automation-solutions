@@ -1,0 +1,10 @@
+id,area,flag,severity,weight
+F1,Working capital,Receivable days rising three years running (57.5 -> 61.1 -> 65.5),High,5
+F2,Contingent liabilities,Contingent liabilities 24.8% of net worth (threshold 20%),High,5
+F3,Related parties,"Director loan Rs 120 lakh at 0% interest, repayable on demand",High,5
+F4,Solvency,Interest cover below 2.0x in all three years (1.70 / 1.90 / 1.84),Medium,3
+F5,Liquidity,Quick ratio below 1.0x in all three years (0.84 / 0.77 / 0.66),Medium,3
+F6,Bank reconciliation,Unreconciled cheque 45 days old at the as-of date (threshold 30),Medium,3
+F7,Tax,"GST demand of Rs 42 lakh under appeal, unresolved",Medium,3
+F8,Cash conversion,Receivables grew 53% in two years against revenue growth of 35% (cash conversion weak),Medium,3
+F9,Audit,Auditor emphasis of matter on the GST demand (FY26 audit report),Low,1
