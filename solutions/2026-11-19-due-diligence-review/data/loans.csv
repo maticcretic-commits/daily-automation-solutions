@@ -1,0 +1,6 @@
+facility,lender,sanctioned,outstanding,rate,emi,overdue,security,lt_portion,current_portion
+Term loan,State Bank of India,500,420,0.105,9.8,0,Plant & machinery,380,40
+Cash credit,Canara Bank,300,285,0.11,,0,Stock & receivables,0,285
+Vehicle loan,HDFC Bank,45,18,0.0925,1.1,0,Hypothecation of vehicles,6,12
+Unsecured loan,Tata Capital (NBFC),150,107,0.15,4.6,0,Unsecured,67,40
+Director loan (related party),Promoter,120,120,0.0,,0,"Unsecured, repayable on demand",0,120
