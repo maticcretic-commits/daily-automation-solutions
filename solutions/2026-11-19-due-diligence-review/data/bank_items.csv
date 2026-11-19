@@ -1,0 +1,7 @@
+item,date,amount,effect,cleared
+Cheque issued - supplier payment,2026-02-14,4.20,-4.20,
+"Cheque deposited - customer, not yet cleared",2026-03-28,8.40,8.40,
+"Bank charges debited, not in books",2026-03-28,0.15,0.15,
+"UPI collection, not in books",2026-03-19,2.80,-2.80,
+Cheque issued - rent,2026-01-10,6.50,-6.50,2026-02-05
+"NEFT receipt, entered in books late",2025-12-22,3.10,-3.10,2026-01-05
