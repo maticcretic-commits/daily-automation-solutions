@@ -1,0 +1,11 @@
+product,category,unit_cost,unit_price,margin_per_unit
+Rice 25kg,Grains,980,1150,170.0
+Wheat Flour 10kg,Grains,340,420,80.0
+Sugar 1kg,Sweeteners,38,46,8.0
+Edible Oil 1L,Oils,128,155,27.0
+Tea 500g,Beverages,210,260,50.0
+Toor Dal 1kg,Pulses,118,145,27.0
+Spice Mix 200g,Spices,72,95,23.0
+Biscuits 400g,Snacks,34,45,11.0
+Bathing Soap 100g,Personal Care,22,30,8.0
+Detergent 1kg,Home Care,88,110,22.0
