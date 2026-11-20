@@ -1,0 +1,127 @@
+po_id,date,supplier,product,category,qty,unit_cost
+PO-501,2026-04-12,Vindhya Food Products,Rice 25kg,Grains,67,980
+PO-502,2026-04-22,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,36,128
+PO-503,2026-04-25,Shree Agro Mills,Sugar 1kg,Sweeteners,185,38
+PO-504,2026-04-26,Vindhya Food Products,Biscuits 400g,Snacks,26,34
+PO-505,2026-04-20,Narmada Agro,Spice Mix 200g,Spices,138,72
+PO-506,2026-04-16,Narmada Agro,Rice 25kg,Grains,139,980
+PO-507,2026-04-23,Malwa Foods Pvt Ltd,Spice Mix 200g,Spices,196,72
+PO-508,2026-04-27,Shree Agro Mills,Rice 25kg,Grains,184,980
+PO-509,2026-04-29,Malwa Foods Pvt Ltd,Biscuits 400g,Snacks,67,34
+PO-510,2026-04-15,Vindhya Food Products,Toor Dal 1kg,Pulses,80,118
+PO-511,2026-04-06,Central India Traders,Rice 25kg,Grains,57,980
+PO-512,2026-04-24,Narmada Agro,Spice Mix 200g,Spices,180,72
+PO-513,2026-04-13,Shree Agro Mills,Rice 25kg,Grains,179,980
+PO-514,2026-04-23,Vindhya Food Products,Bathing Soap 100g,Personal Care,77,22
+PO-515,2026-04-19,Narmada Agro,Edible Oil 1L,Oils,128,128
+PO-516,2026-04-11,Vindhya Food Products,Wheat Flour 10kg,Grains,52,340
+PO-517,2026-04-29,Central India Traders,Sugar 1kg,Sweeteners,143,38
+PO-518,2026-05-07,Malwa Foods Pvt Ltd,Biscuits 400g,Snacks,47,34
+PO-519,2026-05-19,Shree Agro Mills,Detergent 1kg,Home Care,68,88
+PO-520,2026-05-21,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,140,128
+PO-521,2026-05-10,Malwa Foods Pvt Ltd,Biscuits 400g,Snacks,110,34
+PO-522,2026-05-17,Narmada Agro,Detergent 1kg,Home Care,181,88
+PO-523,2026-05-29,Narmada Agro,Edible Oil 1L,Oils,64,128
+PO-524,2026-05-09,Malwa Foods Pvt Ltd,Sugar 1kg,Sweeteners,42,38
+PO-525,2026-05-01,Shree Agro Mills,Spice Mix 200g,Spices,123,72
+PO-526,2026-05-14,Malwa Foods Pvt Ltd,Wheat Flour 10kg,Grains,157,340
+PO-527,2026-05-31,Narmada Agro,Tea 500g,Beverages,118,210
+PO-528,2026-05-15,Narmada Agro,Rice 25kg,Grains,155,980
+PO-529,2026-05-08,Central India Traders,Detergent 1kg,Home Care,28,88
+PO-530,2026-05-09,Vindhya Food Products,Toor Dal 1kg,Pulses,167,118
+PO-531,2026-05-23,Shree Agro Mills,Tea 500g,Beverages,188,210
+PO-532,2026-05-13,Central India Traders,Bathing Soap 100g,Personal Care,62,22
+PO-533,2026-05-21,Narmada Agro,Wheat Flour 10kg,Grains,79,340
+PO-534,2026-05-02,Vindhya Food Products,Tea 500g,Beverages,174,210
+PO-535,2026-05-07,Central India Traders,Wheat Flour 10kg,Grains,115,340
+PO-536,2026-06-01,Vindhya Food Products,Wheat Flour 10kg,Grains,39,340
+PO-537,2026-06-02,Vindhya Food Products,Spice Mix 200g,Spices,147,72
+PO-538,2026-06-26,Central India Traders,Spice Mix 200g,Spices,187,72
+PO-539,2026-06-05,Central India Traders,Wheat Flour 10kg,Grains,84,340
+PO-540,2026-06-05,Narmada Agro,Edible Oil 1L,Oils,30,128
+PO-541,2026-06-27,Shree Agro Mills,Wheat Flour 10kg,Grains,121,340
+PO-542,2026-06-14,Vindhya Food Products,Wheat Flour 10kg,Grains,77,340
+PO-543,2026-06-16,Narmada Agro,Detergent 1kg,Home Care,33,88
+PO-544,2026-06-19,Central India Traders,Tea 500g,Beverages,24,210
+PO-545,2026-06-23,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,41,128
+PO-546,2026-06-28,Narmada Agro,Spice Mix 200g,Spices,167,72
+PO-547,2026-06-18,Narmada Agro,Toor Dal 1kg,Pulses,156,118
+PO-548,2026-06-05,Vindhya Food Products,Tea 500g,Beverages,173,210
+PO-549,2026-06-29,Malwa Foods Pvt Ltd,Bathing Soap 100g,Personal Care,118,22
+PO-550,2026-06-11,Vindhya Food Products,Sugar 1kg,Sweeteners,103,38
+PO-551,2026-07-03,Narmada Agro,Edible Oil 1L,Oils,101,128
+PO-552,2026-07-11,Malwa Foods Pvt Ltd,Spice Mix 200g,Spices,124,72
+PO-553,2026-07-23,Vindhya Food Products,Biscuits 400g,Snacks,189,34
+PO-554,2026-07-18,Malwa Foods Pvt Ltd,Biscuits 400g,Snacks,112,34
+PO-555,2026-07-07,Vindhya Food Products,Bathing Soap 100g,Personal Care,101,22
+PO-556,2026-07-30,Central India Traders,Sugar 1kg,Sweeteners,199,38
+PO-557,2026-07-28,Narmada Agro,Rice 25kg,Grains,46,980
+PO-558,2026-07-16,Central India Traders,Rice 25kg,Grains,176,980
+PO-559,2026-07-04,Vindhya Food Products,Bathing Soap 100g,Personal Care,52,22
+PO-560,2026-07-12,Vindhya Food Products,Detergent 1kg,Home Care,93,88
+PO-561,2026-07-15,Central India Traders,Edible Oil 1L,Oils,107,128
+PO-562,2026-07-03,Narmada Agro,Toor Dal 1kg,Pulses,38,118
+PO-563,2026-07-14,Malwa Foods Pvt Ltd,Spice Mix 200g,Spices,131,72
+PO-564,2026-07-14,Shree Agro Mills,Detergent 1kg,Home Care,158,88
+PO-565,2026-07-27,Narmada Agro,Biscuits 400g,Snacks,154,34
+PO-566,2026-07-18,Vindhya Food Products,Bathing Soap 100g,Personal Care,190,22
+PO-567,2026-08-11,Shree Agro Mills,Sugar 1kg,Sweeteners,53,38
+PO-568,2026-08-26,Narmada Agro,Toor Dal 1kg,Pulses,31,118
+PO-569,2026-08-19,Central India Traders,Rice 25kg,Grains,121,980
+PO-570,2026-08-03,Shree Agro Mills,Edible Oil 1L,Oils,65,128
+PO-571,2026-08-09,Vindhya Food Products,Biscuits 400g,Snacks,96,34
+PO-572,2026-08-28,Vindhya Food Products,Edible Oil 1L,Oils,120,128
+PO-573,2026-08-05,Vindhya Food Products,Wheat Flour 10kg,Grains,46,340
+PO-574,2026-08-18,Central India Traders,Bathing Soap 100g,Personal Care,196,22
+PO-575,2026-08-01,Central India Traders,Bathing Soap 100g,Personal Care,178,22
+PO-576,2026-08-03,Narmada Agro,Rice 25kg,Grains,30,980
+PO-577,2026-08-15,Shree Agro Mills,Sugar 1kg,Sweeteners,127,38
+PO-578,2026-08-30,Vindhya Food Products,Tea 500g,Beverages,78,210
+PO-579,2026-08-19,Central India Traders,Bathing Soap 100g,Personal Care,122,22
+PO-580,2026-08-21,Central India Traders,Detergent 1kg,Home Care,119,88
+PO-581,2026-08-08,Vindhya Food Products,Toor Dal 1kg,Pulses,56,118
+PO-582,2026-08-08,Narmada Agro,Spice Mix 200g,Spices,95,72
+PO-583,2026-08-31,Shree Agro Mills,Edible Oil 1L,Oils,84,128
+PO-584,2026-09-29,Central India Traders,Sugar 1kg,Sweeteners,66,38
+PO-585,2026-09-01,Vindhya Food Products,Tea 500g,Beverages,150,210
+PO-586,2026-09-01,Narmada Agro,Wheat Flour 10kg,Grains,70,340
+PO-587,2026-09-04,Narmada Agro,Toor Dal 1kg,Pulses,38,118
+PO-588,2026-09-20,Vindhya Food Products,Edible Oil 1L,Oils,166,128
+PO-589,2026-09-07,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,93,128
+PO-590,2026-09-13,Narmada Agro,Biscuits 400g,Snacks,30,34
+PO-591,2026-09-19,Narmada Agro,Toor Dal 1kg,Pulses,21,118
+PO-592,2026-09-08,Central India Traders,Bathing Soap 100g,Personal Care,101,22
+PO-593,2026-09-13,Narmada Agro,Spice Mix 200g,Spices,188,72
+PO-594,2026-09-01,Narmada Agro,Spice Mix 200g,Spices,62,72
+PO-595,2026-09-21,Narmada Agro,Bathing Soap 100g,Personal Care,119,22
+PO-596,2026-09-20,Central India Traders,Spice Mix 200g,Spices,171,72
+PO-597,2026-09-09,Shree Agro Mills,Sugar 1kg,Sweeteners,117,38
+PO-598,2026-09-02,Narmada Agro,Wheat Flour 10kg,Grains,163,340
+PO-599,2026-09-22,Malwa Foods Pvt Ltd,Toor Dal 1kg,Pulses,143,118
+PO-600,2026-09-13,Narmada Agro,Rice 25kg,Grains,174,980
+PO-601,2026-09-03,Vindhya Food Products,Rice 25kg,Grains,122,980
+PO-602,2026-09-20,Central India Traders,Biscuits 400g,Snacks,121,34
+PO-603,2026-09-17,Vindhya Food Products,Edible Oil 1L,Oils,154,128
+PO-604,2026-10-18,Vindhya Food Products,Biscuits 400g,Snacks,76,34
+PO-605,2026-10-22,Vindhya Food Products,Edible Oil 1L,Oils,26,128
+PO-606,2026-10-17,Shree Agro Mills,Spice Mix 200g,Spices,127,72
+PO-607,2026-10-20,Malwa Foods Pvt Ltd,Sugar 1kg,Sweeteners,59,38
+PO-608,2026-10-04,Narmada Agro,Edible Oil 1L,Oils,49,128
+PO-609,2026-10-23,Narmada Agro,Tea 500g,Beverages,38,210
+PO-610,2026-10-30,Central India Traders,Wheat Flour 10kg,Grains,180,340
+PO-611,2026-10-10,Malwa Foods Pvt Ltd,Toor Dal 1kg,Pulses,153,118
+PO-612,2026-10-06,Shree Agro Mills,Edible Oil 1L,Oils,136,128
+PO-613,2026-10-28,Vindhya Food Products,Wheat Flour 10kg,Grains,47,340
+PO-614,2026-10-14,Narmada Agro,Tea 500g,Beverages,158,210
+PO-615,2026-10-01,Shree Agro Mills,Toor Dal 1kg,Pulses,175,118
+PO-616,2026-10-30,Vindhya Food Products,Bathing Soap 100g,Personal Care,184,22
+PO-617,2026-10-13,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,137,128
+PO-618,2026-10-22,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,113,128
+PO-619,2026-10-02,Malwa Foods Pvt Ltd,Edible Oil 1L,Oils,108,128
+PO-620,2026-10-31,Vindhya Food Products,Rice 25kg,Grains,180,980
+PO-621,2026-10-14,Central India Traders,Sugar 1kg,Sweeteners,50,38
+PO-622,2026-10-22,Malwa Foods Pvt Ltd,Wheat Flour 10kg,Grains,74,340
+PO-623,2026-10-13,Vindhya Food Products,Sugar 1kg,Sweeteners,152,38
+PO-624,2026-10-10,Narmada Agro,Rice 25kg,Grains,53,980
+PO-625,2026-10-03,Shree Agro Mills,Tea 500g,Beverages,114,210
+PO-626,2026-10-20,Narmada Agro,Sugar 1kg,Sweeteners,193,38
