@@ -1,0 +1,253 @@
+order_id,date,product,category,qty,unit_price,unit_cost,channel,region
+SO-1001,2026-04-17,Biscuits 400g,Snacks,79,45,34,Wholesale,Ujjain
+SO-1002,2026-04-04,Sugar 1kg,Sweeteners,58,46,38,Online,Dewas
+SO-1003,2026-04-10,Sugar 1kg,Sweeteners,21,46,38,Wholesale,Dewas
+SO-1004,2026-04-06,Toor Dal 1kg,Pulses,47,145,118,Retail,Ratlam
+SO-1005,2026-04-10,Tea 500g,Beverages,16,260,210,Wholesale,Bhopal
+SO-1006,2026-04-12,Detergent 1kg,Home Care,56,110,88,Wholesale,Bhopal
+SO-1007,2026-04-25,Toor Dal 1kg,Pulses,6,145,118,Wholesale,Ujjain
+SO-1008,2026-04-14,Toor Dal 1kg,Pulses,34,145,118,Wholesale,Dewas
+SO-1009,2026-04-20,Toor Dal 1kg,Pulses,10,145,118,Online,Ratlam
+SO-1010,2026-04-15,Toor Dal 1kg,Pulses,66,145,118,Wholesale,Dewas
+SO-1011,2026-04-21,Tea 500g,Beverages,56,260,210,Wholesale,Ratlam
+SO-1012,2026-04-17,Biscuits 400g,Snacks,9,45,34,Wholesale,Indore
+SO-1013,2026-04-06,Edible Oil 1L,Oils,79,155,128,Retail,Indore
+SO-1014,2026-04-10,Sugar 1kg,Sweeteners,47,46,38,Retail,Dewas
+SO-1015,2026-04-02,Sugar 1kg,Sweeteners,8,46,38,Online,Dewas
+SO-1016,2026-04-09,Tea 500g,Beverages,7,260,210,Retail,Ujjain
+SO-1017,2026-04-02,Rice 25kg,Grains,15,1150,980,Online,Dewas
+SO-1018,2026-04-02,Edible Oil 1L,Oils,44,155,128,Wholesale,Indore
+SO-1019,2026-04-30,Sugar 1kg,Sweeteners,20,46,38,Wholesale,Indore
+SO-1020,2026-04-18,Edible Oil 1L,Oils,26,155,128,Wholesale,Ratlam
+SO-1021,2026-04-30,Spice Mix 200g,Spices,43,95,72,Wholesale,Ratlam
+SO-1022,2026-04-24,Spice Mix 200g,Spices,76,95,72,Wholesale,Ratlam
+SO-1023,2026-04-04,Biscuits 400g,Snacks,9,45,34,Online,Indore
+SO-1024,2026-04-13,Wheat Flour 10kg,Grains,52,420,340,Wholesale,Ujjain
+SO-1025,2026-04-25,Toor Dal 1kg,Pulses,25,145,118,Wholesale,Ratlam
+SO-1026,2026-04-21,Toor Dal 1kg,Pulses,68,145,118,Wholesale,Ratlam
+SO-1027,2026-04-15,Toor Dal 1kg,Pulses,40,145,118,Wholesale,Dewas
+SO-1028,2026-04-26,Spice Mix 200g,Spices,43,95,72,Online,Dewas
+SO-1029,2026-04-10,Sugar 1kg,Sweeteners,35,46,38,Retail,Ratlam
+SO-1030,2026-04-21,Toor Dal 1kg,Pulses,26,145,118,Retail,Indore
+SO-1031,2026-04-07,Bathing Soap 100g,Personal Care,59,30,22,Wholesale,Bhopal
+SO-1032,2026-04-01,Sugar 1kg,Sweeteners,58,46,38,Retail,Dewas
+SO-1033,2026-04-14,Sugar 1kg,Sweeteners,34,46,38,Retail,Indore
+SO-1034,2026-04-25,Wheat Flour 10kg,Grains,75,420,340,Wholesale,Dewas
+SO-1035,2026-05-22,Wheat Flour 10kg,Grains,41,420,340,Retail,Ujjain
+SO-1036,2026-05-09,Rice 25kg,Grains,27,1150,980,Online,Bhopal
+SO-1037,2026-05-14,Biscuits 400g,Snacks,21,45,34,Wholesale,Ratlam
+SO-1038,2026-05-22,Toor Dal 1kg,Pulses,53,145,118,Retail,Ratlam
+SO-1039,2026-05-17,Bathing Soap 100g,Personal Care,24,30,22,Wholesale,Ujjain
+SO-1040,2026-05-31,Wheat Flour 10kg,Grains,23,420,340,Wholesale,Ratlam
+SO-1041,2026-05-03,Wheat Flour 10kg,Grains,68,420,340,Wholesale,Ujjain
+SO-1042,2026-05-11,Detergent 1kg,Home Care,63,110,88,Wholesale,Indore
+SO-1043,2026-05-03,Biscuits 400g,Snacks,48,45,34,Wholesale,Indore
+SO-1044,2026-05-02,Bathing Soap 100g,Personal Care,30,30,22,Wholesale,Ratlam
+SO-1045,2026-05-11,Detergent 1kg,Home Care,67,110,88,Retail,Bhopal
+SO-1046,2026-05-15,Rice 25kg,Grains,58,1150,980,Online,Bhopal
+SO-1047,2026-05-04,Edible Oil 1L,Oils,23,155,128,Wholesale,Ratlam
+SO-1048,2026-05-24,Rice 25kg,Grains,17,1150,980,Online,Dewas
+SO-1049,2026-05-16,Toor Dal 1kg,Pulses,72,145,118,Wholesale,Indore
+SO-1050,2026-05-20,Rice 25kg,Grains,43,1150,980,Retail,Ratlam
+SO-1051,2026-05-23,Tea 500g,Beverages,30,260,210,Wholesale,Bhopal
+SO-1052,2026-05-30,Sugar 1kg,Sweeteners,79,46,38,Online,Indore
+SO-1053,2026-05-13,Bathing Soap 100g,Personal Care,79,30,22,Online,Dewas
+SO-1054,2026-05-21,Sugar 1kg,Sweeteners,74,46,38,Wholesale,Bhopal
+SO-1055,2026-05-04,Rice 25kg,Grains,38,1150,980,Online,Dewas
+SO-1056,2026-05-02,Spice Mix 200g,Spices,68,95,72,Wholesale,Bhopal
+SO-1057,2026-05-23,Biscuits 400g,Snacks,64,45,34,Wholesale,Ratlam
+SO-1058,2026-05-12,Rice 25kg,Grains,39,1150,980,Wholesale,Dewas
+SO-1059,2026-05-09,Detergent 1kg,Home Care,50,110,88,Wholesale,Bhopal
+SO-1060,2026-05-25,Spice Mix 200g,Spices,32,95,72,Retail,Indore
+SO-1061,2026-05-01,Edible Oil 1L,Oils,40,155,128,Wholesale,Dewas
+SO-1062,2026-05-11,Toor Dal 1kg,Pulses,58,145,118,Retail,Bhopal
+SO-1063,2026-05-04,Spice Mix 200g,Spices,56,95,72,Retail,Bhopal
+SO-1064,2026-05-31,Spice Mix 200g,Spices,35,95,72,Retail,Bhopal
+SO-1065,2026-05-29,Spice Mix 200g,Spices,39,95,72,Retail,Bhopal
+SO-1066,2026-05-31,Sugar 1kg,Sweeteners,45,46,38,Retail,Ratlam
+SO-1067,2026-05-09,Spice Mix 200g,Spices,42,95,72,Online,Ujjain
+SO-1068,2026-05-21,Rice 25kg,Grains,34,1150,980,Wholesale,Indore
+SO-1069,2026-05-15,Detergent 1kg,Home Care,15,110,88,Retail,Bhopal
+SO-1070,2026-05-11,Tea 500g,Beverages,22,260,210,Wholesale,Bhopal
+SO-1071,2026-06-06,Spice Mix 200g,Spices,58,95,72,Wholesale,Ratlam
+SO-1072,2026-06-06,Edible Oil 1L,Oils,58,155,128,Retail,Ratlam
+SO-1073,2026-06-23,Edible Oil 1L,Oils,77,155,128,Wholesale,Indore
+SO-1074,2026-06-08,Detergent 1kg,Home Care,18,110,88,Wholesale,Bhopal
+SO-1075,2026-06-01,Toor Dal 1kg,Pulses,6,145,118,Retail,Ujjain
+SO-1076,2026-06-24,Detergent 1kg,Home Care,18,110,88,Wholesale,Indore
+SO-1077,2026-06-06,Detergent 1kg,Home Care,64,110,88,Retail,Ujjain
+SO-1078,2026-06-08,Sugar 1kg,Sweeteners,53,46,38,Wholesale,Ujjain
+SO-1079,2026-06-17,Rice 25kg,Grains,34,1150,980,Wholesale,Ujjain
+SO-1080,2026-06-30,Bathing Soap 100g,Personal Care,25,30,22,Wholesale,Indore
+SO-1081,2026-06-07,Detergent 1kg,Home Care,25,110,88,Retail,Indore
+SO-1082,2026-06-17,Rice 25kg,Grains,71,1150,980,Wholesale,Indore
+SO-1083,2026-06-05,Biscuits 400g,Snacks,71,45,34,Online,Indore
+SO-1084,2026-06-02,Biscuits 400g,Snacks,37,45,34,Wholesale,Ratlam
+SO-1085,2026-06-12,Edible Oil 1L,Oils,34,155,128,Retail,Dewas
+SO-1086,2026-06-06,Edible Oil 1L,Oils,8,155,128,Wholesale,Ratlam
+SO-1087,2026-06-11,Biscuits 400g,Snacks,34,45,34,Wholesale,Ratlam
+SO-1088,2026-06-15,Sugar 1kg,Sweeteners,48,46,38,Wholesale,Dewas
+SO-1089,2026-06-07,Sugar 1kg,Sweeteners,31,46,38,Wholesale,Indore
+SO-1090,2026-06-12,Sugar 1kg,Sweeteners,32,46,38,Wholesale,Bhopal
+SO-1091,2026-06-28,Toor Dal 1kg,Pulses,26,145,118,Retail,Bhopal
+SO-1092,2026-06-08,Detergent 1kg,Home Care,5,110,88,Retail,Bhopal
+SO-1093,2026-06-26,Sugar 1kg,Sweeteners,57,46,38,Wholesale,Ujjain
+SO-1094,2026-06-04,Sugar 1kg,Sweeteners,18,46,38,Retail,Ujjain
+SO-1095,2026-06-23,Rice 25kg,Grains,17,1150,980,Retail,Ratlam
+SO-1096,2026-06-26,Biscuits 400g,Snacks,74,45,34,Wholesale,Ujjain
+SO-1097,2026-06-01,Toor Dal 1kg,Pulses,60,145,118,Online,Bhopal
+SO-1098,2026-06-27,Biscuits 400g,Snacks,42,45,34,Retail,Ujjain
+SO-1099,2026-06-04,Rice 25kg,Grains,54,1150,980,Online,Ratlam
+SO-1100,2026-06-25,Detergent 1kg,Home Care,31,110,88,Wholesale,Bhopal
+SO-1101,2026-06-28,Edible Oil 1L,Oils,38,155,128,Retail,Dewas
+SO-1102,2026-07-02,Biscuits 400g,Snacks,43,45,34,Wholesale,Indore
+SO-1103,2026-07-11,Tea 500g,Beverages,51,260,210,Wholesale,Ujjain
+SO-1104,2026-07-29,Biscuits 400g,Snacks,14,45,34,Wholesale,Bhopal
+SO-1105,2026-07-13,Edible Oil 1L,Oils,48,155,128,Retail,Ujjain
+SO-1106,2026-07-27,Sugar 1kg,Sweeteners,17,46,38,Wholesale,Bhopal
+SO-1107,2026-07-08,Spice Mix 200g,Spices,45,95,72,Wholesale,Bhopal
+SO-1108,2026-07-10,Rice 25kg,Grains,33,1150,980,Wholesale,Dewas
+SO-1109,2026-07-19,Bathing Soap 100g,Personal Care,75,30,22,Retail,Dewas
+SO-1110,2026-07-07,Sugar 1kg,Sweeteners,80,46,38,Wholesale,Indore
+SO-1111,2026-07-29,Sugar 1kg,Sweeteners,46,46,38,Retail,Ratlam
+SO-1112,2026-07-08,Sugar 1kg,Sweeteners,52,46,38,Retail,Dewas
+SO-1113,2026-07-04,Biscuits 400g,Snacks,37,45,34,Wholesale,Dewas
+SO-1114,2026-07-13,Tea 500g,Beverages,29,260,210,Wholesale,Bhopal
+SO-1115,2026-07-12,Detergent 1kg,Home Care,9,110,88,Online,Dewas
+SO-1116,2026-07-29,Biscuits 400g,Snacks,73,45,34,Wholesale,Ujjain
+SO-1117,2026-07-05,Biscuits 400g,Snacks,13,45,34,Wholesale,Indore
+SO-1118,2026-07-22,Edible Oil 1L,Oils,45,155,128,Wholesale,Ujjain
+SO-1119,2026-07-03,Edible Oil 1L,Oils,51,155,128,Retail,Dewas
+SO-1120,2026-07-28,Rice 25kg,Grains,52,1150,980,Wholesale,Indore
+SO-1121,2026-07-15,Bathing Soap 100g,Personal Care,72,30,22,Wholesale,Bhopal
+SO-1122,2026-07-12,Bathing Soap 100g,Personal Care,59,30,22,Wholesale,Dewas
+SO-1123,2026-07-18,Rice 25kg,Grains,45,1150,980,Online,Bhopal
+SO-1124,2026-07-19,Sugar 1kg,Sweeteners,21,46,38,Retail,Dewas
+SO-1125,2026-07-12,Bathing Soap 100g,Personal Care,77,30,22,Retail,Dewas
+SO-1126,2026-07-28,Tea 500g,Beverages,79,260,210,Wholesale,Ratlam
+SO-1127,2026-07-25,Bathing Soap 100g,Personal Care,25,30,22,Wholesale,Bhopal
+SO-1128,2026-07-17,Spice Mix 200g,Spices,42,95,72,Wholesale,Dewas
+SO-1129,2026-07-09,Tea 500g,Beverages,70,260,210,Retail,Ratlam
+SO-1130,2026-07-25,Bathing Soap 100g,Personal Care,50,30,22,Retail,Ujjain
+SO-1131,2026-07-23,Toor Dal 1kg,Pulses,79,145,118,Wholesale,Bhopal
+SO-1132,2026-07-30,Rice 25kg,Grains,75,1150,980,Wholesale,Dewas
+SO-1133,2026-07-15,Spice Mix 200g,Spices,17,95,72,Wholesale,Dewas
+SO-1134,2026-08-07,Rice 25kg,Grains,60,1150,980,Wholesale,Ratlam
+SO-1135,2026-08-31,Sugar 1kg,Sweeteners,40,46,38,Wholesale,Bhopal
+SO-1136,2026-08-05,Edible Oil 1L,Oils,33,155,128,Wholesale,Ujjain
+SO-1137,2026-08-19,Edible Oil 1L,Oils,61,155,128,Retail,Ratlam
+SO-1138,2026-08-16,Bathing Soap 100g,Personal Care,58,30,22,Wholesale,Dewas
+SO-1139,2026-08-17,Rice 25kg,Grains,6,1150,980,Wholesale,Ratlam
+SO-1140,2026-08-11,Bathing Soap 100g,Personal Care,79,30,22,Wholesale,Ujjain
+SO-1141,2026-08-10,Wheat Flour 10kg,Grains,49,420,340,Online,Dewas
+SO-1142,2026-08-13,Detergent 1kg,Home Care,45,110,88,Retail,Indore
+SO-1143,2026-08-15,Edible Oil 1L,Oils,26,155,128,Retail,Ujjain
+SO-1144,2026-08-26,Sugar 1kg,Sweeteners,43,46,38,Online,Ratlam
+SO-1145,2026-08-23,Biscuits 400g,Snacks,68,45,34,Wholesale,Ujjain
+SO-1146,2026-08-30,Sugar 1kg,Sweeteners,80,46,38,Retail,Bhopal
+SO-1147,2026-08-02,Bathing Soap 100g,Personal Care,46,30,22,Wholesale,Ratlam
+SO-1148,2026-08-16,Tea 500g,Beverages,79,260,210,Retail,Ratlam
+SO-1149,2026-08-24,Edible Oil 1L,Oils,19,155,128,Retail,Indore
+SO-1150,2026-08-01,Bathing Soap 100g,Personal Care,63,30,22,Wholesale,Indore
+SO-1151,2026-08-01,Biscuits 400g,Snacks,15,45,34,Wholesale,Indore
+SO-1152,2026-08-26,Toor Dal 1kg,Pulses,27,145,118,Retail,Indore
+SO-1153,2026-08-10,Detergent 1kg,Home Care,35,110,88,Wholesale,Bhopal
+SO-1154,2026-08-01,Tea 500g,Beverages,13,260,210,Wholesale,Ujjain
+SO-1155,2026-08-18,Rice 25kg,Grains,27,1150,980,Wholesale,Bhopal
+SO-1156,2026-08-13,Bathing Soap 100g,Personal Care,57,30,22,Wholesale,Dewas
+SO-1157,2026-08-10,Toor Dal 1kg,Pulses,26,145,118,Online,Ratlam
+SO-1158,2026-08-27,Wheat Flour 10kg,Grains,71,420,340,Retail,Ujjain
+SO-1159,2026-08-23,Wheat Flour 10kg,Grains,12,420,340,Retail,Indore
+SO-1160,2026-08-26,Spice Mix 200g,Spices,62,95,72,Retail,Dewas
+SO-1161,2026-08-25,Rice 25kg,Grains,77,1150,980,Wholesale,Ratlam
+SO-1162,2026-08-08,Bathing Soap 100g,Personal Care,64,30,22,Retail,Dewas
+SO-1163,2026-08-09,Sugar 1kg,Sweeteners,8,46,38,Online,Ujjain
+SO-1164,2026-08-11,Detergent 1kg,Home Care,45,110,88,Wholesale,Indore
+SO-1165,2026-08-25,Tea 500g,Beverages,59,260,210,Wholesale,Ujjain
+SO-1166,2026-08-12,Wheat Flour 10kg,Grains,41,420,340,Retail,Indore
+SO-1167,2026-08-12,Edible Oil 1L,Oils,71,155,128,Wholesale,Ratlam
+SO-1168,2026-09-16,Spice Mix 200g,Spices,65,95,72,Wholesale,Ratlam
+SO-1169,2026-09-01,Tea 500g,Beverages,23,260,210,Wholesale,Dewas
+SO-1170,2026-09-26,Sugar 1kg,Sweeteners,17,46,38,Wholesale,Ratlam
+SO-1171,2026-09-22,Detergent 1kg,Home Care,8,110,88,Wholesale,Ujjain
+SO-1172,2026-09-20,Biscuits 400g,Snacks,77,45,34,Wholesale,Dewas
+SO-1173,2026-09-10,Edible Oil 1L,Oils,50,155,128,Wholesale,Indore
+SO-1174,2026-09-08,Spice Mix 200g,Spices,30,95,72,Wholesale,Indore
+SO-1175,2026-09-01,Spice Mix 200g,Spices,48,95,72,Wholesale,Indore
+SO-1176,2026-09-26,Edible Oil 1L,Oils,24,155,128,Retail,Dewas
+SO-1177,2026-09-09,Rice 25kg,Grains,53,1150,980,Retail,Bhopal
+SO-1178,2026-09-11,Detergent 1kg,Home Care,12,110,88,Wholesale,Ratlam
+SO-1179,2026-09-27,Rice 25kg,Grains,40,1150,980,Wholesale,Dewas
+SO-1180,2026-09-04,Sugar 1kg,Sweeteners,38,46,38,Retail,Bhopal
+SO-1181,2026-09-09,Wheat Flour 10kg,Grains,8,420,340,Wholesale,Ujjain
+SO-1182,2026-09-25,Biscuits 400g,Snacks,28,45,34,Wholesale,Indore
+SO-1183,2026-09-19,Wheat Flour 10kg,Grains,70,420,340,Retail,Dewas
+SO-1184,2026-09-02,Tea 500g,Beverages,23,260,210,Wholesale,Bhopal
+SO-1185,2026-09-14,Detergent 1kg,Home Care,63,110,88,Retail,Indore
+SO-1186,2026-09-17,Biscuits 400g,Snacks,6,45,34,Wholesale,Ratlam
+SO-1187,2026-09-07,Sugar 1kg,Sweeteners,45,46,38,Retail,Dewas
+SO-1188,2026-09-19,Edible Oil 1L,Oils,9,155,128,Wholesale,Ujjain
+SO-1189,2026-09-08,Tea 500g,Beverages,60,260,210,Retail,Ujjain
+SO-1190,2026-09-11,Biscuits 400g,Snacks,74,45,34,Wholesale,Bhopal
+SO-1191,2026-09-12,Bathing Soap 100g,Personal Care,41,30,22,Online,Dewas
+SO-1192,2026-09-12,Toor Dal 1kg,Pulses,33,145,118,Wholesale,Ratlam
+SO-1193,2026-09-20,Edible Oil 1L,Oils,73,155,128,Retail,Bhopal
+SO-1194,2026-09-21,Toor Dal 1kg,Pulses,73,145,118,Wholesale,Dewas
+SO-1195,2026-09-13,Wheat Flour 10kg,Grains,13,420,340,Wholesale,Ujjain
+SO-1196,2026-09-11,Wheat Flour 10kg,Grains,75,420,340,Online,Dewas
+SO-1197,2026-09-03,Toor Dal 1kg,Pulses,8,145,118,Retail,Ujjain
+SO-1198,2026-09-02,Biscuits 400g,Snacks,20,45,34,Wholesale,Ujjain
+SO-1199,2026-09-10,Edible Oil 1L,Oils,70,155,128,Online,Ujjain
+SO-1200,2026-09-20,Biscuits 400g,Snacks,24,45,34,Online,Indore
+SO-1201,2026-09-18,Rice 25kg,Grains,49,1150,980,Wholesale,Bhopal
+SO-1202,2026-09-20,Edible Oil 1L,Oils,6,155,128,Online,Dewas
+SO-1203,2026-09-24,Spice Mix 200g,Spices,39,95,72,Wholesale,Bhopal
+SO-1204,2026-09-26,Sugar 1kg,Sweeteners,74,46,38,Online,Ujjain
+SO-1205,2026-09-18,Edible Oil 1L,Oils,46,155,128,Wholesale,Indore
+SO-1206,2026-09-30,Toor Dal 1kg,Pulses,53,145,118,Wholesale,Indore
+SO-1207,2026-10-10,Spice Mix 200g,Spices,39,95,72,Wholesale,Ujjain
+SO-1208,2026-10-16,Bathing Soap 100g,Personal Care,76,30,22,Wholesale,Indore
+SO-1209,2026-10-31,Edible Oil 1L,Oils,31,155,128,Retail,Ratlam
+SO-1210,2026-10-20,Biscuits 400g,Snacks,36,45,34,Wholesale,Ujjain
+SO-1211,2026-10-15,Spice Mix 200g,Spices,44,95,72,Retail,Dewas
+SO-1212,2026-10-09,Biscuits 400g,Snacks,21,45,34,Wholesale,Ratlam
+SO-1213,2026-10-03,Biscuits 400g,Snacks,25,45,34,Retail,Dewas
+SO-1214,2026-10-19,Rice 25kg,Grains,6,1150,980,Wholesale,Dewas
+SO-1215,2026-10-25,Sugar 1kg,Sweeteners,5,46,38,Online,Indore
+SO-1216,2026-10-07,Rice 25kg,Grains,42,1150,980,Online,Indore
+SO-1217,2026-10-17,Biscuits 400g,Snacks,42,45,34,Wholesale,Indore
+SO-1218,2026-10-17,Spice Mix 200g,Spices,14,95,72,Wholesale,Ratlam
+SO-1219,2026-10-04,Sugar 1kg,Sweeteners,55,46,38,Wholesale,Dewas
+SO-1220,2026-10-24,Toor Dal 1kg,Pulses,36,145,118,Wholesale,Ujjain
+SO-1221,2026-10-16,Bathing Soap 100g,Personal Care,29,30,22,Online,Dewas
+SO-1222,2026-10-08,Tea 500g,Beverages,5,260,210,Online,Bhopal
+SO-1223,2026-10-27,Wheat Flour 10kg,Grains,70,420,340,Wholesale,Bhopal
+SO-1224,2026-10-20,Bathing Soap 100g,Personal Care,9,30,22,Online,Ujjain
+SO-1225,2026-10-28,Spice Mix 200g,Spices,41,95,72,Wholesale,Indore
+SO-1226,2026-10-08,Spice Mix 200g,Spices,34,95,72,Retail,Dewas
+SO-1227,2026-10-29,Biscuits 400g,Snacks,16,45,34,Wholesale,Bhopal
+SO-1228,2026-10-05,Biscuits 400g,Snacks,37,45,34,Wholesale,Dewas
+SO-1229,2026-10-29,Edible Oil 1L,Oils,35,155,128,Wholesale,Dewas
+SO-1230,2026-10-14,Wheat Flour 10kg,Grains,32,420,340,Wholesale,Ujjain
+SO-1231,2026-10-17,Sugar 1kg,Sweeteners,14,46,38,Retail,Ujjain
+SO-1232,2026-10-24,Sugar 1kg,Sweeteners,14,46,38,Wholesale,Ujjain
+SO-1233,2026-10-22,Rice 25kg,Grains,46,1150,980,Wholesale,Dewas
+SO-1234,2026-10-18,Bathing Soap 100g,Personal Care,58,30,22,Retail,Indore
+SO-1235,2026-10-29,Spice Mix 200g,Spices,40,95,72,Retail,Bhopal
+SO-1236,2026-10-26,Detergent 1kg,Home Care,68,110,88,Wholesale,Dewas
+SO-1237,2026-10-09,Detergent 1kg,Home Care,72,110,88,Wholesale,Ratlam
+SO-1238,2026-10-24,Rice 25kg,Grains,11,1150,980,Wholesale,Ratlam
+SO-1239,2026-10-03,Biscuits 400g,Snacks,7,45,34,Wholesale,Dewas
+SO-1240,2026-10-30,Sugar 1kg,Sweeteners,36,46,38,Wholesale,Ujjain
+SO-1241,2026-10-16,Tea 500g,Beverages,64,260,210,Wholesale,Ujjain
+SO-1242,2026-10-15,Bathing Soap 100g,Personal Care,8,30,22,Retail,Indore
+SO-1243,2026-10-27,Edible Oil 1L,Oils,45,155,128,Retail,Bhopal
+SO-1244,2026-10-16,Wheat Flour 10kg,Grains,27,420,340,Wholesale,Bhopal
+SO-1245,2026-10-24,Toor Dal 1kg,Pulses,21,145,118,Online,Ratlam
+SO-1246,2026-10-31,Toor Dal 1kg,Pulses,52,145,118,Wholesale,Ratlam
+SO-1247,2026-10-31,Sugar 1kg,Sweeteners,30,46,38,Wholesale,Ujjain
+SO-1248,2026-10-03,Rice 25kg,Grains,55,1150,980,Wholesale,Dewas
+SO-1249,2026-10-09,Toor Dal 1kg,Pulses,14,145,118,Retail,Indore
+SO-1250,2026-10-27,Tea 500g,Beverages,12,260,210,Wholesale,Indore
+SO-1251,2026-10-16,Tea 500g,Beverages,58,260,210,Online,Ratlam
+SO-1252,2026-10-02,Rice 25kg,Grains,37,1150,980,Wholesale,Indore
