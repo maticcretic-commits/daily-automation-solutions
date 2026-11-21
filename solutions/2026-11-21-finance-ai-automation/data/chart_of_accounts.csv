@@ -1,0 +1,11 @@
+category,kind,keywords
+Sales Income,income,SALES;PAYMENT
+Purchases (COGS),expense,PURCHASE;STOCK;SUPPLIER
+Rent,expense,RENT
+Salaries,expense,SALARY
+Utilities,expense,ELECTRICITY;NBPDCL;BSNL;BROADBAND;WATER
+Transport & Fuel,expense,PETROL;DIESEL;OLA;DELIVERY;TRANSPORT
+GST Paid,expense,GST
+Bank Charges,expense,CHARGES;SMS;ATM
+Interest Income,income,INT CREDIT;INTEREST
+Owner Drawings,expense,SELF;TRANSFER
