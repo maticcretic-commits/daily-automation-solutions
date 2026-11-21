@@ -1,0 +1,7 @@
+row,date,narration,flag,detail
+69,2026-05-22,NEFT/EASTERN FMCG DISTRIBUTORS/PURCHASE STOCK,LARGE_AMOUNT,single leg 78400.00 exceeds 60000.00 review threshold
+98,2026-06-14,UPI/9812345670/SHARMA KIRANA/SALES,DUPLICATE,identical date/amount/narration seen earlier
+124,2026-07-03,UPI/9876543210/UNKNOWN,UNCLASSIFIED,"no chart-of-accounts keyword matched; needs human review, not guessed"
+178,2026-08-19,MISC CREDIT,UNCLASSIFIED,"no chart-of-accounts keyword matched; needs human review, not guessed"
+213,2026-09-11,NEFT/XXXX/XXXX,UNCLASSIFIED,"no chart-of-accounts keyword matched; needs human review, not guessed"
+218,2026-09-15,NEFT/3845144912/MISHRA PROVISIONS/SALES,BALANCE_MISMATCH,stated 250109.83 vs recomputed 249609.83 (diff 500.00)
