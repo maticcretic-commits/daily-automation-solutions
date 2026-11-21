@@ -1,0 +1,25 @@
+{
+  "transactions": 268,
+  "months": [
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10"
+  ],
+  "opening_balance": 85000.0,
+  "closing_balance": 340808.55,
+  "total_income": 2541314.36,
+  "total_expenses": 2285505.81,
+  "net": 255808.55,
+  "unclassified": 3,
+  "anomalies": 6,
+  "anomaly_flags": [
+    "BALANCE_MISMATCH",
+    "DUPLICATE",
+    "LARGE_AMOUNT",
+    "UNCLASSIFIED"
+  ]
+}
