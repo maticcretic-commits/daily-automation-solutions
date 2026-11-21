@@ -1,0 +1,12 @@
+category,kind,total,count,share_pct
+Sales Income,income,2526112.89,110,52.43
+Purchases (COGS),expense,-1970583.32,66,40.90
+Salaries,expense,-126000.00,14,2.61
+Rent,expense,-84000.00,7,1.74
+Transport & Fuel,expense,-44893.70,38,0.93
+Utilities,expense,-25208.09,14,0.52
+Owner Drawings,expense,-15000.00,1,0.31
+GST Paid,expense,-14364.43,2,0.30
+Unclassified,unclassified,7100.00,3,0.15
+Interest Income,income,3901.47,7,0.08
+Bank Charges,expense,-1256.27,6,0.03
